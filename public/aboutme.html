@@ -87,13 +87,12 @@
                   </div>
                 </div>
                 <div class="window-body has-space">
-                <button onclick="addDeets()"id="detailed">view</button>
+                <button><a href="identity.html" target="iframe">identity</a></button>
                 <br>
-                <button onclick="addQuiz()" id="quizzes">quizzes</button>
+                <button><a href="quizres.html" target="iframe">quizzes</a></button>
                 <br>
-                <button onclick="addInter()" id="interests">interests</button>
+                <button><a href="interests.html" target="iframe">interests</a></button>
                 <br>
-                <button onclick="addHistory()"id="history">history</button>
                 </div>
             </div>
             <!-- display -->
@@ -107,10 +106,23 @@
                   </div>
                 </div>
                 <div class="window-body has-space">
-                <p>hi. i go by dove. i use she/her pronouns, but i don't really call myself a woman. i just kinda resemble one.</p>
-                <p>i speak english and hindi. i'm learning spanish in school.</p>
-                <p>alongside spanish, i'm also learning java in school, but other than that im self-taught in web-design and coding.</p>
+                <iframe src="display.html" frameborder="0" width="500px" name="iframe"></iframe>
                 </div>
+                </div> 
+                <!-- selfie -->
+                <div class="window active" id="selfie">
+                    <div class="title-bar">
+                      <div class="title-bar-text">selfie</div>
+                      <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                      </div>
+                    </div>
+                    <div class="window-body has-space">
+                    <img src="https://i.imgur.com/9hLCiE0.png" alt="a photo of a border collie, from: Dog works : the meaning and magic of canine constructions by Mathison, Vicky">
+                    <p>a photo of me</p>
+                    </div>
                 </div> 
                 <script src="about.js"></script>
                 
