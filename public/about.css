@@ -1,0 +1,32 @@
+:root {
+    background-image: url(https://i.imgur.com/9DYAjkt.gif);
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+#images {
+    max-width: 500px;
+}
+
+#nav {
+    width: fit-content;
+    text-align: center;
+}
+
+#display {
+    width: 500px;
+}
+
+#test {
+    width: 900px;
+}

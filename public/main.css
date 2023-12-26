@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Roboto+Mono:wght@100&display=swap');
+
+html {
+  background-image: url(https://i.imgur.com/5m6jaSk.gif);
+}
+
+.container {
+  width: 900px;
+  height: 1000px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.header {
+  background-image: url(https://i.imgur.com/X2hsFdC.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  width: 900px;
+  height: 200px;
+  border: 3px solid black;
+  margin-bottom: 5px;
+}
+
+h1 {
+  text-align: center;
+  line-height: 130px;
+  font-size: 50px;
+  color: white;
+  transition: all 1s ease;
+  font-family: 'B612 Mono', monospace;
+}
+
+h1:hover {
+  letter-spacing: 7px; 
+  color: black;
+  transition: all 1s ease; 
+}
+
+.items {
+  display: flex;
+  height: 100%;
+  font-family: monospace;
+  font-size: large;
+  column-gap: 10px;
+ 
+}
+
+.sidebar {
+  background-color: rgb(160, 160, 160);
+  width: 300px;
+  border-radius: 20px;
+  line-height: 200%;
+  border: 3px solid black;
+}
+
+.sidebar a { 
+  transition: all 1s ease;
+}
+
+.sidebar a:hover {
+  letter-spacing: 4px; 
+  transition: all 1s ease;
+}
+
+.main {
+  width: 100%;
+  background-color: rgb(160, 160, 160);
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+.main img {
+  width: 100%;
+}
+
+.updates {
+  overflow: scroll;
+  border-style: groove;
+  height: 200px;
+  padding: 5px;
+  background: white;
+}
+
+.todo {
+  overflow: scroll;
+  border-style: groove;
+  height: 150px;
+  padding: 5px;
+  margin-top: 5px;
+  background: white;
+}
+
+footer {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.main h1 {
+  font-size: 50px;
+  color: white;
+  transition: all 1s ease;
+  font-family: 'B612 Mono', monospace;
+}
+
+h1:hover {
+  letter-spacing: 7px; 
+  color: black;
+  transition: all 1s ease; 
+}
+
+#statuscafe {
+  padding: .5em;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  margin-right: 5px;
+  margin-left: -35px;
+}
+#statuscafe-username {
+  margin-bottom: .5em;
+}
+#statuscafe-content {
+  margin: 0 1em 0.5em 1em;
+}
