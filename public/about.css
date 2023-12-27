@@ -26,8 +26,17 @@
     width: 500px;
 }
 
+#display1 {
+    height: 500px;
+}
+
+#iframe {
+    height: 500px;
+}
+
 #selfie {
     position: absolute;
     cursor: move;
-    top: 350px;
+    top: 120px;
+    right: 150px;
 }
