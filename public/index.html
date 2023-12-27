@@ -7,38 +7,54 @@
     <title>pre-apocalyptic dove</title>
     <style>
         body {
-            background-color: black;
+            background-image: url(https://i.imgur.com/GafC4jz.jpg);
             color: white;
             font-family: monospace;
             text-align: center;
+            vertical-align: center;
+        }
+        .header h1 {
+            letter-spacing: normal;
+            transition: all 1s ease; 
         }
 
         .header h1:hover {
             letter-spacing: 7px;
             transition: all 1s ease;
         }
+
+        .dove img {
+            animation: float 2s ease-in-out 2s infinite alternate;
+            transition: ease 0.5s;
+            transform: none;
+        }
+
+        @keyframes float {
+            0%{transform: translateY(-10%);transition: ease-in-out 0.5s;}
+            50%{transform: translateY(10%);transition: ease-in-out 0.5s;}
+        }
+
     </style>
 </head>
-
+<html>
 <body>
     <div class="header">
         <h1>post-apocalyptic dove</h1>
+        <h6>Photo by <a href="https://unsplash.com/@marekpiwnicki?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marek Piwnicki</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-trees-in-forest-fX2KEjhabSc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </h6>
     </div>
-    <h1>this site uses <b>javascript, gifs, and possibly music.</b> it also might contain slight language and blood.
-    </h1>
-    <h1>it is not mobile friendly and wont be for a while. </h1>
-    <h1>coded on a 1920 x 1080 monitor with VS code and firefox.</h1>
-    <a href="https://midifreak.online/tomodachi">
-
-        <img src="https://midifreak.online/aptbutton.gif"></a>
-    <img src="https://i.imgur.com/vr6l0DDs.png" alt="TV MA LSV">
-    <div id="vocaring">
-        <script src="webring.js"></script>
+    <h4>this site uses <b>javascript, gifs, and possibly music.</b> it also might contain slight language and blood.</h4>
+    <h4>it is not mobile friendly and wont be for a while.</h4>
+    <h4>coded on a 1920 x 1080 monitor with VS code and firefox.</h4>
+    <div class="warn">
+        <a href="https://midifreak.online/tomodachi"><img src="https://midifreak.online/aptbutton.gif"></a>
+        <img src="https://i.imgur.com/vr6l0DDs.png" alt="TV MA LSV">
+        <div id="vocaring"><script src="webring.js"></script></div>
+        <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-35513-18"><h2 style="color: white;">sign my guestbook!</h2></a>
     </div>
-    <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-35513-18"><h2>sign my guestbook!</h2></a></div>
-
+ 
     <h2>click the dove to enter</h2>
-    <a href="home.html"><img src="https://i.imgur.com/mthxK9J.gif" alt="a gif of a dove flapping its wings"></a>
+    <div class="dove"><a href="home.html"><img src="https://i.imgur.com/lmFohZc.gif" alt="a gif of a dove flapping its wings"></a></div>
+    
 </body>
-
 </html>
