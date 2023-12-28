@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Roboto+Mono:wght@100&display=swap');
 
+html {
+  cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
+}
+
+
 body {
   background-image: url(https://i.imgur.com/yYLZ3QG.png);
   background-size: 3000px;
