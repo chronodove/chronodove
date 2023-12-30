@@ -1,0 +1,31 @@
+:root {
+    font-family: 'MS Gothic', monospace;
+    background: url(https://i.imgur.com/TNXSXJP.png) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+:root h1 , h2 {
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+:root a {
+    color: white;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#banner {
+    background-color: bisque;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
