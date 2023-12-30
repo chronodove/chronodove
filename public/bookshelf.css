@@ -7,10 +7,10 @@
 
 :root h1 , h2 {
     text-shadow:
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-     -1px 1px 0 #000,
-      1px 1px 0 #000;
+    -1px -1px 0 #231709,  
+     1px -1px 0 #231709,
+     -1px 1px 0 #231709,
+      1px 1px 0 #231709;
 }
 
 :root a {
@@ -28,4 +28,12 @@
     border-radius: 10px;
 }
 
-
+details {
+    background-color: bisque;
+    border: 2px solid #231709;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    color: #231709;
+    padding: 5px;
+}
