@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Ishmeria';
+    src: url('ishmeria/Ishmeria.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.container {
+    font-family: 'Ishmeria', 'Times New Roman', Times, serif;
+    width: 900px;
+    display: flex;
+    background-color: aqua;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 4px;
+    height: 1000px;
+}
+
+.header {
+    width: 900px;
+    border: 3px solid;
+    text-align: center;
+    height: 200px;
+    background-color: aliceblue;
+    font-family: 'Ishmeria', 'Times New Roman', Times, serif;
+    margin: 0 auto;
+}
+
+.main {
+    background-color: bisque;
+    width: 696px;
+}
+
+aside {
+    width: 200px;
+    background-color: blueviolet;
+}
+
