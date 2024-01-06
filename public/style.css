@@ -152,3 +152,9 @@ h1:hover {
 #statuscafe-content {
   margin: 0 1em 0.5em 1em;
 }
+
+#button {
+  width: 80px;
+  height: 31px;
+
+}
