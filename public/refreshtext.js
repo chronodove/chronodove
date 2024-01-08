@@ -15,6 +15,13 @@ theText[10] = 'when you cried i wiped away all of your tears';
 theText[11] = 'for you to bring a fairytale my way';
 theText[12] = 'aint shit free but fallin out';
 theText[13] = 'its so far, so far away';
+theText[14] = 'i stand in the valley watching it';
+theText[15] = 'but living in a fantasy without meaning';
+theText[16] = 'so please, please, please';
+theText[17] = 'snakes in love together as one';
+theText[18] = 'im worse at what i do best';
+theText[19] = 'breathe out, so i can breathe you in';
+theText[20] = 'look at the stars, look how they shine for you';
 
 let j = 0;
 let p = theText.length;

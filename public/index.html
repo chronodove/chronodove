@@ -34,10 +34,34 @@ data-config="{'skin':'skins/tunes/skin.css','volume':50,'autoplay':false,'shuffl
                 <img src="https://i.imgur.com/V2YsjLE.jpg" alt="a snarling black wolf in the snow" id="pfp">
             </div>
             <p><em>your most loyal dog</em></p>
-            <p> feel free to link me!!
+            <p>feel free to link me!!
                 <a href="http://chronodove.neocities.org" target="_blank"><img src="https://files.catbox.moe/8610vj.gif" alt="chronodove button with stars" id="button"></a>
                 <textarea name="code"><a href="http://chronodove.neocities.org" target="_blank"><img src="https://files.catbox.moe/8610vj.gif"></a></textarea>
-              </p>
+            </p>
+            <p><strong>YOU ARE VISITOR #</strong><span id="hitcount"></span></p>
+            <p>LAST UPDATED: <span id="lastupdate"></span></p>
+              <!-- last updated and visitor number script -->
+              <script>
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                        var site_data = JSON.parse(this.responseText);
+                        var num_arr = site_data.info.views.toString().split("");
+                        var num_str = "";
+                        for (i = 0; i < num_arr.length; i++) {
+                            num_str += num_arr[i];
+                            if ( (num_arr.length-1 - i) % 3 == 0 && (num_arr.length-1 - i) != 0 ) {num_str += ",";}
+                            var date_str = site_data.info.last_updated;
+                            var date_obj = new Date(site_data.info.last_updated);
+                            document.getElementById("lastupdate").innerHTML = (date_obj.getMonth()+1) + "-" + date_obj.getDate() + "-" + date_obj.getFullYear();
+                        }
+                        document.getElementById("hitcount").innerHTML = num_str;
+                    }
+                };
+                xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=chronodove", true);
+                xhttp.send();
+                </script>
+              <!-- end last updated and visitor number script -->
             <p>feeling:<a href="https://www.imood.com/users/chronodove"><img src="https://moods.imood.com/display/uname-chronodove/trans-1/imood.gif" alt="The current mood of chronodove at www.imood.com" id="imood"></a></p>
             
             <div id="statuscafe">
