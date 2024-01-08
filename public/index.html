@@ -1,103 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>&rarr; post-apocalyptic dove</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> → post-apocalyptic dove</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="refreshtext.js"></script>
 </head>
 <body>
-  <div class="container">
-    <div class="header"><h1>post-apocalyptic dove</h1></div>
-    <div class="items">
-      <div class="sidebar">
-       <ul>
-        <img src="https://i.imgur.com/zRUARLT.gif">&nbsp;<a href="aboutme.html">WEBMASTER</a>
-        <br>
-        <img src="https://i.imgur.com/zRUARLT.gif">&nbsp;<a href="https://chronodove.bearblog.dev/">BEAR BLOG</a>
-        <br>
-        <img src="https://i.imgur.com/zRUARLT.gif">&nbsp;<a href="bookshelf.html">BOOKSHELF</a>
-        <br>
-        <img src="https://i.imgur.com/zRUARLT.gif">&nbsp;<a href="devlog.html">DEV LOG</a>
-        <br>
-        <img src="https://i.imgur.com/zRUARLT.gif">&nbsp;<a href="projects.html">PROJECTS</a>
-        <br>
-        <img src="https://i.imgur.com/zRUARLT.gif">&nbsp;<a href="shrines.html">SHRINES</a>
-        <br>
-        <img src="https://i.imgur.com/zRUARLT.gif">&nbsp;<a href="404.html">MUSIC LOG</a>
-        <br>
-        <img src="https://i.imgur.com/zRUARLT.gif">&nbsp;<a href="404.html">GALLERY</a>
-        <br>
-        <img src="https://i.imgur.com/zRUARLT.gif">&nbsp;<a href="404.html">MY WRITINGS</a>
-        <br>
-        <img src="https://i.imgur.com/zRUARLT.gif">&nbsp;<a href="404.html">BUTTON WALL</a>
-        <br>
-        <img src="https://i.imgur.com/zRUARLT.gif">&nbsp;<a href="404.html">RESOURCES</a>
-        <br>
-        <!-- end of nav -->
-        <iframe src="https://free.timeanddate.com/clock/i93ouaun/n24/fn4/tcccc/bo2/pa3/ts1/ta1" frameborder="0" width="104" height="25"></iframe>
-        <br>
-        <a href="https://www.imood.com/users/chronodove" style="text-decoration:none">dove is <img src="https://moods.imood.com/display/uname-chronodove/trans-1/imood.gif" alt="The current mood of chronodove at www.imood.com" border="0"></a>
-        <br>
-        <div id="statuscafe">
-          <div id="statuscafe-username"></div>
-          <div id="statuscafe-content"></div>
-        </div>
-        <script src="https://status.cafe/current-status.js?name=chronodove" defer></script>
-        <br>
-        <a href="https://midifreak.online/tomodachi"><img src="https://midifreak.online/aptbutton.gif"></a>
-      </ul>
-      </div>
-      <div class="main">
-        <img src="https://i.imgur.com/06GXeOt.gif" alt="gif of black sparkles">
-        <h1>WELCOME...</h1>
-        <p>to my virtual apartment! this is where i share my various opinions and thoughts to those willing to read them.
-          it can also be called a passion project, a labour of love. 
-          it's just eveything i like put on blast really!
-        </p>
-        <p>i hope you enjoy browsing through my digital space! there will always be something new since this site will forever be a work in progress.</p>
-        <p>some links also don't lead to anything let, as i'm still building this from the ground up!! this website reflects how i see myself and the world as well as my general moods. so this site is subject to change <em>a lot.</em></p>
-        <p> feel free to link me!!
-          <a href="http://chronodove.neocities.org" target="_blank"><img src="https://files.catbox.moe/8610vj.gif" alt="chronodove button with stars" id="button"></a>
-          <textarea name="code"><a href="http://chronodove.neocities.org" target="_blank"><img src="https://files.catbox.moe/8610vj.gif"></a></textarea>
-        </p>
-        <div class="updates">
-          <div id="update"> 
-            <h2>UPDATES</h2>
-            <ul>
-              <li>12/31 - new blog post on <a href="https://chronodove.bearblog.dev/">bear blog</a></li>
-              <li>12/29 - made the <a href="bookshelf.html">the bookshelf!</a></li>
-              <li>12/26 - added a new background and made some final fixes</li>
-              <li>12/25 - now deployed from github</li>
-              <li>12/23 - redid the site AGAIN :3</li>
-              <li>12/22 - projects page is done and works (finally)!</li>
-              <li>11/30 - 2nd entry in thr journal</li>
-              <li>11/28 - dev log is up! read about my project, "i am not eating."
-              <li>11/19 - journal page is now up! will try to update frequently!</li>
-              <li>11/18 - changed the title to a scrolling text</li>
-              <li>11/11 - about me page is now finished! + some quality of life improvements :)</li>
-              <li>11/7 - officially finished landing page</li>
-              <li>11/6 redid the site AGAIN!!</li>
-              <li>10/28 - added sparkling cursor effect</li>
-              <li>10/22 - added buttons</li>
-              <li>10/21 - revamped the site!</li>
-            </ul>
-          </div>
-         
-          <div class="todo">
-            <h2>TODO</h2>
-            <ol>
-              <li>make a new favicon</li>
-              <li>add a music player</li>
-              <li>finish music log page</li>
-            </ol>
-          </div>
+    <!-- SCM Music Player https://www.scmplayer.net -->
+<script type="text/javascript" src="https://www.scmplayer.net/script.js" 
+data-config="{'skin':'skins/tunes/skin.css','volume':50,'autoplay':false,'shuffle':false,'repeat':1,'placement':'top','showplaylist':false,'playlist':[{'title':'Genesis - Grimes','url':'https://www.youtube.com/watch?v=K8B_XDKozvA'}]}" ></script>
+<!-- SCM Music Player script end -->
 
-        </div>
-        <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-35513-18"><h2>sign my guestbook!</h2></a>
-      </div>
+    <div class="header">
+        <script language="javascript" type="text/javascript">
+            showText(); //random text
+        </script>
     </div>
-    <footer><a href="https://neocities.org/site/chronodove">chronodove</a> &copy; hosted on neocities since 6/18/23</footer> 
-  </div>
+    <div class="nav">
+        <a href="index.html">home</a>
+        <a href="aboutme.html">webmaster</a>
+        <a href="https://chronodove.bearblog.dev/">blog</a>
+        <a href="bookshelf.html">bookshelf</a>
+        <a href="404.html">music log</a>
+        <a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-35513-18">guestbook</a>
+        <a href="404.html">credits</a>
+    </div>
+    <div class="container">
+        <div class="side">
+            <div class="pfp">
+                <img src="https://i.imgur.com/V2YsjLE.jpg" alt="a snarling black wolf in the snow" id="pfp">
+            </div>
+            <p><em>your most loyal dog</em></p>
+            <p> feel free to link me!!
+                <a href="http://chronodove.neocities.org" target="_blank"><img src="https://files.catbox.moe/8610vj.gif" alt="chronodove button with stars" id="button"></a>
+                <textarea name="code"><a href="http://chronodove.neocities.org" target="_blank"><img src="https://files.catbox.moe/8610vj.gif"></a></textarea>
+              </p>
+            <p>feeling:<a href="https://www.imood.com/users/chronodove"><img src="https://moods.imood.com/display/uname-chronodove/trans-1/imood.gif" alt="The current mood of chronodove at www.imood.com" id="imood"></a></p>
+            
+            <div id="statuscafe">
+                <div id="statuscafe-username"></div>
+                <div id="statuscafe-content"></div>
+            </div>
+            <script src="https://status.cafe/current-status.js?name=chronodove"defer></script>
+
+            <h4>currently...</h4>
+            <ul>
+                <li>reading: the night and it's moon</li>
+                <li>watching: kengan fighters</li>
+                <li>listening to: mitski</li>
+                <li>drinking: COKE</li>
+                <li>eating: souls</li>
+            </ul>
+        </div>
+        <div class="middle">
+            <p>you fall down a long tunnel for what feels like eternity.</p>
+            <p>eventually you hit the ground with a thud. it echoes throughout the dark, damp cave.</p>
+            <p>pain stretches from your back to the top of your head. forcing yourself to open your eyes you see</p>
+            <p class="fade"><strong>the face of a black wolf baring its teeth in front of you.</strong></p>
+            <p>a sign facing you reading...</p>
+            <h3>&darr; "BEWARE OF WOLVES" &darr;</h3>
+            <p class="fade">...you figured.</p>
+        <img src="https://i.imgur.com/WVdj0Ae.gif" alt="a black line of roses and lace" id="divider">
+            <h3>ABOUT THE SITE</h3>
+            <p>the dark and damp cave on neocities. filled with wolves and empty bottles on coca-cola.</p>
+            <p>this serves as my little ranting zone that just happens to be public. social media bad blah blah blah you've heard it before LOL</p>
+            <p>this site is very interactive! feel free to hover, click and drag on anything that looks suspisious. 
+                sometimes things change everytime you visit...</p>
+            <p>also, this site uses impieral units sorry im american</p>
+            <div class="updates">
+                <div id="update"> 
+                  <h2>UPDATES</h2>
+                  <ul>
+                    <li>1/7/24 - new look again </li>
+                    <li>12/31 - new blog post on <a href="https://chronodove.bearblog.dev/">bear blog</a></li>
+                    <li>12/29 - made the <a href="bookshelf.html">the bookshelf!</a></li>
+                    <li>12/26 - added a new background and made some final fixes</li>
+                    <li>12/25 - now deployed from github</li>
+                    <li>12/23 - redid the site AGAIN :3</li>
+                    <li>12/22 - projects page is done and works (finally)!</li>
+                    <li>11/30 - 2nd entry in thr journal</li>
+                    <li>11/28 - dev log is up! read about my project, "i am not eating."
+                    <li>11/19 - journal page is now up! will try to update frequently!</li>
+                    <li>11/18 - changed the title to a scrolling text</li>
+                    <li>11/11 - about me page is now finished! + some quality of life improvements :)</li>
+                    <li>11/7 - officially finished landing page</li>
+                    <li>11/6 redid the site AGAIN!!</li>
+                    <li>10/28 - added sparkling cursor effect</li>
+                    <li>10/22 - added buttons</li>
+                    <li>10/21 - revamped the site!</li>
+                  </ul>
+                </div>
+               
+                <div class="todo">
+                  <h2>TODO</h2>
+                  <h6 class="fade">spoiler alert: never going to get done</h6>
+                  <ol>
+                    <li>make a new favicon</li>
+                    <li>add a music player</li>
+                    <li>finish music log page</li>
+                  </ol>
+                </div>
+      
+              </div>
+        </div>
+
+        <div class="side2">
+            <iframe src="https://free.timeanddate.com/clock/i96u2j7g/n24/fn12/fs11/fcfff/tc000/pct/ftb/pa2/tt0/tw0/tm3/ts1/ta1" frameborder="0" width="222" height="17" allowtransparency="true"></iframe>
+            <!-- // Begin Current Moon Phase HTML (c) MoonConnection.com // -->
+            <table cellpadding="0" cellspacing="0" width="128">
+                <tr>
+                    <td ><a href="https://www.moonconnection.com" target="mc_moon_ph"><img
+                                src="https://www.moonmodule.com/cs/dm/vn.gif" width="128" height="196" border="0" alt="" /></a>
+                        <div style="position:relative;width:128px;">
+                            <div style="position:absolute;top:-20px;left:6px;background:#000000;width:116px;text-align:center;"></a></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        <!-- // end moon phase HTML // -->
+        <a class="weatherwidget-io" href="https://forecast7.com/en/30d27n97d74/austin/?unit=us" data-label_1="AUSTIN" data-label_2="WEATHER" data-font="Monaco" data-days="3" data-theme="pure">AUSTIN WEATHER</a>
+            <script>
+                !function(d,s,id) {
+                    var js,fjs=d.getElementsByTagName(s)[0];
+                    if(!d.getElementById(id)) {
+                        js=d.createElement(s);
+                        js.id=id;
+                        js.src='https://weatherwidget.io/js/widget.min.js';
+                        fjs.parentNode.insertBefore(js,fjs);
+                    }}(document,'script','weatherwidget-io-js');
+            </script>
+        <a href="https://midifreak.online/tomodachi"><img src="https://midifreak.online/aptbutton.gif"></a>
+        <iframe width="180" height="180" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
+        <img src="https://i.imgur.com/X07x0Ko.gif" alt="a dog sipping tea">
+        <img src="https://i.imgur.com/4QYt1ej.gif" alt="a flying dove">
+        </div>
+        <footer><a href="https://neocities.org/site/chronodove">chronodove</a> &copy; hosted on neocities since 6/18/23</footer> 
+    </div>
 </body>
+
 </html>

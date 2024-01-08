@@ -1,160 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Roboto+Mono:wght@100&display=swap');
-
 @font-face {
-  font-family: Alagard;
-  src: url(alagard/alagard.ttf);
-}
+    font-family: Alagard;
+    src: url(fonts/alagard.ttf);
+  }
 
-html {
-  font-family: 'MS Gothic', monospace;
-  cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
-}
-
-body {
-  background-image: url(https://i.imgur.com/yYLZ3QG.png);
-  background-size: 3000px;
-  background-position: center;
-  
-}
-
-.container {
-  width: 1000px;
-  height: 1000px;
-  margin: 0 auto;
-  border-radius: 20px;
-  z-index: 1;
-  cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
+:root {
+    font-family: 'MS Gothic', monospace;
+    cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
+    background-image: url(https://i.imgur.com/8uLsOYA.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .header {
-  background-image: url(https://i.imgur.com/X2hsFdC.jpg);
-  background-size: cover;
-  border-radius: 20px;
-  width: 1000px;
-  height: 200px;
-  border: 3px solid black;
-  margin-bottom: 5px;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(255, 252, 252);
+    transition: all 1s ease;
+    font-family: 'Alagard', 'MS Gothic', monospace;
+    height: fit-content;
+    width: 1000px;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-image: url(https://i.imgur.com/YIDTlAL.jpg);
 }
 
-h1 {
-  text-align: center;
-  line-height: 130px;
-  font-size: 50px;
-  color: white;
-  transition: all 1s ease;
-  font-family: 'Alagard', 'MS Gothic', monospace;
+.header:hover {
+    letter-spacing: 7px;
+    color: rgb(0, 0, 0);
+    transition: all 1s ease;
 }
 
-h1:hover {
-  letter-spacing: 7px; 
-  color: black;
-  transition: all 1s ease; 
+.nav {
+   background-color: rgb(255, 255, 255);
+   border: 2px solid black;
+   width: 980px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 10px;
 }
 
-.items {
-  display: flex;
-  height: 100%;
-  font-size: large;
-  column-gap: 10px;
-  cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
+.container {
+    width: 1000px;
+    height: 900px;
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
 }
 
-.sidebar {
-  background-color: rgb(160, 160, 160);
-  width: 300px;
-  border-radius: 20px;
-  line-height: 200%;
-  border: 3px solid black;
+.container::-webkit-scrollbar { 
+    display: none;
 }
 
-.sidebar a { 
-  transition: all 1s ease;
+/* side */
+
+.side {
+    width: 200px;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+    padding: 10px;
+    height: 900px;
 }
 
-.sidebar a:hover {
-  letter-spacing: 4px; 
-  transition: all 1s ease;
-  cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
+.side img {
+    width: 100%;
+    border-radius: 5%;
+    transition: all 1s ease;
+    opacity: 1;
 }
 
-.main {
-  width: 100%;
-  background-color: rgb(160, 160, 160);
-  border-radius: 20px;
-  padding: 10px;
-  border: 3px solid black;
-  cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
+/* image fade */
+
+#pfp:hover {
+    opacity: 50%;
+    transition: all 1s ease;
 }
 
-.main img {
-  width: 100%;
+.pfp {
+    background-color: rgb(100, 0, 0);
+    transition: all 1s ease;
+    border-radius: 5%;
+    width: 200px;
+    height: 219.183px;
 }
 
+.pfp:hover {
+    background-color: rgb(100, 0, 0);
+    transition: all 1s ease;
+}
+
+/* end image fade */
+
+/* end side */
+
+/* middle */
+.middle {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 540px;
+    text-align: center;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+    height: 900px;
+}
+
+.middle::-webkit-scrollbar { 
+    display: none;
+}
+
+/* updates and todo */
 .updates {
-  overflow: scroll;
-  height: 400px;
-  padding: 5px;
-  width: 700px;
-  display: flex;
-  gap: 7px;
-  scrollbar-width: none;
-}
+    overflow: scroll;
+    height: 400px;
+    padding: 5px;
+    width: 529px;
+    display: flex;
+    gap: 7px;
+    scrollbar-width: none;
+  }
+  
+  #update {
+    overflow: scroll;
+    border-style: groove;
+    height: 300px;
+    background: white;
+    width: 100%;
+    scrollbar-width: none;
+  }
+  
+  .todo {
+    overflow: scroll;
+    border-style: groove;
+    height: 300px;
+    background: white;
+    width: 100%;
+  }
 
-#update {
-  overflow: scroll;
-  border-style: groove;
-  height: 100%;
-  background: white;
-  width: 500px;
-}
+/* middle */
 
-.todo {
-  overflow: scroll;
-  border-style: groove;
-  height: 100%;
-  background: white;
-  width: 300px;
+/* side 2 */
+.side2 {
+    width: 200px;
+    background-color:  rgb(201, 201, 201);
+    padding: 10px;
+    height: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
 }
+/* end side 2 */
 
 footer {
-  background-color: white;
-  border-radius: 10px;
-  padding: 10px;
-  margin-top: 5px;
-  border: 3px solid black;
+   background-color: white;
+    width: 100%;
+    text-align: center;
+}
+/* gadgets and stuff */
+
+/* text fade*/
+.fade {
+    opacity: 0;
+    transition: all 2s ease;
 }
 
-.main h1 {
-  font-size: 50px;
-  color: white;
-  transition: all 1s ease;
-  font-family: 'Alagard', 'MS Gothic', monospace;
-}
-
-h1:hover {
-  letter-spacing: 7px; 
-  color: black;
-  transition: all 1s ease; 
+.fade:hover {
+    opacity: 1;
+    transition: all 2s ease;
 }
 
 #statuscafe {
-  padding: .5em;
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(0, 0, 0);
-  margin-right: 5px;
-  margin-left: -35px;
+    padding: .5em;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid midnightblue;
+    text-align: justify;
+    margin: 0 auto;
 }
-
 #statuscafe-username {
-  margin-bottom: .5em;
+    margin-bottom: .5em;
 }
-
 #statuscafe-content {
-  margin: 0 1em 0.5em 1em;
+    margin: 0 1em 0.5em 1em;
 }
-
-#button {
-  width: 80px;
-  height: 31px;
-
+#imood {
+    width: 50%;
+    object-fit: contain;
 }
