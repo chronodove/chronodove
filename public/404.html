@@ -21,6 +21,10 @@
             background-position: center;
             background-size: contain;
         }
+
+        button {
+            font-family: 'MS Gothic',monospace;
+        }
     </style>
 </head>
 <body>
@@ -29,6 +33,11 @@
     </div>
     <h3>you've walked as far as your legs could take you to no avail.</h3> 
     <h3>for this is a dead end.</h3>
-    <p><a href="index.html">turn around and go.</a></p>
+    <button onClick="history_back()">turn around</button>
+    <script>
+        function history_back() {
+            window.history.back();
+        } 
+    </script>
 </body>
 </html>

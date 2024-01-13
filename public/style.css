@@ -106,7 +106,7 @@
     overflow: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none; 
-    height: 900px;
+    height: 100%;
 }
 
 .middle::-webkit-scrollbar { 
@@ -151,13 +151,20 @@
     height: 100%;
     overflow: scroll;
     scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    justify-content: center;
+    align-items: center;
 }
 /* end side 2 */
 
 footer {
    background-color: white;
-    width: 100%;
+    width: 1000px;
     text-align: center;
+    margin: 0 auto;
+    height: 15px;
 }
 /* gadgets and stuff */
 
