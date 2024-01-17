@@ -47,14 +47,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    overflow: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none; 
 }
 
-.container::-webkit-scrollbar { 
-    display: none;
-}
 
 /* side */
 
@@ -62,8 +56,10 @@
     width: 200px;
     background-color: rgb(201, 201, 201);
     text-align: center;
+    overflow: scroll;
+    scrollbar-width: none;
     padding: 10px;
-    height: 900px;
+    height: 100%;
 }
 
 .side img {
@@ -115,8 +111,7 @@
 
 /* updates and todo */
 .updates {
-    overflow: scroll;
-    height: 400px;
+    height: 250px;
     padding: 5px;
     width: 529px;
     display: flex;
@@ -127,7 +122,7 @@
   #update {
     overflow: scroll;
     border-style: groove;
-    height: 300px;
+    height: 100%;
     background: white;
     width: 100%;
     scrollbar-width: none;
@@ -136,7 +131,7 @@
   .todo {
     overflow: scroll;
     border-style: groove;
-    height: 300px;
+    height: 100%;
     background: white;
     width: 100%;
   }

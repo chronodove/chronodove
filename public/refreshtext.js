@@ -23,7 +23,7 @@ theText[18] = 'im worse at what i do best';
 theText[19] = 'breathe out, so i can breathe you in';
 theText[20] = 'look at the stars, look how they shine for you';
 theText[21] = 'im liquid smooth, come touch me too';
-theText[22] = 'my heart will never be, will never see, will never know'
+theText[22] = 'my heart will never be, will never see, will never know';
 
 let j = 0;
 let p = theText.length;
