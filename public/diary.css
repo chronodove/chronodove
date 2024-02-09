@@ -1,0 +1,31 @@
+#popup {
+    font-family: 'MS Gothic', monospace;
+}
+
+.container {
+    font-family: 'MS Gothic' , monospace;
+    background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    height: 2000px;
+}
+
+.header {
+    font-family: 'MS Gothic', monospace;
+    background-color: rgb(170, 170, 255);
+    margin: 0 auto;
+    width: 850px;
+    height: 50px;
+}
+
+.left {
+    background-color: rgb(255, 195, 195);
+    width: 253px;
+}
+
+.main {
+    background-color: rgb(255, 255, 192);
+    width: 597px;
+}

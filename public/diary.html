@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diary.css">
+    <title>hopeless cries of a dog</title>
+    <script src="about.js"></script>
+    <!-- scrolling tab text -->
+    <script>
+        (function titleScroller(text) {
+            document.title = text;
+            setTimeout(function () {
+                titleScroller(text.substr(1) + text.substr(0, 1));
+            }, 100);
+        }((document.title + " - ")));
+    </script>
+</head>
+
+<body>
+    <div id="popup">
+        <div id="background">
+            <h2>you are greeted with a brown leather book with various red splotches in it.</h2>
+            <h3>opening to the first page reveals frantic, scribbled, barely eligible handwriting.</h3>
+            <h3>you manage to make out a few words,</h3>
+            <h2>KEEP OUT. DONT COME IN</h2>
+            <button onclick="popup()" style=" font-family: 'MS Gothic', monospace;">
+                <p>KEEP READING</p>
+            </button>
+        </div>
+    </div>
+    <div class="header">
+        <marquee behavior="scrolling" direction="left">i am always eating</marquee>
+    </div>
+    <div class="container">
+        <div class="left">
+            uh oh the TV is buffering!
+        </div>
+        <div class="main">
+            im going to make you wish that i'd stayed gone
+        </div>
+    </div>
+</body>
+
+</html>
