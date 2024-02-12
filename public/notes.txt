@@ -1,0 +1,14 @@
+colour pallet
+
+#272119 - dark mud brown
+#60594F - light ashy brown
+#51412F - light warm dirt brown
+#BABDBD - concrete colour
+#788683 - green/teal-ish might replace
+
+#2e2e3a 	(46,46,58)
+#ea3858 	(234,56,88)
+#bdbfbd 	(189,191,189)
+#d34e5b 	(211,78,91)
+#564949 	(86,73,73)
+

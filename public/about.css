@@ -1,121 +1,84 @@
-:root {
-    background: url(https://i.imgur.com/mHji2DB.gif);
-    color: aliceblue;
-    font-family: 'MS Gothic', monospace;
+@font-face {
+    font-family: DeathToMetal;
+    src: url(fonts/DeathtoMetal.ttf);
 }
 
-.container {
-    display: flex;
-    position: relative;
-    margin: 0 auto;
-    min-width: none;
-    max-width: 1284px;
+@font-face {
+    font-family: WhoAsksSatan;
+    src: url(fonts/who\ asks\ satan.ttf);
 }
 
-.side {
-    width: 100%;
-    height: 100%;
-}
-
-.box {
-    background-color: #000;
-    width: 100%;
-    height: 100%;
-    border: 2px solid white;
-    padding: 3%;
-    margin-bottom: 5%;
-    text-align: center;
-}
-
-.middle {
-    image-rendering: pixelated;
-    width: 100%;
-}
-
-.middle img {
-    width: 700px;
-    object-fit: contain;
-    height: 600px;
-}
-
-.text-box {
-    background-color: rgb(255, 255, 255);
-    width: 600px;
-    height: auto;
-    z-index: 1;
-    color: #000;
-    margin: 0 auto;
-    margin-top: 2%;
-    padding: 3px;
-    text-align: center;
-    border-radius: 50px;
-    border: 4px solid;
+@font-face {
+    font-family: SweetHelloween;
+    src: url(fonts/SWEET\ HELLOWEEN\ Personal\ Use\ only.otf);
 }
 
 #popup {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: 1;
-
-    width: 100%;
-    height: 100%;
-    background-color: rgba(5, 5, 5, 0.712);
+    font-family: 'MS Gothic', monospace;
 }
 
-#background {
+body {
+    background-image: url(https://files.catbox.moe/w3enr4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {
+    font-family: 'MS Gothic', monospace;
     display: flex;
-    justify-content: center;
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 10px;
     align-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttons {
+    width: 40%;
+    height: fit-content;
+}
+
+.left {
+    width: 40%;
+    height: fit-content;
+    display: flex;
     flex-direction: column;
-    position: absolute;
-
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: 1;
-
-    background-image: url(https://i.imgur.com/5qGdcS5.png);
-    width: 500px;
-    height: 500px;
-    text-align: center;
-    padding: 2%;
     
+}
 
-    text-shadow:
-    -1px -1px 0 #000,
-     0   -1px 0 #000,
-     1px -1px 0 #000,
-     1px  0   0 #000,
-     1px  1px 0 #000,
-     0    1px 0 #000,
-    -1px  1px 0 #000,
-    -1px  0   0 #000;
+.left img {
+    border: 7px white inset;
+}
+
+.nav{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 94%;
+    padding: 10px;
+}
+
+
+.content {
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 300px;
+    border: 30px solid transparent;
+    border-image: url("https://files.catbox.moe/d0mvgv.png") 26 round;
+    border-image-outset: 28px 28px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.content h1 {
+    font-family: 'SweetHelloween', monospace;
+    font-size: 100px;
+    margin: 0 0 0 0;
 }
 
 button {
-    width: fit-content;
-    margin: 0 auto;
     font-family: 'MS Gothic', monospace;
-    margin-bottom: 5px;
-}
-
-#marquee {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-#marquee img {
-    width: 80px;
 }
