@@ -82,12 +82,11 @@
     height: 219.183px;
 }
 
-.pfp:hover {
-    background-color: rgb(100, 0, 0);
-    transition: all 1s ease;
-}
-
 /* end image fade */
+
+#copyAlert {
+    display: none;
+}
 
 /* end side */
 

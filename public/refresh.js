@@ -1,5 +1,4 @@
 let theText = new Array()
-
  
 theText[0] = 'and i just, let bad thoughts, linger for far too long';
 theText[1] = 'if i could, id be your little spoon';
@@ -23,7 +22,9 @@ theText[18] = 'im worse at what i do best';
 theText[19] = 'breathe out, so i can breathe you in';
 theText[20] = 'look at the stars, look how they shine for you';
 theText[21] = 'im liquid smooth, come touch me too';
-theText[22] = 'my heart will never be, will never see, will never know';
+theText[22] = 'i think i\'d rather crucify than learn';
+theText[23] = 'lie after lie, after lie, after lie';
+theText[24] = 'my heart will never be, will never see, will never know';
 
 let j = 0;
 let p = theText.length;
@@ -37,3 +38,4 @@ function showText(){
 //This a wrapper for the text array it can be changed if need
 document.write('<h1 class="thetext">'+theText[whichText]+'</h1>');
 }
+
