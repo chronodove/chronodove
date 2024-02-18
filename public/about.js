@@ -1,5 +1,3 @@
-
-
 //popup 
 function popup() {
   let p = document.getElementById("popup");
