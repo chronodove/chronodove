@@ -1,21 +1,8 @@
 @font-face {
-    font-family: DeathToMetal;
-    src: url(fonts/DeathtoMetal.ttf);
-}
-
-@font-face {
-    font-family: WhoAsksSatan;
-    src: url(fonts/who\ asks\ satan.ttf);
-}
-
-@font-face {
     font-family: SweetHelloween;
     src: url(fonts/SWEET\ HELLOWEEN\ Personal\ Use\ only.otf);
 }
 
-#popup {
-    font-family: 'MS Gothic', monospace;
-}
 
 body {
     background-image: url(https://files.catbox.moe/w3enr4.png);
@@ -26,7 +13,9 @@ body {
 }
 
 .container {
-    font-family: 'MS Gothic', monospace;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     width: 900px;
     height: 900px;

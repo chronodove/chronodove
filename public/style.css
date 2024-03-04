@@ -1,190 +1,94 @@
-@font-face {
-    font-family: Alagard;
-    src: url(fonts/alagard.ttf);
-  }
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+/* end fonts */
 
+/* default style */
 :root {
-    font-family: 'MS Gothic', monospace;
-    cursor: url(https://cur.cursors-4u.net/others/oth-8/oth704.cur), auto !important;
-    background-image: url(https://i.imgur.com/NPLAy14.gif);
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: white;
+  cursor: crosshair;
+}
+/* default style */
+
+/* cursor */
+.cursor {
+  animation: blink 1s step-start 0s infinite
 }
 
-.header {
-    text-align: center;
-    font-size: xx-large;
-    color: rgb(255, 252, 252);
-    transition: all 1s ease;
-    font-family: 'Alagard', 'MS Gothic', monospace;
-    height: fit-content;
-    width: 1000px;
-    border: 2px solid black;
-    margin: 0 auto;
-    background-image: url(https://i.imgur.com/YIDTlAL.jpg);
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
+/* end cursor */
 
-.header:hover {
-    letter-spacing: 7px;
-    color: rgb(0, 0, 0);
-    transition: all 1s ease;
+/* wrapper */
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+/* wrapper */
+
+
+/* box1 */
+.box1 {
+  width: 100rem;
+  height: 30rem;
+  background-color: aliceblue;
+  color: black;
+  padding: 0.5%;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .nav {
-   background-color: rgb(255, 255, 255);
-   border: 2px solid black;
-   width: 980px;
-   margin: 0 auto;
-   text-align: center;
-   padding: 10px;
-}
-
-.container {
-    width: 1000px;
-    height: 900px;
-    border: 2px solid;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
+  display: flex;
+  gap: 2%;
+  cursor: crosshair;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 
-/* side */
-
-.side {
-    width: 200px;
-    background-color: rgb(201, 201, 201);
-    text-align: center;
-    overflow: scroll;
-    scrollbar-width: none;
-    padding: 10px;
-    height: 100%;
+h3 {
+  letter-spacing: 0px;
+  transition: all 0.5s ease;
+  cursor: crosshair;
 }
 
-.side img {
-    width: 100%;
-    border-radius: 5%;
-    transition: all 1s ease;
-    opacity: 1;
+h3:hover {
+  transition: all 0.5s ease;
+  letter-spacing: 8px;
+  cursor: crosshair;
 }
 
-/* image fade */
-
-#pfp:hover {
-    opacity: 50%;
-    transition: all 1s ease;
+#divider {
+  background-image: url('https://i.imgur.com/VJTCtS4.gif');
+  width: 100%;
+  height: 5%;
 }
 
-.pfp {
-    background-color: rgb(100, 0, 0);
-    transition: all 1s ease;
-    border-radius: 5%;
-    width: 200px;
-    height: 219.183px;
+#widgets {
+  display: flex;
+  gap: 2%;
+  width: 100%;
+  height: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
 }
+/* end box1 */
 
-/* end image fade */
+/* UNUSED CONTENT */
 
-#copyAlert {
-    display: none;
-}
-
-/* end side */
-
-/* middle */
-.middle {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    width: 540px;
-    text-align: center;
-    overflow: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none; 
-    height: 100%;
-}
-
-.middle::-webkit-scrollbar { 
-    display: none;
-}
-
-/* updates and todo */
-.updates {
-    height: 250px;
-    padding: 5px;
-    width: 529px;
-    display: flex;
-    gap: 7px;
-    scrollbar-width: none;
+/*float animation*/
+/* @keyframes float {
+  0% {
+    transform: translate(0,0);
   }
-  
-  #update {
-    overflow: scroll;
-    border-style: groove;
-    height: 100%;
-    background: white;
-    width: 100%;
-    scrollbar-width: none;
+  50% {
+    transform: translate(0,-30px);
   }
-  
-  .todo {
-    overflow: scroll;
-    border-style: groove;
-    height: 100%;
-    background: white;
-    width: 100%;
-  }
-
-/* middle */
-
-/* side 2 */
-.side2 {
-    width: 200px;
-    background-color:  rgb(201, 201, 201);
-    padding: 10px;
-    height: 100%;
-    overflow: scroll;
-    scrollbar-width: none;
-    display: flex;
-    flex-direction: column;
-    gap: 2%;
-    justify-content: center;
-    align-items: center;
-}
-/* end side 2 */
-
-footer {
-   background-color: white;
-    width: 1000px;
-    text-align: center;
-    margin: 0 auto;
-    height: 15px;
-}
-/* gadgets and stuff */
-
-/* text fade*/
-.fade {
-    opacity: 0;
-    transition: all 2s ease;
-}
-
-.fade:hover {
-    opacity: 1;
-    transition: all 2s ease;
-}
-
-#statuscafe {
-    padding: .5em;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid midnightblue;
-    text-align: justify;
-    margin: 0 auto;
-}
-#statuscafe-username {
-    margin-bottom: .5em;
-}
-#statuscafe-content {
-    margin: 0 1em 0.5em 1em;
-}
-#imood {
-    width: 50%;
-    object-fit: contain;
-}
+} */
