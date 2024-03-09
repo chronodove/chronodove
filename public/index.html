@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="bloodyhands.gif" type="image/gif" >
     <script src="script.js"></script>
@@ -93,6 +94,32 @@
                 <a href="404.html"><h3>guestbook</h3></a>
             </div>
             <div id="divider"></div>
+            <div class="button">
+                <img src="https://i.imgur.com/MwpPvJy.png" alt="chronodoves button" onclick="copyText()">
+                <input type="text" id="myInput" value="&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;chronodove.neocities.org&#x2F;&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;img src&#x3D;&quot;https:&#x2F;&#x2F;i.imgur.com&#x2F;MwpPvJy.png&quot; alt&#x3D;&quot;chronodoves button&quot;&gt;&lt;&#x2F;a&gt;" hidden>
+                <!-- <a href="https://chronodove.neocities.org/" target="_blank"><img src="https://i.imgur.com/MwpPvJy.png" alt="chronodoves button"></a> -->
+                <p id="copyAlert">text has been copied!</p>
+                <h5>click to copy button code</h5>
+                <!-- copy text script -->
+                <script>
+                    //https://stackoverflow.com/questions/68696662/how-do-you-get-text-to-copy-to-clipboard-when-clicking-on-an-image
+                    function copyText() {
+                        let copyText = document.getElementById("myInput");
+                        let copyAlert = document.getElementById("copyAlert");
+                        copyText.hidden = false;
+                        copyText.select();
+                        document.execCommand("copy");
+                        copyText.hidden = true;
+                        //alert("Copied the text: " + copyText.value);
+                        //if (copyText.hidden == true) {
+                            copyAlert.style.display = "block";
+                        //https://bobbyhadz.com/blog/javascript-hide-element-after-few-seconds#hide-an-element-after-a-few-seconds-in-javascript
+                        setTimeout(() => {
+                            copyAlert.style.display = 'none';}, 3000);
+                        }
+                </script>
+            </div>
+            
             <i>you wake up in a cave. asides from the painful ringing in your ears you hear scuttling of bugs across the walls and floor. you also hear a haunting howl of a wolf in the distance.</i>
             <h3>welcome to my website</h3>
             <p>this site doesn't have much of a purpose other than to mark my spot on neocities, a "hello! i'm here!" if you will.</p>
@@ -136,6 +163,6 @@
             </div>
         </div>
         </div>
-        <footer><a href="https://neocities.org/site/chronodove">chronodove</a> - 2023 &rArr; 20XX</footer>
+        <p><footer><a href="https://neocities.org/site/chronodove">chronodove</a> &cir; 2023 &rArr; 20XX</footer></p>
 </body>
 </html>

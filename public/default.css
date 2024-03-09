@@ -1,0 +1,14 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+/* end fonts */
+
+/* default style */
+:root {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: white;
+  cursor: crosshair;
+}
+/* default style */

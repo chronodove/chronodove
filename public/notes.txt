@@ -12,3 +12,93 @@ colour pallet
 #d34e5b 	(211,78,91)
 #564949 	(86,73,73)
 
+
+
+<div class="container">
+        <div class="left">
+            <a href="#228">2/28</a>
+            <br>
+            <a href="#224">2/24</a>
+            <br>
+            <a href="#219">2/19</a>
+            <br>
+            <a href="#217">2/17</a>
+            <br>
+            <button onClick="history_back()" style=" font-family: 'MS Gothic', monospace;">turn around</button>
+        <script>
+            function history_back() {
+                window.history.back();
+            } 
+        </script>
+        </div>
+        <div class="main">
+            <div class="228">
+                <h1>2-28-24</h1>
+                <p>tommorow is my final class of drivers ed!! i'm so stoked!!</p>
+                <p>my teacher allowed me to redo my missed lesson at home, so i wont have to come back in during my spring break!!</p>
+                <p>really excited to go back to having free time after school LOL</p>
+            </div>
+            <div class="224">
+                <h1>2-24-24</h1>
+                <p>i have a really funny story.</p>
+                <p>so i just recently decided to actually commit to linux. because believe it or not, i've had the linux mint iso file for like a YEAR.</p> 
+                <p>i kept procrastionating and forgetting about it UNTIL NOW!!!!</p>
+                <p>so i boot up the preview and i enjoy mint! so i decide to click install and go through the process except...</p>
+                <p>I CORRUPTED THE INSTALL AND ENDED REMOVING BOTH MINT <b>AND</b> WINDOWS.</p>
+                <p>naturally im freaking out, how am i supposed to recover now?? i have no os or anything (thinking about it now i could have downloaded another iso from my school laptop but i was panicing) what could i ever do!</p>
+                <p>i look into my drawer and then i see it...</p>
+                <h3>the ubuntu flash drive</h3>
+                <p>i completely forgot i had this with me! i have nothing to lose so might as well.</p>
+                <p>i boot it up and my entire screen is just messed up. everything it so yellow i can barely read it!</p>
+                <p>thankfully, i wasn't the only one who expierenced this, i just needed to fix the colour settings through the display settings. though it took a while considering i literally could not see the text.</p>
+                <p>i wasn't enjoying the ubuntu so i re-flashed the usb with linux mint and set it up PROPERLY this time.</p>
+                <p>and now i'm a linux user! mint is very similar to windows in the way it looks but BETTER!!!! </p>
+                <p>its so much more customizable and so much more flexible, it's just better!</p>
+                <p>it definitely going to be harder to install programs, but in wine (the emulator) we trust.</p>
+                <p>this all happened at like 7 in morning too, so that quite the start.</p>
+            </div>
+            <img src="https://i.imgur.com/bXddtLs.gif" alt="gif of cartoon blood dripping">
+            <div id="219">
+                <h1>2-19-24</h1>
+                <p>tomorrow i go back to school, finally.</p>
+                <p>i hate sitting at home doing nothing, it's so incredibly boring.</p>
+                <p>if i dont have a routine, i'm a mess in more ways than one.</p>
+                <p>i went to drivers ed, my class was short because my teacher was sick. i hope she feels better.</p>
+                <p>i filled out my forms for summer internships, but got confused at one part and sent an email to my counselor. they need to make these things better.</p>
+                <p>i also painted my nails black because i'm just so bored, i think they look nice. i'd love to be more edgy/gothic but my parents like to say "oh we're chill!!!" until they see me in black eyeshadow. </p>
+                <p>i can't wait to go back to school and work. i love working. it keeps my mind busy so i don't start having a crisis.</p>
+                <p>i've been thinking about finding a therapist but where i live it's pretty difficult to find one, it wasn't back in minnesota.</p>
+                <p>i miss minnesota. i want to go back there for college. it's much better than this redneck state.</p>
+                <p>other than that i've been playing subnautica, it's been so fun! i really enjoy this game. i haven't had that much fun playing video games in a while.</p>
+                <p>here are tomorrows goals.</p>
+                <ol>
+                    <li>finalize my applications</li>
+                </ol>
+                <p>thats all i really need to do. i can't wait for tomorrow.</p>
+            </div>    
+            <img src="https://i.imgur.com/bXddtLs.gif" alt="gif of cartoon blood dripping">
+            <div id="217">
+                    <h1>2-17-24</h1>
+                    <p>first diary entry. yippie!</p>
+                    <p>i drove for the first time today with my dad. i just got my permit after almost 5 months of trying to get one. i understand why people say the DMV is hell on earth.</p>
+                    <p>i practiced doing turns in the parking lot, there was also a motorcycle class going on in the parking lot adjacent to mine.</p>
+                    <p>i'm definitely going to learn how to drive a motorcycle once i'm done with drivers ed. i love seeing bikers on the street. i always wave at them but some don't wave back.</p>
+                    <p>back when i was in mn, i rarely ever saw motorcycles parked, let alone people riding them. it makes sense though, minnesota is very cold and icy. motorcycle and ice is not a good combination.</p>
+                    <p>i am horrible at driving. but i'll be able to get more practice tomorrow and monday.</p>
+                    <p>but my drivers ed is absolutely tearing me apart. everyday i come home just exhausted. it's right after my school ends, which is 4pm. then i only get about 45 minutes to rest at home before class starts at 5pm all the way until 7pm.</p>
+                    <p>i also wake up at 5:30am by the way. i have to be awake for 13 hours 4 days a week.</p>
+                    <p>it doesn't sound like a lot, but on top of that i have homework, friends, family, eating, cleaning, and so much more. also, it's tiring! being awake for 13 hours straight is not something i'm used too!</p>
+                    <p>thank god it's only until the end of feb, if i had to do this for any longer i might actually jump off my roof (metaphorically).</p>
+                    <p>i played a little bit of elden ring today too, but again i suck at it. i keep dying to the same guy over and over. it's my first dark souls game too, i probably should have chosen an easier one maybe...</p>
+                    <p>i've also been looking into internships over the summer. and by some luck my school had some opportunities available for students. hopefully they'll accept me.</p>
+                    <p>thats all i was able to do today, but i have some goals for tomorrow.</p>
+                    <ol>
+                        <li>actually finish applying for those internships</li>
+                        <li>clean up my room</li>
+                        <li>do some sat prep so my dad can get off my back (i'm not even taking it this year)</li>
+                    </ol>
+                    <p>thats all for today, thank you for reading about my super mundane life. i really appreciate it :)</p>
+                </div>
+        </div>
+    </div>
+

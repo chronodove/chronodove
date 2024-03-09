@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Copy Text on Image Click</title>
+<style>
+    #image-container {
+        position: relative;
+        display: inline-block;
+    }
+    #copy-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
+    #image {
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<div id="image-container">
+    <img id="image" src="image.jpg" alt="Image with Text">
+    <textarea id="copy-text" readonly>This is the text you want to copy.</textarea>
+</div>
+
+<script>
+document.getElementById('image').addEventListener('click', function() {
+    var textArea = document.getElementById('copy-text');
+    textArea.select();
+    document.execCommand('copy');
+    alert('Text copied to clipboard!');
+});
+</script>
+
+</body>
+</html>

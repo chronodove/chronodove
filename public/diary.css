@@ -1,65 +1,14 @@
-html {
-    background-image: url(https://i.imgur.com/AdUWH8c.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+:root {
+font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: white;
+  cursor: crosshair;
 }
 
-.container {
-    font-family: "Nanum Gothic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    width: 850px;
-    height: 958px;
-    z-index: 0;
-    position: relative;
-    scrollbar-width: none;
-    overflow: scroll;
-}
 
-.header {
-    font-family: 'MS Gothic', monospace;
-    background-color: rgb(48, 25, 30);
-    margin: 0 auto;
-    width: 850px;
-    height: 78px;
-    color: #fff;
-    text-shadow: 0 0 14px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
-}
-
-#scrolling {
-    width: 800px;
-    height: 100%;
-    padding: 10px;
-    margin: 0 auto;
-    animation: side 2s ease-in-out 0s infinite alternate-reverse none;
-    text-align: center;
-}
-
-.left {
-    background-color: rgb(48, 25, 30);
-    width: 200px;
-    height: 958px;
-    text-align: center;
-    padding: 2%;
-}
-
-.main {
-    background-color: #611A33;
-    color: white;
-    width: 1px;
-    height: 958px;
-    flex-grow: 1;
-    padding: 2%;
-    overflow: scroll;
-    scrollbar-width: none;
-    text-shadow: 0 0 14px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
-}
-
-/* https://webcode.tools/css-generator/keyframe-animation */
+/* https://webcode.tools/css-generator/keyframe-animation
 @keyframes side {
 	0% {
 		transform: translateX(-26px);
@@ -68,4 +17,4 @@ html {
 	100% {
 		transform: translateX(26px);
 	}
-}
+} */

@@ -11,120 +11,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     
-    <!-- scrolling tab text -->
-    <script>
-        (function titleScroller(text) {
-            document.title = text;
-            setTimeout(function () {
-                titleScroller(text.substr(1) + text.substr(0, 1));
-            }, 100);
-        }((document.title + " - ")));
-    </script>
+ 
 </head>
 
 <body>
-    <!-- <div id="popup">
-        <div id="pBackground">
-            <h2>you are greeted with a brown leather book with various red splotches in it.</h2>
-            <h3>opening to the first page reveals frantic, scribbled, barely eligible handwriting.</h3>
-            <h3>you manage to make out a few words,</h3>
-            <h2><i>"KEEP OUT FOR YOUR OWN SANITY"</i></h2>
-            <button onclick="popup()" style=" font-family: 'MS Gothic', monospace;">
-                <p>KEEP READING</p>
-            </button>
+    <pre>
+        
+    </pre>
+    <div class="box1">
+        <div class="nav">
+            <a href="index.html"><h3>home</h3></a>
+            <a href="aboutme.html"><h3>about</h3></a>
+            <a href="diary.html"><h3>journal</h3></a>
+            <a href="bookshelf.html"><h3>books</h3></a>
+            <a href="404.html"><h3>credits</h3></a>
+            <a href="404.html"><h3>guestbook</h3></a>
         </div>
-    </div> -->
-    <div class="header">
-        <h2 id="scrolling">“I never knew it was possible to be so miserable in so many ways.” ― Amie Kaufman, These Broken Stars </h2>
-    </div>
-
-    <div class="container">
-        <div class="left">
-            <a href="#228">2/28</a>
-            <br>
-            <a href="#224">2/24</a>
-            <br>
-            <a href="#219">2/19</a>
-            <br>
-            <a href="#217">2/17</a>
-            <br>
-            <button onClick="history_back()" style=" font-family: 'MS Gothic', monospace;">turn around</button>
+        <div id="divider"></div>
+        <i>you wake up in a cave. asides from the painful ringing in your ears you hear scuttling of bugs across the walls and floor. you also hear a haunting howl of a wolf in the distance.</i>
+        <h3>welcome to my website</h3>
+        <p>this site doesn't have much of a purpose other than to mark my spot on neocities, a "hello! i'm here!" if you will.</p>
+        <p>this site features a lot of references to death and blood as well as disturbing content in general. if thats uncomfortable, i don't reccomend exploring any further.</p>
+        <p>this isn't updated as much as i want it too but rest assure it won't be abandoned any time soon.</p>
+        <strong>YOU ARE VISITOR #</strong><span id="hitcount"></span>
+        <p>LAST UPDATED: <span id="lastupdate"></span></p>
+        <!-- last updated and visitor number script -->
         <script>
-            function history_back() {
-                window.history.back();
-            } 
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    var site_data = JSON.parse(this.responseText);
+                    var num_arr = site_data.info.views.toString().split("");
+                    var num_str = "";
+                    for (i = 0; i < num_arr.length; i++) {
+                        num_str += num_arr[i];
+                        if ((num_arr.length - 1 - i) % 3 == 0 && (num_arr.length - 1 - i) != 0) { num_str += ","; }
+                        var date_str = site_data.info.last_updated;
+                        var date_obj = new Date(site_data.info.last_updated);
+                        document.getElementById("lastupdate").innerHTML = (date_obj.getMonth() + 1) + "-" + date_obj.getDate() + "-" + date_obj.getFullYear();
+                    }
+                    document.getElementById("hitcount").innerHTML = num_str;
+                }
+            };
+            xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=chronodove", true);
+            xhttp.send();
         </script>
-        </div>
-        <div class="main">
-            <div class="228">
-                <h1>2-28-24</h1>
-                <p>tommorow is my final class of drivers ed!! i'm so stoked!!</p>
-                <p>my teacher allowed me to redo my missed lesson at home, so i wont have to come back in during my spring break!!</p>
-                <p>really excited to go back to having free time after school LOL</p>
-            </div>
-            <div class="224">
-                <h1>2-24-24</h1>
-                <p>i have a really funny story.</p>
-                <p>so i just recently decided to actually commit to linux. because believe it or not, i've had the linux mint iso file for like a YEAR.</p> 
-                <p>i kept procrastionating and forgetting about it UNTIL NOW!!!!</p>
-                <p>so i boot up the preview and i enjoy mint! so i decide to click install and go through the process except...</p>
-                <p>I CORRUPTED THE INSTALL AND ENDED REMOVING BOTH MINT <b>AND</b> WINDOWS.</p>
-                <p>naturally im freaking out, how am i supposed to recover now?? i have no os or anything (thinking about it now i could have downloaded another iso from my school laptop but i was panicing) what could i ever do!</p>
-                <p>i look into my drawer and then i see it...</p>
-                <h3>the ubuntu flash drive</h3>
-                <p>i completely forgot i had this with me! i have nothing to lose so might as well.</p>
-                <p>i boot it up and my entire screen is just messed up. everything it so yellow i can barely read it!</p>
-                <p>thankfully, i wasn't the only one who expierenced this, i just needed to fix the colour settings through the display settings. though it took a while considering i literally could not see the text.</p>
-                <p>i wasn't enjoying the ubuntu so i re-flashed the usb with linux mint and set it up PROPERLY this time.</p>
-                <p>and now i'm a linux user! mint is very similar to windows in the way it looks but BETTER!!!! </p>
-                <p>its so much more customizable and so much more flexible, it's just better!</p>
-                <p>it definitely going to be harder to install programs, but in wine (the emulator) we trust.</p>
-                <p>this all happened at like 7 in morning too, so that quite the start.</p>
-            </div>
-            <img src="https://i.imgur.com/bXddtLs.gif" alt="gif of cartoon blood dripping">
-            <div id="219">
-                <h1>2-19-24</h1>
-                <p>tomorrow i go back to school, finally.</p>
-                <p>i hate sitting at home doing nothing, it's so incredibly boring.</p>
-                <p>if i dont have a routine, i'm a mess in more ways than one.</p>
-                <p>i went to drivers ed, my class was short because my teacher was sick. i hope she feels better.</p>
-                <p>i filled out my forms for summer internships, but got confused at one part and sent an email to my counselor. they need to make these things better.</p>
-                <p>i also painted my nails black because i'm just so bored, i think they look nice. i'd love to be more edgy/gothic but my parents like to say "oh we're chill!!!" until they see me in black eyeshadow. </p>
-                <p>i can't wait to go back to school and work. i love working. it keeps my mind busy so i don't start having a crisis.</p>
-                <p>i've been thinking about finding a therapist but where i live it's pretty difficult to find one, it wasn't back in minnesota.</p>
-                <p>i miss minnesota. i want to go back there for college. it's much better than this redneck state.</p>
-                <p>other than that i've been playing subnautica, it's been so fun! i really enjoy this game. i haven't had that much fun playing video games in a while.</p>
-                <p>here are tomorrows goals.</p>
-                <ol>
-                    <li>finalize my applications</li>
-                </ol>
-                <p>thats all i really need to do. i can't wait for tomorrow.</p>
-            </div>    
-            <img src="https://i.imgur.com/bXddtLs.gif" alt="gif of cartoon blood dripping">
-            <div id="217">
-                    <h1>2-17-24</h1>
-                    <p>first diary entry. yippie!</p>
-                    <p>i drove for the first time today with my dad. i just got my permit after almost 5 months of trying to get one. i understand why people say the DMV is hell on earth.</p>
-                    <p>i practiced doing turns in the parking lot, there was also a motorcycle class going on in the parking lot adjacent to mine.</p>
-                    <p>i'm definitely going to learn how to drive a motorcycle once i'm done with drivers ed. i love seeing bikers on the street. i always wave at them but some don't wave back.</p>
-                    <p>back when i was in mn, i rarely ever saw motorcycles parked, let alone people riding them. it makes sense though, minnesota is very cold and icy. motorcycle and ice is not a good combination.</p>
-                    <p>i am horrible at driving. but i'll be able to get more practice tomorrow and monday.</p>
-                    <p>but my drivers ed is absolutely tearing me apart. everyday i come home just exhausted. it's right after my school ends, which is 4pm. then i only get about 45 minutes to rest at home before class starts at 5pm all the way until 7pm.</p>
-                    <p>i also wake up at 5:30am by the way. i have to be awake for 13 hours 4 days a week.</p>
-                    <p>it doesn't sound like a lot, but on top of that i have homework, friends, family, eating, cleaning, and so much more. also, it's tiring! being awake for 13 hours straight is not something i'm used too!</p>
-                    <p>thank god it's only until the end of feb, if i had to do this for any longer i might actually jump off my roof (metaphorically).</p>
-                    <p>i played a little bit of elden ring today too, but again i suck at it. i keep dying to the same guy over and over. it's my first dark souls game too, i probably should have chosen an easier one maybe...</p>
-                    <p>i've also been looking into internships over the summer. and by some luck my school had some opportunities available for students. hopefully they'll accept me.</p>
-                    <p>thats all i was able to do today, but i have some goals for tomorrow.</p>
-                    <ol>
-                        <li>actually finish applying for those internships</li>
-                        <li>clean up my room</li>
-                        <li>do some sat prep so my dad can get off my back (i'm not even taking it this year)</li>
-                    </ol>
-                    <p>thats all for today, thank you for reading about my super mundane life. i really appreciate it :)</p>
-                </div>
+        <h3>widgets and webrings</h3>
+        <div id="widgets">
+            <journal-ring icon="pink"></journal-ring><script async src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"></script> 
+            <a href="https://xandra.cc/patrons" target="_new">website guardian</a> :: CEREBUS
+            <a href="https://cliques.moudoku.com/bookworms/rules.php"><img src="https://i.imgur.com/4zfqmjg.png"
+                    alt="i love reading"></a>
+            <a href="http://aromatic.wings.nu/" style="text-decoration: none; ">aromatic <span style="color: #000000;">//
+                    ashes</span></a>
+            <a href="https://melanated.neocities.org/" target="_blank"><img src="https://i.imgur.com/4hKIN3r.png"
+                    alt="melanated!"></a>
+            <a href="https://midifreak.online/tomodachi"><img src="https://midifreak.online/aptbutton.gif"></a>
+            <iframe width="80" height="80" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
         </div>
     </div>
+    </div>
+    <footer><a href="https://neocities.org/site/chronodove">chronodove</a> - 2023 &rArr; 20XX</footer>
 
 </body>
 
