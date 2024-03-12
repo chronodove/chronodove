@@ -11,6 +11,14 @@
 }
 /* end cursor */
 
+.nav {
+  display: flex;
+  gap: 2%;
+  cursor: crosshair;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
 /* wrapper */
 .wrapper {
   display: flex;
@@ -29,19 +37,10 @@
   overflow-x: hidden;
   overflow-y: scroll;
   scrollbar-width: none;
-  border: 10px solid transparent;
-  border-image: url("https://i.imgur.com/5XuhKuq.png") 33 round;
+  border: 20px solid transparent;
+  border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
   background-clip: padding-box;
 }
-
-.nav {
-  display: flex;
-  gap: 2%;
-  cursor: crosshair;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
 
 h3 {
   letter-spacing: 0px;
@@ -89,6 +88,10 @@ transition: .25s ease-out;
   height: 1rem;
   flex-wrap: wrap;
   align-items: center;
+}
+
+#widgets a:link {
+  color: black;
 }
 
 @media screen and (max-width: 600px){

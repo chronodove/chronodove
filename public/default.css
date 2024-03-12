@@ -11,4 +11,32 @@
   color: white;
   cursor: crosshair;
 }
+
+::selection {
+  background-color: brown;
+  color: white;
+}
+
+/* links */
+a {
+  letter-spacing: 0px;
+  transition: all 1s ease;
+  cursor: crosshair;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+a:visited {
+  color: crimson;
+}
+
+a:hover {
+  transition: all 1s ease;
+  letter-spacing: 8px;
+  cursor: crosshair;
+}
+/* end links */
+
 /* default style */
