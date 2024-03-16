@@ -1,20 +1,4 @@
-:root {
-font-family: "Nanum Gothic Coding", monospace;
-  font-weight: 400;
-  font-style: normal;
-  background-color: black;
-  color: white;
-  cursor: crosshair;
+.wrapper {
+	display: flex;
+	gap: 1%;
 }
-
-
-/* https://webcode.tools/css-generator/keyframe-animation
-@keyframes side {
-	0% {
-		transform: translateX(-26px);
-	}
-
-	100% {
-		transform: translateX(26px);
-	}
-} */

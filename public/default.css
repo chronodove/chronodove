@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 /* end fonts */
 
-/* default style */
 :root {
   font-family: "Nanum Gothic Coding", monospace;
   font-weight: 400;
@@ -11,12 +10,20 @@
   color: white;
   cursor: crosshair;
 }
-
+/* highlight color */
 ::selection {
   background-color: brown;
   color: white;
 }
 
+/* navigation */
+.nav {
+  display: flex;
+  gap: 2%;
+  cursor: crosshair;
+  width: 100%;
+  flex-wrap: wrap;
+}
 /* links */
 a {
   letter-spacing: 0px;
@@ -38,5 +45,3 @@ a:hover {
   cursor: crosshair;
 }
 /* end links */
-
-/* default style */

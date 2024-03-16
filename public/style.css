@@ -11,14 +11,6 @@
 }
 /* end cursor */
 
-.nav {
-  display: flex;
-  gap: 2%;
-  cursor: crosshair;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
 /* wrapper */
 .wrapper {
   display: flex;
