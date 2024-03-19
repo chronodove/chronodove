@@ -44,4 +44,3 @@ function showText(){
 document.write('<h1 class="thetext">'+theText[whichText]+'<span class="cursor">_</span></h1>');
 }
 
-
