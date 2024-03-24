@@ -2,3 +2,16 @@
 	display: flex;
 	gap: 1%;
 }
+
+.main {
+	width: 100rem;
+	height: 10%;
+	overflow: scroll;
+	scrollbar-width: none;
+}
+
+@media screen and (max-width: 600px){
+	.wrapper {
+	  flex-wrap: wrap;
+	}
+  }

@@ -1,4 +1,3 @@
-
 /* cursor */
 .cursor {
   animation: blink 1s step-start 0s infinite
@@ -14,7 +13,7 @@
 /* wrapper */
 .wrapper {
   display: flex;
-  align-items: center;
+  gap: 2%;
 }
 /* wrapper */
 
@@ -32,7 +31,6 @@ li {
   list-style-image: url("https://i.imgur.com/BHg4LHY.gif");
 }
 
-
 /* box1 */
 .box1 {
   width: 100rem;
@@ -46,18 +44,6 @@ li {
   border: 20px solid transparent;
   border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
   background-clip: padding-box;
-}
-
-h3 {
-  letter-spacing: 0px;
-  transition: all 0.5s ease;
-  cursor: crosshair;
-}
-
-h3:hover {
-  transition: all 1s ease;
-  letter-spacing: 8px;
-  cursor: crosshair;
 }
 
 #divider {
@@ -98,12 +84,6 @@ transition: .25s ease-out;
 
 #widgets a:link {
   color: black;
-}
-
-@media screen and (max-width: 600px){
-  .wrapper {
-    flex-wrap: wrap;
-  }
 }
 
 /* end box1 */

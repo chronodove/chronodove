@@ -1,0 +1,66 @@
+.wrapper {
+    display: flex;
+    gap: 2%;
+}
+
+.infoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    justify-content: center;
+}
+
+.buttons , .bookmarks {
+    width: 90%;
+    height: 10em;
+    background-color: rgb(94, 53, 0);
+    border: 20px solid transparent;
+    border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
+    background-clip: padding-box;
+    padding: 1ch;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+.bookmarks {
+    height: 20em;
+    background-color: #616161;
+}
+
+table {
+    border: 2px solid rgb(140 140 140);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+}
+
+.button {
+    background-color: #616161;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: brown;
+    transition: 0.3s;
+}
+
+.bookmarks-nav {
+    display: flex;
+    gap: 1vh;
+    line-height: 0.5cm;
+    align-items: center;
+    justify-content: center;
+}
+
+#divider {
+    background-image: url("https://i.postimg.cc/YS2ZHMvm/black.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    image-rendering: pixelated;
+    width: 100%;
+    height: 1rem;
+}
