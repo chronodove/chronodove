@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    gap: 2%;
+}
+
+#dog img {
+    width: 100%;
+    height: auto;
+    image-rendering: crisp-edges;
+}
+
+.articles {
+    width: 37rem;
+    height: 33rem;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.articles img {
+    width: 100%;
+    height: auto;
+}
