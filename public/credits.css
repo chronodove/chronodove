@@ -1,7 +1,9 @@
 .wrapper {
     display: flex;
     gap: 2%;
+    align-items: center;
 }
+
 
 .infoWrapper {
     display: flex;
@@ -11,9 +13,10 @@
 }
 
 .buttons , .bookmarks {
-    width: 90%;
+    width: 90ch;
     height: 10em;
-    background-color: rgb(94, 53, 0);
+    color: black;
+    background-color: aliceblue;
     border: 20px solid transparent;
     border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
     background-clip: padding-box;
@@ -25,7 +28,7 @@
 
 .bookmarks {
     height: 20em;
-    background-color: #616161;
+    background-color: aliceblue;
 }
 
 table {
@@ -38,7 +41,7 @@ table {
 }
 
 .button {
-    background-color: #616161;
+    background-color: aliceblue;
     transition: 0.3s;
 }
 
