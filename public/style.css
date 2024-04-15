@@ -10,13 +10,6 @@
 }
 /* end cursor */
 
-/* wrapper */
-.wrapper {
-  display: flex;
-  gap: 2%;
-  align-items: center;
-}
-/* wrapper */
 
 /* updates */
 .updates {
@@ -46,6 +39,14 @@ li {
   border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
   background-clip: padding-box;
 }
+
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 #divider {
   background-image: url('https://i.imgur.com/VJTCtS4.gif');

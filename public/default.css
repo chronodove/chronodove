@@ -12,6 +12,15 @@
   cursor: crosshair;
 }
 
+/*wrapper*/
+.wrapper {
+  display: flex;
+  gap: 2%;
+  align-items: center;
+  justify-content: center;
+}
+
+
 /* highlight color */
 ::selection {
   background-color: brown;
@@ -56,6 +65,7 @@
     transform: rotate(1turn);
   }
 }
+/* loader */
 
 /* navigation */
 .nav {
@@ -64,16 +74,18 @@
   cursor: crosshair;
   width: 100%;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 /* header */
-h1, h2, h3 {
+h1 {
   letter-spacing: 0px;
   transition: all 0.5s ease;
   cursor: crosshair;
 }
 
-h1:hover, h2:hover, h3:hover {
+h1:hover {
   transition: all 1s ease;
   letter-spacing: 8px;
   cursor: crosshair;
@@ -85,6 +97,8 @@ a {
   letter-spacing: 0px;
   transition: all 1s ease;
   cursor: crosshair;
+  background-color: none;
+  border-radius: 10px;
 }
 
 a:link {
@@ -97,7 +111,6 @@ a:visited {
 
 a:hover {
   transition: all 1s ease;
-  letter-spacing: 8px;
   cursor: crosshair;
 }
 /* end links */
