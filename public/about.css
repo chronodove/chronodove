@@ -1,0 +1,25 @@
+.dog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info {
+    color: black;
+    background-color: aliceblue;
+    width: 25rem;
+    height: 25rem;
+    padding: 0.5%;
+    background-color: aliceblue;
+    border: 20px solid transparent;
+    border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
+    background-clip: padding-box;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.lace {
+    width: auto;
+    background-image: url("https://i.postimg.cc/J7bx3dxp/8a2a4059052f7a68db565b05dd6499317d682cef.gif");
+    height: 2.2rem;
+}

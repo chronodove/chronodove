@@ -20,12 +20,20 @@
   justify-content: center;
 }
 
+/* responsiveness */
+@media screen and (max-width: 800px){
+  .wrapper {
+    flex-wrap: wrap;
+  }
+}
+/* end wrapper*/
 
 /* highlight color */
 ::selection {
   background-color: brown;
   color: white;
 }
+/*  end highlight color */
 
 /* loader */
 .loader {
@@ -65,7 +73,7 @@
     transform: rotate(1turn);
   }
 }
-/* loader */
+/* end loader */
 
 /* navigation */
 .nav {
@@ -76,7 +84,10 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  transition: 1s;
 }
+
+/* end navigation */
 
 /* header */
 h1 {
@@ -90,7 +101,7 @@ h1:hover {
   letter-spacing: 8px;
   cursor: crosshair;
 }
-
+/* end header */
 
 /* links */
 a {
@@ -114,10 +125,3 @@ a:hover {
   cursor: crosshair;
 }
 /* end links */
-
-/* responsiveness */
-@media screen and (max-width: 800px){
-  .wrapper {
-    flex-wrap: wrap;
-  }
-}
