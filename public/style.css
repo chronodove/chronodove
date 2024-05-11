@@ -25,6 +25,11 @@ li {
   list-style-image: url("https://i.imgur.com/BHg4LHY.gif");
 }
 
+/* dog */
+.dog {
+  max-width: 100%;
+  height: auto;
+}
 /* box1 */
 .box1 {
   width: 100ch;
