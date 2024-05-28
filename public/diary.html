@@ -6,101 +6,28 @@
     <link rel="stylesheet" href="diary.css">
     <link rel="stylesheet" href="default.css">
     <title>hopeless cries of a dog</title>
+    <script src="script.js"></script>
     <script src="loading.js"></script>
-    <script type="text/javascript">
-        // <![CDATA[
-        var news=Array("I don't want to see anyone.", "I lie in the bedroom with the curtains drawn and nothingness washing over me like a sluggish wave.", "Whatever is happening to me is my own fault.","I have done something wrong, something so huge I can't even see it, something that's drowning me.", "I am inadequate and stupid, without worth. I might as well be dead. ― Margaret Atwood, CAT'S EYE. ");
-        var cursor="_"; // set cursor
-        var delay=12; // seconds between each news item
-        
-        /***************************\
-        * News Ticker Text Effect   *
-        *(c)2004-14 mf2fm web-design*
-        *  http://www.mf2fm.com/rv  *
-        * DON'T EDIT BELOW THIS BOX *
-        \***************************/
-        var newsp, cursp, flash, item=0;
-        
-        if (typeof('addRVLoadEvent')!='function') function addRVLoadEvent(funky) {
-          var oldonload=window.onload;
-          if (typeof(oldonload)!='function') window.onload=funky;
-          else window.onload=function() {
-            if (oldonload) oldonload();
-            funky();
-          }
-        }
-        
-        addRVLoadEvent(teleprint);
-        
-        function teleprint () { if (document.getElementById) {
-          var span=document.getElementById("news");
-          while (span.childNodes.length) span.removeChild(span.childNodes[0]);
-          delay*=1000;
-          newsp=document.createElement("span");
-          cursp=document.createElement("span");
-          cursp.appendChild(document.createTextNode(String.fromCharCode(160)+cursor));
-          span.appendChild(newsp);
-          span.appendChild(cursp);
-          ticker();
-        }}
-        
-        function ticker() {
-          var i;
-          while (newsp.childNodes.length) newsp.removeChild(newsp.childNodes[0]);
-          newsp.appendChild(document.createTextNode(news[item].substring(0,1)));
-          for (i=1; i<news[item].length; i++) setTimeout('newsp.firstChild.nodeValue="'+news[item].substring(0, i+1)+'"', 100*i);
-          if (news[item].indexOf("www")!=-1) setTimeout('linkit('+item+')', 100*i);
-          setTimeout('flash=setInterval("cursp.style.visibility=(cursp.style.visibility==\'visible\')?\'hidden\':\'visible\'", 234)', 100*i)
-          setTimeout('clearInterval(flash)', delay);
-          setTimeout('cursp.style.visibility="visible"', delay);
-          setTimeout('ticker()', delay);
-          item=++item%news.length;
-        }
-        
-        function linkit(q) {
-          var a,p,e,l;
-          p=news[q].indexOf("www");
-          e=news[q].indexOf(" ", p);
-          if (e==-1) e=news[q].length;
-          l=news[q].substring(p, e);
-          while (newsp.childNodes.length) newsp.removeChild(newsp.childNodes[0]);
-          newsp.appendChild(document.createTextNode(news[q].substring(0, p)));
-          a=document.createElement("a");
-          a.href="http://"+l;
-          a.appendChild(document.createTextNode(l));
-          newsp.appendChild(a);
-          newsp.appendChild(document.createTextNode(news[q].substring(e)));
-        }
-        // ]]>
-    </script>
 </head>
 
 <body>
   <div class="loader"></div>
   <div class="nav">
-    <a href="index.html"><h3>home</h3></a>
-    <a href="about.html"><h3>about</h3></a>
-    <a href="diary.html"><h3>journal</h3></a>
-    <a href="blog.html"><h3>blog</h3></a>
-    <a href="sitemap.html"><h3>sitemap</h3></a>
-    <a href="credits.html"><h3>credits</h3></a>
-    <a href="404.html"><h3>guestbook</h3></a>
+    <script>navigation();</script>
   </div>
     <div>
-        <h1><span id="news"></span></h1>
+        <h1>diary</h1>
       </div>
     <div class="wrapper">
       <img src="https://i.postimg.cc/90fQRXDP/nom-nom.png" alt="a person holding the top jaw of a white dog snarling" style="max-width: 100%;
       height: auto;">
         <div class="main">
-            <h2>unintelligent</h2>
-            <p>3/16 - 3:32 AM</p>
-            <p>i cant imagine being smart. or intelligent. or good at anything.</p>
-            <p>i'm always mediocre. everything i do, i do "okay."</p>
-            <p>its an infuriating and frustrating feeling. why am i in the grey zone? why can i apparently go from awful to okay, but not okay to good? why am i stuck here?</p>
-            <p>its everything i do. i can't be good at anything. i'm stuck in this hell.</p>
-            <p>"hobbies are supposed to be fun" how can i have "fun" when all i produce are the same products like machine. there's nothing new about them and they are all. the. same.</p>
-            <p>what point is there to even try when i know that i'll never advance any higher? and whats the point of having hope when i've hit with so much proof that i'll forever be mediocre?</p>
+           <h2>5/27 - 21:18</h2>
+           <p>tomorrow is my first day at a community college.</p>
+           <p>my high school offers a dual credit program at a local community college for free, it allows high school students to complete some of their credits needed early. although i'm just going so i can skip some of my classes like u.s history.</p>
+           <p>it;s pretty nerveracking, but i'm surprised i'm not as anxious as i thought i would be. i'm actually more excited!</p>
+           <p>this is definetly going to be good for me, geting used to how college assignments work and all. i'll need this since i'll be taking 6 AP's next year...</p>
+           <p>this will also mean more updates to this site(by site i mean this journal/diary)!! yay!!</p>
         </div>
     </div>
 </body>

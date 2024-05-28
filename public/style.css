@@ -11,11 +11,24 @@
 /* end cursor */
 
 
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* dog */
+.dog {
+  max-width: 100%;
+  height: auto;
+}
+
 /* updates */
 .updates {
   width: 97%;
   height: 30%;
-  border: 2px ridge;
+  border: 3px ridge;
   padding: 1%;
   overflow: scroll;
   scrollbar-width: none;
@@ -23,12 +36,6 @@
 
 li {
   list-style-image: url("https://i.imgur.com/BHg4LHY.gif");
-}
-
-/* dog */
-.dog {
-  max-width: 100%;
-  height: auto;
 }
 /* box1 */
 .box1 {
@@ -44,14 +51,6 @@ li {
   border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
   background-clip: padding-box;
 }
-
-
-.banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 
 #divider {
   background-image: url('https://i.imgur.com/VJTCtS4.gif');
@@ -95,6 +94,10 @@ transition: .25s ease-out;
 
 /* end box1 */
 
+
+footer {
+  text-align: center;
+}
 /* UNUSED CONTENT */
 
 /*float animation*/

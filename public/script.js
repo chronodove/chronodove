@@ -47,4 +47,6 @@ function showText(){
 //wrapper for the text array it can be changed if need
 document.write('<h1 class="thetext">'+theText[whichText]+'<span class="cursor">_</span></h1>');
 }
-
+function navigation(){
+   document.write('<a href="index.html"><h3>home</h3></a><a href="about.html"><h3>about</h3></a><a href="diary.html"><h3>journal</h3></a><a href="blog.html"><h3>blog</h3></a><a href="sitemap.html"><h3>sitemap</h3></a><a href="credits.html"><h3>credits</h3></a>')
+}

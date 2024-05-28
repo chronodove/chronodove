@@ -7,17 +7,14 @@
   <link rel="stylesheet" href="default.css">
   <link rel="stylesheet" href="about.css">
   <script src="loading.js"></script>
+  <script src="script.js"></script>
 </head>
 <body>
   <div class="loader"></div>
   <div class="nav">
-    <a href="index.html"><h3>home</h3></a>
-    <a href="404.html"><h3>about</h3></a>
-    <a href="diary.html"><h3>journal</h3></a>
-    <a href="blog.html"><h3>blog</h3></a>
-    <a href="sitemap.html"><h3>sitemap</h3></a>
-    <a href="credits.html"><h3>credits</h3></a>
-    <a href="404.html"><h3>guestbook</h3></a>
+    <script>
+      navigation();
+    </script>
 </div>
 <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
   <img src="https://i.imgur.com/LYkHTjG.png" alt="firefox button">
@@ -56,13 +53,6 @@
       <img src="https://i.postimg.cc/158r1Tqv/me-and-friend.jpg" alt="two brown dogs standing next to each other, looking to the distance" style="max-width: 100%;
       height: auto;">
       <br>
-      <button onClick="history_back()" style="font-family: MS PGothic, Kosugi, Nanum Gothic Coding, monospace; width: 6rem">turn around</button>
-        <script>
-            function history_back() {
-                window.history.back();
-            } 
-        </script>
-    </div>
     <div class="info">
       <h2>about me&nbsp;<img src="https://i.postimg.cc/DwkdKnBQ/54f0f0fa.gif" alt="a black old fashioned telephone ringing"></h2>
       <div class="lace"></div>

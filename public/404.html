@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="default.css">
+    <script src="script.js"></script>
     <script src="loading.js"></script>
     <style>
         body {
@@ -16,16 +17,14 @@
 </head>
 <body>
     <div class="loader"></div>
+    <div class="nav">
+        <script>navigation();</script>
+    </div>
     <div class="cave">
         <img src="https://i.postimg.cc/CLqdxnjw/daf71789406f946ddc4363ebe61e6f2a.jpg" alt="a distorted and blurry forest">
     </div>
     <h3>you've walked as far as your legs could take you to no avail.</h3> 
     <h3>for this is a dead end.</h3>
     <button onClick="history_back()" style="font-family: 'MS PGothic',monospace;">turn around</button>
-    <script>
-        function history_back() {
-            window.history.back();
-        } 
-    </script>
 </body>
 </html>
