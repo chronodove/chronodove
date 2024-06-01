@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="default.css">
+    <script src="themeSwitch.js"></script>
+    <link rel="stylesheet" id="theme-switch" href="default.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" id ="switcher-id" href=""> 
-    <!-- blank href is automatically filled by the theme css -->
+    <!-- <link rel="stylesheet" id="switcher-id" href="default.css"> -->
     <link rel="icon" href="bloodyhands.gif" type="image/gif" >
     <script src="loading.js"></script>
     <script src="script.js"></script>
-    <script src="themeSwitch.js"></script>
     <title> → post-apocalyptic dove</title>
 </head>
 <body>
     <div class="loader"></div>
-    <!-- https://www.studytonight.com/post/build-a-theme-switcher-for-your-website-with-javascript -->
-    THIS DOESN'T WORK RIGHT NOW
-    <div class="theme-switches"> 
-        <b>theme switcher (click):</b>
-        <div data-theme="default" class="switch" id="switch-1"><b>default</b></div>
-        <div data-theme="light" class="switch" id="switch-2"><b>light</b></div>
-        <div data-theme="sepia" class="switch" id="switch-3"><b>sepia</b></div>
+    <div class="theme-switches" id="tooltip-content"> 
+        <p><b>settings (saved in localStorage)</b></p>
+        <div class="buttons">
+            select theme: 
+            <button onclick="setTheme('light')">light</button>
+            <button onclick="setTheme('sepia')">sepia</button>
+            <button onclick="setTheme('default')">dark (default)</button>
+        </div>
+        <!-- <div class="font-switcher">
+            choose font:
+            <button onclick="changeFont('MS PGothic')">default</button>
+            <button onclick="changeFont('Verdana')">verdana</button>
+            <button onclick="changeFont('Arial')">arial</button>
+        </div> -->
     </div>
     <div class="banner">
         <script>
@@ -36,47 +42,6 @@
     <div class="wrapper">
         <img src="https://i.postimg.cc/2jH6pWt0/poor-doggy.png" alt="a husky lying down, looking at you" class="dog">
         <div class="box1">
-            <div class="updates">
-                <h3>UPDATES &rArr;</h3>
-                <ul>
-                    <li>5/27 - temp hiatus over, new journal entry + working on theme switcher</li>
-                    <li>4/30 - finally did my about me page + sitemap for extra pages</li>
-                    <li>4/15 - more styling fixes + a new page </li>
-                    <li>4/8 - little styling fixes</li>
-                    <li>4/6 - blog page with a new post!</li>
-                    <li>3/24 - made the <a href="credits.html"><span style="color: brown;">credits</span></a> page & replaced the ansi with imgs</li>
-                    <li>3/18 - added a page loader, 404'd some pages, brought back the updates box</li>
-                    <li>3/12 - redid diary & added entry</li>
-                    <li>3/3 - made a new button</li>
-                    <li>2/28 - redid site</li>
-                    <li>2/24 - second entry in the diary up now</li>
-                        <li>2/17 - finished with the diary page! there's todays entry there!</li>
-                        <li>2/17 - made it so you just click the image and my button will copy!! <s>its still kind of lame</s></li>
-                        <li>2/11 - redid the about me page. it's a bit lame now but i'll make something super cool to
-                            make up for it i promise</li>
-                        <li>2/7 - currently 404'd the about me page, going to work on a new one :3</li>
-                        <li>1/18 - made the shrine page, i'll work on the shrine this weekend!!!</li>
-                        <li>1/17 - joined aromatic!</li>
-                        <li>1/13 - remade the <a href="aboutme.html">about me</a> page!</li>
-                        <li>1/7/24 - new look again </li>
-                        <li>12/31 - new blog post on <a href="https://chronodove.bearblog.dev/">bear blog</a></li>
-                        <li>12/29 - made the <a href="bookshelf.html">the bookshelf!</a></li>
-                        <li>12/26 - added a new background and made some final fixes</li>
-                        <li>12/25 - now deployed from github</li>
-                        <li>12/23 - redid the site AGAIN :3</li>
-                        <li>12/22 - projects page is done and works (finally)!</li>
-                        <li>11/30 - 2nd entry in thr journal</li>
-                        <li>11/28 - dev log is up! read about my project, "i am not eating."
-                        <li>11/19 - journal page is now up! will try to update frequently!</li>
-                        <li>11/18 - changed the title to a scrolling text</li>
-                        <li>11/11 - about me page is now finished! + some quality of life improvements :)</li>
-                        <li>11/7 - officially finished landing page</li>
-                        <li>11/6 redid the site AGAIN!!</li>
-                        <li>10/28 - added sparkling cursor effect</li>
-                        <li>10/22 - added buttons</li>
-                        <li>10/21 - revamped the site!</li>
-                </ul>
-            </div>
             <div id="divider"></div>
             <div class="button">
                 <img src="https://i.imgur.com/MwpPvJy.png" alt="chronodoves button" onclick="copyText()">
@@ -131,8 +96,52 @@
                 xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=chronodove", true);
                 xhttp.send();
             </script>
-            <h3>widgets and webrings</h3>
+        </div>
+        <div class="box2">
+            <div class="updates">
+                <h3>UPDATES &rArr;</h3>
+                <ul>
+                    <li>5/27 - temp hiatus over, new journal entry + working on theme switcher</li>
+                    <li>4/30 - finally did my about me page + sitemap for extra pages</li>
+                    <li>4/15 - more styling fixes + a new page </li>
+                    <li>4/8 - little styling fixes</li>
+                    <li>4/6 - blog page with a new post!</li>
+                    <li>3/24 - made the <a href="credits.html"><span style="color: brown;">credits</span></a> page & replaced the ansi with imgs</li>
+                    <li>3/18 - added a page loader, 404'd some pages, brought back the updates box</li>
+                    <li>3/12 - redid diary & added entry</li>
+                    <li>3/3 - made a new button</li>
+                    <li>2/28 - redid site</li>
+                    <li>2/24 - second entry in the diary up now</li>
+                        <li>2/17 - finished with the diary page! there's todays entry there!</li>
+                        <li>2/17 - made it so you just click the image and my button will copy!! <s>its still kind of lame</s></li>
+                        <li>2/11 - redid the about me page. it's a bit lame now but i'll make something super cool to
+                            make up for it i promise</li>
+                        <li>2/7 - currently 404'd the about me page, going to work on a new one :3</li>
+                        <li>1/18 - made the shrine page, i'll work on the shrine this weekend!!!</li>
+                        <li>1/17 - joined aromatic!</li>
+                        <li>1/13 - remade the <a href="aboutme.html">about me</a> page!</li>
+                        <li>1/7/24 - new look again </li>
+                        <li>12/31 - new blog post on <a href="https://chronodove.bearblog.dev/">bear blog</a></li>
+                        <li>12/29 - made the <a href="bookshelf.html">the bookshelf!</a></li>
+                        <li>12/26 - added a new background and made some final fixes</li>
+                        <li>12/25 - now deployed from github</li>
+                        <li>12/23 - redid the site AGAIN :3</li>
+                        <li>12/22 - projects page is done and works (finally)!</li>
+                        <li>11/30 - 2nd entry in thr journal</li>
+                        <li>11/28 - dev log is up! read about my project, "i am not eating."
+                        <li>11/19 - journal page is now up! will try to update frequently!</li>
+                        <li>11/18 - changed the title to a scrolling text</li>
+                        <li>11/11 - about me page is now finished! + some quality of life improvements :)</li>
+                        <li>11/7 - officially finished landing page</li>
+                        <li>11/6 redid the site AGAIN!!</li>
+                        <li>10/28 - added sparkling cursor effect</li>
+                        <li>10/22 - added buttons</li>
+                        <li>10/21 - revamped the site!</li>
+                </ul>
+            </div>
+        
             <div id="widgets">
+                <h3>widgets and webrings</h3>
                 <journal-ring icon="pink"></journal-ring><script async src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"></script> 
                 <a href="https://xandra.cc/patrons" target="_new">website guardian</a> :: CERBERUS
                 <a href="https://cliques.moudoku.com/bookworms/rules.php"><img src="https://i.imgur.com/4zfqmjg.png"
@@ -142,9 +151,10 @@
                 <a href="https://melanated.neocities.org/" target="_blank"><img src="https://i.imgur.com/4hKIN3r.png"
                         alt="melanated!"></a>
                 <a href="https://midifreak.online/tomodachi"><img src="https://midifreak.online/aptbutton.gif"></a>
-                <iframe width="80" height="80" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
+                <iframe width="150" height="150" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
             </div>
         </div>
+
     </div>
         <br>
     <footer><a href="https://neocities.org/site/chronodove">chronodove</a> &cir; 2023</footer>

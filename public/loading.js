@@ -1,7 +1,7 @@
 //loading spinner w/notes explaining what each part of the code does
 //followed this tutorial (with some edits) -> https://youtu.be/q76TexbMXJg?si=Gp5w0oSYyFKgooFB
 
-//sees if the webpage has finished loading all resources or not. if so, preform the following function 
+//see if the webpage has finished loading all resources or not. if so, preform the following function 
 window.addEventListener("load", () => {
     //define loader
     const LOADER = document.querySelector(".loader");

@@ -1,0 +1,25 @@
+:root {
+    --back-color: #ffffff;
+    --text-color: #000000;
+    --border: #ffffff;
+    background-color: var(--back-color);
+    color: var(--text-color);
+}
+
+::selection {
+    background-color: var(--back-color);
+    color: var(--text-color);
+}
+
+.loader {
+    background-color: var(--back-color);
+}
+
+.loader::after {
+    border: var(--text-color);
+}
+
+a:link {
+    color: var(--text-color);
+}
+
