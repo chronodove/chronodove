@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>writing</title>
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="writing.css">
+    <script src="openWriting.js"></script>
+    <script src="script.js"></script>
+    <script src="loading.js"></script>
+    <script src="themeSwitch.js"></script>
+</head>
+<body>
+    <div class="loader"></div>
+    <div class="nav">
+        <script>
+            navigation();
+        </script>
+    </div>
+    <div class="wrapper">
+        <div class="dog">
+            <h1>writing</h1>
+            <h3>various other writings i've made - poems and short stories</h3>
+            <h5>click the boxes to open</h5>
+            <img src="https://i.postimg.cc/zX4Szjw8/puppy-dog-eyes.jpg" alt="a puppy with very large eyes looking behind the camera" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="writing-grid">
+            <div class="box" onclick="openPopup(0)">
+                <h2>Title 1</h2>
+                <p>place holder number 1!</p>
+              </div>
+              <div class="box" onclick="openPopup(1)">
+                <h2>Title 2</h2>
+                <h4>placeholder number 2!</h4>
+              </div>
+        </div>
+
+        <div id="popup">
+            <span class="close-btn" onclick="closePopup()">CLOSE</span>
+            <div class="popup-content">
+              <div id="popup-text"></div>
+            </div>
+          </div>
+    </div>
+</body>
+</html>

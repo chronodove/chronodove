@@ -31,9 +31,9 @@ theText[26] = 'time is a valuable thing, watch it fly by as the pendulum swings'
 theText[27] = 'kattan main kiven din teri saun, tere bin, main toh jiyan naa mara!';
 theText[28] = 'so many times i\'ve lied';
 theText[29] = 'you are, everything. my most, demanding dream';
-theText[30] = 'i don\'t believe that anybody, feels the way i do, about you now'
-theText[31] = 'what\'s the matter, what\'s the matter, what\'s the matter you?!'
-theText[32] = 'what\'s the matter babe, are you feeling blue?'
+theText[30] = 'i don\'t believe that anybody, feels the way i do, about you now';
+theText[31] = 'what\'s the matter, what\'s the matter, what\'s the matter you?!';
+theText[32] = 'what\'s the matter babe, are you feeling blue?';
 
 let j = 0;
 let p = theText.length;
@@ -48,7 +48,7 @@ function showText(){
 document.write('<h1 class="thetext">'+theText[whichText]+'<span class="cursor">_</span></h1>');
 }
 function navigation(){
-   document.write('<a href="index.html"><h3>home</h3></a><a href="about.html"><h3>about</h3></a><a href="diary.html"><h3>journal</h3></a><a href="blog.html"><h3>blog</h3></a><a href="sitemap.html"><h3>sitemap</h3></a><a href="credits.html"><h3>credits</h3></a>')
+   document.write('<a href="index.html"><h3>home</h3></a><a href="about.html"><h3>about</h3></a><a href="diary.html"><h3>journal</h3></a><a href="blog.html"><h3>blog</h3></a><a href="writing.html"><h3>writings</h3></a><a href="sitemap.html"><h3>sitemap</h3></a><a href="https://chronodove.atabook.org/"><h3>guestbook</h3></a><a href="credits.html"><h3>credits</h3></a>')
 }
 
 //sample tooltip code
