@@ -7,16 +7,19 @@
 body, body[data-theme="default"]{
   --back-color: #000000;
   --text-color: #ffffff;
+  --link-color: #000000;
 }
 
 body[data-theme="light"]{
   --back-color: #bdbdbd;
   --text-color: #000000;
+  --link-color: #000000;
 }
 
 body[data-theme="sepia"]{
   --back-color: #ccc1a9;
   --text-color: #5F4B32;
+  --link-color: #5F4B32;
 }
 
 
@@ -42,6 +45,10 @@ body {
   align-items: center;
   text-align: center;
   gap: 2%;
+}
+
+#header {
+  text-align: center;
 }
 
 /*wrapper*/
@@ -127,6 +134,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  color: var(--text-color);
 }
 
 .nav a:hover {

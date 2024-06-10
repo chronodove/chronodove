@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+.wrapper a {
+  color: black;
+}
+
 /* dog */
 .dog {
   max-width: 100%;
