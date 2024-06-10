@@ -57,6 +57,11 @@
     text-align: left;
 }
 
+.popup-content img {
+    max-width: 100%;
+    height: auto;
+}
+
 .close-btn {
     color: #aaa;
     float: left;
