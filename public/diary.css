@@ -1,5 +1,7 @@
-.wrapper {
+.dog {
+	height: 30rem;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	gap: 1%;
 }
@@ -15,11 +17,5 @@
     background-color: aliceblue;
     border: 20px solid transparent;
     border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
-    background-clip: padding-box;
+    background-clip: padding-box; 
 }
-
-@media screen and (max-width: 600px){
-	.wrapper {
-	  flex-wrap: wrap;
-	}
-  }

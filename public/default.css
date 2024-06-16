@@ -1,6 +1,12 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face {
+  font-family: RS_Xi;
+  src: url(fonts/RS_Xi.ttf);
+}
 
 
 /* variables */
@@ -22,9 +28,8 @@ body[data-theme="sepia"]{
   --link-color: #5F4B32;
 }
 
-
 body {
-  font-family: "MS PGothic", "Kosugi", "Nanum Gothic Coding", monospace;
+  font-family: "RS_Xi","Playfair Display","MS PGothic", "Kosugi", "Nanum Gothic Coding", monospace;
   font-weight: 400;
   font-style: normal;
   cursor: crosshair;
@@ -35,7 +40,7 @@ body {
 
 /* theme switcher */
 .theme-switches{
-  width: 20pc;
+  width: 25rem;
   height: auto;
   border: 2px solid;
   padding: 0.5%;
@@ -187,3 +192,12 @@ a:hover {
   cursor: crosshair;
 }
 /* end links */
+
+/* buttons */
+
+button {
+  border-radius: 0;
+  font-family: "RS_Xi","Playfair Display","MS PGothic", "Kosugi", "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+}

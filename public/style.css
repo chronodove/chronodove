@@ -84,9 +84,7 @@
   overflow-x: hidden;
   overflow-y: scroll;
   scrollbar-width: none;
-  border: 20px solid transparent;
-  border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
-  background-clip: padding-box;
+  
 }
 /* end box2 */
 
@@ -94,7 +92,9 @@
 .updates {
   flex-grow: 1;
   height: 30%;
-  border: 3px ridge;
+  border: 20px solid transparent;
+  border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
+  background-clip: padding-box;
   padding: 1%;
   overflow: scroll;
   scrollbar-width: none;
@@ -115,7 +115,9 @@ li {
   gap: 2%;
   color: black;
   height: 30%;
-  border: 3px ridge;
+  border: 20px solid transparent;
+  border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
+  background-clip: padding-box;
   padding: 1%;
   background-color: aliceblue;
   overflow: scroll;
