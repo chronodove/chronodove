@@ -23,6 +23,10 @@
     scrollbar-width: none;
 }
 
+.buttons a{
+    color: black;
+}
+
 .bookmarks a {
     color: black;
 }
