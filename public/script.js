@@ -34,6 +34,11 @@ theText[30] = 'i don\'t believe that anybody, feels the way i do, about you now'
 theText[31] = 'what\'s the matter, what\'s the matter, what\'s the matter you?!';
 theText[32] = 'what\'s the matter babe, are you feeling blue?';
 theText[33] = `i know i\'d never be, me, without the security;`;
+theText[34] = `if the time that i was by your side just chokes you through the night`;
+theText[35] = `bingo, bingo baby, i love you ain't that crazy!`;
+theText[36] = `como la flor (como la flor) con tanto amor (con tanto amor)`;
+theText[37] = `that big yellow moon, will light the way back to the on you love`;
+theText[38] = `what a waste, army dreamers`;
 
 let j = 0;
 let p = theText.length;
