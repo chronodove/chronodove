@@ -40,6 +40,7 @@
     border: 20px solid transparent;
     border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
     background-clip: padding-box;
+    text-align: center;
 }
 
 
@@ -95,4 +96,3 @@
     text-decoration: none;
     cursor: pointer;
 }
-  

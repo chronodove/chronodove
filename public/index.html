@@ -13,16 +13,17 @@
 </head>
 <body>
     <div class="loader"></div>
-    <div class="theme-switches" id="tooltip-content"> 
-        <p><b>settings (saved in localStorage)</b></p>
-        <div class="buttons">
-            select theme:
-            <button onclick="setTheme('light')">light</button>
-            <button onclick="setTheme('sepia')">sepia</button>
-            <button onclick="setTheme('default')">dark (default)</button>
-        </div>
-    </div>
     <div class="banner">
+        <div class="theme-switches" id="tooltip-content"> 
+            <p><b>settings (saved in localStorage)</b></p>
+            <div class="buttons">
+                select theme:
+                <button onclick="setTheme('light')">light</button>
+                <button onclick="setTheme('sepia')">sepia</button>
+                <button onclick="setTheme('default')">dark (default)</button>
+            </div>
+        </div>
+        &nbsp;
         <script>
             showText();
         </script>
@@ -33,7 +34,7 @@
         </script>
     </div>
     <div class="wrapper">
-        <img src="https://i.postimg.cc/2jH6pWt0/poor-doggy.png" alt="a husky lying down, looking at you" class="dog">
+        <img src="https://i.postimg.cc/2jH6pWt0/poor-doggy.png" alt="a husky lying down, looking at you">
         <div class="box1">
             <div id="divider"></div>
             <div class="button">
@@ -61,13 +62,15 @@
                         }
                 </script>
             </div>
-            <i>you wake up in a cave. asides from the painful ringing in your ears you hear scuttling of bugs across the walls and floor. you also hear a haunting howl of a wolf in the distance.</i>
-            <h3>welcome to my website</h3>
-            <strong>YOU ARE VISITOR #</strong><span id="hitcount"></span>
-            <p>LAST UPDATED: <span id="lastupdate"></span></p>
-            <p>this site doesn't have much of a purpose other than to mark my spot on neocities, a "hello! i'm here!" if you will.</p>
-            <p>this site features a lot of references to death and blood as well as disturbing content in general. if thats uncomfortable, i don't recommend exploring any further.</p>
-            <p>this isn't updated as much as i want it too but rest assure it won't be abandoned any time soon.</p>
+            <div class="intro">
+                <i>you wake up in a cave. asides from the painful ringing in your ears you hear scuttling of bugs across the walls and floor. you also hear a haunting howl of a wolf in the distance.</i>
+                <h3>welcome to my website</h3>
+                <strong>YOU ARE VISITOR #</strong><span id="hitcount"></span>
+                <p>LAST UPDATED: <span id="lastupdate"></span></p>
+                <p>this site doesn't have much of a purpose other than to mark my spot on neocities, a "hello! i'm here!" if you will.</p>
+                <p>this site features a lot of references to death and blood as well as disturbing content in general. if thats uncomfortable, i don't recommend exploring any further.</p>
+                <p>this isn't updated as much as i want it too but rest assure it won't be abandoned any time soon.</p>
+            </div>
             <!-- last updated and visitor number script -->
             <script>
                 var xhttp = new XMLHttpRequest();
@@ -94,6 +97,7 @@
             <div class="updates">
                 <h3>UPDATES &rArr;</h3>
                 <ul>
+                    <li>6/22 - <a href="museariadne.html">muse ariadne</a> page up, in the extras page</li>
                     <li>6/18 - added new people to credits, made a new entry, added to writing</li>
                     <li>6/15 - style changes and new diary entry!</li>
                     <li>6/14 - diary and about me update</li>
@@ -105,7 +109,7 @@
                     <li>4/15 - more styling fixes + a new page </li>
                     <li>4/8 - little styling fixes</li>
                     <li>4/6 - blog page with a new post!</li>
-                    <li>3/24 - made the <a href="credits.html"><span style="color: brown;">credits</span></a> page & replaced the ansi with imgs</li>
+                    <li>3/24 - made the <a href="credits.html">credits</a> page & replaced the ansi with imgs</li>
                     <li>3/18 - added a page loader, 404'd some pages, brought back the updates box</li>
                     <li>3/12 - redid diary & added entry</li>
                     <li>3/3 - made a new button</li>

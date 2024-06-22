@@ -1,6 +1,5 @@
 //random header text
 let theText = new Array()
- 
 theText[0] = 'and i just, let bad thoughts, linger for far too long';
 theText[1] = 'if i could, id be your little spoon';
 theText[2] = 'the chemicals will bring you home again';
@@ -34,6 +33,7 @@ theText[29] = 'you are, everything. my most, demanding dream';
 theText[30] = 'i don\'t believe that anybody, feels the way i do, about you now';
 theText[31] = 'what\'s the matter, what\'s the matter, what\'s the matter you?!';
 theText[32] = 'what\'s the matter babe, are you feeling blue?';
+theText[33] = `i know i\'d never be, me, without the security;`;
 
 let j = 0;
 let p = theText.length;
@@ -48,7 +48,7 @@ function showText(){
 document.write('<h1 class="thetext">'+theText[whichText]+'<span class="cursor">_</span></h1>');
 }
 function navigation(){
-   document.write('&dagger;<a href="index.html"><h3>home</h3></a>&dagger;<a href="about.html"><h3>about</h3></a>&dagger;<a href="diary.html"><h3>journal</h3></a>&dagger;<a href="writing.html"><h3>writings</h3></a>&dagger;<a href="sitemap.html"><h3>sitemap</h3></a>&dagger;<a href="https://chronodove.atabook.org/"><h3>guestbook</h3></a>&dagger;<a href="credits.html"><h3>credits</h3></a>&dagger;')
+   document.write('&dagger;<a href="index.html"><h3>home</h3></a>&dagger;<a href="about.html"><h3>about</h3></a>&dagger;<a href="diary.html"><h3>journal</h3></a>&dagger;<a href="writing.html"><h3>writings</h3></a>&dagger;<a href="sitemap.html"><h3>extras</h3></a>&dagger;<a href="https://chronodove.atabook.org/"><h3>guestbook</h3></a>&dagger;<a href="credits.html"><h3>credits/resources</h3></a>&dagger;')
 }
 
 //sample tooltip code

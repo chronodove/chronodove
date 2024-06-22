@@ -38,10 +38,6 @@ body {
   transition: all 0.3s ease;
 }
 
-.wrapper a {
-  color: black;
-}
-
 /* theme switcher */
 .theme-switches{
   width: 25rem;
@@ -63,9 +59,14 @@ body {
 /*wrapper*/
 .wrapper {
   display: flex;
+  color: black;
   gap: 2%;
   align-items: center;
   justify-content: center;
+}
+
+.wrapper a {
+  color: black;
 }
 
 /* responsiveness */
@@ -145,11 +146,6 @@ body {
   justify-content: center;
   color: var(--text-color) ; 
 }
-
-.nav a:hover {
-  transform: translateY(-5px);
-}
-
 /* end navigation */
 
 /* header */
