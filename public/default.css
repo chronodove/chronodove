@@ -8,7 +8,6 @@
   src: url(fonts/RS_Xi.ttf);
 }
 
-
 /* variables */
 body, body[data-theme="default"]{
   --back-color: #000000;
@@ -200,4 +199,9 @@ button {
   font-family: "RS_Xi","Playfair Display","MS PGothic", "Kosugi", "Nanum Gothic Coding", monospace;
   font-weight: 400;
   font-style: normal;
+}
+
+/* footer */
+footer {
+  text-align: center;
 }
