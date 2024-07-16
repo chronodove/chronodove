@@ -38,20 +38,6 @@ body {
   transition: all 0.3s ease;
 }
 
-/* theme switcher */
-.theme-switches{
-  width: 25rem;
-  height: auto;
-  border: 2px solid;
-  padding: 0.5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 2%;
-}
-
 #header {
   text-align: center;
 }
@@ -194,10 +180,14 @@ a:hover {
 /* end links */
 
 /* buttons */
-
 button {
   border-radius: 0;
   font-family: "RS_Xi","Playfair Display","MS PGothic", "Kosugi", "Nanum Gothic Coding", monospace;
   font-weight: 400;
   font-style: normal;
+  color: black;
+}
+
+footer {
+  text-align: center;
 }

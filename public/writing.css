@@ -1,3 +1,6 @@
+.dog {
+    color: white;
+}
 .writing-grid {
     display: flex;
     flex-wrap: wrap;

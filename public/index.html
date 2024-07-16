@@ -14,16 +14,6 @@
 <body>
     <div class="loader"></div>
     <div class="banner">
-        <div class="theme-switches" id="tooltip-content"> 
-            <p><b>settings (saved in localStorage)</b></p>
-            <div class="buttons">
-                select theme:
-                <button onclick="setTheme('light')">light</button>
-                <button onclick="setTheme('sepia')">sepia</button>
-                <button onclick="setTheme('default')">dark (default)</button>
-            </div>
-        </div>
-        &nbsp;
         <script>
             showText();
         </script>
@@ -94,6 +84,15 @@
             </script>
         </div>
         <div class="box2">
+            <div class="theme-switches" id="tooltip-content"> 
+                <p><b>settings (saved in localStorage)</b></p>
+                <div class="buttons">
+                    select theme:
+                    <button onclick="setTheme('light')">light</button>
+                    <button onclick="setTheme('sepia')">sepia</button>
+                    <button onclick="setTheme('default')">dark (default)</button>
+                </div>
+            </div>
             <div class="updates">
                 <h3>UPDATES &rArr;</h3>
                 <ul>
@@ -157,6 +156,8 @@
         </div>
     </div>
     <br>
-    <footer><a href="https://neocities.org/site/chronodove">chronodove</a> &cir; 2023</footer>
+    <script>
+        footer();
+    </script>
 </body>
 </html>

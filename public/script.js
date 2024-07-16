@@ -56,6 +56,9 @@ function navigation(){
    document.write('&dagger;<a href="index.html"><h3>home</h3></a>&dagger;<a href="about.html"><h3>about</h3></a>&dagger;<a href="diary.html"><h3>journal</h3></a>&dagger;<a href="writing.html"><h3>writings</h3></a>&dagger;<a href="sitemap.html"><h3>extras</h3></a>&dagger;<a href="https://chronodove.atabook.org/"><h3>guestbook</h3></a>&dagger;<a href="credits.html"><h3>credits/resources</h3></a>&dagger;')
 }
 
+function footer(){
+   document.write('<footer><a href="https://neocities.org/site/chronodove">chronodove</a> &cir; 2023</footer>')
+}
 //sample tooltip code
 
 /*window.onload = function(){

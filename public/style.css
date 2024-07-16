@@ -21,6 +21,10 @@
   color: black;
 } 
 
+.doggy {
+  background-image: url("https://i.postimg.cc/2jH6pWt0/poor-doggy.png");
+}
+
 /* box1 */
 .box1 {
   width: 100ch;
@@ -78,6 +82,27 @@
 }
 /* end box2 */
 
+
+/* theme switcher */
+.theme-switches{
+  width: auto;
+  height: auto;
+  padding: 0.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2%;
+  border: 20px solid transparent;
+  border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
+  background-clip: padding-box;
+  overflow: scroll;
+  scrollbar-width: none;
+  background-color: aliceblue;
+  color: black;
+}
+
 /* updates */
 .updates {
   flex-grow: 1;
@@ -121,10 +146,6 @@ li {
   color: var(--link-color);
 }
 
-
-footer {
-  text-align: center;
-}
 /* UNUSED CONTENT */
 
 /*float animation*/
