@@ -8,7 +8,6 @@
   src: url(fonts/RS_Xi.ttf);
 }
 
-
 /* variables */
 body, body[data-theme="default"]{
   --back-color: #000000;
@@ -188,6 +187,10 @@ button {
   color: black;
 }
 
+<<<<<<< HEAD
+=======
+/* footer */
+>>>>>>> refs/remotes/origin/main
 footer {
   text-align: center;
 }
