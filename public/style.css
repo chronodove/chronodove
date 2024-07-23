@@ -72,6 +72,8 @@
 .box2 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 2%;
   width: 100ch;
   height: 30rem;
@@ -80,12 +82,11 @@
   overflow-y: scroll;
   scrollbar-width: none;
 }
-/* end box2 */
 
 
 /* theme switcher */
 .theme-switches{
-  width: auto;
+  width: 10rem;
   height: auto;
   padding: 0.5%;
   display: flex;
