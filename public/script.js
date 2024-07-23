@@ -57,11 +57,7 @@ function navigation(){
 }
 
 function footer(){
-<<<<<<< HEAD
-   document.write('<footer><a href="https://neocities.org/site/chronodove">chronodove</a> &cir; 2023</footer>')
-=======
    document.write('<a href="https://neocities.org/site/chronodove">chronodove</a> &cir; 2023');
->>>>>>> refs/remotes/origin/main
 }
 //sample tooltip code
 
