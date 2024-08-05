@@ -40,7 +40,6 @@ body {
 .dog {
   width: auto;
   height: auto;
-  /* border: 3px white solid; */
   box-shadow: inset 0 0 20px 15px var(--back-color);
   display: grid;
 }
@@ -162,7 +161,7 @@ h1:hover {
 
 h1, h2, h3, h4, h5, h6 {
   margin-left: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5%;
   padding: 0;
 }
 
