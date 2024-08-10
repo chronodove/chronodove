@@ -37,19 +37,11 @@ body {
   transition: all 0.3s ease;
 }
 
-.dog {
-  width: auto;
-  height: auto;
-  box-shadow: inset 0 0 20px 15px var(--back-color);
-  display: grid;
-}
-
-.dog img {
-  z-index: -1;
-}
-
-#header {
-  text-align: center;
+h1, h2, h3, h4, h5, h6 {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 /*wrapper*/
@@ -64,13 +56,6 @@ body {
 .wrapper a {
   color: black;
 }
-
-/* responsiveness */
-@media screen and (max-width: 1000px){
-  .wrapper {
-    flex-wrap: wrap;
-  }
-}
 /* end wrapper*/
 
 /* highlight color */
@@ -79,17 +64,6 @@ body {
   color: white;
 }
 /*  end highlight color */
-
-#tooltip-text {
-  display: none;
-  border: 2px solid var(--text-color);
-  margin-bottom: 1%;
-  width: 6rem;
-  height: auto;
-  padding: 0.5%;
-  text-align: center;
-  background-color: white;
-}
 
 /* loader */
 .loader {
@@ -129,7 +103,37 @@ body {
     transform: rotate(1turn);
   }
 }
-/* end loader */
+
+.dog {
+  width: auto;
+  height: auto;
+  box-shadow: inset 0 0 20px 15px var(--back-color);
+  display: grid;
+}
+
+.dog img {
+  z-index: -1;
+  max-width: 100%;
+  height: auto;
+}
+
+/* header */
+#header {
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 0px;
+  transition: all 0.5s ease;
+  cursor: crosshair;
+  margin-bottom: 1rem;
+}
+
+h1:hover {
+  transition: all 1s ease;
+  letter-spacing: 8px;
+  cursor: crosshair;
+}
 
 /* navigation */
 .nav {
@@ -140,31 +144,9 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  color: var(--text-color) ; 
+  color: var(--text-color) ;
+  margin-bottom: 1%; 
 }
-/* end navigation */
-
-/* header */
-h1 {
-  letter-spacing: 0px;
-  transition: all 0.5s ease;
-  cursor: crosshair;
-}
-
-h1:hover {
-  transition: all 1s ease;
-  letter-spacing: 8px;
-  cursor: crosshair;
-}
-/* end header */
-
-
-h1, h2, h3, h4, h5, h6 {
-  margin-left: 0;
-  margin-bottom: 0.5%;
-  padding: 0;
-}
-
 
 /* links */
 a {
@@ -187,10 +169,8 @@ a:hover {
   transition: all 1s ease;
   cursor: crosshair;
 }
-/* end links */
 
 /* buttons */
-
 button {
   border-radius: 0;
   font-family: "RS_Xi","Playfair Display","MS PGothic", "Kosugi", "Nanum Gothic Coding", monospace;
@@ -210,3 +190,25 @@ footer {
 footer img {
   vertical-align: middle;
 }
+
+/* responsiveness */
+@media screen and (max-width: 1000px){
+  .wrapper {
+    flex-wrap: wrap;
+  }
+}
+/* ########### */
+/*   UNUSED    */
+/* ########### */
+/*
+#tooltip-text {
+  display: none;
+  border: 2px solid var(--text-color);
+  margin-bottom: 1%;
+  width: 6rem;
+  height: auto;
+  padding: 0.5%;
+  text-align: center;
+  background-color: white;
+}
+*/
