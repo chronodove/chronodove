@@ -19,6 +19,10 @@
     background-clip: padding-box;
 }
 
+.gallery img {
+    
+}
+
 .log {
     width: 100%;
     height: 10rem;
@@ -45,6 +49,9 @@
     border: 2px dashed black;
 }
 
+#log li {
+    list-style-type: lower-roman;
+}
 .about {
     width: 10rem;
     height: 5rem;
