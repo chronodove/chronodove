@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
     LOADER.classList.add("loader-hidden");
     //checks to see if the transition is over and once it does...
     LOADER.addEventListener("transitionend", () => {
-    //...completely remove loader element from html, stopping the website continuing to play the animation 
+    //...completely remove loader element from html, stopping the website from continuing to play the animation 
     document.body.removeChild(LOADER);
     })
  

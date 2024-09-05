@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
 }
-.info {
+.info, .now {
     color: black;
     background-color: aliceblue;
     width: 25rem;
