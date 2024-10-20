@@ -27,7 +27,7 @@
 
 /* box1 */
 .box1 {
-  width: 100ch;
+  width: 70ch;
   height: 30rem;
   background-color: aliceblue;
   padding: 0.5%;
@@ -35,7 +35,7 @@
   overflow-y: scroll;
   scrollbar-width: none;
   border: 20px solid transparent;
-  border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
+  border-image: url("https://i.postimg.cc/FK0v9X1M/5XuhKuq.png") 35 round;
   background-clip: padding-box;
 }
 
@@ -75,7 +75,7 @@
   justify-content: center;
   align-items: center;
   gap: 2%;
-  width: 100ch;
+  width: 30rem;
   height: 30rem;
   padding: 0.5%;
   overflow-x: hidden;
@@ -86,7 +86,6 @@
 
 /* theme switcher */
 .theme-switches{
-  width: 10rem;
   height: auto;
   padding: 0.5%;
   display: flex;
@@ -96,7 +95,7 @@
   text-align: center;
   gap: 2%;
   border: 20px solid transparent;
-  border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
+  border-image: url("https://i.postimg.cc/FK0v9X1M/5XuhKuq.png") 35 round;
   background-clip: padding-box;
   overflow: scroll;
   scrollbar-width: none;
@@ -109,7 +108,7 @@
   flex-grow: 1;
   height: 30%;
   border: 20px solid transparent;
-  border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
+  border-image: url("https://i.postimg.cc/FK0v9X1M/5XuhKuq.png") 35 round;
   background-clip: padding-box;
   padding: 1%;
   overflow: scroll;
@@ -135,7 +134,7 @@ li {
   gap: 2%;
   height: 30%;
   border: 20px solid transparent;
-  border-image: url("https://i.imgur.com/5XuhKuq.png") 35 round;
+  border-image: url("https://i.postimg.cc/FK0v9X1M/5XuhKuq.png") 35 round;
   background-clip: padding-box;
   padding: 1%;
   background-color: aliceblue;
