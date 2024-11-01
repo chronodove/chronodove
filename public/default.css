@@ -109,6 +109,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*cursor text*/
+.cursor {
+  animation: blink 1s step-start 0s infinite
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/*side bar images*/
 .dog {
   width: auto;
   height: auto;

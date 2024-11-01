@@ -7,8 +7,16 @@ let articles = [
     {
       title: "writing prac 1",
       content: `<p>trying to write more often, this is just a brain exercise i did. i dissected the reasons as to why i feel so sad often.</p><p><em>How we are born to invent our own miseries! - Sophia Lee</em></p><h3>1) it's familiar</h3><p>when you've felt something for so long, you are bound to become accustomed to it.</p><h3>2) it's easy</h3><p>it's easier to say /"woe is me!/" than "i should change/"</p><h3>3) it's instinct</h3><p>you are not used to changing, you are used to sitting in the hole you've dug</p><h3>4) it's what you're good at</h3><p>i like being good at things</p><h3>5) it's reliable</h3><p>it's always there for you</p><h3>6) it's persistent</h3><p>it's always there (zoloft or not)</p><h3>7) it's scary</h3><p>i constantly long for happiness, but when i get the opportunity to have it, i run and hide in my filthy den.</p>`
+    },
+    {
+      title: 'on my father',
+      content: `
+      <p>my dad is weird</p>
+      <p>he is simultaneously the most boring person alive but also the most interesting person i've ever met</p>
+      
+      `
     }
-    // Add more articles as needed
+    
   ];
   
 

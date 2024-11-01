@@ -47,6 +47,11 @@ t[44] = `the hate in my heart, it drives me so far `;
 t[45] = `kan verbrennen, kan euch blenden`;
 t[46] = `here they come, those feelings again!`;
 t[47] = `but he doesn't know who i am, and he doesn't give a damn about me`;
+t[48] = `i walk because i was born`;
+t[49] = `what a lovely hiding place`;
+t[50] = `laughing while my heart hurts`;
+t[51] = `haven't i given enough? given enough?`;
+t[52] = `call me later, call me later`;
 
 let j = 0;
 let p = t.length;
@@ -55,14 +60,16 @@ for (i = 0; i < p; i++){
    preBuffer[i] = new Array()
    preBuffer[i].src = t[i]
 }
+
 let whichText = Math.round(Math.random()*(p-1));
 function showText(){
-//wrapper for the text array it can be changed if need
-document.write('<h1 class="t">'+t[whichText]+'<span class="cursor">_</span></h1>');
+   //wrapper for the text array it can be changed if need
+   document.write('<h1 class="t">'+t[whichText]+'<span class="cursor">_</span></h1>');
 }
+
 //navigation
 function navigation(){
-   document.write('&dagger;<a href="index.html"><h3>home</h3></a>&dagger;<a href="about.html"><h3>about</h3></a>&dagger;<a href="diary.html"><h3>journal</h3></a>&dagger;<a href="writing.html"><h3>writings</h3></a>&dagger;<a href="imageboard.html"><h3>image board</h3></a>&dagger;<a href="photos.html"><h3>photos</h3></a>&dagger;<a href="sitemap.html"><h3>extras</h3></a>&dagger;<a href="https://chronodove.atabook.org/"><h3>guestbook</h3></a>&dagger;<a href="credits.html"><h3>credits/resources</h3></a>&dagger;');
+   document.write('&dagger;<a href="index.html"><h3>home</h3></a>&dagger;<a href="about.html"><h3>about</h3></a>&dagger;<a href="diary.html"><h3>journal</h3></a>&dagger;<a href="writing.html"><h3>writing</h3></a>&dagger;<a href="https://chronodove.atabook.org/"><h3>guestbook</h3></a>&dagger;<a href="credits.html"><h3>credits/resources</h3></a>&dagger;');
 }
 
 //footer

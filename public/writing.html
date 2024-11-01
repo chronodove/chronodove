@@ -21,10 +21,7 @@
     </div>
     <div class="wrapper">
         <div class="dog">
-            <h3>various other writings i've made - poems and short stories</h3>
-            <h5>click the boxes to open</h5>
-            <img src="https://i.postimg.cc/zX4Szjw8/puppy-dog-eyes.jpg" alt="a puppy with very large eyes looking behind the camera" style="max-width: 100%; height: auto;">
-        </div>
+            <img src="https://i.postimg.cc/zfDT8rX9/Luv-2-Feel-XXX-CROPPED.jpg" alt="Luv 2 Feel XXX, umelabo"></div>
         
         <div class="writing-grid" id="writing-grid">
             <div class="writing-nav" id="writing-nav">
@@ -34,16 +31,17 @@
                 &sext;
                 <b onclick="removeOthers('poems')">poems</b>
                 &sext;
-                <b onclick="removeOthers('linux')">linux</b>
+                <b onclick="removeOthers('recollection')">recollection</b>
                 &sext;
                 <b onclick="removeOthers('misc')">misc</b>
                 &sext;
                 <b onclick="showAll()">show all</b>
             </div>
+            
             <div class="box" onclick="openPopup(2)" id="travels">
-                <h2>trip to niagara</h2>
+                <h2>trip to niagara (UNFIN)</h2>
             </div>
-            <div class="box" onclick="openPopup(0)" id="linux">
+            <div class="box" onclick="openPopup(0)" id="misc">
                 <h2>How to Display MS Fonts on Linux</h2>
                 <p>when i first switched to linux, i didn't know just how much websites would change...</p>
               </div>
@@ -68,13 +66,13 @@
                     }
                 }
             }
-        function showAll() {
-            let parent = document.getElementById("writing-grid");
-            let children = parent.children;
-            for (var i = 0; i < children.length; i++) {
-            children[i].style.display = "block";
+            function showAll() {
+                let parent = document.getElementById("writing-grid");
+                let children = parent.children;
+                for (var i = 0; i < children.length; i++) {
+                    children[i].style.display = "block";
+                }
             }
-        }
         </script>
         <div id="popup">
             <span class="close-btn" onclick="closePopup()">CLOSE</span>
