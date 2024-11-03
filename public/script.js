@@ -74,7 +74,7 @@ function navigation(){
 
 //footer
 function footer(){
-   document.write('<a href="https://neocities.org/site/chronodove">chronodove</a> <img src="https://i.postimg.cc/ZY2LpPYq/WYOXEzM.gif" alt="teeth opening and closing"> &cir; 2023');
+   document.write('<a href="https://neocities.org/site/chronodove">chronodove</a>&nbsp;<img src="https://i.postimg.cc/ZY2LpPYq/WYOXEzM.gif" alt="teeth opening and closing"> &cir; 2023');
 }
 //sample tooltip code
 

@@ -18,3 +18,22 @@
 	background-image: url("https://i.postimg.cc/Xvy8hw8D/235aabb0-original.png");
 	background-repeat: repeat-x;
 }
+
+
+@keyframes typewriter {
+    from {
+        width: 0; 
+    }
+    to {
+        width: 7%; 
+    }
+}
+
+#effec {
+    display: inline-block; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: typewriter 1s steps(9) forwards; 
+    vertical-align: bottom; 
+    margin-left: 5px; 
+}
