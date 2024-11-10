@@ -1,7 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 @font-face {
   font-family: RS_Xi;
@@ -28,7 +27,7 @@ body[data-theme="sepia"]{
 }
 
 body {
-  font-family: "RS_Xi","Playfair Display","MS PGothic", "Kosugi", "Nanum Gothic Coding", monospace;
+  font-family: "RS_Xi","MS PGothic", "Kosugi", "Nanum Gothic Coding", monospace;
   font-weight: 400;
   font-style: normal;
   cursor: crosshair;
@@ -124,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 .dog {
   width: auto;
   height: auto;
-  box-shadow: inset 0 0 20px 15px var(--back-color);
+  box-shadow: inset 0 0 15px 30px var(--back-color);
   display: grid;
 }
 
@@ -200,6 +199,18 @@ button {
   color: var(--text-color);
 }
 
+
+/* details */
+details[open] > summary {
+  list-style-type: '✶ ';
+  transition: all 1s ease;
+}
+
+summary {
+	list-style-type: '➤ ';
+	font-size: 1rem;
+  transition: all 1s ease;
+  }
 /* footer */
 footer {
   text-align: center;
@@ -230,7 +241,7 @@ footer img {
 }
 
 .wrapper > * {
-  flex: 1 1 auto; /* Allow children of the wrapper to adjust their size */
+  flex: 1 1 auto; 
   max-width: 100%;
   box-sizing: border-box;
 }

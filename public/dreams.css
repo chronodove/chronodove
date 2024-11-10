@@ -1,0 +1,14 @@
+.side {
+    width: 100ch;
+	height: 30em;
+	overflow: scroll;
+	scrollbar-width: none;
+	padding: 0.5%;
+    color: black;
+    background-color: aliceblue;
+    border: 20px solid transparent;
+    border-image: url("https://i.postimg.cc/FK0v9X1M/5XuhKuq.png") 35 round;
+    background-clip: padding-box; 
+    text-align: center;
+}
+

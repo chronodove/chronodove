@@ -12,7 +12,7 @@ t[8] = 'colour me grey';
 t[9] = 'its not that bad when its face to face';
 t[10] = 'when you cried i wiped away all of your tears';
 t[11] = 'all my life i\'ve been waiting for you to bring a fairytale my way';
-t[12] = 'called to the devil and the devil said "hey? why you calling this late?"';
+t[12] = 'called to the devil and the devil said "hey? why you calling this late ?"';
 t[13] = 'its so far, so far away';
 t[14] = 'i stand in the valley watching it';
 t[15] = 'but living in a fantasy without meaning';
@@ -31,7 +31,7 @@ t[27] = 'kattan main kiven din teri saun, tere bin, main toh jiyan naa mara!';
 t[28] = 'so many times i\'ve lied';
 t[29] = 'you are, everything. my most, demanding dream';
 t[30] = 'i don\'t believe that anybody, feels the way i do, about you now';
-t[31] = 'what\'s the matter, what\'s the matter, what\'s the matter you?!';
+t[31] = 'what\'s the matter, what\'s the matter, what\'s the matter you ?!';
 t[32] = 'what\'s the matter babe, are you feeling blue?';
 t[33] = `i know i\'d never be, me, without the security;`;
 t[34] = `if the time that i was by your side just chokes you through the night`;
@@ -39,19 +39,23 @@ t[35] = `bingo, bingo baby, i love you ain't that crazy!`;
 t[36] = `como la flor (como la flor) con tanto amor (con tanto amor)`;
 t[37] = `that big yellow moon, will light the way back to the one you love`;
 t[38] = `what a waste, army dreamers`;
-t[40] = `im not bored, or unhappy i'm still so strange and wild`;
+t[40] = `i'm not bored, or unhappy i'm still so strange and wild`;
 t[41] = `i'll protect you my child, i'm forever strong`;
 t[42] = `wait, they don't love you like i love you`;
 t[43] = `find your name, do it all the same`;
 t[44] = `the hate in my heart, it drives me so far `;
 t[45] = `kan verbrennen, kan euch blenden`;
-t[46] = `here they come, those feelings again!`;
+t[46] = `here they come, those feelings again !`;
 t[47] = `but he doesn't know who i am, and he doesn't give a damn about me`;
 t[48] = `i walk because i was born`;
 t[49] = `what a lovely hiding place`;
 t[50] = `laughing while my heart hurts`;
-t[51] = `haven't i given enough? given enough?`;
+t[51] = `haven't i given enough ? given enough ?`;
 t[52] = `call me later, call me later`;
+t[53] = `kirai demo、daisuki nano !`;
+t[54] = `bloody angel, you're so pure`;
+t[55] = `todokanai yume mite`;
+t[56] = `it goes on and on and the record's spinning`;
 
 let j = 0;
 let p = t.length;
@@ -69,7 +73,7 @@ function showText(){
 
 //navigation
 function navigation(){
-   document.write('&dagger;<a href="index.html"><h3>home</h3></a>&dagger;<a href="about.html"><h3>about</h3></a>&dagger;<a href="diary.html"><h3>journal</h3></a>&dagger;<a href="writing.html"><h3>writing</h3></a>&dagger;<a href="https://chronodove.atabook.org/"><h3>guestbook</h3></a>&dagger;<a href="credits.html"><h3>credits/resources</h3></a>&dagger;');
+   document.write('&dagger;   <a href="index.html"><h3>home</h3></a>   &dagger;   <a href="about.html"><h3>about</h3></a>   &dagger;   <a href="diary.html"><h3>journal</h3></a>   &dagger;   <a href="dream.html"><h3>dreams</h3></a>   &dagger;   <a href="writing.html"><h3>writing</h3></a>   &dagger;   <a href="https://chronodove.atabook.org/"><h3>guestbook</h3></a>   &dagger;   <a href="credits.html"><h3>credits/resources</h3></a>   &dagger;');
 }
 
 //footer
