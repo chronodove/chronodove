@@ -25,13 +25,72 @@
           <br>
           <!-- template -->
            <!-- 
-            <div class="iden">
-              <div id="header"><h2 class="entry-header"></h2></div>
-              <details onclick="effect()">
-                <summary></summary>
-              </details>
-             </div> 
+          <div class="iden">
+            <div id="header"><h2 class="entry-header"></h2></div>
+            <details onclick="effect()">
+              <summary></summary>
+              <p></p>
+            </details>
+          </div> 
              -->
+          <!-- 11/13 -->
+          <div class="iden">
+            <div id="header"><h2 class="entry-header">11/13</h2></div>
+            <details onclick="effect()">
+              <summary>17:25</summary>
+              <p>i think i'm not cut out for computer science or engineering, but it's too late to quit now.</p>
+              <p>on a more positive note, the birds are doing well. i've been so sad i haven't been able to sit with them. i'm sitting with them right now and their little chirps are just, so, so adorable. paired with their little fluffy bodies and big black eyes, it's the perfect recipe for cuteness aggression. they make me a lot happier, just like chiku and ray did. i miss them everyday.</p>
+            </details>
+            <details onclick="effect()">
+              <summary>12:29</summary>
+              <p>i always feel a bit better after sitting outside and eating an apple. i like apples.</p>
+            </details>
+            <details onclick="effect()">
+              <summary>10:24</summary>
+              <p>i finished my math test. i thought it wasn't bad, so i failed.</p>
+              <p>i'm tired. i can't wait for the week to end.</p>
+            </details>
+            <details onclick="effect()">
+              <summary>07:58</summary>
+              <p>today will be awful, as usual. i have a math test. i didn't study, im so tired. i want everything to stop. everything hurts. my room is a mess. it's a disgusting and filthy cess-pool of misery. everyday after school i lie down in my bed and sleep. i eat garbage. everyone is taunting me. i see it in their eyes. i hear it in their speech. they are not looking at me, but they are talking to me indirectly. it's all aimed towards me. is feel so sick. i don't want to be here, i hate everyone. i deserve everything happening to me right now, i am a horrible, vile, and mean person.</p>
+            </details>
+          </div> 
+
+          <!-- 11/12 -->
+          <div class="iden">
+            <div id="header"><h2 class="entry-header">11/12</h2></div>
+            <details onclick="effect()">
+              <summary>08:11</summary>
+              <p>its only tuesday and i'm so tired. my head feels empty, like pebbles on the bottom of a shoe. i'm so angry too, all the time. constantly lashing out.</p>
+            </details>
+          </div> 
+
+          <!-- 11/11 -->
+          <div class="iden">
+            <div id="header"><h2 class="entry-header">11/11</h2></div>
+            <details onclick="effect()">
+              <summary>13:50</summary>
+              <p>me and my lab partner built the robot and it works! the wheels turn super fast and it kind of shocked me. we still have like two more days of build so i'm not sure what we are going to do...</p>
+            </details>
+            <details onclick="effect()">
+              <summary>11:32</summary>
+              <p>fredrick douglass's narrative is such a horrifying read. but it is so, so important.</p>
+            </details>
+            <details onclick="effect()">
+                <summary>09:10</summary>
+                <p>i did it. oh my god i did it. it took a day and a half but i actually finished my math homework. i also finished my reading. today will be a good day.</p>
+            </details>
+          </div> 
+
+          <!-- 11/10 -->
+          <div class="iden">
+            <div id="header"><h2 class="entry-header">11/10</h2></div>
+            <details onclick="effect()">
+              <summary>10:23</summary>
+              <p>my brothers budgies are adorable, i love when they try to figure something out, and they pause and you can see their little brains racking.it reminds me of ray, he was so clever.</p>
+            </details>
+          </div> 
+      
           <!-- 11/9 -->
           <div class="iden">
             <div id="header"><h2 class="entry-header">11/9</h2></div>
@@ -73,7 +132,7 @@
               <p>my dreams have started to become increasingly more disturbing and anxiety inducing. i would say "i don't know why" but i don't know anything so it's redundant at this point.</p>
             </details>
             <details onclick="effect();">
-              <summary>9:48</summary>
+              <summary>09:48</summary>
               <p>what an idiot</p>
             </details>
           </div> 
@@ -128,25 +187,26 @@
           <!-- 11/1 -->  
           <div class="iden">
             <div><h2 class="entry-header" onclick="effect()">11/1</h2></div>
-            <details>
+            <details onclick="effect()">
               <summary>13:46</summary>
               <p>we are starting a new unit in engineering science, we are making a race car. it's pretty neat, i guess.</p>
               <p>i miss my dad, he's coming back on the 9th though.</p>
               <p>i cant wait for this weekend. i'm going to nap. i want to take a nap outside but i don't want bugs crawling all over me, i like bugs but i like keeping my distance from them more.</p>
             </details>
-            <details>
+            <details onclick="effect()">
               <summary>11:24</summary>
               <p>i really like digital reading. it's like having my bookshelf anywhere i go. but nothing beats paper books.</p>
               <p>sorry i actually took my meds today and now my mind is empty and quiet</p>
             </details>
-            <details>
-              <summary>8:09</summary>
+            <details onclick="effect()">
+              <summary>08:09</summary>
               <p>it is november.</p>
               <p>i am setting up a diary archive, i'll hopefully get it up by the weekend. i also want to read. i downloaded a lot of books, i hope to start one of them. i actually need to first finish my book for english, then i'll be able to read for fun.</p>
             </details>
           </div>
         </div>
     </div>
+    <!-- the header text effect -->
     <script>
       let idenContainers = document.querySelectorAll('.iden');
       idenContainers.forEach(container => {
@@ -160,7 +220,7 @@
                       } else {
                           let span = document.createElement('span');
                           span.id = 'effec';
-                          span.textContent = '>>> ';
+                          span.textContent = '>>>';
                           header.insertBefore(span, header.firstChild);
                       }
                   }
