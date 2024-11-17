@@ -62,6 +62,7 @@ t[59] = `atashi vampire !`;
 t[60] = `tada tachitsukusu dake mō iyananda`;
 t[61] = `boku igai ga mabushi sugite`;
 t[62] = `uragiri no seitō-ka konoyo ni kamisama wa inai ne`;
+t[63] = `dare mo ga furimuku onna ni naru !!`;
 
 let j = 0;
 let p = t.length;
