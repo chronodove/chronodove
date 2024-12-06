@@ -3,176 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" id="theme-switch" href="default.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="icon" href="bloodyhands.gif" type="image/gif">
-    <script src="themeSwitch.js"></script>
-    <script src="loading.js"></script>
-    <script src="script.js"></script>
     <title> → post-apocalyptic dove</title>
+    <script src="loading.js"></script>
+    <script src="randomHeader.js"></script>
 </head>
 <body>
     <div class="loader"></div>
-    <div class="banner">
-        <script>
-            showText();
-        </script>
-    </div>
-    <div class="nav">
-        <script>
-            navigation();
-        </script>
-    </div>
     <div class="wrapper">
-        <div class="dog"><img src="https://i.postimg.cc/Qd3pY5LN/3-V0-3-V0-CROPPED.jpg" alt="3V0 3V0, umelabo"></div>
-        <div class="box1">
-            <div id="divider"></div>
-            <div class="button">
-                <img src="https://i.imgur.com/MwpPvJy.png" alt="chronodoves button" onclick="copyText()">
-                <input type="text" id="myInput" value="&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;chronodove.neocities.org&#x2F;&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;img src&#x3D;&quot;https:&#x2F;&#x2F;i.imgur.com&#x2F;MwpPvJy.png&quot; alt&#x3D;&quot;chronodoves button&quot;&gt;&lt;&#x2F;a&gt;" hidden>
-                <!-- <a href="https://chronodove.neocities.org/" target="_blank"><img src="https://i.imgur.com/MwpPvJy.png" alt="chronodoves button"></a> -->
-                <p id="copyAlert">text has been copied!</p>
-                <h5>click to copy button code</h5>
-                <!-- copy text script -->
+        <div class="banner">
+            <!-- <img src="https://i.postimg.cc/YSy9bhf9/e48fe21dc108c66fd9a3c3edc32a58c5.jpg" alt="all white angel"> -->
+            <h1>CHRONODOVE</h1>
+        </div>
+        <div class="status-bar">
+            <div class="marquee">
                 <script>
-                    //https://stackoverflow.com/questions/68696662/how-do-you-get-text-to-copy-to-clipboard-when-clicking-on-an-image
-                    function copyText() {
-                        let copyText = document.getElementById("myInput");
-                        let copyAlert = document.getElementById("copyAlert");
-                        copyText.hidden = false;
-                        copyText.select();
-                        document.execCommand("copy");
-                        copyText.hidden = true;
-                        //alert("Copied the text: " + copyText.value);
-                        //if (copyText.hidden == true) {
-                            copyAlert.style.display = "block";
-                        //https://bobbyhadz.com/blog/javascript-hide-element-after-few-seconds#hide-an-element-after-a-few-seconds-in-javascript
-                        setTimeout(() => {
-                            copyAlert.style.display = 'none';}, 3000);
-                        }
+                    showText();
                 </script>
-            </div>
-            <div class="intro">
-                <i>you wake up in a cave. asides from the painful ringing in your ears you hear scuttling of bugs across the walls and floor. you also hear a haunting howl of a wolf in the distance.</i>
-                <br>
-                <h1>welcome to my website</h1>
-                <strong>YOU ARE VISITOR #</strong><span id="hitcount"></span>
-                <p>LAST UPDATED: <span id="lastupdate"></span></p>
-                <p>this site is my public diary. i try to update it frequently.</p>
-            </div>
-            <!-- last updated and visitor number script -->
-            <script>
-                var xhttp = new XMLHttpRequest();
-                xhttp.onreadystatechange = function () {
-                    if (this.readyState == 4 && this.status == 200) {
-                        var site_data = JSON.parse(this.responseText);
-                        var num_arr = site_data.info.views.toString().split("");
-                        var num_str = "";
-                        for (i = 0; i < num_arr.length; i++) {
-                            num_str += num_arr[i];
-                            if ((num_arr.length - 1 - i) % 3 == 0 && (num_arr.length - 1 - i) != 0) { num_str += ","; }
-                            var date_str = site_data.info.last_updated;
-                            var date_obj = new Date(site_data.info.last_updated);
-                            document.getElementById("lastupdate").innerHTML = (date_obj.getMonth() + 1) + "-" + date_obj.getDate() + "-" + date_obj.getFullYear();
-                        }
-                        document.getElementById("hitcount").innerHTML = num_str;
-                    }
-                };
-                xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=chronodove", true);
-                xhttp.send();
-            </script>
-        </div>
-        <div class="box2">
-            <!-- <div class="theme-switches" id="tooltip-content"> 
-                <p><b>settings (saved in localStorage)</b></p>
-                <div class="buttons">
-                    select theme:
-                    <button onclick="setTheme('light')">light</button>
-                    <button onclick="setTheme('sepia')">sepia</button>
-                    <button onclick="setTheme('default')">dark (default)</button>
-                </div>
-            </div> -->
-            <div class="updates">
-                <h3>UPDATES &rArr;</h3>
-                <ul>
-                    <li>11/26 - dreams and diary</li>
-                    <li>11/16 - entries + dreams</li>
-                    <li>11/13 - entries</li>
-                    <li>11/10 - dream</li>
-                    <li>11/9 - removed the theme switcher, new entries and <a href="dream.html">dream</a> page</li>
-                    <li>11/3 - updated credits</li>
-                    <li>11/3 - november; new click effect in diary + entry</li>
-                    <li>10/31 - happy halloween, new entries and new sidebar images oohoohohoho</li>
-                    <li>10/20 - even longer diary entries</li>
-                    <li>10/10 - long diary entry</li>
-                    <li>9/17 - diary entry</li>
-                    <li>9/4 - updated budgie page, working on a short blog post about my trip to niagara</li>
-                    <li>8/11 - same as 8/10 &darr;</li>
-                    <li>8/10 - diary entry and new info in budgie page</li>
-                    <li>8/10 - diary entry & <a href="budgie.html">page for budgies</a></li>
-                    <li>8/4 - diary entry (animal injury)</li>
-                    <li>7/23 - finally figured out how to blur the images</li>
-                    <li>7/23 - changed the layout a smidge</li>
-                    <li>6/22 - <a href="museariadne.html">muse ariadne</a> page up, in the extras page</li>
-                    <li>6/18 - added new people to credits, made a new entry, added to writing</li>
-                    <li>6/15 - style changes and new diary entry!</li>
-                    <li>6/14 - diary and about me update</li>
-                    <li>6/11 - added a filter to writing page</li>
-                    <li>6/7 - made a new <a href="writing.html">writing</a> page, hopefully some stories will be posted soon & <a href="https://chronodove.atabook.org/">a new guestbook!</a> + little quality of life fixes</li>
-                    <li>5/31 - another entry, a fully functioning theme switcher & edited home page</li>
-                    <li>5/27 - temp hiatus over, new journal entry + working on theme switcher</li>
-                    <li>4/30 - finally did my about me page + sitemap for extra pages</li>
-                    <li>4/15 - more styling fixes + a new page </li>
-                    <li>4/8 - little styling fixes</li>
-                    <li>4/6 - blog page with a new post!</li>
-                    <li>3/24 - made the <a href="credits.html">credits</a> page & replaced the ansi with imgs</li>
-                    <li>3/18 - added a page loader, 404'd some pages, brought back the updates box</li>
-                    <li>3/12 - redid diary & added entry</li>
-                    <li>3/3 - made a new button</li>
-                    <li>2/28 - redid site</li>
-                    <li>2/24 - second entry in the diary up now</li>
-                    <li>2/17 - finished with the diary page! there's todays entry there!</li>
-                    <li>2/17 - made it so you just click the image and my button will copy!! <s>its still kind of lame</s></li>
-                    <li>2/11 - redid the about me page. it's a bit lame now but i'll make something super cool to make up for it i promise</li>
-                    <li>2/7 - currently 404'd the about me page, going to work on a new one :3</li>
-                    <li>1/18 - made the shrine page, i'll work on the shrine this weekend!!!</li>
-                    <li>1/17 - joined aromatic!</li>
-                    <li>1/13 - remade the <a href="aboutme.html">about me</a> page!</li>
-                    <li>1/7/24 - new look again </li>
-                    <li>12/31 - new blog post on <a href="https://chronodove.bearblog.dev/">bear blog</a></li>
-                    <li>12/29 - made the <a href="bookshelf.html">the bookshelf!</a></li>
-                    <li>12/26 - added a new background and made some final fixes</li>
-                    <li>12/25 - now deployed from github</li>
-                    <li>12/23 - redid the site AGAIN :3</li>
-                    <li>12/22 - projects page is done and works (finally)!</li>
-                    <li>11/30 - 2nd entry in thr journal</li>
-                    <li>11/28 - dev log is up! read about my project, "i am not eating."
-                    <li>11/19 - journal page is now up! will try to update frequently!</li>
-                    <li>11/18 - changed the title to a scrolling text</li>
-                    <li>11/11 - about me page is now finished! + some quality of life improvements :)</li>
-                    <li>11/7 - officially finished landing page</li>
-                    <li>11/6 redid the site AGAIN!!</li>
-                    <li>10/28 - added sparkling cursor effect</li>
-                    <li>10/22 - added buttons</li>
-                    <li>10/21 - revamped the site!</li>
-                </ul>
-            </div>
-            <div id="widgets">
-                <h3>widgets and webrings</h3>
-                <journal-ring icon="pink"></journal-ring><script async src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"></script> 
-                <a href="https://xandra.cc/patrons" target="_new">website guardian</a> :: CERBERUS
-                <a href="https://cliques.moudoku.com/bookworms/rules.php"><img src="https://i.imgur.com/4zfqmjg.png"
-                        alt="i love reading"></a>
-                <a href="http://aromatic.wings.nu/" style="text-decoration: none; ">aromatic <span style="color: #000000;">//
-                        ashes</span></a>
-                <a href="https://melanated.neocities.org/" target="_blank"><img src="https://i.imgur.com/4hKIN3r.png"
-                        alt="melanated!"></a>
-                <a href="https://midifreak.online/tomodachi"><img src="https://midifreak.online/aptbutton.gif"></a>
-                <iframe width="150" height="150" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
+            </div> 
+            <div class="update-text"><h2>UPDATES &rAarr;</h2>
+            </div> 
+            <div class="update">
+                <p>12/5: new layout</p>
             </div>
         </div>
+        <div class="nav">
+            <ul>
+                <a href="home.html" target="frame"><li><p>home</p></li></a>
+                <a href="about.html" target="frame"><li><p>about</p></li></a>
+                <a href="diary.html" target="frame"><li><p>diary</p></li></a>
+                <a href="404.html" target="frame"><li><p>writings</p></li></a>
+                <a href="404.html" target="frame"><li><p>credits</p></li></a>
+            </ul>
+            <center><img src="https://thumbs2.imgbox.com/f9/b2/ETKzHXNp_t.jpg" alt="red paint splatter"></center>
+        </div>
+        <iframe src="home.html" frameborder="0" name="frame"></iframe>
     </div>
-    <br>
-    <footer><script>footer();</script></footer>
 </body>
 </html>
