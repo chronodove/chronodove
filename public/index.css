@@ -1,6 +1,5 @@
 .banner {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 6%;
 
@@ -71,9 +70,11 @@
 .update-text{
   width: 8rem;
   border: double;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .update {
@@ -81,7 +82,7 @@
   border: double;
   display: flex;
   align-items: center;
-  gap: 0.5%;
+  padding: 0.5%;
 
   overflow-x: scroll;
   overflow-y: hidden;
