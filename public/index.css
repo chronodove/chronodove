@@ -1,13 +1,10 @@
 .banner {
-  display: flex;
-  align-items: center;
-  gap: 6%;
-
   width: 100%;
   height: 10rem;
-  text-align: center;
 
   font-family: "Bleeding_Cowboys", "RS_Xi", 'Times New Roman', Times, serif;
+  line-height: 10rem;
+  text-align: center;
 
   background-image: url("https://images2.imgbox.com/03/02/R5sSeTEb_o.jpg");
   background-size: cover;
@@ -22,6 +19,10 @@
 }
 
 .banner h1 {
+  display: inline;
+  vertical-align: middle;
+  line-height: normal;
+
   font-size: 4rem;
   font-weight: lighter;
 
@@ -79,13 +80,15 @@
 
 .update {
   flex-grow: 1;
-  border: double;
   display: flex;
+  width: 1%;
+  text-wrap: none;
   align-items: center;
   padding: 0.5%;
 
+  border: double;
+
   overflow-x: scroll;
-  overflow-y: hidden;
   scrollbar-width: none;
 }
 
@@ -96,10 +99,17 @@
 }
 
 .nav {
-  width: 10rem;
+  width: 8rem;
   height: 30rem;
 
+  text-align: center;
+
   border: double;
+}
+
+.nav ul {
+  display: inline;
+  list-style-type: none;
 }
 
 .nav img {
@@ -112,4 +122,15 @@ iframe {
   height: 30rem;
   
   border: double;
+}
+
+.footer {
+  flex: 1 1 100%;
+
+  width: auto;
+  height: min-content;
+
+  border: double;
+
+  text-align: center;
 }
