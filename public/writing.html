@@ -4,85 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>writing</title>
-    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="writing.css">
-    <script src="openWriting.js"></script>
+    <!-- <script src="openWriting.js"></script> -->
     <script src="script.js"></script>
     <script src="loading.js"></script>
-    <script src="themeSwitch.js"></script>
+    <style>
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5%;
+
+            overflow: hidden;
+        }
+
+        nav {
+            max-width: 7rem;
+            height: 27rem;
+            overflow-y: scroll;
+            overflow-x: hidden;
+
+        }
+
+        iframe {
+            flex-grow: 1;
+            height: 27rem;
+        }
+
+        main span {
+            display: inline;
+            height: 2rem;
+            font-size: 15px;
+        }
+    </style>
 </head>
 <body>
     <div class="loader"></div>
-    <h1 id="header">writing</h1>
-    <div class="nav">
-        <script>
-            navigation();
-        </script>
-    </div>
     <div class="wrapper">
-        <div class="dog">
-            <img src="https://i.postimg.cc/zfDT8rX9/Luv-2-Feel-XXX-CROPPED.jpg" alt="Luv 2 Feel XXX, umelabo"></div>
-        
-        <div class="writing-grid" id="writing-grid">
-            <div class="writing-nav" id="writing-nav">
-                <b onclick="removeOthers('stories')">stories</b>
-                &sext;
-                <b onclick="removeOthers('travels')">travels</b>
-                &sext;
-                <b onclick="removeOthers('poems')">poems</b>
-                &sext;
-                <b onclick="removeOthers('recollection')">recollection</b>
-                &sext;
-                <b onclick="removeOthers('misc')">misc</b>
-                &sext;
-                <b onclick="showAll()">show all</b>
-            </div>
-            
-            <div class="box" onclick="openPopup(2)" id="travels">
-                <h2>trip to niagara (UNFIN)</h2>
-            </div>
-            <div class="box" onclick="openPopup(0)" id="misc">
-                <h2>How to Display MS Fonts on Linux</h2>
-                <p>when i first switched to linux, i didn't know just how much websites would change...</p>
-              </div>
-              <div class="box" onclick="openPopup(1)" id="misc">
-                <h2>writing practice: 1</h2>
-                <h4>trying to write more often, this is just a brain exercise i did...</h4>
-              </div>
-        </div>
-        <script>
-            function removeOthers(divId) {
-                let parent = document.getElementById("writing-grid");
-                let children = parent.children;
-                let nav = document.getElementById("writing-nav");
-                
-                for (var i = 0; i < children.length; i++) {
-                    if (children[i].id !== divId) {
-                        children[i].style.display = "none";
-                        nav.style.display = "block";
-                    } else {
-                        children[i].style.display = "block";
-                        nav.style.display = "block";
-                    }
-                }
-            }
-            function showAll() {
-                let parent = document.getElementById("writing-grid");
-                let children = parent.children;
-                for (var i = 0; i < children.length; i++) {
-                    children[i].style.display = "block";
-                }
-            }
-        </script>
-        <div id="popup">
-            <span class="close-btn" onclick="closePopup()">CLOSE</span>
-            <div class="popup-content">
-                <div id="popup-title"></div>
-                <div id="popup-text"></div>
-            </div>
-          </div>
+        <script>goBack();</script>
+        <h1>writing</h1>
+        <h6>blog posts & the like. anything thats not a journal entry really.</h6>
+        <main>
+            <span id="tip"><h6> CLICK TO HIDE: if the iframe is too small, right click on the frame and select "this frame", then "open frame in new tab"</h6></span>
+
+            <nav>
+                <h3>blog</h3>
+                <p><a href="article1.html" target="frame">random quote generator</a></p>
+            </nav>
+
+            <iframe src="" name="frame"></iframe>
+        </main>
     </div>
-    <br>
-    <footer><script>footer();</script></footer>
 </body>
 </html>

@@ -1,32 +1,46 @@
 /* fonts */
 
-/* @import url(https://db.onlinewebfonts.com/c/175470f4c60acca7da5056f77929e0ba?family=Sepian);  */
-
-@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
-
-/* banner font */
- @font-face {
-  font-family: Bleeding_Cowboys;
-  src: url(fonts/Bleeding_Cowboys.ttf);
-} 
-
-/* overall font */
+/* banner */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap'); /* <- this one*/
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+/* body font */
 @font-face {
-    font-family: RS_Xi;
-    src: url(fonts/RS_Xi.ttf);
+  font-family: Ishmeria;
+  src: url(fonts/Ishmeria.ttf);
 }
   
-  /* variables */
+/* defaults */
 :root {
-    --bg: #100E11;
-    --txt: #ffffff;
-    --accent: #a52a2a;
+  --bg: #ffffff;
+  --txt: #100E11;
+  --accent: #a52a2a;
+  --g-start: #420000;
+  --g-end: #290000;
 }
 
-* {
-  scrollbar-width: none;
-}
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh; /*needed to vertically align correctly*/
+  overflow: hidden;
+
+  font-family: "Ishmeria", 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  background-color: var(--bg);
+  color: var(--txt);
+  cursor: crosshair;
+  font-size: 19px;
+
+  transition: all 1s ease;
+
+  background-image: url("https://i.postimg.cc/q754FWym/smoke.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 ::selection {
   color: var(--bg);
   background-color: var(--txt);
@@ -35,89 +49,128 @@
 a {
   font-style: normal;
   color: var(--txt);
-}
-
-a:visited, a:hover{
-  transition: 0.3s ease;
-  color: var(--accent);
-}
-
-a:visited, a:hover{
-  font-style: italic;
-}
-
-body {
-    font-family: "Markazi Text", 'Times New Roman', Times, serif;
-    background-color: var(--bg);
-    color: var(--txt);
-    cursor: crosshair;
-    font-size: 19px;
+  transition: all 0.3s ease-in-out;
 }
   
+#link {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+#link:hover {
+  letter-spacing: 5px;
+  transition: all 1s ease-in-out;
+}
+/* reset margins for all the headers */
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 1%;
+}
+
+h1,h2, .title {
+  font-family: "Monsieur La Doulaise", 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
 /* loader */
 .loader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--bg);
-    transition: opacity 0.75s, visibility 0.75s;
-    z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+  transition: opacity 0.75s, visibility 0.75s;
+  z-index: 1;
 }
   
 .loader-hidden {
-    opacity: 0;
-    visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
 }
   
 .loader::after {
-    content: "";
-    width: 4rem;
-    height: 4rem;
-    border: 6px solid var(--txt);
-    border-top-color: var(--accent);
-    border-radius: 50%;
-    animation: loading 0.75s ease infinite;
+  content: "";
+  width: 4rem;
+  height: 4rem;
+  border: 6px solid var(--txt);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
 }
   
 @keyframes loading {
-    from {
-      transform: rotate(0turn);
-    }
-    to {
-      transform: rotate(1turn);
-    }
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
 }
   
-  /* main wrapper */
+/* main wrapper */
 .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    align-content: center;
-    gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    max-width: 55rem;
-    height: max-content;
-    padding: .5%;
-
-    overflow-x: hidden;
-    overflow-y: scroll;
-    scrollbar-width: none;
+  width: 60rem;
+  height: auto;
 }
+
 
 /* details */
 details[open] > summary {
-    list-style-type: '✶ ';
-    transition: all 1s ease;
+  list-style-type: '✶ ';
 }
 
 summary {
-	  list-style-type: '➤ ';
-	  font-size: 1rem;
-    transition: all 1s ease;
+	list-style-type: '➤ ';
+	font-size: 1rem;
+}
+
+ul, ol {
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  position: absolute;
+  object-fit: cover;
+  width: 130%;
+  height: auto;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  max-width: 30rem;
+  height: 30rem;
+
+  padding: 8px;
+
+  overflow-y: scroll;
+  
+  background-color: var(--bg);
+  border: 4px var(--txt) double;
+
+}
+
+/* responsiveness */
+@media screen and (max-width: 850px) {
+  .image {
+    display: none;
+  }
 }

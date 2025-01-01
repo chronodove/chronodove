@@ -5,22 +5,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>about</title>
+  <script src="loading.js"></script>
+  <script src="script.js"></script>
+  <style>
+    #writing {
+      display: block;
+    }
+    #webrings {
+      display: none;
+    }
+  </style>
 </head>
 <body>
-  <h2>about me&nbsp;<img src="https://i.postimg.cc/DwkdKnBQ/54f0f0fa.gif" alt="a black old fashioned telephone ringing"></h2>
-  <div class="lace"></div>
-  <p>hello, my name is dove. i'm a chronic pessimist and self-loather. i have a lot of thoughts in my head and constantly think all hours of the day. i have things i want to do but no time to do them. the only things i love in this world are naps, the hours where birds and bugs sing, the dwarf planet eris & the colours black and red. when i'm not stressing over my next test, i like to read, write, & browse the web for interesting sites. i also like to listen to rock and vocaloid. my favourite animals are avians and canines. i hope when i am older, i get to wake up and watch the sunrise everyday.</p>
-  <br>
-  <h4><a href="https://similarminds.com/big-five-test.html" target="_blank" style="color: var(--link-color);">BIG 5</a></h4>
-  <p>Extroversion -> 10%</p>
-  <p>Orderliness -> 82%</p>
-  <p>Emotional Stability -> 28%</p>
-  <p>Accommodation -> 48%</p>
-  <p>Inquisitiveness -> 72%</p>
+  <div class="loader"></div>
+  <div class="wrapper">
+      <script>
+        goBack();
+      </script>
+      <h2>about me&nbsp;<img src="https://i.postimg.cc/DwkdKnBQ/54f0f0fa.gif" alt="a black old fashioned telephone ringing"></h2>
+      <main>
+        <h6>written 1/1/25 - <span id="link" onclick="openWebrings();">webrings and button</span></h6>
+        <div id="writing">
+          <p>hello, my name is dove.</p>
+          <p>i'm a highschool student who is not very smart and is bad at math.</p>
+          <p>i like to write, but i don't do it much. outside of that, i like to explore different web sites, listen to vocaloid a& alterative music, read, and sleep.</p>
+          <p>i absolutely adore birds, dogs, spiders, marine animals, monochrome colour schemes, 1am-4am, 24hr time, notebooks & legal notepads, stationary, & using "&" instead of writing out "and".</p>
+          <p>i can be an erratic person at times, especially if i've been off my medication for more than a week (you'll be able to tell from my journal entries, trust me). however, most of the time i'm very boring & annoying & unfunny. still, i hope you find some sort of mundane comfort looking at my site, like the sort of calm you (might) feel when you go people watching.</p>
+          <p>i am not on a lot of sites. but you can email me at chronodove[at]gmail.com. though chances are if you see someone with the username <i>chronodove</i>, it's most likely me.</p>
+        </div>
+        <div id="webrings">
+          <h2>my button, click to copy :)</h2>
+          <img src="https://i.imgur.com/MwpPvJy.png" alt="chronodoves button" onclick="copyText()">
+          <input type="text" id="myInput" value="&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;chronodove.neocities.org&#x2F;&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;img src&#x3D;&quot;https:&#x2F;&#x2F;i.imgur.com&#x2F;MwpPvJy.png&quot; alt&#x3D;&quot;chronodoves button&quot;&gt;&lt;&#x2F;a&gt;" hidden>
+          <!-- <a href="https://chronodove.neocities.org/" target="_blank"><img src="https://i.imgur.com/MwpPvJy.png" alt="chronodoves button"></a> -->
+          <p id="copyAlert" style="display: none;">text has been copied!</p>
+          <!-- copy text script -->
+          <script>
+            //https://stackoverflow.com/questions/68696662/how-do-you-get-text-to-copy-to-clipboard-when-clicking-on-an-image
+            function copyText() {
+                let copyText = document.getElementById("myInput");
+                let copyAlert = document.getElementById("copyAlert");
+                copyText.hidden = false;
+                copyText.select();
+                document.execCommand("copy");
+                copyText.hidden = true;
+                    copyAlert.style.display = "block";
+                //https://bobbyhadz.com/blog/javascript-hide-element-after-few-seconds#hide-an-element-after-a-few-seconds-in-javascript
+                setTimeout(() => {
+                    copyAlert.style.display = 'none';
+                }, 3000);
+                }
+          </script>
+          <h2>webrings</h2>
+          <journal-ring icon="pink"></journal-ring><script async src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"></script> 
+          <br>
+          <a href="https://xandra.cc/patrons" target="_blank">website guardian</a> :: CERBERUS
+          <br>
+          <a href="https://cliques.moudoku.com/bookworms/rules.php"><img src="https://i.imgur.com/4zfqmjg.png" alt="i love reading"></a>
+          <br>
+          <a href="http://aromatic.wings.nu/" target="_blank">aromatic<span>//ashes</span></a>
+          <br>
+          <a href="https://melanated.neocities.org/" target="_blank"><img src="https://i.imgur.com/4hKIN3r.png" alt="melanated!"></a>
+          <br>
+          <a href="https://midifreak.online/tomodachi"><img src="https://midifreak.online/aptbutton.gif"></a>
+          <br>
+          <iframe width="150" height="150" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
+        </div>
+      </main>
+      <!-- switch between abtme and webrings -->
+      <script>
+        //define the writing div
+        let writing = document.getElementById('writing');
+        //define the webring div
+        let webring = document.getElementById('webrings');
 
-  <b><h4>SLOAN: RLOEI</h4></b>
-  <br>
-  <h4>words that describe me are...</h4>
-  <i>withdrawn, loner, moody, dislikes crowds, avoidant, not big on fun, socially unskilled, not that interested in others, overwhelmed by unpleasant feelings frequently, depressed, requires lots of time alone to recharge, socially awkward, hard to get to know, feels defective, averse to change, low self confidence, dislikes small talk, dislikes touchy feely types, private, pessimistic, does not easily forgive, inflexible, skeptical, embarrassed easily, tense, lower energy level, attracted to things associated with sadness, very suspicious of others, does not believe in human goodness, interested in intellectual pursuits, lonely, doubting, quick to judge others, discontent, hard to understand, wounded at the core, believes in a logical answer for everything, worrying, uncooperative, agnostic/atheist tendencies, has anxiety, not physically affectionate with most people, feels second place is not good enough, frustrated when people don't live up to expectations</i>
+        function openWebrings() {
+          //if writing div is currently open, that means the user wants to see webrings...
+          if (writing.style.display == 'block'){
+            //so hide the writing and show the webrings
+            writing.style.display = 'none';
+            webring.style.display = 'block';
+          } else { //otherwise the webrings are open & the user wants to see writing..
+            //so show the writing and hide the webrings
+            writing.style.display = 'block';
+            webring.style.display = 'none';
+          }
+        }
+      </script>
+  </div>
 </body>
 </html>

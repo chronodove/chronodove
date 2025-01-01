@@ -161,3 +161,232 @@
         </div>
     </div>
 
+
+        <div class="infoWrapper">
+            <div class="bookmarks">
+                <!-- onclick="removeOthers('webdev')"
+                onclick="removeOthers('privacy')"
+                onclick="removeOthers('graphics')"
+                onclick="removeOthers('linux')"
+                onclick="removeOthers('inspo')"
+                onclick="removeOthers('extras')" -->
+                <h3>directory...</h3>
+                <div class="bookmarks-nav">
+                   <span class="button" id="webdev" onclick="removeOthers('webdev')">#webdev</span>
+                   <span class="button" id="code" onclick="removeOthers('code')">#code</span>
+                   <span class="button" id="privacy" onclick="removeOthers('privacy')">#privacy</span>
+                   <span class="button" id="graphics" onclick="removeOthers('graphics')">#graphics</span>
+                   <span class="button" id="linux" onclick="removeOthers('linux')">#linux</span>
+                   <span class="button" id="inspo" onclick="removeOthers('inspo')">#inspo</span>
+                   <span class="button" id="extras" onclick="removeOthers('extras')">#extras</span>
+                   <span class="button" id="showall" onclick="showAll()">#show all</span>
+                </div>
+                <div id="divider"> </div>
+                <div id="items">
+                    <br>
+                    <div class="content" id="webdev">
+                        <h4>WEB DEVELOPMENT</h4>
+                        <a href="https://www.w3schools.com/" target="_blank">w3schools</a> - has many tutorials for learning to code in almost any coding language
+                        <br>
+                        <br>
+                        <a href="https://stackoverflow.com/" target="_blank">stackoverflow</a> - every answer ever.
+                        <br>
+                        <br>
+                        <a href="https://html-css-js.com/html/" target="_blank">html/css/js cheatsheet</a> - a cheatsheet for html, css, and js
+                        <br>
+                        <br>
+                        <a href="https://app.dithermark.com/" target="_blank"> dithermark</a> - imo, one of the best image dithering sites out there
+                        <br>
+                        <br>
+                        <a href="https://manytools.org/hacker-tools/" target="_blank">manytools tools</a> - make ascii banner and images and ansi images, a bit fiddly but does the job very well
+                        <br>
+                        <br>
+                        <a href="https://postimages.org/" target="_blank">postimages</a> - a imgur alternitive
+                        <br>
+                        <br>
+                        <a href="https://ezgif.com/" target="_blank">ezgif</a> - an amazing online editor with so many options, very handy
+                    </div>
+                    <br>
+                    <div class="content" id="code">
+                        <h4>CODE SNIPPETS</h4>
+                        <a href="http://www.mf2fm.com/rv/
+                        " target="_blank">mf2fm</a> - where almost everyone gets their js codes from, i am guilty of this
+                        <br>
+                        <br>
+                        <a href="https://rentry.co/codesies" target="_blank">codesies</a> - many copy-paste codes for different effects; mainly html & css
+                        <br>
+                        <br>
+                        <a href="https://10015.io/coding-tools" target="_blank">10015</a> - a whole box of goodies and tools for coding
+                        <br>
+                        <br>
+                        <a href="https://dannarchy.com/tut/tut_002" target="_blank">dannarchy last updated and visitor count</a> - the code used for my visitor & updated count
+                        <br>
+                        <br>
+                        <a href="https://solaria.neocities.org/bits/" target="_blank">solaria lace border</a> - how to i got these lace borders around my divs
+                        <br>
+                        <br>
+                        <a href="https://neumorphism.io/#e0e0e0" target="_blank">neumorphism</a> - generate a neumorphistic ui
+                        <br>
+                        <br>
+                        <a href="https://www.w3docs.com/tools/html-encoder/" target="_blank">html encoder</a> - encode your html for things like javascript
+                    </div>
+                    <br>
+                    <div class="content" id="privacy">
+                        <h4>PRIVACY</h4>
+                        <a href="https://www.privacytools.io/" target="_blank">privacytools</a> - a whole masterlist on privacy and alternatives to many common softwares
+                        <br>
+                        <br>
+                        <a href="https://awesome-selfhosted.net/" target="_blank">awesome selfhosted</a> - a list of selfhosted softwares
+                        <br>
+                        <br>
+                    </div>
+                    <br>
+                    <div class="content" id="graphics">
+                        <h4>GRAPHICS</h4>
+                        <h6>disclamier: these are more edgy pixels and graphics</h6>
+                        <a href="https://pixelsafari.neocities.org" target="_blank">pixelsafari</a> - huge collection of pixels and extras
+                        <br>
+                        <br>
+                        <a href="https://caterpie.crd.co/#dark" target="_blank">caterpie (dark)</a> - fav collection on here
+                        <br>
+                        <br>
+                        <a href="https://biscuit.crd.co/" target="_blank">biscuit</a> - another graphics carrd
+                        <br>
+                        <br>
+                        <a href="https://bettysgraphics.neocities.org/" target="_blank">bettysgraphics</a> - so...so many gifs....
+                        <br>
+                        <br>
+                        <a href="http://backgroundsarchive.com/index.php" target="_blank">backgroundsarchive</a> - a wonderful collection of low-res backgrounds - perfect for midwest emo enjoyers (me)
+                        <br>
+                        <br>
+                        <a href="https://wilardo.crd.co/#" target="_blank">wilardo</a> - quite the unique hoard
+                        <br>
+                        <br>
+                        <a href="https://web.badges.world/" target="_blank">web badges world</a> - a very large collection of 88 x 31 web badges (my fav)
+                        <br>
+                        <br>
+                        <a href="https://buttonwall.neocities.org/" target="_blank">buttonwall</a> - 4000 buttons on one website
+                        <br>
+                        <br>
+                        <a href="https://artvee.com/" target="_blank">artvee</a> - collection of high-res paintings available for download (for free!!)
+                    </div>
+                    <br>
+                    <div class="content" id="linux">
+                        <h4>LINUX</h4>
+                        <a href="https://github.com/luong-komorebi/Awesome-Linux-Software" target="_blank">awesome linux software</a> - one-stop-shop for any and all programs for linux
+                        <br>
+                        <br>
+                        <a href="https://distrochooser.de/" target="_blank">distrochooser</a> - a short quiz to see which distro is best for you
+                        <br>
+                        <br>
+                        <a href="https://distro.moe/" target="_blank">distro.moe</a> - takes you to a random distro page
+                    </div>
+                    <br>
+                    <div class="content" id="inspo">
+                        <h4>INSPO</h4>
+                        <a href="https://uiverse.io/elements" target="_blank">uiverse</a> - different code snippets for UI
+                        <br>
+                        <br>
+                        <a href="https://dribbble.com/shots/popular" target="_blank">dribbble</a> - like pinterest but for web design
+                        <br>
+                        <br>
+                        <a href="https://cari.institute/aesthetics" target="_blank">cari</a> - find names for specific aesthetics
+                    </div>
+                    <br>
+                    <div class="content" id="extras">
+                        <h4>EXTRAS</h4>
+                        <a href="https://www.ez-freebies.com/" target="_blank">ez-freebies</a> - freebies!!!!
+                        <br>
+                        <br>
+                        <a href="http://www.acasystems.com/en/button-maker/" target="_blank">80x15</a> - make your own 80x15 button!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function removeOthers(divId) {
+            let parent = document.getElementById("items");
+            let children = parent.children;
+            
+            for (var i = 0; i < children.length; i++) {
+                if (children[i].id !== divId) {
+                    children[i].style.display = "none";
+                } else {
+                    children[i].style.display = "block";
+                }
+            }
+        }
+    function showAll() {
+        let parent = document.getElementById("items");
+        let children = parent.children;
+    
+        for (var i = 0; i < children.length; i++) {
+        children[i].style.display = "block";
+        }
+    }
+    </script>
+    <br>
+    <footer>    <script>
+        footer();
+    </script></footer>
+
+
+<div class="writing-grid" id="writing-grid">
+            <div class="writing-nav" id="writing-nav">
+                <b onclick="removeOthers('stories')">stories</b>
+                &sext;
+                <b onclick="removeOthers('travels')">travels</b>
+                &sext;
+                <b onclick="removeOthers('poems')">poems</b>
+                &sext;
+                <b onclick="removeOthers('recollection')">recollection</b>
+                &sext;
+                <b onclick="removeOthers('misc')">misc</b>
+                &sext;
+                <b onclick="showAll()">show all</b>
+            </div>
+            
+            <div class="box" onclick="openPopup(2)" id="travels">
+                <h2>trip to niagara (UNFIN)</h2>
+            </div>
+            <div class="box" onclick="openPopup(0)" id="misc">
+                <h2>How to Display MS Fonts on Linux</h2>
+                <p>when i first switched to linux, i didn't know just how much websites would change...</p>
+              </div>
+              <div class="box" onclick="openPopup(1)" id="misc">
+                <h2>writing practice: 1</h2>
+                <h4>trying to write more often, this is just a brain exercise i did...</h4>
+              </div>
+        </div>
+        <script>
+            function removeOthers(divId) {
+                let parent = document.getElementById("writing-grid");
+                let children = parent.children;
+                let nav = document.getElementById("writing-nav");
+                
+                for (var i = 0; i < children.length; i++) {
+                    if (children[i].id !== divId) {
+                        children[i].style.display = "none";
+                        nav.style.display = "block";
+                    } else {
+                        children[i].style.display = "block";
+                        nav.style.display = "block";
+                    }
+                }
+            }
+            function showAll() {
+                let parent = document.getElementById("writing-grid");
+                let children = parent.children;
+                for (var i = 0; i < children.length; i++) {
+                    children[i].style.display = "block";
+                }
+            }
+        </script>
+        <div id="popup">
+            <span class="close-btn" onclick="closePopup()">CLOSE</span>
+            <div class="popup-content">
+                <div id="popup-title"></div>
+                <div id="popup-text"></div>
+            </div>
+          </div>
