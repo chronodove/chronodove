@@ -17,18 +17,35 @@
       border: 4px var(--txt) double;
     }
     .side {
-      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
       width: 5rem;
       height: 30.6rem;
       padding: 3px;
       border-right: 2px dotted;
       text-align: center;
     }
+
+    .side p {
+      text-decoration: underline;
+    }
+
+    .side > a {
+      width: 100%;
+      height: fit-content;
+    }
+
     .main {
       max-width: 30rem;
       padding: 8px;
-      overflow: scroll;
       overflow-x: hidden;
+    }
+
+    .title {
+      font-size: 30px;
+      margin: 1px;
     }
   </style>
 </head>
@@ -41,11 +58,30 @@
     <h1>diary</h1>
     <div class="table">
       <div class="side">
-      <p>01</p>
-        <a href="#11">1/1</a>
+        <p onclick="reset()">01</p>
+        <a href="#11" onclick="showThis(0);">1/1</a>
+        <a href="#12" onclick="showThis(1);">1/2</a>
       </div>
       <div class="main">
-        <p class="title" id="11">1/1 - resolutions</p>
+        <article id="4">
+
+        </article>
+        <article id="3">
+
+        </article>
+        <article id="2">
+
+        </article>
+        <article id="1">
+          <p class="title">1/2 - day out</p>
+          <p>today i woke up late. i've been watching kengan asura. i didn't think i'd like it so much. my life is pretty boring, so it's nice to see some action once in a while.</p>
+          <p>i went out with my friend to a mall. we had a really good time. she's so funny and amazing. i told her that when me and her sat down in food court. she looked embarrassed. she is such a genuine person, i want to be lke her.</p>
+          <p>i bought a polo shirt, graphic tee, & a bra from aeropostale. i also got a mini perfume bottle to put my favourite victorias secret perfume in.</p>
+          <p>we only walked for 2 hr's, but my legs hurt. tommorow, i'll do some yoga. i'll also start reviewing math. i've forgotten everything pretty much.</p>
+          <p>i'm going to try and sleep on time today.</p>
+        </article>
+        <article id="0">
+        <p class="title">1/1 - resolutions</p>
         <p>hello. happy january.</p>
         <p>last year was horrible (but fun), and this one will probably be too. but what is there to do? can't control everything. that's what i've learned from 2024.</p>
         <p>my resolutions for this are divided into two categories. <i>initial</i> and <i>impetus</i>.</p>
@@ -54,9 +90,30 @@
         <p>i also have <i>hopes</i>. they are self-explanatory. last year, i didn't actually have any hopes. let's see if this changes anything.</p>
         <p>i've put them in their own page. <a href="nyres.html">here they are</a>.</p>
         <p>there is but one more year till graduation. it's now or never.</p>
-      </main>
+        </article>
     </div>
   </div>
-    
+  <script>
+    function showThis(pass){
+      //console.log(pass);
+      //define chosen article
+      const target = document.getElementById(pass);
+      //define amount of articles
+      const amount = document.getElementsByTagName('article');
+      //check all the elements
+      for (let i = 0; i < amount.length; i++){
+        //console.log("Check: ", amount[i].id);
+        //see if that needs to be shown or not
+        if (amount[i].id ===  target.id){
+          //console.log("actions: show!");
+          amount[i].style.display = 'block';
+          amount[i].style.overflow = 'scroll';
+        } else {
+          //console.log("action: hide!");
+          amount[i].style.display = 'none';
+        }
+      }
+    }
+  </script>
 </body>
 </html>
