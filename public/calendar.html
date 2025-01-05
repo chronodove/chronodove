@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>workout calendar</title>
+    <script src="loading.js"></script>
+    <script src="script.js"></script>
+    <style>
+        main h1 {
+            text-align: center;
+        }
+        .cal {
+            max-width: 30rem;
+            border-collapse: collapse;
+        }
+
+        #head {
+            background-color: #d4d4d4;
+        }
+
+        td {
+            border: 2px dotted;
+            width: 5rem;
+            max-width: 5em;
+            height: 6rem;
+            max-height: 6em;
+            padding: 3px;
+            overflow: scroll;
+            vertical-align: top;
+        }
+
+        #yoga {
+            background-color: #f9c7ed;
+        }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+    <div class="wrapper">
+        <script>goBack();</script>
+        <h1>workout calendar</h1>
+        <div class="related"><h6 id="yoga">days i did yoga</h6></div>
+        <main>
+            <h1>jan 2025</h1>
+            <table class="cal">
+                <thead id="head">
+                    <tr>
+                        <th>s</th>
+                        <th>m</th>
+                        <th>t</th>
+                        <th>w</th>
+                        <th>t</th>
+                        <th>f</th>
+                        <th>s</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- week one -->
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td id="yoga">
+                            3
+                            <h6>did half</h6>
+                        </td>
+                        <td>4</td>
+                    </tr>
+                    <!-- week two -->
+                    <tr>
+                        <td id="yoga">
+                            5
+                            <h6>did whole 10 minutes</h6>
+                        </td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                    </tr>
+                    <!-- week three -->
+                    <tr>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                    </tr>
+                    <!-- week four -->
+                    <tr>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                    </tr>
+                    <!-- week five -->
+                     <tr>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td>FEB</td>
+                     </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+</body>
+</html>

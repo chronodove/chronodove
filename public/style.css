@@ -126,8 +126,10 @@ h1,h2, .title {
   justify-content: center;
   align-items: center;
 
-  width: 60rem;
+  width: 30rem;
   height: auto;
+
+  /* background-color: #100E11; */
 }
 
 
@@ -159,6 +161,19 @@ ul, ol {
 .image img {
   max-width: 100%;
   height: auto;
+}
+
+
+.related {
+  width: 10rem;
+  align-self: flex-start;
+  
+  background-color: var(--bg);
+  border-top: 4px var(--txt) double;
+  border-left: 4px var(--txt) double;
+  border-right: 4px var(--txt) double;
+
+  padding: 8px;
 }
 
 main {
