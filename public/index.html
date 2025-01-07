@@ -10,6 +10,16 @@
     <script src="randomHeader.js"></script>
     <!-- <script src="enterMessage.js"></script> -->
     <style>
+        .nav {
+            max-width: 50rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+        }
+
         h1 {
             margin: 0;
             padding: 0;
@@ -17,11 +27,14 @@
             letter-spacing: 1rem;
         }
 
-        .imgtxt {
+        /* .imgtxt {
+            width: 5rem;
+            height: 5rem;
+        } */
+
+        a {
             width: 10rem;
-            height: 10rem;
-            display: inline-block;
-            position: relative;
+            height: 9rem;
         }
 
         .imgtxt span {
@@ -37,13 +50,21 @@
             font-size: 2.5rem;
             
             color: #FFF;
-            filter: drop-shadow(1px 1px 0 black) 
-                    drop-shadow(-1px 1px 0 black)
-                    drop-shadow(1px -1px 0 black)
-                    drop-shadow(-1px -1px 0 black);
+            filter: drop-shadow(4px 4px 0 black) 
+                    drop-shadow(-4px 4px 0 black)
+                    drop-shadow(4px -4px 0 black)
+                    drop-shadow(-4px -4px 0 black);
         }
         .imgtxt:hover span, .imgtxt:focus span {
             opacity: 1;
+        }
+
+        h6 {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        #alt {
+            display: none; 
         }
     </style>
 </head>
@@ -66,11 +87,15 @@
         <h6>options saved in local storage</h6>   
     </div> -->
     <div class="wrapper">
-        <h1>chronodove</h1>
-        <script>showText();</script>
-        <a href="index.html" onclick="window.open('updates.html','_blank','width=500, height=500')"><h4>UPDATES</h4></a>
-        <p><strong>YOU ARE VISITOR #</strong><span id="hitcount"></span></p>
-        <p>LAST UPDATED: <span id="lastupdate"></span></p>
+        <h6 onclick="window.open('updates.html', '_blank', 'width=500,height=500')">UPDATES</h6>
+        <h6 onclick="show()">alternate link view</h6>
+        <div id="alt">
+            <a href="about.html">about</a>
+            <a href="diary.html">diary</a>
+            <a href="writing.html">writing</a>
+            <a href="sitemap.html">sitemap</a>
+            <a href="credits.html">credits</a>
+        </div>
         <div class="nav">
             <a href="about.html" class="imgtxt" style="background-image: url('https://i.postimg.cc/QdX3RTjH/dpve-remove-bg-io.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
                 <span>about.</span>
@@ -88,7 +113,19 @@
                 <span>credits.</span>
             </a>
         </div>
+        
     </div>
+    <!-- hide and show alt link view -->
+    <script>
+        let altNav = document.getElementById('alt');
+        function show() {
+            if (altNav.style.display === 'none'){
+                altNav.style.display = 'inline';
+            } else {
+                altNav.style.display = 'none';
+            }
+        }
+    </script>
     <!-- last updated and visitor count script` -->
     <script>
         var xhttp = new XMLHttpRequest();

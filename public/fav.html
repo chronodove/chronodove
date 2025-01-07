@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="loading.js"></script>
+    <script src="script.js"></script>
+    <title>favourites</title>
+    <style>
+.table {
+      display: flex;
+      max-width: 39rem;
+      height: 31rem;
+
+      background-color: var(--bg);
+      border: 4px var(--txt) double;
+    }
+    .table span {
+      text-decoration: underline;
+    }
+
+    .side {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      width: 5rem;
+      height: 30.6rem;
+      padding: 3px;
+      border-right: 2px dotted;
+      text-align: center;
+    }
+
+    .side p {
+      text-decoration: underline;
+    }
+
+    .side > a {
+      width: 100%;
+      height: fit-content;
+    }
+
+    .main {
+      max-width: 30rem;
+      padding: 8px;
+      overflow-x: hidden;
+    }
+
+    .title {
+      font-size: 30px;
+      margin: 1px;
+    }
+
+    #image img {
+        width: 100%;
+        height: auto;
+    }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+    <div class="wrapper">
+        <script>goBack();</script>
+        <h1>favourites</h1>
+        <div class="table">
+            <div class="side">
+                <div id="image" onclick="reset()">
+                    <img src="https://i.postimg.cc/Qd2mwZTr/d9cf86c5-original.png" alt="a bandaid" title="click to reset">
+                </div>
+                <a href="#books" onclick="showThis('books')">books</a>
+                <a href="#movies" onclick="showThis('movies')">movies</a>
+                <a href="#shows" onclick="showThis('shows')">shows & anime</a>
+                <a href="#games" onclick="showThis('games')">games</a>
+                <a href="#animals" onclick="showThis('animals')">animals</a>
+                <a href="#programs" onclick="showThis('programs')">programs</a>
+                <a href="#words" onclick="showThis('words')">words</a>
+                <a href="#music" onclick="showThis('music')">music</a>
+                <a href="#sounds" onclick="showThis('sounds')">sounds</a>
+            </div>
+            <div class="main">
+                <article>
+                    <p>i am obsessed with making lists, especially with things i like. knowing someones interests is the best way to get to know someone, after all! while these items aren't listed in any order, <b>bolded</b> items are my long time favourites and ones i will defend with my life. UPDATED: 1/7/25</p>
+                </article>
+                <article id="books">
+                    <h2>books</h2>
+                    <ul>
+                        <li><b>monday's not coming - tiffany d. jackson</b></li>
+                        <li>sky in the deep</li>
+                        <li><b>acceleration - graham mcnamee</b></li>
+                        <li>she and her cat - makoto shinkai</li>
+                        <li>long way down - jason reynolds</li>
+                        <li>the lies of the ajungo - moses ose utomi</li>
+                        <li>days at the morisaki bookshop - satoshi yagisawa</li>
+                        <li>sweet bean paste - durian sukegawa</li>
+                        <li><b>smoke from this altar - louis l'amour</b></li>
+                    </ul>
+                </article>
+                <article id="movies">
+                    <h2>movies</h2>
+                    <ul>
+                        <li><b>seaspiracy</b></li>
+                        <li>no country for old men</li>
+                        <li><b>all quiet on the western front</b></li>
+                        <li>chennai express</li>
+                        <li><b>three idiots</b></li>
+                        <li>dear zindagi</li>
+                        <li><b>rowdy rathore</b></li>
+                        <li><b>OMG</b></li>
+                    </ul>
+                </article>
+                <article id="shows">
+                    <h2>shows & anime</h2>
+                    <ul>
+                        <li><b>kengan ashura</b></li>
+                        <li>the glory</li>
+                        <li>avatar the last airbender</li>
+                        <li>AJIN: demihuman</li>
+                        <li>the amazing world of gumball</li>
+                        <li>spongebob squarepants</li>
+                        <li>hells kitchen</li>
+                        <li>hotel hell</li>
+                        <li>72 dangerous animals (latin america, asia, australia)</li>
+                        <li>indian predator</li>
+                        <li>bad boy billionaires idia</li>
+                        <li>buried truth: the indrani mukerjea story</li>
+                    </ul>
+                </article>
+                <article id="games">
+                    <h2>(video)games</h2>
+                    <ul>
+                        <li><b>tomb raider</b></li>
+                        <li><b>firewatch</b></li>
+                        <li>oden cart</li>
+                        <li>skyrim</li>
+                        <li><b>red dead redemption 2</b></li>
+                        <li>omori</li>
+                        <li>horizon zero dawn</li>
+                        <li>subnautica</li>
+                        <li>portal (1 & 2)</li>
+                        <li>cube escape</li>
+                        <li>saya no uta</li>
+                    </ul>
+                </article>
+                <article id="animals">
+                    <h2>animals</h2>
+                    <ul>
+                        <h3>birds</h3>
+                        <li><b>doves</b></li>
+                        <li>african greys</li>
+                        <li><b>budgies</b></li>
+                        <li>chattering lorikeets</li>
+                        <li><b>eclectus</b></li>
+                        <li>secretary bird</li>
+                        <h3>dogs</h3>
+                        <li>borzoi</li>
+                        <li><b>doberman</b></li>
+                        <li>bernese mountain dogs</li>
+                        <h3>cats</h3>
+                        <li>himalayan</li>
+                        <li>ragdoll</li>
+                        <li>scottish fold</li>
+                        <li>kurilian bobtail</li>
+                    </ul>
+                </article>
+                <article id="programs">
+                    <h2>programs</h2>
+                    <ul>
+                        <li>firefox</li>
+                        <li>motrix</li>
+                        <li>vs code</li>
+                        <li>procreate</li>
+                        <li>aesprite</li>
+                        <li>hyprland (technically not a program)</li>
+                    </ul>
+                </article>
+                <article id="words">
+                    <h2>words / phrases</h2>
+                    <ul>
+                        <li>impetus</li>
+                        <li><b>orphic</b></li>
+                        <li>amaranthine</li>
+                        <li>pyaar</li>
+                    </ul>
+                </article>
+                <article id="music">
+                    <h2>music</h2>
+                    <h6>both songs & artists/bands</h6>
+                    <ul>
+                        <li>mitski</li>
+                        <li>linkin park</li>
+                        <li>merm4id</li>
+                        <li>RONDO</li>
+                        <li>babymetal</li>
+                        <li>siinamota</li>
+                        <li>mesmerizer - 32ki</li>
+                        <li>rolling girl - wowaka</li>
+                        <li>suki kirai - honeyworks</li>
+                    <li>wowaka</li>
+                </ul>
+                </article>
+                <article id="sounds">
+                    <h2>sounds</h2>
+                    <ul>
+                        <li>thunder</li>
+                        <li>crickets</li>
+                        <li>bird song</li>
+                        <li>fizzing</li>
+                        <li><b>low frequency</b></li>
+                        <li>brown noise</li>
+                        <li>peeling film off of something</li>
+                        <li>slicing soap</li>
+                        <li>waterfalls</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+
+    </div>
+    <script>
+    //define amount of articles
+    const amount = document.getElementsByTagName('article');
+    function showThis(pass){
+      //console.log(pass);
+      //define chosen article
+      const target = document.getElementById(pass);
+      //check all the elements
+      for (let i = 0; i < amount.length; i++){
+        //console.log("Check: ", amount[i].id);
+        //see if that needs to be shown or not
+        if (amount[i].id ===  target.id){
+          //console.log("actions: show!");
+          amount[i].style.display = 'block';
+          amount[i].style.overflow = 'scroll';
+        } else {
+          //console.log("action: hide!");
+          amount[i].style.display = 'none';
+        }
+      }
+    }
+    //show all entries
+    function reset() {
+      for (let i = 0; i < amount.length; i++) {
+        amount[i].style.display = 'block';
+      }
+    }
+    </script>
+</body>
+</html>

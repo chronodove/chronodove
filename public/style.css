@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: justify;
 
   height: 100vh; /*needed to vertically align correctly*/
   overflow: hidden;
@@ -165,7 +166,8 @@ ul, ol {
 
 
 .related {
-  width: 10rem;
+  max-width: 13rem;
+  max-height: 2rem;
   align-self: flex-start;
   
   background-color: var(--bg);
@@ -174,11 +176,13 @@ ul, ol {
   border-right: 4px var(--txt) double;
 
   padding: 8px;
+
+  overflow: scroll;
 }
 
 main {
   max-width: 30rem;
-  height: 30rem;
+  max-height: 30rem;
 
   padding: 8px;
 
@@ -191,6 +195,10 @@ main {
 
 /* responsiveness */
 @media screen and (max-width: 850px) {
+  body {
+    overflow: scroll;
+  }
+  
   .image {
     display: none;
   }

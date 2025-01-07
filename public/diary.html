@@ -16,6 +16,10 @@
       background-color: var(--bg);
       border: 4px var(--txt) double;
     }
+    .table span {
+      text-decoration: underline;
+    }
+
     .side {
       display: flex;
       flex-direction: column;
@@ -58,6 +62,7 @@
     <h1>diary</h1>
     <div class="related">
       <h6>related: <a href="calendar.html">workout calendar</a></h6>
+      <h6>from <b>1/7</b> and onwards, entries span multiple hours</h6>
     </div>
     <div class="table">
       <div class="side">
@@ -68,10 +73,22 @@
         <a href="#13" onclick="showThis(2)">1/3</a>
         <a href="#14" onclick="showThis(3)">1/4</a>
         <a href="#15" onclick="showThis(4)">1/5</a>
+        <a href="#16" onclick="showThis(5)">1/6</a>
       </div>
       <div class="main">
+        <article id="11"></article>
+        <article id="10"></article>
+        <article id="9"></article>
+        <article id="8"></article>
+        <article id="7"></article>
+        <article id="6">
+          <p class="title">1/7 - school</p>
+          <p>12:05 - 1st and 2nd period done. did my makeup and a little yoga in the morning. forgot my water, super thirsty. very cold today as well, 26F. math was okay, nothing too crazy. got a new book, <i>REMOTE CONTROL</i>. everything is fine right now.</p>
+          <p>17:39 - today was alright. i got a cappuccino on the way home. only drank coffee today, need to drink more water. removed my makeup when i got home, as opposed to sleeping in it. neck and back hurt a lot. not super tired, don't know if it's because of my mood or because of the coffee. gonna watch some more and then read.</p>   
+
+        </article>
         <article id="5">
-          <p class="title">1/5 - 19:28</p>
+          <p class="title">1/6 - 19:28</p>
           <p>yoga again today. body hurt a little less. tommorow, i'm going to try a shorter routine. forgot to take medication.</p>
           <p>finished kengan ashura. hated the ending. but i'll read the sequel manga, i like the art style.</p>
           <p>watching a new show, <i>The Glory</i>. liking it a lot so far. hope it doesn't have a stupid ending like kengan.</p>
@@ -112,12 +129,12 @@
     </div>
   </div>
   <script>
+    //define amount of articles
+    const amount = document.getElementsByTagName('article');
     function showThis(pass){
       //console.log(pass);
       //define chosen article
       const target = document.getElementById(pass);
-      //define amount of articles
-      const amount = document.getElementsByTagName('article');
       //check all the elements
       for (let i = 0; i < amount.length; i++){
         //console.log("Check: ", amount[i].id);
@@ -130,6 +147,12 @@
           //console.log("action: hide!");
           amount[i].style.display = 'none';
         }
+      }
+    }
+    //show all entries
+    function reset() {
+      for (let i = 0; i < amount.length; i++) {
+        amount[i].style.display = 'block';
       }
     }
   </script>
