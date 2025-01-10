@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
   <script src="loading.js"></script>
+  <script src="openArticles.js"></script>
   <title>diary</title>
 </head>
 <body>
@@ -60,7 +61,11 @@
         <article id="11" class="entry"></article>
         <article id="10" class="entry"></article>
         <article id="9" class="entry"></article>
-        <article id="8" class="entry"></article>
+        <article id="8" class="entry">
+          <p class="title">1/9 - light mode</p>
+          <p>12:28 - switching to light mode for everything. really partial to white lately.</p>
+          <p>17:36 - today was very boring. on friday, i am going out with my friend and having subway. on saturday, my mom is celebrating lohri i will be getting an sat tutor. for that i need to take another practice test. ugh.</p>
+        </article>
         <article id="7" class="entry">
           <p class="title">1/8 - not sure</p>
           <p>13:37 - don't know if people find me obnoxious. i wish i could know what everyone thinks of me at all times.</p> 
@@ -115,33 +120,5 @@
         </article>
     </div>
   </div>
-  <script>
-    //define amount of articles
-    const amount = document.getElementsByTagName('article');
-    function showThis(pass){
-      //console.log(pass);
-      //define chosen article
-      const target = document.getElementById(pass);
-      //check all the elements
-      for (let i = 0; i < amount.length; i++){
-        //console.log("Check: ", amount[i].id);
-        //see if that needs to be shown or not
-        if (amount[i].id ===  target.id){
-          //console.log("actions: show!");
-          amount[i].style.display = 'block';
-          amount[i].style.overflow = 'scroll';
-        } else {
-          //console.log("action: hide!");
-          amount[i].style.display = 'none';
-        }
-      }
-    }
-    //show all entries
-    function reset() {
-      for (let i = 0; i < amount.length; i++) {
-        amount[i].style.display = 'block';
-      }
-    }
-  </script>
 </body>
 </html>

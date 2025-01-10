@@ -15,6 +15,7 @@
 :root {
   --bg: #ffffff;
   --txt: #100E11;
+  --txt-trans: #100e115e;
   --accent: #a52a2a;
   --g-start: #420000;
   --g-end: #290000;
@@ -30,7 +31,7 @@ body {
   height: 100vh; /*needed to vertically align correctly*/
   overflow: hidden;
 
-  font-family: "Ishmeria", 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   letter-spacing: 1px;
   background-color: var(--bg);
   color: var(--txt);
@@ -148,6 +149,10 @@ ul, ol {
   display: inline-block;
 }
 
+ul li {
+  list-style: '♥︎ ';
+}
+
 .image {
   display: block;
   position: absolute;
@@ -195,7 +200,7 @@ main {
 
 .table {
   display: flex;
-  max-width: 30rem;
+  flex-grow: 1;
   height: 30rem;
 
   background-color: var(--bg);
@@ -211,7 +216,8 @@ main {
   align-items: center;
 
   gap: 1%;
-  min-width: 3rem;
+  flex-shrink: 0;
+  width: 5rem;
   height: auto;
 
   padding: 3px;
@@ -241,6 +247,10 @@ main {
   margin: 1px;
 }
 
+#image img {
+  width: 4rem;
+  height: auto;
+} 
 /* responsiveness */
 @media screen and (max-width: 850px) {
   body {

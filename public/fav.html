@@ -6,57 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="loading.js"></script>
     <script src="script.js"></script>
+    <script src="openArticles.js"></script>
     <title>favourites</title>
-    <style>
-.table {
-      display: flex;
-      max-width: 39rem;
-      height: 31rem;
-
-      background-color: var(--bg);
-      border: 4px var(--txt) double;
-    }
-    .table span {
-      text-decoration: underline;
-    }
-
-    .side {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 3px;
-      width: 5rem;
-      height: 30.6rem;
-      padding: 3px;
-      border-right: 2px dotted;
-      text-align: center;
-    }
-
-    .side p {
-      text-decoration: underline;
-    }
-
-    .side > a {
-      width: 100%;
-      height: fit-content;
-    }
-
-    .main {
-      max-width: 30rem;
-      padding: 8px;
-      overflow-x: hidden;
-    }
-
-    .title {
-      font-size: 30px;
-      margin: 1px;
-    }
-
-    #image img {
-        width: 100%;
-        height: auto;
-    }
-    </style>
 </head>
 <body>
     <div class="loader"></div>
@@ -77,18 +28,21 @@
                 <a href="#words" onclick="showThis('words')">words</a>
                 <a href="#music" onclick="showThis('music')">music</a>
                 <a href="#sounds" onclick="showThis('sounds')">sounds</a>
+                <a href="#drinks" onclick="showThis('drinks')">drinks</a>
+                <a href="#scents" onclick="showThis('scents')">scents</a>
             </div>
             <div class="main">
                 <article>
-                    <p>i am obsessed with making lists, especially with things i like. knowing someones interests is the best way to get to know someone, after all! while these items aren't listed in any order, <b>bolded</b> items are my long time favourites and ones i will defend with my life. new entries have dates next to them. entries with no dates are from 1/7/25.</p>
+                    <p>i am obsessed with making lists, especially with things i like. knowing someones interests is the best way to get to know someone, after all! while these items aren't listed in any order, <b>bolded</b> items are my long time favourites and ones i will defend with my life.</p>
                 </article>
                 <article id="books">
                     <h2>books</h2>
+                    <h6>see <a href="books.html">book reviews</a></h6>
                     <ul>
                         <li><b>monday's not coming - tiffany d. jackson</b></li>
-                        <li>sky in the deep</li>
+                        <li>sky in the deep - adrienne young</li>
                         <li><b>acceleration - graham mcnamee</b></li>
-                        <li>she and her cat - makoto shinkai</li>
+                        <li><b>she and her cat - makoto shinkai</b></li>
                         <li>long way down - jason reynolds</li>
                         <li>the lies of the ajungo - moses ose utomi</li>
                         <li>days at the morisaki bookshop - satoshi yagisawa</li>
@@ -144,23 +98,39 @@
                 </article>
                 <article id="animals">
                     <h2>animals</h2>
+                    <h3>birds</h3>
                     <ul>
-                        <h3>birds</h3>
-                        <li><b>doves</b></li>
-                        <li>african greys</li>
-                        <li><b>budgies</b></li>
-                        <li>chattering lorikeets</li>
+                        <li><b>dove</b></li>
+                        <li>african grey</li>
+                        <li><b>budgie</b> (especially <a href="404.html">my babies <3</a>)</li>
+                        <li>chattering lorikeet</li>
                         <li><b>eclectus</b></li>
-                        <li>secretary bird</li>
-                        <h3>dogs</h3>
+                        <li>secretary</li>
+                        <li>crow</li>
+                        <li><b>raven</b></li>
+                        <li><b>vulture</b></li>
+                    </ul>
+                    <h3>dogs</h3>
+                    <ul>
                         <li>borzoi</li>
                         <li><b>doberman</b></li>
-                        <li>bernese mountain dogs</li>
-                        <h3>cats</h3>
+                        <li>bernese mountain dog</li>
+                        <li><b>australian shepherd</b></li>
+                    </ul>
+                    <h3>cats</h3>
+                    <ul>
                         <li>himalayan</li>
                         <li>ragdoll</li>
                         <li>scottish fold</li>
                         <li>kurilian bobtail</li>
+                    </ul>
+                    <h3>marine</h3>
+                    <ul>
+                        <li>fish</li>
+                        <li>shrimp</li>
+                        <li>crab</li>
+                        <li>whale</li>
+                        <li><b>orca</b></li>
                     </ul>
                 </article>
                 <article id="programs">
@@ -198,6 +168,9 @@
                         <li>mesmerizer - 32ki</li>
                         <li>rolling girl - wowaka</li>
                         <li>suki kirai - honeyworks</li>
+                        <li><b>meltdown - iroha</b></li>
+                        <li><b>i shall be cat - lyrical lily</b></li>
+                        <li>no scrubs - tlc</li>
                         
                 </ul>
                 </article>
@@ -215,37 +188,28 @@
                         <li>waterfalls</li>
                     </ul>
                 </article>
+                <article id="drinks">
+                    <p class="title">drinks</p>
+                    <ul>
+                        <li><b>coke zero</b></li>
+                        <li><b>cappuccino</b></li>
+                        <li>mango lassi</li>
+                        <li>sprite w/strawberries + mint</li>
+                    </ul>
+                </article>
+                <article id="scents">
+                    <p class="title">scents</p>
+                    <ul>
+                        <li><b>mix:bar cloud musk n21 (1/09 &dArr;)</b></li>
+                        <li><b>victorias secret velvet petals</b></li>
+                        <li>rosemary</li>
+                        <li>tea tree</li>
+                        <li>rain</li>
+                        <li>casaluna clarity room spray</li>
+                    </ul>
+                </article>
             </div>
         </div>
-
     </div>
-    <script>
-    //define amount of articles
-    const amount = document.getElementsByTagName('article');
-    function showThis(pass){
-      //console.log(pass);
-      //define chosen article
-      const target = document.getElementById(pass);
-      //check all the elements
-      for (let i = 0; i < amount.length; i++){
-        //console.log("Check: ", amount[i].id);
-        //see if that needs to be shown or not
-        if (amount[i].id ===  target.id){
-          //console.log("actions: show!");
-          amount[i].style.display = 'block';
-          amount[i].style.overflow = 'scroll';
-        } else {
-          //console.log("action: hide!");
-          amount[i].style.display = 'none';
-        }
-      }
-    }
-    //show all entries
-    function reset() {
-      for (let i = 0; i < amount.length; i++) {
-        amount[i].style.display = 'block';
-      }
-    }
-    </script>
 </body>
 </html>
