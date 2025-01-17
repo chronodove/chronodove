@@ -73,7 +73,10 @@ a:hover {
 /* reset margins for all the headers */
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
-  padding: 1%;
+}
+
+h1 {
+  font-size: 35px;
 }
 
 h1,h2, .title {
@@ -134,7 +137,6 @@ h1,h2, .title {
   /* background-color: #100E11; */
 }
 
-
 /* details */
 details[open] > summary {
   list-style-type: '✶ ';
@@ -146,10 +148,6 @@ summary {
 
 ul, ol {
   display: inline-block;
-}
-
-ul li {
-  list-style: '♥︎ ';
 }
 
 .image {
@@ -167,7 +165,6 @@ ul li {
   max-width: 100%;
   height: auto;
 }
-
 
 .related {
   width: 13rem;
@@ -215,8 +212,7 @@ main {
   align-items: center;
 
   gap: 1%;
-  flex-shrink: 0;
-  width: 5rem;
+  width: 9rem;
   height: auto;
 
   padding: 3px;
@@ -232,8 +228,8 @@ main {
 }
 
 .main {
-  max-width: 30rem;
-  padding: 8px;
+  width: 100%;
+  padding: 20px;
   overflow-x: hidden;
 }
 
@@ -250,6 +246,7 @@ main {
   width: 4rem;
   height: auto;
 } 
+
 /* responsiveness */
 @media screen and (max-width: 850px) {
   body {

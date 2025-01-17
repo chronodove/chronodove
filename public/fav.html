@@ -8,6 +8,12 @@
     <script src="script.js"></script>
     <script src="openArticles.js"></script>
     <title>favourites</title>
+    <style>
+        ul, li {
+            list-style-type: '♥: ';
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
     <div class="loader"></div>
@@ -24,20 +30,24 @@
                 <a href="#shows" onclick="showThis('shows')">shows & anime</a>
                 <a href="#games" onclick="showThis('games')">games</a>
                 <a href="#animals" onclick="showThis('animals')">animals</a>
-                <a href="#programs" onclick="showThis('programs')">programs</a>
+                <a href="#programs" onclick="showThis('programs')">software</a>
                 <a href="#words" onclick="showThis('words')">words</a>
                 <a href="#music" onclick="showThis('music')">music</a>
                 <a href="#sounds" onclick="showThis('sounds')">sounds</a>
                 <a href="#drinks" onclick="showThis('drinks')">drinks</a>
                 <a href="#scents" onclick="showThis('scents')">scents</a>
                 <a href="#emoticons" onclick="showThis('emoticons')">emoticons</a>
+                <a href="#objects" onclick="showThis('objects')">objects</a>
+                <a href="#quotes" onclick="showThis('quotes')">quotes</a>
+                <a href="#extras" onclick="showThis('extras')">extras</a>
             </div>
             <div class="main">
                 <article>
+                    <h6>click the bandaid to reset view</h6>
                     <p>i am obsessed with making lists, especially with things i like. knowing someones interests is the best way to get to know someone, after all! while these items aren't listed in any order, <b>bolded</b> items are my long time favourites and ones i will defend with my life.</p>
                 </article>
                 <article id="books">
-                    <h2>books</h2>
+                    <h1>books & manga</h1>
                     <h6>see <a href="books.html">book reviews</a></h6>
                     <ul>
                         <li><b>monday's not coming - tiffany d. jackson</b></li>
@@ -52,7 +62,7 @@
                     </ul>
                 </article>
                 <article id="movies">
-                    <h2>movies</h2>
+                    <h1>movies</h1>
                     <ul>
                         <li><b>seaspiracy</b></li>
                         <li>no country for old men</li>
@@ -62,27 +72,37 @@
                         <li>dear zindagi</li>
                         <li><b>rowdy rathore</b></li>
                         <li><b>OMG</b></li>
+                        <li><b>curry & cyanide</b></li>
+                        <li><b>kubo & the two strings</b></li>
                     </ul>
                 </article>
                 <article id="shows">
-                    <h2>shows & anime</h2>
+                    <h1>shows & anime</h1>
                     <ul>
                         <li><b>kengan ashura</b></li>
-                        <li>the glory</li>
-                        <li>avatar the last airbender</li>
+                        <li><b>the glory</b></li>
+                        <li><b>avatar the last airbender</b></li>
+                        <li><b>avatar</b></li>
                         <li>AJIN: demihuman</li>
-                        <li>the amazing world of gumball</li>
+                        <li><b>the amazing world of gumball</b></li>
                         <li>spongebob squarepants</li>
                         <li>hells kitchen</li>
                         <li>hotel hell</li>
                         <li>72 dangerous animals (latin america, asia, australia)</li>
-                        <li>indian predator</li>
+                        <li><b>indian predator</b></li>
                         <li>bad boy billionaires idia</li>
                         <li>buried truth: the indrani mukerjea story</li>
+                        <li>dehli crime</li>
+                        <li>sakamoto days</li>
+                        <li>girlfriends</li>
+                        <li>worst roommate ever</li>
+                        <li><b>the amazing digital circus</b></li>
+                        <li><b>kotaro lives alone</b></li>
+                        <li>erased</li>
                     </ul>
                 </article>
                 <article id="games">
-                    <h2>(video)games</h2>
+                    <h1>(video)games</h1>
                     <ul>
                         <li><b>tomb raider</b></li>
                         <li><b>firewatch</b></li>
@@ -95,11 +115,12 @@
                         <li>portal (1 & 2)</li>
                         <li>cube escape</li>
                         <li>saya no uta</li>
+                        <li><b>needy streamer overload</b></li>
                     </ul>
                 </article>
                 <article id="animals">
-                    <h2>animals</h2>
-                    <h3>birds</h3>
+                    <h1>animals</h1>
+                    <h1>birds</h1>
                     <ul>
                         <li><b>dove</b></li>
                         <li>african grey</li>
@@ -111,21 +132,21 @@
                         <li><b>raven</b></li>
                         <li><b>vulture</b></li>
                     </ul>
-                    <h3>dogs</h3>
+                    <h1>dogs</h1>
                     <ul>
                         <li>borzoi</li>
                         <li><b>doberman</b></li>
                         <li>bernese mountain dog</li>
                         <li><b>australian shepherd</b></li>
                     </ul>
-                    <h3>cats</h3>
+                    <h1>cats</h1>
                     <ul>
                         <li>himalayan</li>
                         <li>ragdoll</li>
                         <li>scottish fold</li>
                         <li>kurilian bobtail</li>
                     </ul>
-                    <h3>marine</h3>
+                    <h1>marine</h1>
                     <ul>
                         <li>fish</li>
                         <li>shrimp</li>
@@ -135,29 +156,51 @@
                     </ul>
                 </article>
                 <article id="programs">
-                    <h2>programs</h2>
+                    <h1>programs/software</h1>
+                    <h2>general</h2>
                     <ul>
                         <li>firefox</li>
                         <li>motrix</li>
                         <li>vs code</li>
                         <li>procreate</li>
                         <li>aesprite</li>
+                        <li>krita</li>
+                        <li>clip studio paint</li>
+                    </ul>
+                    <h2>linux</h2>
+                    <ul>
                         <li>hyprland (technically not a program)</li>
                     </ul>
+                    <h2>macos</h2>
+                    <ul>
+                        <li>sketchybar</li>
+                        <li><b>yabai</b></li>
+                        <li>notunes</li>
+                        <li>mousescape</li>
+                        <li>stickies</li>
+                    </ul>
+
                 </article>
                 <article id="words">
-                    <h2>words / phrases</h2>
+                    <h1>words / phrases</h1>
                     <ul>
                         <li>impetus</li>
                         <li><b>orphic</b></li>
                         <li>amaranthine</li>
                         <li>pyaar</li>
+                        <li>saccharine</li>
+                        <li><b>ephemeral</b></li>
                     </ul>
                 </article>
                 <article id="music">
-                    <h2>music</h2>
+                    <h1>music</h1>
                     <h6>both songs & artists/bands</h6>
                     <ul>
+                        <li><b>luka</b> (see: <a href="404.html">luka shrine)</a></li>
+                        <li><b>meiko</b></li>
+                        <li>kaito</li>
+                        <li>seeu</li>
+                        <li>cyberdiva</li>
                         <li>mitski</li>
                         <li>linkin park</li>
                         <li>merm4id</li>
@@ -165,6 +208,8 @@
                         <li>babymetal</li>
                         <li>siinamota</li>
                         <li>wowaka</li>
+                        <li>dethtech</li>
+                        <li><b>metallica</b></li>
                         <li><b>feel my pain - HEY-SMITH</b> (1/08)</li>
                         <li>mesmerizer - 32ki</li>
                         <li>rolling girl - wowaka</li>
@@ -172,11 +217,18 @@
                         <li><b>meltdown - iroha</b></li>
                         <li><b>i shall be cat - lyrical lily</b></li>
                         <li>no scrubs - tlc</li>
+                        <li><b>4U - merm4id</b></li>
+                        <li>DMF - merm4id</li>
+                        <li>AaAaAaAAaAaAAa - nashimoto ui</li>
+                        <li><b>prayer[s] - RONDO</b></li>
+                        <li>chemtrails over the country club - lana del rey</li>
+                        <li><b>the love i lost - fried by fluoride</b></li>
+                        <li><b>for the damaged - blonde redhead</b></li>
                         
                 </ul>
                 </article>
                 <article id="sounds">
-                    <h2>sounds</h2>
+                    <h1>sounds</h1>
                     <ul>
                         <li>thunder</li>
                         <li>crickets</li>
@@ -187,10 +239,11 @@
                         <li>peeling film off of something</li>
                         <li>slicing soap</li>
                         <li>waterfalls</li>
+                        <li>opening a can of soda</li>
                     </ul>
                 </article>
                 <article id="drinks">
-                    <p class="title">drinks</p>
+                    <h1>drinks</h1>
                     <ul>
                         <li><b>coke zero</b></li>
                         <li><b>cappuccino</b></li>
@@ -199,7 +252,7 @@
                     </ul>
                 </article>
                 <article id="scents">
-                    <p class="title">scents</p>
+                    <h1>scents</h1>
                     <ul>
                         <li><b>mix:bar cloud musk n21 (1/09 &dArr;)</b></li>
                         <li><b>victorias secret velvet petals</b></li>
@@ -210,12 +263,49 @@
                     </ul>
                 </article>
                 <article id="emoticons">
-                    <p class="title">emoticons/kaomojis</p>
+                    <h1>emoticons/kaomoji/symbols</h1>
                     <ul>
+                        <li><b>&</b></li>
+                        <li><b>&lt;3</b></li>
                         <li>&lt;/3</li>
                         <li>:)</li>
+                        <li>:(</li>
                         <li>/ᐠ - ˕ -マ</li>
                         <li>/ᐠ_ ꞈ _ᐟ\</li>
+                    </ul>
+                </article>
+                <article id="objects">
+                    <h1>objects</h1>
+                    <h2>stationary</h2>
+                    <ul>
+                        <li>fountain pens</li>
+                        <li>zebra sarasa mark on</li>
+                        <li>four candies 9.0 mechanical pencil</li>
+                        <li>midliner highlighters</li>
+                        <li>pentel energel</li>
+                        <li>notebooks</li>
+                    </ul>
+                    <h2>tech</h2>
+                    <ul>
+                        <li>airpods</li>
+                        <li>macbook</li>
+                        <li>xppen artist 12</li>
+                    </ul>
+
+                </article>
+                <article id="quotes">
+                    <h1>quotes</h1>
+                    <p>"'god knows all of your ugliness,' my mother says, 'and loves you despite.' 'is that supposed to make me feel loved?' i reply. 'i am still ugly. he is still god.'" - <a href="https://www.tumblr.com/avainblue/658712806256951296/god-knows-all-of-your-ugliness-my-mother-says">avianblue</a></p>
+                </article>
+                <article id="extras">
+                    <h1>extras</h1>
+                    <h6>isolated favs</h6>
+                    <ul>
+                        <li>justified text</li>
+                        <li>fibonacci sequence</li>
+                        <li><b>u-substitution</b></li>
+                        <li>golden ratio</li>
+                        <li><b>for loops &lt;33333</b></li>
                     </ul>
                 </article>
             </div>

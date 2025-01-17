@@ -12,5 +12,4 @@ window.addEventListener("load", () => {
     //...completely remove loader element from html, stopping the website from continuing to play the animation 
     document.body.removeChild(LOADER);
     })
- 
 })
