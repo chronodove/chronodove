@@ -71,6 +71,7 @@ a:hover {
   letter-spacing: 5px;
   transition: all 1s ease-in-out;
 }
+
 /* reset margins for all the headers */
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
@@ -197,6 +198,7 @@ main {
 
 }
 
+/* table */
 .table {
   display: flex;
   flex-grow: 1;
@@ -280,6 +282,11 @@ main {
 
   background-color: #e1e1e1;
 }
+
+.table h1 {
+  text-align: right;
+}
+
 
 /* responsiveness */
 @media screen and (max-width: 850px) {
