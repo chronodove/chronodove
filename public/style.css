@@ -2,8 +2,8 @@
 
 /* banner */
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap'); /* <- this one*/
-@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap'); /* <- this one*/
 /* body font */
 
 @font-face {
@@ -53,23 +53,25 @@ body {
 a {
   font-style: normal;
   color: var(--txt);
-  transition: all 0.3s ease-in-out;
+  transition: 0.25s;
 }
 
 a:hover {
   background-color: var(--txt);
   color: var(--bg);
+  letter-spacing: 2px;
+  transition: 0.25s;
 }
 
 #link {
   text-decoration: underline;
   cursor: pointer;
-  transition: all 1s ease-in-out;
+  transition: 0.25s;
 }
 
 #link:hover {
-  letter-spacing: 5px;
-  transition: all 1s ease-in-out;
+  letter-spacing: 2px;
+  transition: 0.25s;
 }
 
 /* reset margins for all the headers */
@@ -78,7 +80,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 45px;
+  letter-spacing: normal;
+  transition: 0.25s;
+  color: var(--txt);
+}
+
+h1:hover {
+  letter-spacing: 2px;
+  transition: 0.25s;
+  color: var(--accent);
 }
 
 h1,h2, .title {
@@ -180,7 +191,7 @@ ul, ol {
 
   padding: 8px;
 
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 main {
@@ -287,6 +298,10 @@ main {
   text-align: right;
 }
 
+.spoiler {
+  background-color: var(--txt);
+  text-decoration: none;
+}
 
 /* responsiveness */
 @media screen and (max-width: 850px) {

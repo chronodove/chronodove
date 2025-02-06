@@ -1,4 +1,4 @@
-//navigation
+//go back text & action
 function goBack(){
    document.write('<span id="link" onclick="history.back()">go back</span>');
 }
@@ -33,7 +33,7 @@ function showThis(pass){
     if (amount[i].id === target.id){
       //console.log("actions: show!"); //for testing purposes
       amount[i].style.display = 'block';
-      amount[i].style.overflow = 'scroll';
+      // amount[i].style.overflow = 'scroll';
 
       //check if this is the diary page 
       if (host.includes("diary.html")){
