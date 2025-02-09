@@ -39,5 +39,6 @@
         "xalli",
         "xhttp"
     ],
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "cSpell.language": "en-GB"
 }

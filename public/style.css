@@ -44,6 +44,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
+  scrollbar-width: 3px;
+  scrollbar-color: var(--accent);
+
 }
 ::selection {
   color: var(--bg);
@@ -144,10 +147,12 @@ h1,h2, .title {
   justify-content: center;
   align-items: center;
 
-  width: 30rem;
+  width: 50rem;
   height: auto;
 
-  /* background-color: #100E11; */
+  /* background-color: #100E11;
+
+  position: relative; */
 }
 
 /* details */
@@ -301,6 +306,16 @@ main {
 .spoiler {
   background-color: var(--txt);
   text-decoration: none;
+}
+
+.moon {
+  width: 5rem;
+  height: 5rem;
+
+  background-color: var(--bg);
+  border: 4px var(--txt) double;
+
+  margin-left: auto;
 }
 
 /* responsiveness */
