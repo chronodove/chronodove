@@ -41,7 +41,7 @@ function showThis(pass){
         let ps = amount[i].getElementsByTagName('p');
         if (ps.length === 0){
           //console.log("this is running"); //for testing purposes
-          amount[i].innerHTML = "<p>looks like nothing's written. what a shame, maybe some day.</p>"
+          amount[i].innerHTML = "<p>looks like nothing's written. something awful must have happened, or she was lazy. most likely the latter.</p>"
         }
       }
 
