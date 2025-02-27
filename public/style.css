@@ -48,6 +48,12 @@ body {
   scrollbar-color: var(--accent);
 
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+  background-color: transparent;
+}
+
 ::selection {
   color: var(--bg);
   background-color: var(--txt);
@@ -199,6 +205,37 @@ ul, ol {
   overflow-y: scroll;
 }
 
+.marquee {
+  width: 15rem;
+  height: 25px;
+
+  display: flex;
+  flex-direction: row;
+
+  background-color: var(--bg);
+  border: 4px var(--txt) double;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+}
+
+.marquee-cont {
+  width: max-content;
+
+  display: inline-block;
+
+  padding-left: 100%;
+  
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from { transform: translateX(0)};
+    to { transform: translateX(-100%)}
+}
+
 main {
   max-width: 30rem;
   max-height: 30rem;
@@ -223,9 +260,6 @@ main {
 
   background-color: var(--bg);
   border: 4px var(--txt) double;
-}
-.table span {
-  text-decoration: underline;
 }
 
 .side {

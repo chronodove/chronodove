@@ -1,11 +1,12 @@
 //go back text & action
 function goBack(){
+  document.write('<div class="marquee"><div class="marquee-cont">don\'t you know you can never go back?</div></div>');
    document.write('<span id="link" onclick="history.back()">go back</span>');
 }
 
-//loading spinner w/notes explaining what each part of the code does
-//followed this tutorial (with some edits) -> https://youtu.be/q76TexbMXJg?si=Gp5w0oSYyFKgooFB
+//loader
 
+//followed this tutorial (with some edits) -> https://youtu.be/q76TexbMXJg?si=Gp5w0oSYyFKgooFB
 //see if the webpage has finished loading all resources or not. if so, preform the following function 
 window.addEventListener("load", () => {
    //define loader
@@ -23,6 +24,8 @@ window.addEventListener("load", () => {
 const amount = document.getElementsByTagName('article');
 let host = window.location.href;
 
+
+//show hide passages + error message for no entry
 function showThis(pass){
   //console.log(pass); //for testing purposes
   //check all articles to find targeted one
@@ -58,3 +61,40 @@ function reset() {
     amount[i].style.display = 'block';
   }
 }
+
+const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+
+//return a random letter
+function getRandomLetter() {
+  let letter = LETTERS.charAt(Math.floor(Math.random() * LETTERS.length));
+  console.log(letter);
+  return letter;
+}
+
+//check if something is a letter
+function letter(char) {
+  let checkLetter = char.toLowerCase() >= 'a' && char.toLowerCase() <= 'z';
+  console.log(checkLetter);
+  return (checkLetter);
+}
+
+
+//replace text with a random letters
+function randText() {
+  let span = document.getElementById('encode')
+  let text = span.textContent;
+  let replacedText = "";
+
+  for (let i = 0; i < text.length; i++){
+    if (letter(text[i])) {
+      replacedText += getRandomLetter();
+    } else {
+      replacedText += text[i];
+    }
+  }
+
+  span.textContent = replacedText;
+}
+
+//make sure it loads on entry
+document.addEventListener("DOMContentLoaded", randText);
