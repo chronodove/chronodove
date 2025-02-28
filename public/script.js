@@ -1,11 +1,17 @@
-//go back text & action
+//go back text & action & marquee
 function goBack(){
-  document.write('<div class="marquee"><div class="marquee-cont">don\'t you know you can never go back?</div></div>');
+  document.write('<div class="marquee"><div id="marquee-inner"><p>don\'t you know you can never go back?</p></div></div>');
    document.write('<span id="link" onclick="history.back()">go back</span>');
 }
 
-//loader
+document.addEventListener("DOMContentLoaded", function () {
+  const marqueeCont = document.getElementById("marquee-inner");
+  const txt = marqueeCont.innerHTML.trim();
 
+  marqueeCont.innerHTML = txt + txt;
+});
+
+//loader
 //followed this tutorial (with some edits) -> https://youtu.be/q76TexbMXJg?si=Gp5w0oSYyFKgooFB
 //see if the webpage has finished loading all resources or not. if so, preform the following function 
 window.addEventListener("load", () => {
