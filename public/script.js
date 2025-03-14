@@ -1,15 +1,19 @@
 //go back text & action & marquee
-function goBack(){
-  document.write('<div class="marquee"><div id="marquee-inner"><p>don\'t you know you can never go back?</p></div></div>');
+function goBack() {
+  document.write(`
+    <div class="marquee-text">
+      <p class="item item1">don't you know you can never go back?</p>
+      <p class="item item2">don't you know you can never go back?</p>
+      <p class="item item3">don't you know you can never go back?</p>
+      <p class="item item4">don't you know you can never go back?</p>
+      <p class="item item5">don't you know you can never go back?</p>
+      <p class="item item6">don't you know you can never go back?</p>
+      <p class="item item7">don't you know you can never go back?</p>
+      <p class="item item8">don't you know you can never go back?</p>
+    </div>
+  `);
    document.write('<span id="link" onclick="history.back()">go back</span>');
 }
-
-document.addEventListener("DOMContentLoaded", function () {
-  const marqueeCont = document.getElementById("marquee-inner");
-  const txt = marqueeCont.innerHTML.trim();
-
-  marqueeCont.innerHTML = txt + txt;
-});
 
 //loader
 //followed this tutorial (with some edits) -> https://youtu.be/q76TexbMXJg?si=Gp5w0oSYyFKgooFB
@@ -67,3 +71,6 @@ function reset() {
     amount[i].style.display = 'block';
   }
 }
+
+
+//marquee https://github.com/Vahan0799/infinite-marquee

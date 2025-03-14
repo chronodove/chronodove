@@ -3,9 +3,10 @@
 /* banner */
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap'); /* <- this one*/
-/* body font */
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap'); /* <- this one*/
 
+/* body font */
 @font-face {
   font-family: Ishmeria;
   src: url(fonts/Ishmeria.ttf);
@@ -79,6 +80,8 @@ a:hover {
 }
 
 #link:hover {
+  background-color: var(--txt);
+  color: var(--bg);
   letter-spacing: 2px;
   transition: 0.25s;
 }
@@ -96,14 +99,17 @@ h1 {
 }
 
 h1:hover {
-  letter-spacing: 2px;
+  background-color: var(--txt);
+  color: var(--bg);
   transition: 0.25s;
-  color: var(--accent);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h1,h2, .title {
-  font-family: "Monsieur La Doulaise", 'Times New Roman', Times, serif;
+  font-family: "Pinyon Script", 'Times New Roman', Times, serif;
   font-weight: 700;
+  line-height: 70px;
 }
 
 /* loader */
@@ -205,33 +211,6 @@ ul, ol {
   overflow-y: scroll;
 }
 
-.marquee {
-  display: flex;
-  align-items: center;
-
-  width: 15rem;
-  height: 25px;
-
-  background-color: var(--bg);
-  border: 4px var(--txt) double;
-
-  white-space: nowrap;
-
-  overflow: hidden;
-
-}
-
-#marquee-inner {
-  display: flex;
-  gap: 1%;
-  white-space: nowrap;
-  animation: marquee 10s linear infinite;
-}
-
-@keyframes marquee {
-    0% { transform: translateX(0%)};
-    100% { transform: translateX(-50%)}
-}
 
 main {
   max-width: 30rem;
@@ -358,4 +337,74 @@ main {
   .image {
     display: none;
   }
+}
+
+/*marquee - https://codepen.io/ramzibach-the-styleful/pen/LYoYejb */
+
+.marquee-text {
+  width: 20rem;
+  height: 40px;
+
+  
+  margin-inline: auto;
+
+  position: relative;
+  overflow: hidden;
+
+  background-color: var(--bg);
+  border: 4px var(--txt) double;
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -340px;
+  }
+}
+
+.item {
+  width: 340px;
+  height: 100%;
+
+  position: absolute;
+
+  left: max(calc(340px * 8), 100%);
+  top: 50%;
+  transform: translateY(-75%);
+
+  animation-name: scrollLeft;
+  animation-duration: 34s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.item1 {
+  animation-delay: calc(34s / 8 * (8 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(34s / 8 * (8 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(34s / 8 * (8 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(34s / 8 * (8 - 4) * -1);
+}
+
+.item5 {
+  animation-delay: calc(34s / 8 * (8 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(34s / 8 * (8 - 6) * -1);
+}
+
+.item7 {
+  animation-delay: calc(34s / 8 * (8 - 7) * -1);
+}
+
+.item8 {
+  animation-delay: calc(34s / 8 * (8 - 8) * -1);
 }
