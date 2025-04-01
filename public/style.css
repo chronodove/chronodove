@@ -1,10 +1,8 @@
 /* fonts */
 
 /* banner */
-@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap'); /* <- this one*/
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
 
 /* body font */
 @font-face {
@@ -32,7 +30,7 @@ body {
   height: 100vh; /*needed to vertically align correctly*/
   overflow: hidden;
 
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Xanh Mono",'Georgia', 'Times New Roman', Times, serif;
   letter-spacing: 1px;
   background-color: var(--bg);
   color: var(--txt);
@@ -60,13 +58,13 @@ body {
   background-color: var(--txt);
 }
 
-a {
+a, #link {
   font-style: normal;
   color: var(--txt);
   transition: 0.25s;
 }
 
-a:hover {
+a:hover, #link:hover {
   background-color: var(--txt);
   color: var(--bg);
   letter-spacing: 2px;
@@ -76,15 +74,8 @@ a:hover {
 #link {
   text-decoration: underline;
   cursor: pointer;
-  transition: 0.25s;
 }
 
-#link:hover {
-  background-color: var(--txt);
-  color: var(--bg);
-  letter-spacing: 2px;
-  transition: 0.25s;
-}
 
 /* reset margins for all the headers */
 h1,h2,h3,h4,h5,h6 {
@@ -342,9 +333,8 @@ main {
 /*marquee - https://codepen.io/ramzibach-the-styleful/pen/LYoYejb */
 
 .marquee-text {
-  width: 20rem;
+  width: 15rem;
   height: 40px;
-
   
   margin-inline: auto;
 

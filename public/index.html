@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="bloodyhands.gif" type="image/gif">
     <title>→ post-apocalyptic dove</title>
-    <script src="script.js"></script>
     <style>
         .nav {
             max-width: 50rem;
@@ -21,7 +20,15 @@
 
         .nav a {
             background-color: transparent;
+            width: 10rem;
+            height: 9rem;
+            filter: grayscale(100%);
         }
+
+        .nav a:hover {
+            filter: grayscale(0);
+        }
+
 
         h1 {
             margin: 0;
@@ -30,43 +37,28 @@
             letter-spacing: 1rem;
         }
 
-        /* .imgtxt {
-            width: 5rem;
-            height: 5rem;
-        } */
-
-        a {
-            width: 10rem;
-            height: 9rem;
-        }
-
         .imgtxt span {
             position: absolute;
             top: 50%;
-            left: 50%;
+            left: 55%;
 
             transform: translate(-50%, -50%);
             z-index: 99;
             opacity: 0;
             transition: all 0.25s ease;
 
-            font-size: 2.5rem;
+            font-size: 2rem;
             
             color: #FFF;
-            filter: drop-shadow(4px 4px 0 black) 
-                    drop-shadow(-4px 4px 0 black)
-                    drop-shadow(4px -4px 0 black)
-                    drop-shadow(-4px -4px 0 black);
+            filter: drop-shadow(3px 3px 0 black) 
+                    drop-shadow(-3px 3px 0 black)
+                    drop-shadow(3px -3px 0 black)
+                    drop-shadow(-3px -3px 0 black);
             /* background-color: var(--txt-trans); */
         }
 
         .imgtxt:hover span, .imgtxt:focus span {
             opacity: 1;
-        }
-
-        h6 {
-            cursor: pointer;
-            text-decoration: underline;
         }
 
         #alt {
@@ -77,9 +69,23 @@
 <body>
     <noscript>this site uses javascript for aesthetic purposes, please enable it.</noscript>
     <div class="loader"></div>
-    <div class="wrapper">
-        <h6 onclick="window.open('updates.html', '_blank', 'width=500,height=500')">UPDATES</h6>
-        <h6 onclick="show()">alternate link view</h6>
+    <script>
+        window.addEventListener("load", () => {
+            //define loader
+            const LOADER = document.querySelector(".loader");
+            //if it has finished loading, initialize the "loader-hidden" class; hiding the loader but continuing the animation
+            LOADER.classList.add("loader-hidden");
+            //checks to see if the transition is over and once it does...
+            LOADER.addEventListener("transitionend", () => {
+                //...completely remove loader element from html, stopping the website from continuing to play the animation 
+                document.body.removeChild(LOADER);
+            })
+        })
+    </script>
+    <div class="wrapper" id="wrapper">
+        <h4 onclick="window.open('updates.html', '_blank', 'width=500,height=500')" id="link">UPDATES</h4>
+        <br>
+        <h4 onclick="show()" id="link">alternate link view</h4>
         <div id="alt">
             <a href="about.html">about</a>
             <a href="diary.html">diary</a>
@@ -87,8 +93,9 @@
             <a href="sitemap.html">sitemap</a>
             <a href="credits.html">credits</a>
         </div>
+        <br>
         <div class="nav">
-            <a href="about.html" class="imgtxt" style="background-image: url('https://i.postimg.cc/QdX3RTjH/dpve-remove-bg-io.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
+            <a href="about.html" class="imgtxt" style="background-image: url('https://i.postimg.cc/Y9JNvkzL/lily.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
                 <span>about.</span>
             </a>
             <a href="diary.html" class="imgtxt" style="background-image: url('https://i.postimg.cc/vTZjt7zF/rose.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
@@ -109,10 +116,10 @@
     <script>
         let altNav = document.getElementById('alt');
         function show() {
-            if (altNav.style.display === 'none'){
-                altNav.style.display = 'inline';
-            } else {
+            if (altNav.style.display == 'inline'){
                 altNav.style.display = 'none';
+            } else {
+                altNav.style.display = 'inline';
             }
         }
     </script>

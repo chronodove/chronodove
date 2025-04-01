@@ -1,20 +1,32 @@
+const wrapperDiv = document.getElementById('wrapper');
 //go back text & action & marquee
-function goBack() {
-  document.write(`
-    <div class="marquee-text">
-      <p class="item item1">don't you know you can never go back?</p>
-      <p class="item item2">don't you know you can never go back?</p>
-      <p class="item item3">don't you know you can never go back?</p>
-      <p class="item item4">don't you know you can never go back?</p>
-      <p class="item item5">don't you know you can never go back?</p>
-      <p class="item item6">don't you know you can never go back?</p>
-      <p class="item item7">don't you know you can never go back?</p>
-      <p class="item item8">don't you know you can never go back?</p>
-    </div>
-  `);
-   document.write('<span id="link" onclick="history.back()">go back</span>');
+function addMarquee() {
+  const marqueeHTML = `
+      <div class="marquee-text">
+          <p class="item item1">don't you know you can never go back?</p>
+          <p class="item item2">don't you know you can never go back?</p>
+          <p class="item item3">don't you know you can never go back?</p>
+          <p class="item item4">don't you know you can never go back?</p>
+          <p class="item item5">don't you know you can never go back?</p>
+          <p class="item item6">don't you know you can never go back?</p>
+          <p class="item item7">don't you know you can never go back?</p>
+          <p class="item item8">don't you know you can never go back?</p>
+      </div>
+  `;
+  const marqueeDiv = document.createElement('div');
+  marqueeDiv.innerHTML = marqueeHTML;
+  wrapperDiv.appendChild(marqueeDiv);
+  
+  const link = document.createElement('span');
+  link.id = 'link';
+  link.textContent = 'go back';
+  link.onclick = function() {
+      history.back();
+  };
+  wrapperDiv.appendChild(link); 
 }
 
+addMarquee();
 //loader
 //followed this tutorial (with some edits) -> https://youtu.be/q76TexbMXJg?si=Gp5w0oSYyFKgooFB
 //see if the webpage has finished loading all resources or not. if so, preform the following function 
@@ -35,31 +47,39 @@ const amount = document.getElementsByTagName('article');
 let host = window.location.href;
 
 
-//show hide passages + error message for no entry
+//show & hide passages + error message for no entry only for diary page
+//console logs are for testing
 function showThis(pass){
-  //console.log(pass); //for testing purposes
-  //check all articles to find targeted one
-  for (let i = 0; i < amount.length; i++){
-    //console.log("Check: ", amount[i].id); //for testing purposes
-    let target = document.getElementById(pass);
-    //see if that needs to be shown or not
-    if (amount[i].id === target.id){
-      //console.log("actions: show!"); //for testing purposes
-      amount[i].style.display = 'block';
-      // amount[i].style.overflow = 'scroll';
+  //console.log(pass); 
 
-      //check if this is the diary page 
-      if (host.includes("diary.html")){
-        //write a message if there was no entry
+  //check all articles to find targeted one
+  for (let i = 0; i < amount.length; i++)
+  {
+    //console.log("Check: ", amount[i].id);
+
+    let target = document.getElementById(pass);
+
+    //check for target
+    if (amount[i].id === target.id)
+    {
+      //console.log("actions: show!");
+      amount[i].style.display = 'block';
+
+      //check if this is the diary page + write a message
+      if (host.includes("diary.html"))
+      {
         let ps = amount[i].getElementsByTagName('p');
         if (ps.length === 0){
-          //console.log("this is running"); //for testing purposes
-          amount[i].innerHTML = "<p>looks like nothing's written. something awful must have happened, or she was lazy. most likely the latter.</p>"
+          //console.log("this is running"); 
+
+          amount[i].innerHTML = "<p>looks like nothing's written.</p>"
         }
       }
 
-    } else {
-      //console.log("action: hide!"); //for testing purposes
+    } 
+    else 
+    {
+      //console.log("action: hide!"); 
       amount[i].style.display = 'none';
     }
   }

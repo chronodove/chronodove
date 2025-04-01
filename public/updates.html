@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>updates</title>
 </head>
 <body>
     <div class="loader"></div>
+    <script>
+        window.addEventListener("load", () => {
+            //define loader
+            const LOADER = document.querySelector(".loader");
+            //if it has finished loading, initialize the "loader-hidden" class; hiding the loader but continuing the animation
+            LOADER.classList.add("loader-hidden");
+            //checks to see if the transition is over and once it does...
+            LOADER.addEventListener("transitionend", () => {
+                //...completely remove loader element from html, stopping the website from continuing to play the animation 
+                document.body.removeChild(LOADER);
+            });
+        });
+    </script>
     <div class="wrapper">
         <h1>updates:</h1>
         <main>
             <ul>
+                <li>4-1: april.</li>
+                <li>3-13: marquee</li>
                 <li>3-01: march.</li>
                 <li>2-28: don't you know you can never go back?</li>
                 <li>2-21: changed button</li>
