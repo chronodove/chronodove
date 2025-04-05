@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="bloodyhands.gif" type="image/gif">
-    <title>→ post-apocalyptic dove</title>
+    <link rel="icon" href="images/bloodyhands.gif" type="image/gif">
+    <title>chronodove</title>
     <style>
+        .header {
+            display: flex;
+            justify-content: center;
+
+            max-width: 50rem;
+            height: 100%;
+        }
+
+        .header img {
+            width: 90px;
+            height: auto;
+            
+            image-rendering: pixelated;
+        }
+
         .nav {
             max-width: 50rem;
             height: 100%;
@@ -26,15 +41,7 @@
         }
 
         .nav a:hover {
-            filter: grayscale(0);
-        }
-
-
-        h1 {
-            margin: 0;
-            padding: 0;
-            font-size: 60px;
-            letter-spacing: 1rem;
+            filter: grayscale(0%);
         }
 
         .imgtxt span {
@@ -83,10 +90,20 @@
         })
     </script>
     <div class="wrapper" id="wrapper">
+        <div class="header">
+            <h1 style="font-size: 75px;">
+                <img src="https://i.postimg.cc/hPWrTTDt/bloody-Left-Wing.gif" alt="a bloody left wing">
+                chronodove
+                <img src="https://i.postimg.cc/N0Sj3nhY/bloody-Right-Wing.gif" alt="a bloody right wing">    
+            </h1>
+        </div>
+        <span id="hitcount"></span>
+        <span id="lastupdate"></span>
         <h4 onclick="window.open('updates.html', '_blank', 'width=500,height=500')" id="link">UPDATES</h4>
         <br>
         <h4 onclick="show()" id="link">alternate link view</h4>
         <div id="alt">
+            <br>
             <a href="about.html">about</a>
             <a href="diary.html">diary</a>
             <a href="writing.html">writing</a>

@@ -1,7 +1,7 @@
 /* fonts */
 
 /* banner */
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap'); /* <- this one*/
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap'); /* <- this one*/
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
 
 /* body font */
@@ -27,7 +27,7 @@ body {
   align-items: center;
   text-align: justify;
 
-  height: 100vh; /*needed to vertically align correctly*/
+  height: 95vh; /*needed to vertically align correctly*/
   overflow: hidden;
 
   font-family: "Xanh Mono",'Georgia', 'Times New Roman', Times, serif;
@@ -38,10 +38,6 @@ body {
   font-size: 19px;
 
   transition: all 1s ease;
-
-  background-image: url("https://i.postimg.cc/q754FWym/smoke.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 
   scrollbar-width: 3px;
   scrollbar-color: var(--accent);
@@ -85,20 +81,14 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
   font-size: 45px;
   letter-spacing: normal;
-  transition: 0.25s;
-  color: var(--txt);
-}
-
-h1:hover {
-  background-color: var(--txt);
   color: var(--bg);
-  transition: 0.25s;
-  padding-left: 10px;
-  padding-right: 10px;
+  text-shadow: 
+        0px 0px 7px var(--accent),
+        0px 0px 2px var(--g-start);
 }
 
 h1,h2, .title {
-  font-family: "Pinyon Script", 'Times New Roman', Times, serif;
+  font-family: "Tangerine", 'Times New Roman', Times, serif;
   font-weight: 700;
   line-height: 70px;
 }
@@ -108,12 +98,16 @@ h1,h2, .title {
   position: fixed;
   top: 0;
   left: 0;
+
   width: 100vw;
   height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   background-color: var(--bg);
+
   transition: opacity 0.75s, visibility 0.75s;
   z-index: 1;
 }
@@ -125,11 +119,14 @@ h1,h2, .title {
   
 .loader::after {
   content: "";
+
   width: 4rem;
   height: 4rem;
+
   border: 6px solid var(--txt);
   border-top-color: var(--accent);
   border-radius: 50%;
+  
   animation: loading 0.75s ease infinite;
 }
   
@@ -174,11 +171,12 @@ ul, ol {
 .image {
   display: block;
   position: absolute;
-  object-fit: cover;
   width: 130%;
   height: auto;
   bottom: 0px;
   left: 0px;
+
+  object-fit: cover;
   z-index: -1;
 }
 
@@ -186,22 +184,6 @@ ul, ol {
   max-width: 100%;
   height: auto;
 }
-
-.related {
-  width: 13rem;
-  max-height: 2rem;
-  align-self: flex-start;
-  
-  background-color: var(--bg);
-  border-top: 4px var(--txt) double;
-  border-left: 4px var(--txt) double;
-  border-right: 4px var(--txt) double;
-
-  padding: 8px;
-
-  overflow-y: scroll;
-}
-
 
 main {
   max-width: 30rem;
@@ -347,17 +329,17 @@ main {
 
 @keyframes scrollLeft {
   to {
-    left: -340px;
+    left: -400px;
   }
 }
 
 .item {
-  width: 340px;
+  width: 400px;
   height: 100%;
 
   position: absolute;
 
-  left: max(calc(340px * 8), 100%);
+  left: max(calc(400px * 8), 100%);
   top: 50%;
   transform: translateY(-75%);
 
