@@ -1,14 +1,6 @@
 /* fonts */
-
-/* banner */
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap'); /* <- this one*/
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
-
-/* body font */
-@font-face {
-  font-family: Ishmeria;
-  src: url(fonts/Ishmeria.ttf);
-}
   
 /* defaults */
 :root {
@@ -19,7 +11,6 @@
   --g-start: #420000;
   --g-end: #290000;
 }
-
 
 body {
   display: flex;
@@ -75,7 +66,7 @@ a:hover, #link:hover {
 
 /* reset margins for all the headers */
 h1,h2,h3,h4,h5,h6 {
-  margin: 0;
+  margin: 1ch;
 }
 
 h1 {

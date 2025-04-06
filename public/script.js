@@ -1,22 +1,6 @@
 const wrapperDiv = document.getElementById('wrapper');
 //go back text & action & marquee
 function addMarquee() {
-  const marqueeHTML = `
-      <div class="marquee-text">
-          <p class="item item1">don't you know you can never go back?</p>
-          <p class="item item2">don't you know you can never go back?</p>
-          <p class="item item3">don't you know you can never go back?</p>
-          <p class="item item4">don't you know you can never go back?</p>
-          <p class="item item5">don't you know you can never go back?</p>
-          <p class="item item6">don't you know you can never go back?</p>
-          <p class="item item7">don't you know you can never go back?</p>
-          <p class="item item8">don't you know you can never go back?</p>
-      </div>
-  `;
-  const marqueeDiv = document.createElement('div');
-  marqueeDiv.innerHTML = marqueeHTML;
-  wrapperDiv.appendChild(marqueeDiv);
-  
   const link = document.createElement('span');
   link.id = 'link';
   link.textContent = 'go back';
