@@ -71,6 +71,20 @@
         #alt {
             display: none; 
         }
+
+        #lang {
+            border: 1px solid;
+            padding: 4px;
+            cursor: pointer;
+            transition: 0.25s;
+        }
+
+        #lang:hover {
+            background-color: black;
+            color: white;
+            transition: 0.25s;
+        }
+
     </style>
 </head>
 <body>
@@ -97,7 +111,7 @@
                 <img src="https://i.postimg.cc/N0Sj3nhY/bloody-Right-Wing.gif" alt="a bloody right wing">    
             </h1>
         </div>
-        <i>welcome to the whine zone</i>
+        <h5 id="lyric"><span id="lyrics">"kono uta ni imi wa aru no? kono uta ni imi wa nai yo."</span> <span id="lang" onclick="changeLang();">EN</span></h5>
         <br>
         <div id="stats">
             <span>HITS: <span id="hitcount"></span></span>
@@ -143,6 +157,18 @@
                 altNav.style.display = 'none';
             } else {
                 altNav.style.display = 'inline';
+            }
+        }
+        let lyrics = document.getElementById("lyrics");
+        let changeLangButton = document.getElementById("lang");
+
+        function changeLang() {
+            if (lyrics.innerText == "\"kono uta ni imi wa aru no? kono uta ni imi wa nai yo.\"") {
+                lyrics.innerText = "\"does this song mean anything? these lyrics mean nothing.\"";
+                changeLangButton.innerText = "JP";
+            } else {
+                lyrics.innerText = "\"kono uta ni imi wa aru no? kono uta ni imi wa nai yo.\"";
+                changeLangButton.innerText = "EN";
             }
         }
     </script>

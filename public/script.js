@@ -40,7 +40,6 @@ function showThis(pass){
   for (let i = 0; i < amount.length; i++)
   {
     //console.log("Check: ", amount[i].id);
-
     let target = document.getElementById(pass);
 
     //check for target
@@ -53,23 +52,21 @@ function showThis(pass){
       if (host.includes("diary.html"))
       {
         let ps = amount[i].getElementsByTagName('p');
-        if (ps.length === 0){
-          //console.log("this is running"); 
+        if (ps.length == 0){
+          console.log("this is running"); 
 
           amount[i].innerHTML = "<p>looks like nothing's written.</p>"
         }
       }
 
-    } 
-    else 
-    {
+    } else {
       //console.log("action: hide!"); 
       amount[i].style.display = 'none';
     }
   }
 }
 
-//show all entries
+//show all entries (UNUSED BUT I WANT TO KEEP THIS HERE JUST IN CASE)
 function reset() {
   for (let i = 0; i < amount.length; i++) {
     amount[i].style.display = 'block';

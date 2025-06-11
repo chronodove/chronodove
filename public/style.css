@@ -12,13 +12,24 @@
   --g-end: #290000;
 }
 
+/*
+  this is the key to perfectly centering !!!
+  this also resets the annoying ass margins on headers!!! my saviour!!!!!
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: justify;
 
-  height: 95vh; /*needed to vertically align correctly*/
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
 
   font-family: "Xanh Mono",'Georgia', 'Times New Roman', Times, serif;
@@ -35,10 +46,10 @@ body {
 
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0px;
   background-color: transparent;
-}
+} */
 
 ::selection {
   color: var(--bg);
@@ -63,12 +74,6 @@ a:hover, #link:hover {
   cursor: pointer;
 }
 
-
-/* reset margins for all the headers */
-h1,h2,h3,h4,h5,h6 {
-  margin: 1ch;
-}
-
 h1 {
   font-size: 45px;
   letter-spacing: normal;
@@ -82,6 +87,10 @@ h1,h2, .title {
   font-family: "Tangerine", 'Times New Roman', Times, serif;
   font-weight: 700;
   line-height: 70px;
+}
+
+p {
+  text-indent: 3ch;
 }
 
 /* loader */
@@ -141,9 +150,7 @@ h1,h2, .title {
   width: 50rem;
   height: auto;
 
-  /* background-color: #100E11;
-
-  position: relative; */
+  /* background-color: #100E11; */
 }
 
 /* details */
@@ -222,6 +229,10 @@ main {
 .side > a {
   width: 100%;
   height: fit-content;
+}
+
+.side #image {
+  image-rendering: pixelated;
 }
 
 .main {
@@ -304,70 +315,3 @@ main {
 }
 
 /*marquee - https://codepen.io/ramzibach-the-styleful/pen/LYoYejb */
-
-.marquee-text {
-  width: 15rem;
-  height: 40px;
-  
-  margin-inline: auto;
-
-  position: relative;
-  overflow: hidden;
-
-  background-color: var(--bg);
-  border: 4px var(--txt) double;
-}
-
-@keyframes scrollLeft {
-  to {
-    left: -400px;
-  }
-}
-
-.item {
-  width: 400px;
-  height: 100%;
-
-  position: absolute;
-
-  left: max(calc(400px * 8), 100%);
-  top: 50%;
-  transform: translateY(-75%);
-
-  animation-name: scrollLeft;
-  animation-duration: 34s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.item1 {
-  animation-delay: calc(34s / 8 * (8 - 1) * -1);
-}
-
-.item2 {
-  animation-delay: calc(34s / 8 * (8 - 2) * -1);
-}
-
-.item3 {
-  animation-delay: calc(34s / 8 * (8 - 3) * -1);
-}
-
-.item4 {
-  animation-delay: calc(34s / 8 * (8 - 4) * -1);
-}
-
-.item5 {
-  animation-delay: calc(34s / 8 * (8 - 5) * -1);
-}
-
-.item6 {
-  animation-delay: calc(34s / 8 * (8 - 6) * -1);
-}
-
-.item7 {
-  animation-delay: calc(34s / 8 * (8 - 7) * -1);
-}
-
-.item8 {
-  animation-delay: calc(34s / 8 * (8 - 8) * -1);
-}
