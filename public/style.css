@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
   
-/* defaults */
+/* color variables */
 :root {
   --bg: #ffffff;
   --txt: #100E11;
@@ -32,18 +32,17 @@ body {
   height: 100vh;
   overflow: hidden;
 
-  font-family: "Xanh Mono",'Georgia', 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   letter-spacing: 1px;
   background-color: var(--bg);
   color: var(--txt);
   cursor: crosshair;
   font-size: 19px;
 
-  transition: all 1s ease;
-
   scrollbar-width: 3px;
   scrollbar-color: var(--accent);
 
+  scroll-behavior: smooth;
 }
 
 /* ::-webkit-scrollbar {
@@ -74,8 +73,25 @@ a:hover, #link:hover {
   cursor: pointer;
 }
 
+button {
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 0px;
+  border-style: none;
+  padding: 1ch;
+  background-color: var(--txt);
+  color: var(--bg);
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--bg);
+  color: var(--txt);
+  outline: 4px solid var(--txt);
+}
+
 h1 {
-  font-size: 45px;
+  font-size: 55px;
   letter-spacing: normal;
   color: var(--bg);
   text-shadow: 
@@ -93,52 +109,7 @@ p {
   text-indent: 3ch;
 }
 
-/* loader */
-.loader {
-  position: fixed;
-  top: 0;
-  left: 0;
 
-  width: 100vw;
-  height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: var(--bg);
-
-  transition: opacity 0.75s, visibility 0.75s;
-  z-index: 1;
-}
-  
-.loader-hidden {
-  opacity: 0;
-  visibility: hidden;
-}
-  
-.loader::after {
-  content: "";
-
-  width: 4rem;
-  height: 4rem;
-
-  border: 6px solid var(--txt);
-  border-top-color: var(--accent);
-  border-radius: 50%;
-  
-  animation: loading 0.75s ease infinite;
-}
-  
-@keyframes loading {
-  from {
-    transform: rotate(0turn);
-  }
-  to {
-    transform: rotate(1turn);
-  }
-}
-  
 /* main wrapper */
 .wrapper {
   display: flex;
@@ -149,6 +120,8 @@ p {
 
   width: 50rem;
   height: auto;
+
+  padding: 1ch;
 
   /* background-color: #100E11; */
 }
@@ -222,7 +195,6 @@ main {
   border-right: 2px dotted;
   text-align: center;
 
-  overflow-y: hidden;
   overflow-y: scroll;
 }
 
@@ -273,7 +245,7 @@ main {
   font-size: 15px;
 }
 
-.nav{
+.nav {
   width: 100%;
   height: fit-content;
 
@@ -315,3 +287,54 @@ main {
 }
 
 /*marquee - https://codepen.io/ramzibach-the-styleful/pen/LYoYejb */
+
+
+
+
+/* UNUSED */
+/* 
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--bg);
+
+  transition: opacity 0.75s, visibility 0.75s;
+  z-index: 1;
+}
+  
+.loader-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+  
+.loader::after {
+  content: "";
+
+  width: 4rem;
+  height: 4rem;
+
+  border: 6px solid var(--txt);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  
+  animation: loading 0.75s ease infinite;
+}
+  
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+   */

@@ -7,6 +7,10 @@
     <link rel="icon" href="images/bloodyhands.gif" type="image/gif">
     <title>chronodove</title>
     <style>
+        #wrapper {
+            gap: 1ch;
+        }
+
         .header {
             display: flex;
             justify-content: center;
@@ -22,26 +26,26 @@
             image-rendering: pixelated;
         }
 
-        .nav {
+        .nav1 {
             max-width: 50rem;
             height: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
-            background-color: #ffffff00;
+            background-color: var(--bg);
             
         }
 
-        .nav a {
-            background-color: transparent;
+        .nav1 a {
             width: 10rem;
             height: 9rem;
             filter: grayscale(100%);
         }
 
-        .nav a:hover {
+        .nav1 a:hover {
             filter: grayscale(0%);
+            background-color: var(--bg);
         }
 
         .imgtxt span {
@@ -72,6 +76,18 @@
             display: none; 
         }
 
+        #lyric {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+
+            width: 100%;
+            height: 100%;
+            gap: 1ch;
+        }
+
         #lang {
             border: 1px solid;
             padding: 4px;
@@ -85,24 +101,16 @@
             transition: 0.25s;
         }
 
+        @media screen and (max-width: 413px) {
+            .header img {
+                display: none;
+            }
+        }
+
     </style>
 </head>
 <body>
     <noscript>this site uses javascript for aesthetic purposes, please enable it.</noscript>
-    <div class="loader"></div>
-    <script>
-        window.addEventListener("load", () => {
-            //define loader
-            const LOADER = document.querySelector(".loader");
-            //if it has finished loading, initialize the "loader-hidden" class; hiding the loader but continuing the animation
-            LOADER.classList.add("loader-hidden");
-            //checks to see if the transition is over and once it does...
-            LOADER.addEventListener("transitionend", () => {
-                //...completely remove loader element from html, stopping the website from continuing to play the animation 
-                document.body.removeChild(LOADER);
-            })
-        })
-    </script>
     <div class="wrapper" id="wrapper">
         <div class="header">
             <h1 style="font-size: 75px;">
@@ -114,8 +122,8 @@
         <h5 id="lyric"><span id="lyrics">"kono uta ni imi wa aru no? kono uta ni imi wa nai yo."</span> <span id="lang" onclick="changeLang();">EN</span></h5>
         <br>
         <div id="stats">
-            <span>HITS: <span id="hitcount"></span></span>
-            <span>LAST UPDATED: <span id="lastupdate"></span></span>
+            <span><b>HITS: </b><span id="hitcount"></span></span>
+            <span><b>LAST UPDATED: </b><span id="lastupdate"></span></span>
         </div>
         <br>
         <div id="nav" style="display: flex; gap: 1ch;">
@@ -123,7 +131,6 @@
             <h4 onclick="show()" id="link">alternate link view</h4>
         </div>
         <div id="alt">
-            <br>
             <a href="about.html">about</a>
             <a href="diary.html">diary</a>
             <a href="writing.html">writing</a>
@@ -131,7 +138,7 @@
             <a href="credits.html">credits</a>
         </div>
         <br>
-        <div class="nav">
+        <div class="nav1">
             <a href="about.html" class="imgtxt" style="background-image: url('https://i.postimg.cc/Y9JNvkzL/lily.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
                 <span>about.</span>
             </a>
@@ -149,7 +156,7 @@
             </a>
         </div>
     </div>
-    <!-- hide and show alt link view -->
+    <!-- hide and show alt link view & change lyrics lang -->
     <script>
         let altNav = document.getElementById('alt');
         function show() {
@@ -176,7 +183,7 @@
     <script>
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
+            if (this.readyState == 4 && this.status == 200) { //checks for any errors
 
                 var site_data = JSON.parse(this.responseText);
                 var num_arr = site_data.info.views.toString().split("");
