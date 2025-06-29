@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
   
+/*#################*/
+/* GENERAL STYLING */
+/*#################*/
+
 /* color variables */
 :root {
   --bg: #ffffff;
@@ -22,6 +26,7 @@
   box-sizing: border-box; 
 }
 
+/* note tha you don't want to apply flex onto the body but i'm to lazy to fix this now */
 body {
   display: flex;
   justify-content: center;
@@ -44,6 +49,10 @@ body {
 
   scroll-behavior: smooth;
 }
+
+/*##################*/
+/* SPECIFIC ELEMENTS */
+/*##################*/
 
 /* ::-webkit-scrollbar {
   width: 0px;
@@ -109,6 +118,23 @@ p {
   text-indent: 3ch;
 }
 
+ul, ol, li{
+  padding: revert;
+}
+
+::marker {
+  font-weight: 900;
+}
+
+details[open] > summary {
+  list-style-type: '✶ ';
+}
+
+summary {
+	list-style-type: '➤ ';
+}
+
+/*COMPONENTS*/
 
 /* main wrapper */
 .wrapper {
@@ -126,18 +152,6 @@ p {
   /* background-color: #100E11; */
 }
 
-/* details */
-details[open] > summary {
-  list-style-type: '✶ ';
-}
-
-summary {
-	list-style-type: '➤ ';
-}
-
-ul, ol {
-  display: inline-block;
-}
 
 .image {
   display: block;
@@ -203,7 +217,10 @@ main {
   height: fit-content;
 }
 
+
 .side #image {
+  width: 4rem;
+  height: auto;
   image-rendering: pixelated;
 }
 
@@ -222,12 +239,6 @@ main {
 .title {
   font-size: 30px;
   margin: 1px;
-}
-
-#image img {
-  width: 4rem;
-  height: auto;
-  image-rendering: crisp-edges;
 } 
 
 .filler {
