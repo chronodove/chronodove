@@ -4,181 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/bloodyhands.gif" type="image/gif">
     <title>chronodove</title>
-    <style>
-        #wrapper {
-            gap: 1ch;
-        }
-
-        .header {
-            display: flex;
-            justify-content: center;
-
-            max-width: 50rem;
-            height: 100%;
-        }
-
-        .header img {
-            width: 90px;
-            height: auto;
-            
-            image-rendering: pixelated;
-        }
-
-        .nav1 {
-            max-width: 50rem;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            background-color: var(--bg);
-            
-        }
-
-        .nav1 a {
-            width: 10rem;
-            height: 9rem;
-            filter: grayscale(100%);
-        }
-
-        .nav1 a:hover {
-            filter: grayscale(0%);
-            background-color: var(--bg);
-        }
-
-        .imgtxt span {
-            position: absolute;
-            top: 50%;
-            left: 55%;
-
-            transform: translate(-50%, -50%);
-            z-index: 99;
-            opacity: 0;
-            transition: all 0.25s ease;
-
-            font-size: 2rem;
-            
-            color: #FFF;
-            filter: drop-shadow(3px 3px 0 black) 
-                    drop-shadow(-3px 3px 0 black)
-                    drop-shadow(3px -3px 0 black)
-                    drop-shadow(-3px -3px 0 black);
-            /* background-color: var(--txt-trans); */
-        }
-
-        .imgtxt:hover span, .imgtxt:focus span {
-            opacity: 1;
-        }
-
-        #alt {
-            display: none; 
-        }
-
-        #lyric {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            flex-wrap: wrap;
-
-            width: 100%;
-            height: 100%;
-            gap: 1ch;
-        }
-
-        #lang {
-            border: 1px solid;
-            padding: 4px;
-            cursor: pointer;
-            transition: 0.25s;
-        }
-
-        #lang:hover {
-            background-color: black;
-            color: white;
-            transition: 0.25s;
-        }
-
-        @media screen and (max-width: 413px) {
-            .header img {
-                display: none;
-            }
-        }
-
-    </style>
 </head>
-<body>
-    <noscript>this site uses javascript for aesthetic purposes, please enable it.</noscript>
-    <div class="wrapper" id="wrapper">
-        <div class="header">
-            <h1 style="font-size: 75px;">
-                <img src="https://i.postimg.cc/hPWrTTDt/bloody-Left-Wing.gif" alt="a bloody left wing">
-                chronodove
-                <img src="https://i.postimg.cc/N0Sj3nhY/bloody-Right-Wing.gif" alt="a bloody right wing">    
-            </h1>
-        </div>
-        <h5 id="lyric"><span id="lyrics">"kono uta ni imi wa aru no? kono uta ni imi wa nai yo."</span> <span id="lang" onclick="changeLang();">EN</span></h5>
-        <br>
-        <div id="stats">
-            <span><b>HITS: </b><span id="hitcount"></span></span>
-            <span><b>LAST UPDATED: </b><span id="lastupdate"></span></span>
-        </div>
-        <br>
-        <div id="nav" style="display: flex; gap: 1ch;">
-            <h4 onclick="window.open('updates.html', '_blank', 'width=500,height=500')" id="link">UPDATES</h4>
-            <h4 onclick="show()" id="link">alternate link view</h4>
-        </div>
-        <div id="alt">
-            <a href="about.html">about</a>
-            <a href="diary.html">diary</a>
-            <a href="writing.html">writing</a>
-            <a href="sitemap.html">sitemap</a>
-            <a href="credits.html">credits</a>
-        </div>
-        <br>
-        <div class="nav1">
-            <a href="about.html" class="imgtxt" style="background-image: url('https://i.postimg.cc/Y9JNvkzL/lily.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
-                <span>about.</span>
-            </a>
-            <a href="diary.html" class="imgtxt" style="background-image: url('https://i.postimg.cc/vTZjt7zF/rose.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
-                <span>diary.</span>
-            </a>
-            <a href="writing.html" class="imgtxt" style="background-image: url('https://i.postimg.cc/FsBtG68P/dahlia.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
-                <span>writing.</span>
-            </a>
-            <a href="sitemap.html" class="imgtxt" style="background-image: url('https://i.postimg.cc/3w2P8xR6/lily-of-the-valleys.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
-                <span>sitemap.</span>
-            </a>
-            <a href="credits.html" class="imgtxt" style="background-image: url('https://i.postimg.cc/Z5BGQchJ/daisies.png'); background-position: center; background-size: contain; background-repeat: no-repeat;">
-                <span>credits.</span>
-            </a>
+<body id="body">
+    <div class="wrapper">
+        <div class="container">
+            <div class="left">
+                <div id="icon">
+                    <img src="images/icon.jpg" alt="a white betta fish">
+                </div>
+
+                <div id="text">
+                    <i><h2>chronodove</h2></i>
+                    <span>hits: <span id="hitcount"></span></span>
+                    <br>
+                    <span>last updated: <span id="lastupdate"></span></span>
+                </div>
+                
+                <div id="nav">
+                    <i>this site is not mobile responsive yet; sorry.</i>
+                    <i>the scrollbar is hidden, but it can still be scrolled.</i>
+                    <a href="diary.html" target="frame"><h2>diary</h2></a>
+                    <a href="writing.html" target="frame"><h2>writing</h2></a>
+                    <a href="not_found.html" target="frame"><h2>photography</h2></a>
+                    <a href="not_found.html" target="frame"><h2>reading log</h2></a>
+                    <a href="not_found.html" target="frame"><h2>crafts</h2></a>
+                    <a href="about.html" target="frame"><h2>about</h2></a>
+                </div>
+            </div>
+            <div class="right">
+                <iframe src="diary.html" frameborder="0" name="frame"></iframe>
+            </div>
         </div>
     </div>
-    <!-- hide and show alt link view & change lyrics lang -->
-    <script>
-        let altNav = document.getElementById('alt');
-        function show() {
-            if (altNav.style.display == 'inline'){
-                altNav.style.display = 'none';
-            } else {
-                altNav.style.display = 'inline';
-            }
-        }
-        let lyrics = document.getElementById("lyrics");
-        let changeLangButton = document.getElementById("lang");
-
-        function changeLang() {
-            if (lyrics.innerText == "\"kono uta ni imi wa aru no? kono uta ni imi wa nai yo.\"") {
-                lyrics.innerText = "\"does this song mean anything? these lyrics mean nothing.\"";
-                changeLangButton.innerText = "JP";
-            } else {
-                lyrics.innerText = "\"kono uta ni imi wa aru no? kono uta ni imi wa nai yo.\"";
-                changeLangButton.innerText = "EN";
-            }
-        }
-    </script>
     <!-- last updated and visitor count script` -->
     <script>
         var xhttp = new XMLHttpRequest();

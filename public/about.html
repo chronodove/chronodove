@@ -1,93 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>about</title>
-  <style>
-    #writing {
-      display: block;
-    }
-    #webrings {
-      display: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>about</title>
 </head>
 <body>
-
-  <div class="wrapper" id="wrapper">
-    <script src="script.js"></script>
-      <h1>about me&nbsp;<img src="https://i.postimg.cc/DwkdKnBQ/54f0f0fa.gif" alt="a black old fashioned telephone ringing"></h1>
-      <main>
-        <h6>written 1/01/25 - revised: 2/01 - <span id="link" onclick="openWebrings();">webrings and button</span></h6>
-        <div id="writing" style="display: block;">
-          <p><img src="https://i.postimg.cc/C1cXBR79/475b2eef.gif" alt="red stick man dancing with text on the right saying, 'the loser is online'">hello, my name is dove.</p>
-          <p>i'm a high-school student who is not very smart and is bad at math. nonetheless i still pursue math related fields like engineering & both data & computer science. my life expectancy is <a href="https://media.nmfn.com/tnetwork/lifespan/index.html#0">~77</a> years.</p>
-          <p>i like to write, but i don't do it much. outside of that, i like to explore different websites, listen to vocaloid & alternative music, read, and sleep.</p>
-          <p>i absolutely adore birds, dogs, spiders, marine animals, monochrome colour schemes, 1am-4am, 24hr time (right next to 12hr time, ironic, didn't even intend on this), notebooks & legal notepads, stationary, & using "&" instead of writing out "and".</p>
-          <p>i'm a very boring & annoying & unfunny person. still, i hope you find some sort of mundane comfort looking at my site, like the sort of calm you (might) feel when you go people watching.</p>
-          <p>you can email me at chronodove[at]gmail.com. i will not respond immediately, especially if you are emailing me for the first time. so please don't think i am ignoring you, i am just mustering up the courage to reply. i'm not on a lot of social sites, though chances are if you see someone with the username <i>chronodove</i>, <i>d0v3/e</i>, or any variant of the two, it's most likely me.</p>
-        </div>
-        <div id="webrings">
-          <h2>my button, click to copy :)</h2>
-          <img src="https://i.postimg.cc/T3hxVP29/button.png" alt="chronodoves button" onclick="copyText()">
-          <input type="text" id="myInput" value="&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;chronodove.neocities.org&#x2F;&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;img src&#x3D;&quot;https:&#x2F;&#x2F;i.postimg.cc&#x2F;T3hxVP29&#x2F;button.png&quot; alt&#x3D;&quot;chronodoves button&quot;&gt;&lt;&#x2F;a&gt;" hidden>
-          <!-- <a href="https://chronodove.neocities.org/" target="_blank"><img src="https://i.postimg.cc/T3hxVP29/button.png" alt="chronodoves button"></a> -->
-          <p id="copyAlert" style="display: none;">text has been copied!</p>
-          <!-- copy text script -->
-          <script>
-            //https://stackoverflow.com/questions/68696662/how-do-you-get-text-to-copy-to-clipboard-when-clicking-on-an-image
-            function copyText() {
-                let copyText = document.getElementById("myInput");
-                let copyAlert = document.getElementById("copyAlert");
-                copyText.hidden = false;
-                copyText.select();
-                document.execCommand("copy");
-                copyText.hidden = true;
-                    copyAlert.style.display = "block";
-                //https://bobbyhadz.com/blog/javascript-hide-element-after-few-seconds#hide-an-element-after-a-few-seconds-in-javascript
-                setTimeout(() => {
-                    copyAlert.style.display = 'none';
-                }, 3000);
-                }
-          </script>
-          <h2>webrings</h2>
-          <journal-ring icon="pink"></journal-ring><script async src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"></script> 
-          <br>
-          <a href="https://xandra.cc/patrons" target="_blank">website guardian</a> :: CERBERUS
-          <br>
-          <a href="https://cliques.moudoku.com/bookworms/rules.php"><img src="https://i.imgur.com/4zfqmjg.png" alt="i love reading"></a>
-          <br>
-          <a href="http://aromatic.wings.nu/" target="_blank">aromatic<span>//ashes</span></a>
-          <br>
-          <a href="https://melanated.neocities.org/" target="_blank"><img src="https://i.imgur.com/4hKIN3r.png" alt="melanated!"></a>
-          <br>
-          <a href="https://midifreak.online/tomodachi"><img src="https://midifreak.online/aptbutton.gif"></a>
-          <br>
-          <iframe width="150" height="150" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
-        </div>
-      </main>
-      <!-- switch between abtme and webrings -->
-      <script>
-        //define the writing div
-        let writing = document.getElementById('writing');
-        //define the webring div
-        let webring = document.getElementById('webrings');
-
-        function openWebrings() {
-          //if writing div is currently open, that means the user wants to see webrings...
-          if (writing.style.display == 'block'){
-            //so hide the writing and show the webrings
-            writing.style.display = 'none';
-            webring.style.display = 'block';
-          } else { //otherwise the webrings are open & the user wants to see writing..
-            //so show the writing and hide the webrings
-            writing.style.display = 'block';
-            webring.style.display = 'none';
-          }
-        }
-      </script>
-  </div>
+    <h1>about chronodove</h1>
+    <p>hello, my name is dove. i am a high school senior. i am interested in engineering, marine life, and birds. my birthday is 11/28. i'm from the northern part of the us but moved to the southern part 4 years ago. i plan to move back north for college. i speak english and hindi. i have 2 budgies named <b>aam</b> and <b>kittu.</b></p>
+    <p>outside of school and when i have energy, i like to code, read, sew, and crochet. i am not good at any of these, but i still find myself enjoying the time i spend with these crafts.</p>
+    <p>i am a big fan of minimalism and simplicty, maximalism and complexity are overwhelming. </p>
 </body>
 </html>

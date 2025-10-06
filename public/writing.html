@@ -3,179 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>writing</title>
     <link rel="stylesheet" href="style.css">
+    <title>writing</title>
 </head>
 <body>
-    <div class="wrapper" id="wrapper">
-        <script src="script.js"></script>
-        <h1>writing</h1>
-        <div class="table">
-            <div class="side">
-                <div id="image">
-                    <img src="https://i.postimg.cc/TPMrXCpV/BF592297-8-F4-F-4-F15-8932-54-E629897892.gif" alt="an old nokia/blackberry style phone">
-                    <a href="#" onclick="showThis('journal')">journal js</a>
-                </div>
-            </div>
-            <div class="main">
-                <article>
-                    <p>blog posts, tutorials, rants, anything that isn't personal, really!</p>
-                </article>
-                <article id="journal" class="entry">
-                    <h1 id="top">&nbsp;&nbsp;journal js</h1>
-                    <br>
-                    <div class="nav">
-                        <a href="#prelim">prelim</a>
-                        <a href="#one">I</a>
-                        <a href="#two">II</a>
-                        <a href="#three">III</a>
-                        <a href="#threea">IIIa</a>
-                        <a href="#threeb">IIIb</a>
-                        <a href="#code">IIII</a>
-                    </div>
-                    <p>on my <a href="diary.html">diary</a> page, i made a simple js file to allow me to hide/show article on click & have a message display if i hadn't written anything. i use this for pretty much everything on my site, i love it that much! if you want to just see the code <a href="#code">here</a> it is, but i highly suggest reading through to see how this works!</p>
-                    <p>i'll try to explain this to the best of my ability, but please reach out to me through email if you have any questions !!</p>
-                    <br>
-                    <h1 id="prelim">prelim</h1>
-                    <p>for this code, you'll need a <b>link</b>, a <b>main spot to display</b>, as well as an <b>article</b>. i use div's and articles for this, but i'm sure anything else will work as well, as long as you edit the code to match it.</p>
-                    <br>
-                    <h3 id="one">I</h3>
-
-                    <p>first, we need to declare some universal variables. those will be the <b>amount</b> of articles and the current <b>url.</b></p>
-                    <p>we'll define these as followed...</p>
-                    <div class="code">
-                        <p>
-                            <code>const amount = document.getElementsByTagName('article');
-                            let host = window.location.href;
-                            </code>
-                        </p>
-                    </div>
-                    <p>note that the defining host is optional, it's only needed if you need a function to run on a specific page. for example, the "error" message on my diary page only runs on that page because of this. !</p>
-                    <p>next, we'll move on to creating the show function.</p>
-
-                    <br>
-
-                    <h3 id="two">II</h3>
-
-                    <p>this part requires a function. this function will take an <b>id</b> as a parameter. the id being the id of the passage that needs to be shown.</p>
-                    <div class="code">
-                        <p>
-                            <code>
-                                function showThis(pass){}
-                            </code>
-                        </p>
-                    </div>
-                    <p>with this, your links should include this as an <b>onclick </b> event. here's what that would look like.</p>
-                    <div class="code">
-                        <code>
-                            &#60;a href="#" onclick="showThis('test')"&#62; Test&#60;/a&#62;
-                        </code>
-                    </div>
-                    <h5>YOU <b>MUST</b> BE CONSISTENT WITH ID NAMING !</h5>
-                    <p>whatever is in the '' MUST match the id of the article !</p>
-                    <p>this works for both number id's and words! you also don't have to assign an actual "link" in a <b>href</b> spot, but you can if you want to as a fall-back.</p>
-                    <p>now, we'll start writing the actual function. for this, i recommend adding <b>console.log()</b> lines for debugging, it's super helpful to what parts of your code are or aren't running !</p>
-
-                    <br>
-
-                    <h3 id="three">III</h3>
-
-                    <p>this is where we'll be putting all the logic in, for this, i mainly use <b>for</b> loops & <b>if else</b> statements.</p>
-                    <p>to check if your function actually runs when you click, inside the function write the following...</p>
-                    <div class="code">
-                        <code>
-                            console.log(pass);
-                        </code>
-                    </div>
-                    <p>this will show if the function a) runs & b) returns the right passage. if this doesn't work, check if the id's are the same and that you've correctly added the <b>onclick</b> event.</p>
-                    <p>after, we'll start writing the for loop.</p>
-                    <p>the header will look like this...</p>
-                    <div class="code">
-                        <code>
-                            for (let i = 0; i < amount.length; i++){}
-                        </code>
-                    </div>
-                    <p>written in english, this says <b>starting from 0, for the amount of articles in "amount", keep iterating.</b> when we had defined <b>amount</b>, we technically defined it as an <b>array</b>. this allows us to check each article in the spot at which it is contained in an article.</p>
-                    <p>after, we'll write this...</p>
-                    <div class="code">
-                        <code>
-                            let target = document.getElementById(pass);
-                        </code>
-                    </div>
-                    <p>this assigns <b>target</b> to the id of the passage we want to display.</p>
-                    <p>now, we'll use an if else statement to see if the current id of the article we're on matches the targets id...</p>
-                    <div class="code">
-                        <code>
-                            if (amount[i].id === target.id){}
-                        </code>
-                    </div>
-                    <p>within the curly braces, we can write this to display the article...</p>
-                    <div class="code">
-                        <code>
-                            amount[i].style.display = 'block';
-                            amount[i].style.overflow = 'scroll';
-                        </code>
-                    </div>
-                    <p>this directly changes whatever display it was to "block" and allows for overflow. in here, you technically add whatever.</p>
-                    <p>now, we are going to start showing the "error" message. as mentioned above, this part is optional ! you can jump <a href="#threeb">here</a> if you want to skip it.</p>
-
-                    <br>
-
-                    <h3 id="threea">III A</h3>
-
-                    <p>right under the above code, we're going to add an <b>if</b> statement-NOT AN IF ELSE-that checks if the current url matches the one we want this part of the code we want to run.</p>
-                    <p>we'll write this...</p>
-                    <div class="code">
-                        <code>
-                            if (host.includes("something.html")){}
-                        </code>
-                    </div>
-                    <p>in this code, we will be scanning what the url is and seeing if it includes the file on which we want it to run, for example a file named <b>"diary.html"</b>. </p>
-                    <p>with in that, we'll define how many &lt;p&gt; tags there are or any other tags.</p>
-                    <div class="code">
-                        <code>
-                            let ps = amount[i].getElementsByTagName('p');
-                        </code>
-                    </div>
-                    <p>now we'll add another if statement to see if the amount equals zero. </p>
-                    <div class="code">
-                        <code>
-                            if (ps.length === 0){}
-                        </code>
-                    </div>
-                    <p>with in this, we can make it so that text will be displayed in it's place...</p>
-                    <div class="code">
-                        <code>
-                            amount[i].innerHTML = "<p>wow</p>"
-                        </code>
-                    </div>
-                    <p>since this is still running within the for loop, the amount article won't change by the time this runs !</p>
-                    <p>for both of these, if these conditions aren't met, they'll simply just move on.</p>
-
-                    <br>
-
-                    <h3 id="threeb">III B</h3>
-
-                    <p>the next part of this is simpler, since our big if statement is checking to display the current target, it should hide any others that might be displayed, so we write it as follows...</p>
-                    <div class="code">
-                        <code>
-                            else {
-                                amount[i].style.display = 'none';
-                              }
-                        </code>
-                    </div>
-                    <p>and that's it ! you can easily modify this to include more functions, but this is what i stick with for now.</p>
-
-                    <br>
-
-                    <h3 id="code">IIII</h3>
-
-                    <p><a href="openArticles.js">here</a> is the full code with comments. it also has a little reset function that's really simple, so i didn't feel the need to cover it in here. the whole code was a bit too large for this article, and it became hard to read.</p>
-                    <p>for the future, i want to see if i can incorporate a memory system, where it will display the last article you were on upon re entering. but for now, i'm very happy with this and i hope you are as well !</p>
-                    <p><a href="#top">back to top</a></p>
-                </article>
-            </div>
-        </div>
-    </div>
+    <h1>writing</h1>
+    <h3>writing that isn't a diary entry</h3>
+    <ul>
+        <h2>
+            <li><a href="shrines.html" target="frame">shrines</a></li>
+        </h2>
+        <h2>
+            <li><a href="dreamlog.html" target="frame">dream log</a></li>
+        </h2>
+        <h2>
+            <li><a href="not_found.html" target="frame">recipes</a></li>
+        </h2>
+    </ul>
 </body>
 </html>

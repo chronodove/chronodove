@@ -390,3 +390,47 @@
                 <div id="popup-text"></div>
             </div>
           </div>
+
+
+
+//show & hide passages + error message for no entry only for diary page
+//console logs are for testing
+function showThis(pass){
+  //console.log(pass); 
+
+  //check all articles to find targeted one
+  for (let i = 0; i < amount.length; i++)
+  {
+    //console.log("Check: ", amount[i].id);
+    let target = document.getElementById(pass);
+
+    //check for target
+    if (amount[i].id === target.id)
+    {
+      //console.log("actions: show!");
+      amount[i].style.display = 'block';
+
+      //check if this is the diary page + write a message
+      if (host.includes("diary.html"))
+      {
+        let ps = amount[i].getElementsByTagName('p');
+        if (ps.length == 0){
+          console.log("this is running"); 
+
+          amount[i].innerHTML = "<p>looks like nothing's written.</p>"
+        }
+      }
+
+    } else {
+      //console.log("action: hide!"); 
+      amount[i].style.display = 'none';
+    }
+  }
+}
+
+//show all entries (UNUSED BUT I WANT TO KEEP THIS HERE JUST IN CASE)
+function reset() {
+  for (let i = 0; i < amount.length; i++) {
+    amount[i].style.display = 'block';
+  }
+}
