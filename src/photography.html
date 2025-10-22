@@ -1,0 +1,45 @@
+---
+title: photography
+layout: base.njk
+cssFile: "lightbox.css"
+---
+<div id="modal">
+        <img src="" alt="" id="photo">
+        <h3 id="photo-caption"></h3>
+        <button onclick="closeModal()"><h1>X</h1></button>
+</div>
+<div class="grid">
+    <h1 id="title">{{title}}</h1>
+    <p>nothing here yet</p>
+    <img src="" alt="" id=1 onclick="openThis(1)" class="lightboxPhoto">
+</div>
+
+<script>
+    //console.log("open")
+    const MODAL = document.getElementById("modal");
+    //console.log(modal);
+    let modalPhoto = document.getElementById("photo");
+    //console.log(modalPhoto);
+    let modalCaption = document.getElementById("photo-caption");
+    //console.log(modalCaption);
+    let photos = document.getElementsByClassName("lightboxPhoto");
+   // console.log(photos);
+
+    function openThis(id) {
+        for (let i = 0; i < photos.length; i++){
+            if (photos[i].id == id) {
+                console.log("ID: " + id);
+                console.log("ID MATCH: " + (photos[i].id == id));
+                modalPhoto.src = photos[i].src;
+                modalPhoto.alt = photos[i].alt;
+                modalCaption.innerText = photos[i].alt;
+            }
+            MODAL.style.display = "flex";
+        }
+        console.log("OPENED: " + modalPhoto.src)
+    }
+
+    function closeModal() {
+        MODAL.style.display = "none";
+    }
+</script>

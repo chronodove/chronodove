@@ -1,0 +1,25 @@
+{
+  "name": "chronodove",
+  "version": "1.0.0",
+  "description": "my neocities site using [Deploy to Neocities](https://github.com/marketplace/actions/deploy-to-neocities)",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronodove/chronodove.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chronodove/chronodove/issues"
+  },
+  "homepage": "https://github.com/chronodove/chronodove#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

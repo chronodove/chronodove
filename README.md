@@ -1,1 +1,1 @@
-my neocities site using [Deploy to Neocities](https://github.com/marketplace/actions/deploy-to-neocities) 
+my neocities site using [deploy to neocities](https://github.com/marketplace/actions/deploy-to-neocities) 
