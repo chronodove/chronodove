@@ -6,6 +6,10 @@ cssFile: "markdown.css"
 
 # {{title}}
 
+## 10/22/25
+### 12:11
+my crochet thread came yesterday. i'm going to try and see if i can make a doily on the weekend. i'm going to go to the library after school today, get food, and work on homework.
+
 ## 10/21/25
 ### 13:31
 it has been an exhausting half a day.

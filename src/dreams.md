@@ -1,6 +1,7 @@
 ---
 title: dream log
 layout: base.njk
+cssFile: "markdown.css"
 ---
 # 10/10/25
 talked to some ai counselor about college. it told me that my rank had dropped and my scores were invalid. my gpa was a 4.2 and my sat was a 800 and my act was 17. 
