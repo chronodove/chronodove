@@ -6,9 +6,23 @@ cssFile: "markdown.css"
 
 # {{title}}
 
+## 10/24/25
+### 13:33
+it always ends up surprising me how much most of my peers look like adults. i remember most of them when they were freshman, and it's really shocking to witness. i sometimes see my old friends' profiles on instagram from elementary/middle school and see how much they have grown. they look older, but i can still pick out their features i remember from when they were young. i once looked at an old class photo of mine and i realized that you don't really lose any child like features. you and the young version have the same eyes, nose, cheeks, and chin (granted you haven't gotten surgery). even they way they talk, there's less slang and more "adult" topics like jobs and relationships. i feel like i still look and talk the same--i feel stunted. my parents always joke about how i look twelve, and i go along with it, but it also makes me a little sad. i look like a clown in makeup and nice clothes, but i look like a little boy without it. "where's the balance!!!!" i cry out into the sky. 
+
+---
+
+## 10/23/25
+### 13:50
+i ended up not doing much yesterday. i got food, but then i went home. i still managed to finish some of my assignments, but it would have been better to have not done them at all. sigh...
+
+---
+
 ## 10/22/25
 ### 12:11
 my crochet thread came yesterday. i'm going to try and see if i can make a doily on the weekend. i'm going to go to the library after school today, get food, and work on homework.
+
+---
 
 ## 10/21/25
 ### 13:31
@@ -17,6 +31,8 @@ the long break definitely took a toll on my rhythm. i left this morning in a hur
 
 ### 15:25
 when i first started crocheting, i didn't have any wrist pain. now that i'm doing it so often, i find my wrists hurting a lot more. i'm a tight crocheter, maybe thats why. i should loosen up. 
+
+---
 
 ## 10/20/25
 ### 11:43
@@ -29,6 +45,8 @@ we had dinner at a fairly new restaurant not 10 minutes away from my house. i or
 i was an outsider this time around, i didn't know these people. i knew my friend, and then i vaguely knew two other girls. i got to know them some more though, since they were all busy chatting about. they were mostly talking about relationships. i definitely felt like the odd one out, since everybody seemed to have experience with a guy. i've never been in a proper relationship. and i'm also gay, so i stayed quiet for the most part. hearing this conversation made me realize how behind i was compared to everyone else. they new a lot of things, and i just stared at them with a blank look. even so, i still had an overall good time. it was nice talking to  new people, they were really sweet and pretty and nice. i also took it as an excuse to wear my new lip tint i bought. the packaging looked brown, but the color on me looked more maroon-ish. nonetheless, it was a very pretty color. i hope we get to hangout again soon. 
 
 i used to dream about doing stuff like that when i was a freshman. 
+
+---
 
 ## 10/15/25
 ### 10:47 
@@ -44,16 +62,25 @@ for the weekend, i want to make an amigurumi project. a few days ago i bought mo
 my friend joined me for lunch. she has an off period, so she usually leaves, but today she decided to see me! i really like spending time with her. when i told her i was looking at going to downtown on the weekend, she looked interested and said that she would be willing to come. i might take her up on that offer. i don't know exactly what to do in downtown, i'm really just wanting to explore around. it might be the last time i can visit, depending on if i get accepted in any out of state colleges. i've just gotten two more portals since writing in the morning, they are coming in slowly, but surely. i thought it would be faster and automated, but maybe it is done manually and therefore slower. i still have some math work to do, as well as research annotations i've been procrastinating on for...a while. 
 
 i'm going to make lily of the valley coasters for each of my friends 
+
+---
+
 ## 10/13/25
 ### 10:35
 i am incredibly stressed. 
 ### 14:04 
 i am looking at more crochet projects. 
 
+---
+
+
 ## 10/10/25 
 ### 09:41
 
 today, i will be leaving early from school to go an a road trip with my family. my aunt and uncle have come from canada and will stay with us for a week. i am not excited, my parents told me this yesterday afterschool. 
+
+
+---
 
 ## 10/06/25
 ### 15:00
@@ -65,6 +92,9 @@ today i had my computer science project presentation today. i gave up on trying 
 i didn't get much sleep last night. i was really nervous about the presentation today. i woke up at 05:41 feeling like i needed to throw up.
 
 last night i watched the first episode of season three of smiling friends. i really liked it. it's obvious that they got a lot more money. it was a bit jarring, since i'm used to how "cheap" it looked. it had a charming feel to it, but nonetheless i am glad that smiling friends was able to improve their quality. the writing still felt the same, thankfully. when shows get more money, i feel as if they tend to lose themselves in it.
+
+
+---
 
 ## 10/05/25
 ### 22:58
@@ -81,6 +111,10 @@ i wonder how my friends have turned out the way they have, we've all had similar
 
 i just redesigned my site, but now i want to start using 11ty. i'll play around with it tomorrow.
 
+
+---
+
+
 ## 10/02/25
 ### 15:00
 
@@ -89,6 +123,9 @@ today is my mom's birthday! i am going to pick up flowers for her after school i
 for the past few weeks i've been working on a project for my computer science class. we are supposed to work in groups. today we were supposed to present it, but thankfully, my teacher gave us until next class. now i have an extra three days to work on it. there are still a lot of things i wanted to add to program, like being able to jump; right now, you use a ladder to get up to places.
 
 i was working on math homework before this and my hands hurt, i have a bad habit of writing down really hard.
+
+---
+
 
 ## 10/01/25
 ### 12:34
@@ -109,11 +146,17 @@ everyday i become more aware of my own mortality. especially when i'm reading ab
 
 oh, maybe it's because my journal's are public. when i write publicly like this, i feel like i'm presenting a show. i'm turning my feelings into entertainment. bold of me to assume that anyone actually cares about what's going on in my life, though. i like reading other peoples journals,so there must be someone else that cares about what i have to write by chance. there's a lot of people on the internet, someone is bound to stumble upon my site and be at least *slightly* interested in what i have to say.
 
+---
+
+
 ## 09/25/25
 ### 13:10
 yesterday i was right about being exhausted. as soon as i gad gotten home, i practically passed out after eating pasta. i blinked and it was 1:30.
 
 i got to talk with my friends yesterday. i am going to see them over the weekend too.
+
+
+---
 
 ## 09/24/25
 ### 03:23

@@ -14,3 +14,15 @@ i like math more than english. i despise chemistry.
 my favorite perfumes are *hugo boss ma vie*, *victoria's secret velvet petals*, and *mix bar cloud musk n21*. my favorite animals are birds and fishes. i hate anything chewy. my favorite colors are dark reds, dark browns, dark blues, whites/creams, and black. i'm okay with spicy food. my favorite fruit is orange and my favorite vegetable is spinach. i listen to all kinds of music, but my playlist is mostly alternative/indie rock. 
 
 i am a big fan of minimalism and simplicity, but i appreciate maximalism. 
+
+{# add lastfm widget somewhere #}
+
+---
+# links
+[storygraph](https://app.thestorygraph.com/profile/chronodove)
+
+[pinterest](https://www.pinterest.com/chronodove/)
+
+[neocities profile](https://neocities.org/site/chronodove)
+
+[ravelry](https://www.ravelry.com/people/chronodove)
