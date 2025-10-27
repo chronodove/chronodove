@@ -12,3 +12,8 @@ hr {
     margin-top: 1ch;
     margin-bottom: 1ch;
 }
+
+img {
+    width: 30%;
+    height: auto;
+}

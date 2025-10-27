@@ -6,6 +6,20 @@ cssFile: "markdown.css"
 
 # {{title}}
 
+## 10/26/25
+### 07:37
+i went volunteering at the shelter with my friend yesterday. i haven't gone in a while, and i had nothing else to do. i'm allergic to cats, so i took allergy medicine, but it didn't help much. we played with the kittens and as i was petting one another one climbed up my back. one also gave me a small scratch. we then visited the older cats, and one got really attached to my friend. he was sleeping in her lap and would hiss if anyone got close to her. there was a new cat who would hiss at everyone, but liked human attention. i felt sorry for her, but also empathized. she reminded me of me when i was younger (and maybe now?), intentionally sabotaging her attempts at friendships. 
+
+afterwards, i went to the dollar store to get chenille yarn. i didn't want to go to michaels or hobby lobby and buy a big skein. i bought two small white skein, around 120 ft together. in the checkout, there was a middle aged woman with a cart full of candy. when the cashier with a child-like voice asked her why she was buying all this, the woman said that she was hosting a halloween watch-party for her coworkers.
+
+when i went home, i tried making my mom's old mug cake recipe from 2021(!). my first attempt failed; it was horribly bitter and the bottom was raw baking soda and flour. i went to the store to get new flower and some other stuff, and my second attempt was a bit better. it was still bitter, but i'm assuming it's because of the unsweetened cocoa powder. i didn't put a lot of sugar in because i was afraid of it being too sweet. a similar thing happened when i was making chicken strips during the summer; i didn't put enough seasoning because i was afraid it would be too over powering, but then it ended up bland. 
+
+i'm going to try baking again today, i found a cookie recipe. i'm going to give it to my friends on monday. after that, i'll look at hairstyles because i'm getting a haircut after school on thursday. i'm really excited, i'm going to re-do my layers. i'll also have an appointment to color my hair too. i'll get big chunky highlights. 
+
+### 21:19
+i made those cookies. they turned out a lot better than i thought they would. it was definitely a "trust the process" sort of thing, but i'm glad i stuck with it. i also went to the library and got a big assignment done. i went back home and finished my computer science homework. 
+
+---
 ## 10/24/25
 ### 13:33
 it always ends up surprising me how much most of my peers look like adults. i remember most of them when they were freshman, and it's really shocking to witness. i sometimes see my old friends' profiles on instagram from elementary/middle school and see how much they have grown. they look older, but i can still pick out their features i remember from when they were young. i once looked at an old class photo of mine and i realized that you don't really lose any child like features. you and the young version have the same eyes, nose, cheeks, and chin (granted you haven't gotten surgery). even they way they talk, there's less slang and more "adult" topics like jobs and relationships. i feel like i still look and talk the same--i feel stunted. my parents always joke about how i look twelve, and i go along with it, but it also makes me a little sad. i look like a clown in makeup and nice clothes, but i look like a little boy without it. "where's the balance!!!!" i cry out into the sky. 

@@ -6,6 +6,10 @@ cssFile: "markdown.css"
 
 # {{title}}
 
+## 10/26/25
+was in a lazy river in the white void. there were ducks and people were trying to catch them. then a huge wave came and before i was to get crushed i woke up. 
+
+---
 ## 10/25/25
 the dream started off with me and my parents and grandma in a forest of some sort. my grandma was posing next to a abnormally large baby dear. next, we went home and there was some kind of creature crawling all over our house. we were all very amused by it, and a lot of people would stand outside in our yard and look at it and take photos. everyone was smiling at it. 
 
