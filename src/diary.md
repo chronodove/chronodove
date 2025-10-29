@@ -6,6 +6,13 @@ cssFile: "markdown.css"
 
 # {{title}}
 
+## 10/28/25
+### 13:50
+desperately trying to write.words just aren't coming out. 
+
+i want to bake again. i still have batter. my friends younger sister is having her birthday this saturday. i am making her a small cat plush. might have bitten off more than i can chew. she is turning four, so i must learn to embroider the eyes instead of using safety eyes like i usually do. haircut is in 2 days, haven't looked at any hair styles. more college acceptances, more than i anticipated. too expensive though. library was closed for lunch, now sitting outside in the wind; a leaf hit the back of my head. 
+
+
 ## 10/26/25
 ### 07:37
 i went volunteering at the shelter with my friend yesterday. i haven't gone in a while, and i had nothing else to do. i'm allergic to cats, so i took allergy medicine, but it didn't help much. we played with the kittens and as i was petting one another one climbed up my back. one also gave me a small scratch. we then visited the older cats, and one got really attached to my friend. he was sleeping in her lap and would hiss if anyone got close to her. there was a new cat who would hiss at everyone, but liked human attention. i felt sorry for her, but also empathized. she reminded me of me when i was younger (and maybe now?), intentionally sabotaging her attempts at friendships. 
