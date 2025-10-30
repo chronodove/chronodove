@@ -12,6 +12,7 @@ desperately trying to write.words just aren't coming out.
 
 i want to bake again. i still have batter. my friends younger sister is having her birthday this saturday. i am making her a small cat plush. might have bitten off more than i can chew. she is turning four, so i must learn to embroider the eyes instead of using safety eyes like i usually do. haircut is in 2 days, haven't looked at any hair styles. more college acceptances, more than i anticipated. too expensive though. library was closed for lunch, now sitting outside in the wind; a leaf hit the back of my head. 
 
+---
 
 ## 10/26/25
 ### 07:37
