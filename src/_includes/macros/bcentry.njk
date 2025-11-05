@@ -1,0 +1,15 @@
+{% macro field(imageName, recipeName, recipeLink, dateMade, rating) %}
+
+<img src="/images/{{imageName}}" class="float-right">
+
+__<u>recipe:</u>__ [ {{recipeName}} ]( {{recipeLink}} )
+
+__<u>first made:</u>__ {{dateMade}}
+
+__<u>rating:</u>__  {% if rating == 5%}<span style="color:rgb(195, 153, 16);">5/5</span>{%else%}{{rating}}/5{%endif%}
+
+{% endmacro %}
+
+{% macro thoughts(thought) %}
+__<u>thoughts:</u>__ {{thought}}
+{% endmacro %}

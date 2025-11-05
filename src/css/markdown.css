@@ -14,6 +14,21 @@ hr {
 }
 
 img {
-    width: 30%;
+    width: 40%;
     height: auto;
+}
+
+img.float-right {
+    float: right; 
+    margin-left: 1ch;
+
+}
+
+img.float-left {
+    float: left;
+    margin-right: 1ch;
+}
+
+a::after {
+    content: '⤴';
 }

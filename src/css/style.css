@@ -135,6 +135,18 @@ a {
     transition: all 0.25s;
 }
 
+a[rel="external"]::after {
+    content: '⤴';
+}
+
+a[rel="internal"]::after {
+    content: unset;
+}
+
+.left a::after {
+    content: unset;
+}
+
 a:visited {
     color: var(--accent);
 }

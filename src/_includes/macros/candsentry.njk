@@ -1,0 +1,13 @@
+{% macro field(imageName, patternName, patternLink, dateMade, difficulty, thought) %}
+
+<img src="/images/{{imageName}}" class="float-right">
+
+__<u>pattern:</u>__ [ {{patternName}} ]( {{patternLink}} )
+
+__<u>made:</u>__ {{dateMade}}
+
+__<u>difficulty:</u>__  {{difficulty}}/5
+
+__<u>thoughts:</u>__ {{thought}}
+
+{% endmacro %}

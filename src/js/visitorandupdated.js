@@ -4,16 +4,17 @@ var xhttp = new XMLHttpRequest();
                 var site_data = JSON.parse(this.responseText);
                 var num_arr = site_data.info.views.toString().split("");
                 var num_str = "";
+                //add commas to number count 
                 for (i = 0; i < num_arr.length; i++) {
                     num_str += num_arr[i];
                     if ((num_arr.length - 1 - i) % 3 == 0 && (num_arr.length - 1 - i) != 0 ){   
                         num_str += ","; 
                     }
-                    var date_str = site_data.info.last_updated;
                     var date_obj = new Date(site_data.info.last_updated);
                     document.getElementById("lastupdate").innerHTML = (date_obj.getMonth() + 1) + "-" + date_obj.getDate() + "-" + date_obj.getFullYear();
                 }
                 document.getElementById("hitcount").innerHTML = num_str;
+
                 let created_obj = new Date(site_data.info.created_at);
                 document.getElementById("created").innerHTML = (created_obj.getMonth()+1) + "-" + created_obj.getDate() + "-" + created_obj.getFullYear();
             }
