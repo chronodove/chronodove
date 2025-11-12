@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/writingstyle.css">
+    <link rel="shortcut icon" href="images/favicon.gif" type="image/gif">
+    <title>chronodove | {{title}}</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1 id="title">writings</h1>
+            <div class="row">
+                <div class="left">
+                    <nav>
+                        <a href="/">back</a>
+                        <h2>articles</h2>
+                        <ul>
+                            {% for article in collections.article %}
+                                <li><a href="{{article.url}}">{{article.data.title}}</a></li>
+                            {% endfor %}
+                        </ul>
+                        <h2>stories</h2>
+                        <ul>
+                            {% for story in collections.story %}
+                                <li><a href="{{story.url}}">{{story.data.title}}</a></li>
+                            {% endfor %}
+                        </ul>
+                        <h2>tutorials</h2>
+                        <ul>
+                            {% for tut in collections.tutorial %}
+                                <li><a href="{{tut.url}}">{{tut.data.title}}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                    <hr>
+                    <div id="settings">
+                        <h2>settings</h1>
+                        <span onclick="reset()">reset options</span>
+                        <h3>font:</h3>
+                        <ul>
+                            <li><span onclick='changeFont("Helvetica, sans-serif")'>helvetica</span></li>
+                            <li><span onclick='changeFont("Georgia, serif")'>georgia</span></li>
+                            <li><span onclick='changeFont("Times New Roman, serif")'>times new roman</span></li>
+                        </ul>
+                        <h3>size:</h3>
+                        <ul>
+                            <li><span onclick="changeFontSize(12)">12px</span></li>
+                            <li><span onclick="changeFontSize(15)">15px</span></li>
+                            <li><span onclick="changeFontSize(25)">25px</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right" id="panel">
+                    {{content | safe}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let panel = document.getElementById('panel');
+        const INITIAL_FONT = "Helvetica, sans-serif, serif";
+        const INITIAL_SIZE = "12";
+
+        function changeFont(font) {
+            panel.style.fontFamily = font ;
+            console.log("CHANGED FONT");
+        }
+
+        function changeFontSize(size){
+            panel.style.fontSize = size + 'px';
+            console.log("CHANGED SIZE");
+        }
+
+        function reset() {
+            panel.style.fontFamily = INITIAL_FONT;
+            panel.style.fontSize = INITIAL_SIZE + 'px';
+            console.log("RESET");
+        }
+    </script>
+</body>
+</html>

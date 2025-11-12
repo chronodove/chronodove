@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
-
 :root {
     --bg: #eae9e9;
     --txt: #404446;
     --accent: #575e64;
+    --highlight: #8e9aae98;
 }
 
 * {
@@ -19,7 +18,7 @@
 }
 
 body {
-    font-family:  Helvetica, sans-serif, serif;                                            
+    font-family:  Helvetica, sans-serif;                                            
     font-size: 12px;
     color: var(--txt);
     text-align: justify;
@@ -106,6 +105,17 @@ body {
     text-decoration: none !important;
 }
 
+#widgets {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+
+    border: double 3px var(--txt);
+}
+
+
 #nav {
     width: 100%;
     flex-grow: 1;
@@ -130,34 +140,9 @@ body {
     text-decoration: underline;
 }
 
-a {
-    color: #43505d;
-    transition: all 0.25s;
-}
-
-a[rel="external"]::after {
-    content: '⤴';
-}
-
-a[rel="internal"]::after {
-    content: unset;
-}
 
 .left a::after {
     content: unset;
-}
-
-a:visited {
-    color: var(--accent);
-}
-
-a:hover {
-    letter-spacing: 3px;
-    transition: all 0.25s;
-}
-
-li::marker {
-  font-size: 12px;  
 }
 
 .right #title {
@@ -183,12 +168,13 @@ li::marker {
 #updates {
     width: 100%;
     height: 200px;
+    min-height: 0;
+    overflow-y: scroll;
 
     padding: 1%;
 
     color: var(--txt);
 }
-
 
 #updates li::marker {
     content: "∴ ";
@@ -219,6 +205,8 @@ li::marker {
     padding: 1%;
 }
 
+
+
 button {
     margin: 0;
     padding: 0;
@@ -244,3 +232,44 @@ button:hover {
 table {
     float: right;
 }
+
+img {
+    user-select: none;
+}
+
+::selection {
+    background-color: var(--highlight);
+}
+
+
+a {
+    color: #43505d;
+    transition: all 0.25s;
+    transform: translateY(0px);
+}
+
+a[rel="external"]::after {
+    content: '⤴';
+}
+
+a[rel="internal"]::after {
+    content: unset;
+}
+
+a:visited {
+    color: var(--accent);
+}
+
+a:hover {
+    letter-spacing: 3px;
+    transition: all 0.25s;
+}
+
+li::marker {
+  font-size: 12px;  
+}
+
+a:active {
+    transform: translateY(3px);
+}
+

@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="/css/{{cssFile}}">
+    <link rel="shortcut icon" href="images/favicon.gif" type="image/gif">
     <title>chronodove | {{ title }}</title>
 </head> 
 <body>
+   
     <div class="wrapper">
         <div class="container">
             <div class="left">
@@ -23,6 +25,11 @@
                     <span><b style="text-decoration: underline;">created on:</b> <span id="created"></span></span>
                 </div>
                 <script src="/js/visitorandupdated.js"></script>
+                <div id="widgets">
+                    <span><b style="text-decoration: underline;">my time:</b> <span id="time"></span></span>
+                    <div id="weather"></div>
+                </div>
+                <script src="/js/clockandweather.js"></script>
                 <div id="nav">
                     <a href="/"><h3>home</h3></a>
                     <hr>
@@ -30,6 +37,7 @@
                     <a href="/about/"><h3>about</h3></a>
                     <a href="/diary/"><h3>diary</h3></a>
                     <a href="/dreams/"><h3>dream log</h3></a>
+                    <a href="/writing/"><h3>writing</h3></a>
                     <hr>
                     <h2>hobbies:</h2>
                     <a href="/baking/"><h3>baking</h3></a>

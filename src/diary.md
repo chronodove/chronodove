@@ -8,6 +8,13 @@ cssFile: "markdown.css"
 ###### [archive](https://rentry.co/chronodovearchive)
 ---
 
+## 11/09/25
+### 12:58 
+new!!!!!!!!!! car!!!!!!!!!!!!!!! 2026 camry!!!!!!!!!!!!!!! i got it last night!!!!!!!!!!
+
+![my car!!!!!](/images/diary/mycar.png)
+
+---
 ## 11/05/25
 ### 12:23
 this weekend was probably one of my busiest weekends yet. 

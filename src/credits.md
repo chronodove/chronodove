@@ -20,3 +20,4 @@ cssFile: "markdown.css"
 - [background](https://www.pinterest.com/pin/844493673338851/) - high resolution photo is in the comments on the post 
 - [fish icon](https://www.pinterest.com/pin/582371795609677861/)
 - [about me chart image](https://www.pinterest.com/pin/582371795610393672/)
+- [favicon](https://rentry.org/jaypixels)
