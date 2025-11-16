@@ -5,6 +5,15 @@ cssFile: "markdown.css"
 ---
 
 # {{title}}
+## 11/05/25
+### (multiple naps)
+went to some kind of boba/tattoo shop
+
+running back and forth in the lawn of my parents old home while some black creature watched me from the deck
+
+explored a website/blog with a pale yellow color scheme
+
+was dating a girl whose name started with an m (may? maya?) with dark hair and eyes. she was obsessed with me 
 
 ## 11/05/25
 started off with me watching(? or being?) a dutch girl. i was dancing on the roof top before realizing i have no way to get down. then i woke up in another dream. i was driving my family to some restaurant, and my mom kept making fun of me. i got tired of it and ran away, hearing her taunt me until i left. as i started walking to the car, my dad stopped me and told me he would take me to the festival nearby. i accepted and he drove me there. it wasn't even a two minute drive before we got there. it was reminiscent of old english buildings and alleyways. it had a lot of shop and people. i stopped by one yarn store called hobbii and looked to see some yarn. there wasn't any on the stall racks, so my dad went behind the cashier and tried finding it while holding a scanner. the cashier told my dad to leave and tried getting back the scanner, but he wouldn't let him. 

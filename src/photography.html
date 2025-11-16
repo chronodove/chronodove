@@ -6,7 +6,11 @@ cssFile: "lightbox.css"
 <div id="modal">
         <img src="" alt="" id="photo">
         <h3 id="photo-caption"></h3>
-        <button onclick="closeModal()"><h1>X</h1></button>
+        <div class="button-container">
+            {# <button onclick="switchSlides();" class="buttons" id="left"><h1>&LeftArrow;</h1></button> #}
+            <button onclick="closeModal()"><h1>X</h1></button>
+            {# <button onclick="switchSlides();" class="buttons" id="right"><h1>&RightArrow;</h1></button> #}
+        </div>
 </div>
 <h1 id="title">{{title}}</h1>
 <h6>blurred photos contain sensitive content</h6>
@@ -49,6 +53,12 @@ cssFile: "lightbox.css"
         }
         console.log("OPENED: " + modalPhoto.src)
     }
+
+    // function switchSlides(direction){
+    //     if (direction === 'left') {
+
+    //     }
+    // }
 
     function closeModal() {
         MODAL.style.display = "none";

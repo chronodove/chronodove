@@ -62,6 +62,7 @@ body {
 .left {
     width: 140px;
     flex-shrink: 0;
+    flex-grow: 0;
     height: 100%;
 
     display: flex;
@@ -206,6 +207,17 @@ body {
 }
 
 
+#weather-and-temp {
+    display: flex;
+    width: max-content;
+    height: 2ch;
+    align-items: center;
+    gap: 1ch;
+}
+
+#weather-icon img{
+    width: 20px;
+}
 
 button {
     margin: 0;

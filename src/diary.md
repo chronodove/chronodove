@@ -7,7 +7,9 @@ cssFile: "markdown.css"
 # {{title}}
 ###### [archive](https://rentry.co/chronodovearchive)
 ---
-
+## 11/14/25
+### 10:04
+this week has been nothing but a pain. i haven't been able to sleep, this is my third all nighter in a row. i'm not even doing anything productive, just scrolling like an asshole. my whole body has been hurting the entire week. on monday, i had the most debilitating back pain of my life in the morning, it was so bad i debated leaving early. it then spread to my abdomen and legs, where it has been lying since. 
 ## 11/09/25
 ### 12:58 
 new!!!!!!!!!! car!!!!!!!!!!!!!!! 2026 camry!!!!!!!!!!!!!!! i got it last night!!!!!!!!!!

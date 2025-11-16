@@ -21,12 +21,14 @@
                                 <li><a href="{{article.url}}">{{article.data.title}}</a></li>
                             {% endfor %}
                         </ul>
+                        <hr>
                         <h2>stories</h2>
                         <ul>
                             {% for story in collections.story %}
                                 <li><a href="{{story.url}}">{{story.data.title}}</a></li>
                             {% endfor %}
                         </ul>
+                        <hr>
                         <h2>tutorials</h2>
                         <ul>
                             {% for tut in collections.tutorial %}

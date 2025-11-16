@@ -144,3 +144,8 @@ li::marker {
     background: linear-gradient(90deg,var(--accent) 60%, var(--bg) 80%);
     color: var(--bg);
 }
+
+hr {
+    margin-top: 1ch;
+    margin-bottom: 1ch;
+}

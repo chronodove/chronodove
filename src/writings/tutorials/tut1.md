@@ -1,6 +1,8 @@
 ---
-title: tut 1
+title: modal script
 layout: writing.njk
 tags: "tutorial"
 ---
-# wip........
+# modal script 
+
+coming soon hehehhhehehehhehehe
