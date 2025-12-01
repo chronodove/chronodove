@@ -1,8 +1,7 @@
 ---
-title: modal script
+title: weather and temperature widget
 layout: writing.njk
 tags: "tutorial"
 ---
-# modal script 
+<h1 id="title">{{title}}</h1>
 
-coming soon hehehhhehehehhehehe

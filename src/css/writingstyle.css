@@ -75,6 +75,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    text-align: left;
  
     border: 2px solid var(--accent);
 }
@@ -148,4 +149,51 @@ li::marker {
 hr {
     margin-top: 1ch;
     margin-bottom: 1ch;
+}
+
+p {
+    margin-bottom: 1ch;
+}
+
+pre {
+    display: block;
+    max-width: 100%;
+    padding: 1em 1.5em;
+    margin-bottom: 1.6em;
+    
+    overflow: auto;
+    line-break: normal;
+    word-wrap: break-word;
+    
+    font-family: monospace;
+    line-height: 1.6;
+    
+    background: #f4f4f4;
+    color: var(--txt);
+    border-left: 3px solid var(--accent);
+    border: 1px solid #ddd;
+}
+
+p code {
+    font-family: monospace;
+    background: #f4f4f4;
+    color: var(--txt);
+    border-left: 3px solid var(--accent);
+    border: 1px solid #ddd;
+}
+
+::selection {
+    background-color: var(--highlight);
+}
+
+h1{
+    margin-bottom: 1ch;
+}
+
+#panel img {
+    width: 100%;
+}
+
+#panel {
+    text-align: left;
 }

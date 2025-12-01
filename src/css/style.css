@@ -18,7 +18,7 @@
 }
 
 body {
-    font-family:  Helvetica, sans-serif;                                            
+    font-family: Helvetica, sans-serif;                                            
     font-size: 12px;
     color: var(--txt);
     text-align: justify;
@@ -206,17 +206,9 @@ body {
     padding: 1%;
 }
 
-
-#weather-and-temp {
-    display: flex;
-    width: max-content;
-    height: 2ch;
-    align-items: center;
-    gap: 1ch;
-}
-
-#weather-icon img{
-    width: 20px;
+#widgets {
+    text-align: center;
+    font-weight: bold;
 }
 
 button {
@@ -252,7 +244,6 @@ img {
 ::selection {
     background-color: var(--highlight);
 }
-
 
 a {
     color: #43505d;

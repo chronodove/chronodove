@@ -10,7 +10,7 @@
 <body>
     <div class="wrapper">
         <div class="container">
-            <h1 id="title">writings</h1>
+            <h1 id="title" style="margin-bottom: 0;">writings</h1>
             <div class="row">
                 <div class="left">
                     <nav>
@@ -25,14 +25,14 @@
                         <h2>stories</h2>
                         <ul>
                             {% for story in collections.story %}
-                                <li><a href="{{story.url}}">{{story.data.title}}</a></li>
+                                <li><a href="{{story.url}}" rel="internal">{{story.data.title}}</a></li>
                             {% endfor %}
                         </ul>
                         <hr>
                         <h2>tutorials</h2>
                         <ul>
                             {% for tut in collections.tutorial %}
-                                <li><a href="{{tut.url}}">{{tut.data.title}}</a></li>
+                                <li><a href="{{tut.url}}" rel="internal">{{tut.data.title}}</a></li>
                             {% endfor %}
                         </ul>
                     </nav>

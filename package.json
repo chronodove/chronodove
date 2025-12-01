@@ -21,5 +21,6 @@
   "homepage": "https://github.com/chronodove/chronodove#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2"
-  }
+  },
+  "type:": "module"
 }

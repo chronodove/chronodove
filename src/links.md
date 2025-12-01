@@ -38,10 +38,11 @@ cssFile: "markdown.css"
 - [drcos](https://dr-cos.info/) - free sewing patterns for various garments and cosplay 
 - [dhgshop](https://dhgshop.it/blog/index_eng.php) - knitting, sewing, and more
 - [the spruce crafts](https://www.thesprucecrafts.com/) - includes needlefelting, sewing, knitting, and more
+- [mood fabrics](https://www.moodfabrics.com/) - huge sewing store. has a lot of free patterns 
   
 ---
 ## recipes 
-###### most of theses sites are allergy oriented, includes both cooking and baking.
+###### most of theses sites are for dealing with my allergies, so don't expect things with eggs and nuts especially; includes both cooking and baking.
 - [baked abundance](https://bakedabundance.com/) - eggless & traditional sweets recipes
 - [delish](https://www.delish.com/) - an overwhelming amount of recipes for (mainly) cooking 
 - [mommy's home cooking](https://mommyshomecooking.com/) - a lot of eggless deserts and meals

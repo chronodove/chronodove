@@ -3,10 +3,7 @@ title: credits
 layout: base.njk
 cssFile: "markdown.css"
 ---
-
 # {{title}}
-
-
 ## code
 ---
 - [js calendar](https://www.javascriptfreecode.com/36.htm)
@@ -14,8 +11,7 @@ cssFile: "markdown.css"
 - [11ty to neocities guide 2](https://flamedfury.com/guides/11ty-homepage-neocities/)
 - [last updated & visitor count](https://dannarchy.com/tut/tut_002)
 - [css border images](https://solaria.neocities.org/bits/)
-- [weather api](https://openweathermap.org)
-- [weather widget](https://dev.to/iamcymentho/building-a-complete-weather-app-from-scratch-with-html-css-and-javascript-a-step-by-step-guide-30h4)
+- [weather api](https://open-meteo.com)
 ---
 ## images 
 ###### most of these are from pinterest

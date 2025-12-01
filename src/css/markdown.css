@@ -8,6 +8,7 @@ h1 {
     color: var(--bg);
 }
 
+
 hr {
     margin-top: 1ch;
     margin-bottom: 1ch;
@@ -31,4 +32,23 @@ img.float-left {
 
 a::after {
     content: '⤴';
+}
+
+pre {
+    display: block;
+    max-width: 100%;
+    padding: 1em 1.5em;
+    margin-bottom: 1.6em;
+    
+    overflow: auto;
+    word-wrap: break-word;
+    page-break-inside: avoid;
+    
+    font-family: monospace;
+    line-height: 1.6;
+    
+    background: #f4f4f4;
+    color: var(--txt);
+    border-left: 3px solid var(--accent);
+    border: 1px solid #ddd;
 }
