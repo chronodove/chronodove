@@ -121,11 +121,6 @@ a:hover {
     transition: all 0.25s;
 }
 
-li::marker {
-    content: "∴ ";
-    font-weight: 800;
-}
-
 .left span {
     width: fit-content;
     padding: 1%;

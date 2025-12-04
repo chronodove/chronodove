@@ -19,3 +19,4 @@ cssFile: "markdown.css"
 - [fish icon](https://www.pinterest.com/pin/582371795609677861/)
 - [about me chart image](https://www.pinterest.com/pin/582371795610393672/)
 - [favicon](https://rentry.org/jaypixels)
+- [place holder image](https://www.pinterest.com/pin/37788084370626040/) edited in [jspaint](https://jspaint.app)

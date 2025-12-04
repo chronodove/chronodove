@@ -6,6 +6,18 @@ cssFile: "markdown.css"
 {% import 'macros/candsentry.njk' as entry %}
 # {{title}}
 ---
+## daisy bookmark 
+{{entry.field (
+    "placeholder.png", 
+    "simply daisy bookmark by this pixie creates", 
+    "https://thispixiecreates.com/how-to-crochet-the-simply-daisy-bookmark-video-tutorial/",
+    "11/29/2025",
+    "1",
+    "i also finished this in one day, less than two hours! the pattern looks intimidating, but it was incredibly easy. my bookmark slightly curls due to the chains and maybe my tension, so i'll need to block it. though i'm curious what it would look like if i used a foundation chain rather than chains to make it more flexible! i didn't add the tassel because i'm lazy. overall, i really like this pattern and i'll definitely be making these as gifts for my friends!"
+)}} 
+
+---
+
 ## bear glasses holder 
 {{entry.field (
     "crochet/bearglassesholder.jpg",
@@ -13,7 +25,7 @@ cssFile: "markdown.css"
     "https://ribblr.com/pattern/bear-glasses-holder-Crochet-3",
     "11/16/2025",
     "4",
-    "i finished this in one day! it wasn't hard to follow, but i'm pretty sure i messed up somewhere along the way. the most difficult part was getting used to using 2 skeins of yarn at the same time and managing how thick the yarn was. i ended up going from a 4.5 to 6mm hook; i usually stick to 3-4mm hooks. overall, not a bad pattern."
+    "i finished this in one day! it wasn't hard to follow, but i'm pretty sure i messed up somewhere along the way. the most difficult part was getting used to using 2 skeins of yarn at the same time and managing how thick the yarn was. i ended up going from a 4.5 to 6mm hook; i usually stick to 3-4mm hooks, so this was a learning experience for sure. overall, not a bad pattern."
 )}}
 
 ---
