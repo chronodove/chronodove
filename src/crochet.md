@@ -8,16 +8,15 @@ cssFile: "markdown.css"
 ---
 ## daisy bookmark 
 {{entry.field (
-    "placeholder.png", 
+    "crochet/simpledaisybookmark.jpg", 
     "simply daisy bookmark by this pixie creates", 
     "https://thispixiecreates.com/how-to-crochet-the-simply-daisy-bookmark-video-tutorial/",
     "11/29/2025",
     "1",
-    "i also finished this in one day, less than two hours! the pattern looks intimidating, but it was incredibly easy. my bookmark slightly curls due to the chains and maybe my tension, so i'll need to block it. though i'm curious what it would look like if i used a foundation chain rather than chains to make it more flexible! i didn't add the tassel because i'm lazy. overall, i really like this pattern and i'll definitely be making these as gifts for my friends!"
+    "i also finished this in one day, less than two hours! the pattern looks intimidating, but it was incredibly easy. my bookmark has a severe curl due to the chains and maybe my tension, so i'll need to block it. though i'm curious what it would look like if i used a foundation chain rather than chains to make it more flexible! i didn't add the tassel because i'm lazy. overall, i really like this pattern and i'll definitely be making these as gifts for my friends! **12/07/25 edit:** i tried  blocking it but i don't think it worked :((("
 )}} 
 
 ---
-
 ## bear glasses holder 
 {{entry.field (
     "crochet/bearglassesholder.jpg",
@@ -30,7 +29,7 @@ cssFile: "markdown.css"
 
 ---
 ## small cat for my friend's younger sister's birthday 
-{{entry.field(
+{{entry.field (
     "crochet/crochet_cat.jpg",
     "small long legged cat by kristin tullus",
     "https://kristitullus.com/blogs/news/free-pattern-small-long-legged-cat",

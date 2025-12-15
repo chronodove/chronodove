@@ -8,30 +8,28 @@ h1 {
     color: var(--bg);
 }
 
-
 hr {
     margin-top: 1ch;
     margin-bottom: 1ch;
 }
 
 img {
+    display: block;
     width: 40%;
     height: auto;
 }
 
 img.float-right {
+    display: unset;
     float: right; 
     margin-left: 1ch;
 
 }
 
 img.float-left {
+    display: unset;
     float: left;
     margin-right: 1ch;
-}
-
-a::after {
-    content: '⤴';
 }
 
 pre {

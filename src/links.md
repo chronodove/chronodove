@@ -3,11 +3,11 @@ title: links
 layout: base.njk
 cssFile: "markdown.css"
 ---
-
 # {{title}}
 ###### interesting sites i've explored. 
 ---
 ## images
+- [jspaint](https://jspaint.app) - mspaint right in your browser
 - [wikiart](https://www.wikiart.org/) - a non-profit home for all sorts of art.
 
 ---
@@ -20,7 +20,7 @@ cssFile: "markdown.css"
 - [printfriendly](https://www.printfriendly.com/) - convert websites to pdf, includes an editor to remove parts on the site and has a firefox extension
   
 ---
-## crochet and sewing
+## crochet
 ###### most of these sites have free patterns and are mainly amigurumi, so i've omitted the little descriptions. 
 - [all free chrochet](https://www.allfreecrochet.com/)
 - [crochet with mahum](https://mahumcrochets.blogspot.com/) 
@@ -45,9 +45,10 @@ cssFile: "markdown.css"
 ###### most of theses sites are for dealing with my allergies, so don't expect things with eggs and nuts especially; includes both cooking and baking.
 - [baked abundance](https://bakedabundance.com/) - eggless & traditional sweets recipes
 - [delish](https://www.delish.com/) - an overwhelming amount of recipes for (mainly) cooking 
+- [live eat learn](www.liveeatlearn.com) - vegan/vegetarian focused recipes, lots of chickpeas
 - [mommy's home cooking](https://mommyshomecooking.com/) - a lot of eggless deserts and meals
-- [that foodie girl](https://thatfoodiegirl.in/) - lots of dinner/lunch ideas
 - [the foodie diaries](https://thefoodiediaries.co/) - more recipes, mostly cooking
+- [that foodie girl](https://thatfoodiegirl.in/) - lots of dinner/lunch ideas
 - [the lunch break](https://www.thelunchbreak.co/) - lots of dinner and breakfast recipes
 
 ---

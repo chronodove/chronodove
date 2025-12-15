@@ -3,7 +3,6 @@
     src: url("/css/pixelated-times-new-roman.otf");
 }
 
-
 :root {
     --bg: #eae9e9;
     --txt: #404446;
@@ -255,14 +254,11 @@ a {
     color: #43505d;
     transition: all 0.25s;
     transform: translateY(0px);
+    font-weight: 700;
 }
 
-a[rel="external"]::after {
-    content: '⤴';
-}
-
-a[rel="internal"]::after {
-    content: unset;
+.external::after {
+    content: '⤴' !important;
 }
 
 a:visited {

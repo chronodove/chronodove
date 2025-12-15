@@ -6,7 +6,6 @@ cssFile: "markdown.css"
 # {{title}}
 ## code
 ---
-- [js calendar](https://www.javascriptfreecode.com/36.htm)
 - [11ty to neocities guide 1](https://petrapixel.neocities.org/coding/eleventy-tutorial)
 - [11ty to neocities guide 2](https://flamedfury.com/guides/11ty-homepage-neocities/)
 - [last updated & visitor count](https://dannarchy.com/tut/tut_002)

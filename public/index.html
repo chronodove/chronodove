@@ -34,13 +34,12 @@
                         <a href="/about/"><h3>about</h3></a>
                         <a href="/diary/"><h3>diary</h3></a>
                         <a href="/dreams/"><h3>dream log</h3></a>
-                        <a href="/notes/"><h3>notes</h3></a>
+                        <a href="/monthlyfavs/"><h3>monthly favorites</h3></a>
                         <a href="/writing/"><h3>writing</h3></a>
                     <hr style="margin: 0 !important;">
                     <h2>hobbies:</h2>
                         <a href="/baking/"><h3>baking</h3></a>
                         <a href="/cooking/"><h3>cooking</h3></a>
-                        <a href="/closet/"><h3>closet</h3></a>
                         <a href="/crochet/"><h3>crochet</h3></a>
                         <a href="/photography/"><h3>photography</h3></a>
                         <a href="/sewing/"><h3>sewing</h3></a>
@@ -50,48 +49,36 @@
                         <a href="/links/"><h3>links</h3></a>
                 </div>
             </div>
-            <div class="right">
+            <div class="right" id="right">
                 <div id="con">
     <div id="t">
         <h1 id="title">welcome to my site</h1>
-        <p>i'm <a href="/about/">dove</a> and this is my whine zone. this is mainly log of everything i want to keep and store. button is below, click to copy text.</p>
+        <p>i'm <a href="/about/">dove</a> and this is my whine zone. this is mainly log of everything i want to keep and store. button & banner is below, click on each to copy their respective codes.</p>
         <p>scrolling is enabled, i just hate the way the scrollbar looks.</p>
-        <img src="https://i.postimg.cc/T3hxVP29/button.png" alt="chronodoves button" onclick="copyText()">
-        <input type="text" id="myInput" value="&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;chronodove.neocities.org&#x2F;&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;img src&#x3D;&quot;https:&#x2F;&#x2F;i.postimg.cc&#x2F;T3hxVP29&#x2F;button.png&quot; alt&#x3D;&quot;chronodoves button&quot;&gt;&lt;&#x2F;a&gt;" hidden>
-        <!-- <a href="https://chronodove.neocities.org/" target="_blank"><img src="https://i.postimg.cc/T3hxVP29/button.png" alt="chronodoves button"></a> -->
-        <p id="copyAlert" style="display: none;">text has been copied!</p>
-        <!-- copy text script -->
-        <script>
-                //https://stackoverflow.com/questions/68696662/how-do-you-get-text-to-copy-to-clipboard-when-clicking-on-an-image
-                function copyText() {
-                    let copyText = document.getElementById("myInput");
-                    let copyAlert = document.getElementById("copyAlert");
-                    copyText.hidden = false;
-                    copyText.select();
-                    document.execCommand("copy");
-                    copyText.hidden = true;
-                    copyAlert.style.display = "block";
-                    //https://bobbyhadz.com/blog/javascript-hide-element-after-few-seconds#hide-an-element-after-a-few-seconds-in-javascript
-                    setTimeout(() => {
-                        copyAlert.style.display = 'none';
-                    }, 3000);
-                }
-        </script>
-        
-        <a href="https://philia995.neocities.org/sitely/siteofthemonth" rel="external"><img src="/images/decsiteofthemonth.png" alt="December site of the month!"></a>
+        <center>
+            <img src="https://i.postimg.cc/T3hxVP29/button.png" alt="chronodoves button" onclick="copyText()">
+            <input type="text" id="myInput" value="&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;chronodove.neocities.org&#x2F;&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;img src&#x3D;&quot;https:&#x2F;&#x2F;i.postimg.cc&#x2F;T3hxVP29&#x2F;button.png&quot; alt&#x3D;&quot;chronodoves button&quot;&gt;&lt;&#x2F;a&gt;" hidden>
+            
+            <a href="https://philia995.neocities.org/sitely/siteofthemonth" class="external"><img src="/images/decsiteofthemonth.png" alt="December site of the month!"></a>
+            <img src="/images/bannercrossfadereverse.gif" alt="chronodove banner" onclick="copyText()">
+            <input type="text" id="myInput" value="&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;chronodove.neocities.org&#x2F;&quot;&gt;&lt;img src&#x3D;&quot;https:&#x2F;&#x2F;i.postimg.cc&#x2F;bvrYKS4Z&#x2F;bannercrossfadereverse.gif&quot; alt&#x3D;&quot;chronodove banner&quot;&gt;&lt;&#x2F;a&gt;" hidden>
+            <p id="copyAlert" style="display: none;">text has been copied!</p>
+        </center>
     </div>
     <hr>
     <h1 id="title" style="margin-top: 5px; margin-bottom: 0;">site updates:</h1>
     <div id="updates">
         <h2>2025</h2>
         <ul>
-            <li>12/04 - minor css changes, new <a href="/clostet">page</a> again</li>
+            <li>12/14 - minor css changes & a banner</li>
+            <li>12/07 - new page, <a href="/monthlyfavs/">monthly favorites</a>, is up! it'll be updated throughout the month. also replaced the placeholder photo on <a href="/crochet/">crochet</a></li>
+            <li>12/04 - minor css changes, new <a href="/closet/">page</a> again</li>
             <li>11/17 - switched weather widget, rewrote time and weather function</li>
             <li>11/16 - new crochet project, working on some more tutorials</li>
             <li>11/13 - unnecessary weather widget</li>
             <li>11/11 - misc updates</li>
-            <li>11/07 - <a href="/writings/" rel="internal">writings</a> page up (theres nothing there yet), other style changes</li>
-            <li>11/05 - old diary entries are now in the <a href="https://rentry.co/chronodovearchive" rel="external">archive</a>, new updates to crochet and baking and link pages</li>
+            <li>11/07 - <a href="/writings/">writings</a> page up (theres nothing there yet), other style changes</li>
+            <li>11/05 - old diary entries are now in the <a href="https://rentry.co/chronodovearchive">archive</a>, new updates to crochet and baking and link pages</li>
             <li>10/29 - misc changes </li>
             <li>10/28 - got rid of some pages</li>
             <li>10/26 - <a href="/photography/">photography</a> page updated, <a href="/baking/">baking</a> page added</li>
@@ -102,18 +89,59 @@
     <hr>
     <div id="small">
         <h1 id="title">webrings:</h1>
-        <a href="https://xandra.cc/patrons" target="_blank" rel="external">website guardian :: CERBERUS</a> 
-        <a href="https://cliques.moudoku.com/bookworms/rules.php" rel="external"><img src="https://i.imgur.com/4zfqmjg.png" alt="i love reading" rel="external"></a>
-        <a href="http://aromatic.wings.nu/" target="_blank" rel="external">aromatic<span>//ashes</span></a>
-        <a href="https://melanated.neocities.org/" target="_blank" rel="external"><img src="https://i.imgur.com/4hKIN3r.png" alt="melanated!" rel="external"></a>
+        <a href="https://xandra.cc/patrons" target="_blank">website guardian :: CERBERUS</a> 
+        <a href="https://cliques.moudoku.com/bookworms/rules.php" rel="external"><img src="https://i.imgur.com/4zfqmjg.png" alt="i love reading"></a>
+        <a href="http://aromatic.wings.nu/" target="_blank">aromatic<span> // ashes</span></a>
+        <a href="https://melanated.neocities.org/" target="_blank"><img src="https://i.imgur.com/4hKIN3r.png" alt="melanated!"></a>
         <iframe width="150" height="150" style="border:none; float: left;" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
-        <a href="https://floralchai.neocities.org/chiikawa-clique/" style="text-decoration: none;" rel="external"><img src="/images/chiikawa-icon.png" title="chiikawa!"></a>
+        <a href="https://floralchai.neocities.org/chiikawa-clique/" style="text-decoration: none;"><img src="/images/chiikawa-icon.png" title="chiikawa!"></a>
+        <a href="https://www.grrrl.valentinely.cc/"><img src="/images/madebya-gray4.png" alt="made by a girl"></a>
+        <journal-ring icon="pink"></journal-ring><script async src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"></script> 
     </div>
 </div>
+<!-- copy text script -->
+<script>
+    //https://stackoverflow.com/questions/68696662/how-do-you-get-text-to-copy-to-clipboard-when-clicking-on-an-image
+    function copyText() {
+        let copyText = document.getElementById("myInput");
+        let copyAlert = document.getElementById("copyAlert");
+        copyText.hidden = false;
+        copyText.select();
+        document.execCommand("copy");
+        copyText.hidden = true;
+        copyAlert.style.display = "block";
+        //https://bobbyhadz.com/blog/javascript-hide-element-after-few-seconds#hide-an-element-after-a-few-seconds-in-javascript
+        setTimeout(() => {
+            copyAlert.style.display = 'none';
+        }, 3000);
+    }
+</script>
             </div>
         </div>
     </div>
     <script src="/js/visitorandupdated.js"></script>
     <script src="/js/clockandweather.js"></script>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', markExternalLinks);
+
+    function markExternalLinks() {
+        const links = document.querySelectorAll('a[href]');
+        const localHost = window.location.hostname;
+
+        links.forEach(link => {
+            const href = link.getAttribute('href');
+            let url;
+            //make a new url object to compare hosts with
+            url = new URL(href, window.location.origin);
+
+            if (url.hostname !== localHost) {
+                link.classList.add('external');
+                // https://coreui.io/blog/how-to-open-all-links-in-new-tab-using-javascript/
+                link.setAttribute('target', '_blank');
+            }
+        });
+    }
+    </script>
 </body>
 </html>
