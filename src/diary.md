@@ -13,7 +13,7 @@ im so tired. had to remove my wisdom teeth this morning, so i didn't eat or drin
 
 when i woke up i think i was crying because my parents were beside me and my mom was patting a tissue on my eye. i also kept making noise and i could barely move my eyes and see. i also tried drinking water but my whole bottom jaw is numb so it didn't work. my mom and the assistant helped to walk me to the car to go home. during the entire time there, i kept mumbling about something. my mind worked fine but my body felt as if i was just born.
 
-the surgery left me with holes in my gums, so now i will have to take 3 medications, an antibiotic, a narcotic, and a painkiller. additionally, i have a mouth wash that i must use after eating fo i don't get food in the holes. i will have to alternate between the narcotic and painkiller every three hours. including the in middle of the night. hahahahahhahahahahahhahahaah. my head is in immense pain. i was hoping i would be able to finish up my [perfume][/perfume/] page today, as i had bought a new perfume two days ago, but i think i will have to wait. 
+the surgery left me with holes in my gums, so now i will have to take 3 medications, an antibiotic, a narcotic, and a painkiller. additionally, i have a mouth wash that i must use after eating fo i don't get food in the holes. i will have to alternate between the narcotic and painkiller every three hours. including the in middle of the night. hahahahahhahahahahahhahahaah. my head is in immense pain. i was hoping i would be able to finish up my [perfume](/perfume/) page today, as i had bought a new perfume two days ago, but i think i will have to wait. 
 
 ---
 ## 12/19/25
