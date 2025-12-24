@@ -7,9 +7,52 @@ cssFile: "markdown.css"
 # {{title}}
 ###### [archive](https://rentry.co/chronodovearchive)
 ---
+## 12/24/25
+### 16:35
+im so tired. had to remove my wisdom teeth this morning, so i didn't eat or drink anything at all. it was a terrifying experience. i loathe the idea of being knocked unconscious with no way to defend myself with strange people doing god knows what to me. i've heard many, many horrifying stories of people dying or getting assaulted under anesthesia. i didn't know who the doctor was, which didn't help me at all. and then my mom started to talk about me dying while i was getting set up?????? yes thank you that really helps. they had to give me an iv and i hate getting injections because i'm too skinny so it always hurts. they kept telling me to calm down but telling me calm down doesn't work because then i rationalize it as that there is something to freak out about. they said i wouldn't feel it but SURPRISE SURPRISE. the last thing i heard was "you might be starting to feel a little sleepy" and the last thing i thought was "i'm not tired at all" and BOOM. GONE. i didn't even get a count down. 
+
+when i woke up i think i was crying because my parents were beside me and my mom was patting a tissue on my eye. i also kept making noise and i could barely move my eyes and see. i also tried drinking water but my whole bottom jaw is numb so it didn't work. my mom and the assistant helped to walk me to the car to go home. during the entire time there, i kept mumbling about something. my mind worked fine but my body felt as if i was just born.
+
+the surgery left me with holes in my gums, so now i will have to take 3 medications, an antibiotic, a narcotic, and a painkiller. additionally, i have a mouth wash that i must use after eating fo i don't get food in the holes. i will have to alternate between the narcotic and painkiller every three hours. including the in middle of the night. hahahahahhahahahahahhahahaah. my head is in immense pain. i was hoping i would be able to finish up my [perfume][/perfume/] page today, as i had bought a new perfume two days ago, but i think i will have to wait. 
+
+---
+## 12/19/25
+### 08:19 
+i probably should have skipped today. sigh. i'm so tired. i won't be able to go home after school today either due to the tint appointment. 
+
+i don't know if im in a bad mood or something, but i don't want to see anyone over the break. i don't want to listen to anyone talking, i don't want to talk to anyone, i want to be alone. 
+
+i have lots of activities i could do, many recipes, patterns, and shows to watch. 
+
+---
+## 12/18/25
+### 11:11
+i got an appointment to remove my wisdom teeth over the break. i'm glad i can get this over with now, but i'm a little disappointed that i'll have to spend most of the break in recovery. hopefully it isn't too bad though. if it is, i can just crochet in my bed all day, i'm trying to make a bookmark currently but it's proving to be difficult. 
+
+### 15:01
+i was going to skip tommorow because it is a half day, but my friend is coming so i'm not going to. i was able to talk to her for a bit during lunch today, i haven't been able to see here this week due to her being sick and skipping class to run some errands. sigh....i wish i had an afternoon off-period. mine is in the morning. 
+
+i recently learned how to add local files to spotify. this has been an absolute game changer. additionally, i use ios so i can sync the music files between my laptop and my phone, so i can listen to them everywhere!!!!! i've added a few songs already, but there going to be a lot more. 
+
+---
+## 12/17/25
+### 08:48
+had to do an ai report for my paper and it came back 47% COPY-PASTED AI. NOT EVEN PARAPHRASED. another girl got 64% tho so i;mo okay :) 
+
+---
+## 12/16/25
+### 10:09
+stayed up all last night for this presentation i had to deliver this morning. procrastinated as usual. i've noticed that i can't do all nighters like i used too, i get physically ill now and feel like throwing up. the presentation was fine, i stumbled over my words a little bit, but it was whatever. i was just talking to the camera, so i could practice & practice as many times as i wanted. i think i met all the marks though. 
+
+one of my friends hasn't been talking to me lately. its making me anxious. i don't know if i did something wrong. she doesn't even look at me. i don't know how to confront her without looking pathetic and desperate for attention. she's talked to everyone else in the class but me. i even asked H if she said anything about me to her, but apparently they also don't talk often. i might be over thinking this though, i also won't talk to people if they don't talk to me, so maybe i'll just have to strike up a convo. i've never actually thought about what its like on the receiving end of isolation. how foolish of me. 
+
+### 11:36
+i'll need to start planning christmas gift ideas......idk what to make tho!!!!! i might go the thrift store this weekend and see if i can find any accessories i think my friends will like. i might also make them little crochet pouches or scarves, but i will need yarn for that. 
+
+---
 ## 12/15/25
 ### 09:34
-last week it was really warm, it was in the 70's. now it is back down in the 30's. my dad left for india yesterday to visit his family. he asked if i wanted anything from there and i asked if he could get this [kajal](https://www.lakmeindia.com/products/lakme-9-to-5-eyeconic-kajal). i can't find it the us, and even if i did, it would be $5-$10 (there is one on ebay for $14 and it doesn't even ship to the us!!!!!!!!!!!) instead of $2 (₹179). it is a really good eyeliner. 
+last week it was really warm, it was in the 70's. now it is back down in the 30's. my dad left for india yesterday to visit his family. he asked if i wanted anything from there and i asked if he could get this [kajal](https://www.lakmeindia.com/products/lakme-9-to-5-eyeconic-kajal). i can't find it the US, and even if i did, it would be $5-$10 (there is one on ebay for $14 and it doesn't even ship to the us!!!!!!!!!!!) instead of $2 (₹179). it is a really good eyeliner and i've been using it since sophomore year. in fact, i'm still using the same stick a year later!!!!
 
 we went on saturday to fix some bubbles in my tint. it's been about a month since we've bought the car, and the bubbles weren't gone. there was a small bubble on the back window, and the salesman said we could leave it or re-tint it. my dad decided it would be best to re-tint it. 
 

@@ -11,6 +11,11 @@ cssFile: "markdown.css"
 - [last updated & visitor count](https://dannarchy.com/tut/tut_002)
 - [css border images](https://solaria.neocities.org/bits/)
 - [weather api](https://open-meteo.com)
+
+---
+## fonts 
+- [unifont ex mono](https://www.dafont.com/unifontexmono.font)
+
 ---
 ## images 
 ###### most of these are from pinterest

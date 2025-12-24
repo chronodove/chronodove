@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Unifont Ex Mono";
+    src: url("/css/UnifontExMono.ttf");
+}
+
 :root {
     --bg: #eae9e9;
     --txt: #404446;
@@ -17,7 +22,7 @@
 }
 
 body {
-    font-family:  Helvetica, sans-serif;                                            
+    font-family:  "Unifont Ex Mono", Helvetica, sans-serif;                                            
     font-size: 12px;
     color: var(--txt);
     text-align: justify;
@@ -102,14 +107,12 @@ nav {
 a {
     color: #43505d;
     transition: all 0.25s;
+    transform: translateY(0px);
+    font-weight: 700;
 }
 
-a[rel="external"]::after {
-    content: '⤴';
-}
-
-a[rel="internal"]::after {
-    content: unset;
+.external::after {
+    content: ' ⤴︎' !important;
 }
 
 a:visited {
@@ -119,6 +122,10 @@ a:visited {
 a:hover {
     letter-spacing: 3px;
     transition: all 0.25s;
+}
+
+a:active {
+    transform: translateY(3px);
 }
 
 .left span {

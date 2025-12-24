@@ -17,11 +17,17 @@ i am a big fan of minimalism and simplicity, but i appreciate maximalism.
     <img src="/images/changes.jpg" style="width: 80%;">
 </center>
 
-
-
 ---
 # links
+[fragrantica](https://www.fragrantica.com/member/1954842)
+
+[github](https://github.com/chronodove)
+
 [neocities profile](https://neocities.org/site/chronodove)
+
 [pinterest](https://www.pinterest.com/chronodove/)
+
 [ravelry](https://www.ravelry.com/people/chronodove)
+
 [storygraph](https://app.thestorygraph.com/profile/chronodove)
+

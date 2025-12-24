@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Pixelated Times New Roman";
-    src: url("/css/pixelated-times-new-roman.otf");
+    font-family: "Unifont Ex Mono";
+    src: url("/css/UnifontExMono.ttf");
 }
 
 :root {
@@ -23,8 +23,8 @@
 }
 
 body {
-    font-family: Helvetica, sans-serif;                                            
-    font-size: 12px;
+    font-family: "Unifont Ex Mono", Helvetica, sans-serif;                                            
+    font-size: 13px;
     color: var(--txt);
     text-align: justify;
     scroll-behavior: smooth;
@@ -48,8 +48,8 @@ body {
 }
 
 .container {
-    width: 600px;
-    height: 520px;
+    width: 650px;
+    height: 540px;
 
     background-color: var(--bg) !important;
 
@@ -258,14 +258,14 @@ a {
 }
 
 .external::after {
-    content: '⤴' !important;
+    content: ' ⤴︎' !important;
 }
 
 a:visited {
     color: var(--accent);
 }
 
-a:hover {
+.left a:hover {
     letter-spacing: 3px;
     transition: all 0.25s;
 }
