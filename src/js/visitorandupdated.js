@@ -14,9 +14,6 @@ var xhttp = new XMLHttpRequest();
                     document.getElementById("lastupdate").innerHTML = (date_obj.getMonth() + 1) + "-" + date_obj.getDate() + "-" + date_obj.getFullYear();
                 }
                 document.getElementById("hitcount").innerHTML = num_str;
-
-                let created_obj = new Date(site_data.info.created_at);
-                document.getElementById("created").innerHTML = (created_obj.getMonth()+1) + "-" + created_obj.getDate() + "-" + created_obj.getFullYear();
             }
         };
         xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=chronodove", true);

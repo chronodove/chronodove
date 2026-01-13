@@ -4,7 +4,7 @@ layout: base.njk
 cssFile: "markdown.css"
 ---
 # about chronodove
-hello, my name is dove. i am a high school senior. i am interested in engineering, marine life, and birds. my birthday is 11/28 or 28/11. i'm from the northern part of the us but moved to the southern part 4 years ago. i plan to move back north for college. i speak english and hindi. i have 2 budgies named **aam** and **kittu**.
+hello, my name is dove. i am a high school senior, 18 y/o. i am interested in engineering, marine life, and birds. my birthday is 11/28 or 28/11. i'm from the northern part of the us but moved to the southern part 4 years ago. i plan to move back north for college. i speak english and hindi. i have 2 budgies named **aam** and **kittu**.
 
 outside of school and when i have energy, i like to code, read, sew, and crochet. i am not good at any of these, but i still find myself enjoying the time i spend with these crafts.
 

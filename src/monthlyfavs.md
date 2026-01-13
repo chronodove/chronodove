@@ -5,8 +5,48 @@ cssFile: "markdown.css"
 ---
 # {{title}}
 ###### favorites/things i've been using the most each month, inspired by butterflygirl's [november/december favorites vlog](https://youtu.be/RwKtcRtiK-A) but in website form heheheheh
+###### also, a lot of my favorites carry over from the previous months (esp. songs), so i won't be listing them twice 
 ---
-## december 2025 
+# 2026
+## **january**
+
+### clothes: 
+-
+### fragrances:
+- juliette has a gun - pear inc. (i bought this last month but shhhhhh)
+
+### items:
+- 
+
+### jewelry:
+- 
+  
+### makeup/skincare: 
+- 
+  
+### media:
+- [black beauty - anna sewell](https://app.thestorygraph.com/books/0c2b9c5f-3d0c-4fd5-bf9b-78cf71f5baf7)
+- [the martian - andy weir](https://app.thestorygraph.com/books/977e301d-c438-40f4-810b-25a96dbee03e) *(started in december)*
+
+### songs/lyrics:
+###### lyrics are obtained from [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki), letras, the pv's themselves, or other sources so these are probably inaccurate </3
+- [a single red leaf - kurosaP](https://youtu.be/u1XhZiPX3eI)  
+  *(koyoi yamiyo o akaku somete / tada yorisotte dakarete itai / kanashimi ga sora ni kieru made -> tonight the dark of night is colored red / i just want to be close and be held in your arms / until our sadness disappears into the sky)* 
+- [envy catwalk - tohma](https://youtu.be/mQryrtN1RWg)  
+  *(sousei souai dokusenyoku senzaiteki junnou smoke&love&love / boushinheki itsuraku kansenshou / douka, shiawase de. -> twins, soul mates, selfish love, adaption, smoke & love & love / blind faith, hedonism, contagion / i hope you find happiness.)*   
+  ((i actually listened to the luka cover of this first because [I LOVE LUKA](/shrines/lukashrine/lukashrine.html)))
+
+### videos: 
+- [what I learned after 2 years of following my dreams - flowlotl](https://youtu.be/DWV_ryX-6DY)
+
+
+
+
+
+
+---
+# 2025
+## december 
 
 ### clothes: 
 
@@ -28,7 +68,7 @@ cssFile: "markdown.css"
 - [the road - cormac mccarthy](https://app.thestorygraph.com/books/ace10445-0be3-4081-8ba9-69f46efb0760)
 
 ### songs/lyrics:
-###### lyrics are obtained from vocaloidlyrics, letras, the music videos themselves, or other sources so these are probably in accurate </3
+###### lyrics are obtained from [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki), letras, the music videos themselves, or other sources so these are probably in accurate </3
 - [dorothee thines - asian glow](https://youtube.com/e4qDlScENho)  
   *(years gone passing by / tried to see what's ahead / only to be stuck in the past / when did i start to get to cry / i should've been here without thinking / hope i'm gonna be okay this year)* 
 - [restless - untitled](https://open.spotify.com/track/7M78H9F98Pe45Qlu8M15sV?si=1f581723e5854ae1)   

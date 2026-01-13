@@ -8,6 +8,19 @@ cssFile: "markdown.css"
 ###### i am not a fragrance snob so i won't be going into detail for a lot of these....srry. also all the images & prices are from amazon, though you can find most perfumes cheaper by getting their travel sizes or going on ebay or [jomashop](https://jomashop.com/)
 ---
 
+## pear inc.
+{{entry.field (
+    "pearinc.jpg",
+    "pear inc. (0.25 oz)",
+    "juliette has a gun",
+    "34.00",
+    "main notes: PEAR
+    
+    literally lasts forever. so overwhelmingly pear (positively). musky. kind of unisex, but is a too little sweet to be considered that fully.",
+    "5",
+    "my favorite perfume of the year even though at the time of writing this it is only january. this literally lasts forever. i love it. it is super sophisticated and has so much pear, which i absolutely adore."
+)}}
+
 ## bright crystal
 {{entry.field (
     "brightcrystal.jpg",

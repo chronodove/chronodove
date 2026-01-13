@@ -1,15 +1,15 @@
 {% macro field(imageName, patternName, patternLink, dateStarted, dateMade, difficulty, thought) %}
+<div class="entry">
+    <img src="/images/{{imageName}}" class="float-right">
 
-<img src="/images/{{imageName}}" class="float-right">
+    __<u>pattern:</u>__ [ {{patternName}} ]( {{patternLink}} )
 
-__<u>pattern:</u>__ [ {{patternName}} ]( {{patternLink}} )
+    __<u>started:</u>__ {{dateStarted}}
 
-__<u>started:</u>__ {{dateStarted}}
+    __<u>made:</u>__ {{dateMade}}
 
-__<u>made:</u>__ {{dateMade}}
+    __<u>difficulty:</u>__  {{difficulty}}/5
 
-__<u>difficulty:</u>__  {{difficulty}}/5
-
-__<u>thoughts:</u>__ {{thought}}
-
+    __<u>thoughts:</u>__ {{thought | safe}}   
+</div>
 {% endmacro %}

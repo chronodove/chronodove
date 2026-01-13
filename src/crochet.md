@@ -6,6 +6,30 @@ cssFile: "markdown.css"
 {% import 'macros/candsentry.njk' as entry %}
 # {{title}}
 ---
+## bag charm/bookmark keychain(?)
+{{entry.field (
+    "crochet/bagcharm.JPG", 
+    "none", 
+    "#",
+    "12/29/2025",
+    "12/29/2025",
+    "1",
+    "a little more practice with a [single crochet foundation chain](https://mycrochetory.com/how-to-foundation-single-crochet-fsc/) and the [alternate stitch](https://richtexturescrochet.com/alternate-stitch-how-to-crochet/). i think its kinda cute, it's also like a portable bookmark lol."
+)}} 
+
+---
+## face cloth 
+{{entry.field (
+    "crochet/facecloth.JPG", 
+    "none", 
+    "#",
+    "12/29/2025",
+    "12/29/2025",
+    "1",
+    "i noticed that i was in need for more facial clothes—since right now i only have one—and when thats in the wash, i have to use a normal one to dry my face which makes me feel gross lol. i already has a desire to make an actual \"functional\" crochet piece and to try out new stitches, so naturally i decided to make a piece of cloth. this was my first time using cotton yarn, and i was surprised by how slippery it is to work with! i also wanted to try out a new type of stitch, the [lemon peel](https://www.thesprucecrafts.com/lemon-peel-stitch-4775709) one. i think it turned out really good, but it is quite small. i'm currently remaking it but in a larger size."
+)}} 
+
+---
 ## daisy bookmark 
 {{entry.field (
     "crochet/simpledaisybookmark.jpg", 

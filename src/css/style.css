@@ -17,10 +17,6 @@
     scrollbar-width: none; /* hide scrollbar */
 }
 
-*::-webkit-scrollbar {
-    display: none;
-    width: 0px;
-}
 
 body {
     font-family: "Unifont Ex Mono", Helvetica, sans-serif;                                            
@@ -236,10 +232,6 @@ button:hover {
     background-color: var(--bg);
 
     transition: all 0.25s;
-}
-
-table {
-    float: right;
 }
 
 img {

@@ -1,5 +1,5 @@
 {% macro field(imageName, name, designer, price, scent, like, thought) %}
-
+<div class="entry">
 <img src="/images/perfume/{{imageName}}" class="float-right">
 
 __<u>name:</u>__ {{name}}
@@ -13,5 +13,5 @@ __<u>scent:</u>__ {{scent}}
 __<u>like:</u>__  {{like}}/5
 
 __<u>thoughts:</u>__ {{thought}}
-
+</div>
 {% endmacro %}
