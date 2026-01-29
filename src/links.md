@@ -12,8 +12,11 @@ cssFile: "markdown.css"
 
 ---
 ## text
+- [antique pattern library](https://www.antiquepatternlibrary.org/html/warm/main.htm) - old pattern books for a variety of crafts
+- [chest of books](https://chestofbooks.com/) - free books!!! 
 - [raptitude](https://www.raptitude.com/) - a blog about self-improvement. has a really good article about being [productivity-challenged](https://www.raptitude.com/2025/08/my-best-advice-for-the-productivity-challenged/)
 - [the open university](https://www.open.edu/openlearn/free-courses/full-catalogue) - lots of free courses on a lot of subjects, based in the UK
+
   
 --- 
 ## web
@@ -25,31 +28,40 @@ cssFile: "markdown.css"
 - [all free chrochet](https://www.allfreecrochet.com/)
 - [crochet with mahum](https://mahumcrochets.blogspot.com/) 
 - [dhgshop](https://dhgshop.it/blog/index_eng.php) - knitting, sewing, and more
-- [the spruce crafts](https://www.thesprucecrafts.com/) - includes needlefelt, sewing, knitting, and more
 - [kristi tullus](https://kristitullus.com/) 
 - [little muggles](https://web.archive.org/web/20240510001055/http://www.littlemuggles.com/) - on the wayback machine
+- [raji's craft hobby](https://rajiscrafthobby.blogspot.com/)
 - [ravelry](https://www.ravelry.com/) - includes knitting
 - [sarah maker](https://sarahmaker.com/)
 - [stitch by fay](https://www.stitchbyfay.com/) 
 - [sweetsofties](https://www.sweetsofties.com/)
+- [the spruce crafts](https://www.thesprucecrafts.com/) - includes needlefelt, sewing, knitting, and more
   
 ---
 ## sewing 
 - [drcos](https://dr-cos.info/) - free sewing patterns for various garments and cosplay 
 - [dhgshop](https://dhgshop.it/blog/index_eng.php) - knitting, sewing, and more
-- [the spruce crafts](https://www.thesprucecrafts.com/) - includes needlefelting, sewing, knitting, and more
+- [hello sewing](https://hellosewing.com/projects-tutorials/) - free sewing projects
 - [mood fabrics](https://www.moodfabrics.com/) - huge sewing store. has a lot of free patterns 
-  
+- [sew can she](https://sewcanshe.com/) - a lot of free sewing & quilting patterns
+- [sew historically](https://www.sewhistorically.com/) - historical sewing & lifestyle blog
+- [sewing glossary - contrado](https://www.contrado.com/blog/complete-a-z-sewing-guide/) - glossary of sewing terms
+- [simplicity](https://simplicity.com/) - paid patterns & free tutorials
+- [the spruce crafts](https://www.thesprucecrafts.com/) - includes needlefelting, sewing, knitting, and more
+
 ---
 ## recipes 
-###### most of theses sites are for dealing with my allergies, so don't expect things with eggs and nuts especially; includes both cooking and baking.
+###### most of theses sites are for dealing with my allergies, so don't expect things with eggs and nuts. as a result, many of these will be plant based. includes both cooking and baking.
 - [baked abundance](https://bakedabundance.com/) - eggless & traditional sweets recipes
-- [delish](https://www.delish.com/) - an overwhelming amount of recipes for (mainly) cooking 
-- [live eat learn](www.liveeatlearn.com) - vegan/vegetarian focused recipes, lots of chickpeas
-- [mommy's home cooking](https://mommyshomecooking.com/) - a lot of eggless deserts and meals
+- [delish](https://www.delish.com/) 
+- [live eat learn](www.liveeatlearn.com) - vegan/vegetarian focused recipes
+- [maja's recipes](https://majasrecipes.com/)
+- [mommy's home cooking](https://mommyshomecooking.com/) - eggless desserts and meals
+- [taste of home](https://www.tasteofhome.com/)
 - [the foodie diaries](https://thefoodiediaries.co/) - more recipes, mostly cooking
-- [that foodie girl](https://thatfoodiegirl.in/) - lots of dinner/lunch ideas
-- [the lunch break](https://www.thelunchbreak.co/) - lots of dinner and breakfast recipes
+- [that foodie girl](https://thatfoodiegirl.in/) 
+- [the conscious plant kitchen](https://www.theconsciousplantkitchen.com/category/recipes/) - plant based meals & desserts
+- [the lunch break](https://www.thelunchbreak.co/) 
 
 ---
 ## vs code extensions

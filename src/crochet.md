@@ -6,6 +6,49 @@ cssFile: "markdown.css"
 {% import 'macros/candsentry.njk' as entry %}
 # {{title}}
 ---
+
+## victorian lattice square (25 27) https://www.ravelry.com/patterns/library/victorian-lattice-square 
+{# {{ entry.field (
+    "crochet/victorianlatticesquare.jpg", 
+
+)}} #}
+## heart square 
+{{ entry.field (
+    "crochet/heartsquare.jpg",
+    "solid heart granny square - lanukas",
+    "https://lanukas.blogspot.com/2015/02/un-corazon-en-granny-square-solido.html", 
+    "01/24/26",
+    "01/24/26",
+    "1",
+    "after i was done with my previous project, i wanted something more simple to work on. so i searched up some simple granny square patterns and found this one which looked fun. i really liked working on this square in particular, it was quite meditative, despite the color changing. this pattern worked up quite quickly as well, i think i'm going to give it to H for valentines day :)"
+
+)}}
+
+---
+## tiny star granny square 
+{{ entry.field (
+    "crochet/tinystargrannysquare.jpg",
+    "tiny star granny square - vivid kreations",
+    "https://www.ravelry.com/patterns/library/tiny-star-square",
+    "01/22/26",
+    "01/23/26",
+    "4",
+    "my first paid pattern!...that i've completed at least. i was looking at pouches to make and i found a tutorial on how to make a cute one out of a granny square using this pattern. i completely feel in love with the way that it looked, so much so that i just had to buy it! this actually took quite some time to start and i think its because i was anxious. i kept restarting after the first few rounds, but i eventually got the hang of it.  nonetheless, this was one of the more fun projects that i've worked on. it really challenged me and it actually felt rewarding when i finished it. i'm definitely going to try to make another one with different colors like the original one i saw."
+)}}
+
+---
+## headphone pouch
+{{ entry.field (
+    "crochet/headphonepouch.jpg", 
+    "simple mini crochet drawstring pouch - sweetbeecrochet", 
+    "https://sweetbeecrochet.com/simple-mini-drawstring-pouch/",
+    "01/19/2026",
+    "01/19/2026",
+    "1",
+    "this was actually my second attempt at making this pouch, and i'm genuinely so surprised at how different the two are. i know that they use diff yarns and hooks, but even looking at the stitching its obvious. my original one is so clumsy and inconsistent in stitches, i can't believe i was happy with it...lol. other than that, theres nothing else notable about this piece."    
+)}}
+
+---
 ## bag charm/bookmark keychain(?)
 {{entry.field (
     "crochet/bagcharm.JPG", 

@@ -3,11 +3,20 @@ title: baking
 layout: base.njk
 cssFile: "markdown.css"
 ---
-
+{% import "macros/bcentry.njk" as entry %}
 # {{title}}
 ###### all these recipes are eggless, nut-free, coconut-free, and pea-free because i'm allergic to all of those!!! a full link list for where i get recipes from is in my <a href="/links/" rel="internal">links</a> page. 
 ---
-{% import "macros/bcentry.njk" as entry %}
+## chocolate chip cookies 2 
+{{ entry.field(
+    "baking/cookies2.jpg",
+    "mommy's home cooking - thick and chewy eggless chocolate chip cookies made in one bowl",
+    "https://mommyshomecooking.com/thick-and-chewy-eggless-chocolate-chip-cookies-made-in-one-bowl/",
+    "01/18/26",
+    "4",
+    "my second attempt at cookies, this time without creaming butter and all in one bowl (YAY)! i really didn't feel like creaming butter, so i looked for one that used melted butter instead. overall, this is a pretty standard eggless recipe, except for the 2 whole sticks of butter. i feel like this much butter is overkill, but whatever, i'm not a baker. maybe because of the butter, or because i skipped adding in 1/2 cup of flour (i was scared that the dough would become too dry :((( ), the cookies are slightly buttery & a bit greasy like. interestingly enough, i had to bake these for 15-16 minutes rather than the recommended 9-11 minutes as they looked *way* too under-baked, in fact i think they still are 👎. other than that, these taste like how normal soft and chewy cookies taste, nothing mind-blowing. unlike my first attempt, these have continued to stay soft in storage, so i'm pleased with that. next time, i might add more chocolate chips, but overall, it's an easy and tasty recipe. **01/22 edit:** i made this again and made the cookies smaller (60g -> 45-6g) and baked it for 15 minutes and they turned out wonderful!! idk why the og recipe says to bake 60g cookies for 11 minutes thats genuinely insane." 
+)}}
+---
 ## muffins 
 {{ entry.field( 
     "baking/muffins2.jpg",
@@ -29,7 +38,7 @@ cssFile: "markdown.css"
     'https://mommyshomecooking.com/vegan-mini-blueberry-muffins/', 
     '10/29/25', 
     '5',
-    "i really love this recipe! the muffins turned out really well, they are soft and not too chewy. this recipe called for applesauce, resulting in a slight hint of apple. it also uses syrup, but i honesly couldn't taste it. there's also no added sugar, so it isn't very sweet. the recipes also called for blueberries, but i didn't have them; next time i get them however, i will definitely put them in!" 
+    "i really love this recipe! the muffins turned out really well, they are soft and not too chewy. this recipe called for applesauce, resulting in a slight hint of apple. it also uses syrup, but i honestly couldn't taste it. there's also no added sugar, so it isn't very sweet. the recipes also called for blueberries, but i didn't have them; next time i get them however, i will definitely put them in!" 
 ) }}
 
 ---

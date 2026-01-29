@@ -44,9 +44,9 @@
                         <a href="/photography/"><h3>photography</h3></a>
                     <hr style="margin: 0 !important;">
                     <h2>extra:</h2>
+                        <a href="/credits/"><h3>credits</h3></a>
                         <a href="/diaryarc/"><h3>diary archive</h3></a>
                         <a href="/dreamarc/"><h3>dream archive</h3></a>
-                        <a href="/credits/"><h3>credits</h3></a>
                         <a href="/links/"><h3>links</h3></a>
                 </div>
             </div>
@@ -60,6 +60,7 @@
     {# check for internal or external links in .right #}
     <script>
     document.addEventListener('DOMContentLoaded', markExternalLinks);
+    document.addEventListener('DOMContentLoaded', markEmptyImages);
 
     function markExternalLinks() {
         const links = document.querySelectorAll('a[href]');
@@ -76,6 +77,19 @@
                 // https://coreui.io/blog/how-to-open-all-links-in-new-tab-using-javascript/
                 link.setAttribute('target', '_blank');
             }
+        });
+    }
+
+    function markEmptyImages() {
+        const images = document.querySelectorAll('img');
+        const placeholder = "/images/placeholder.png";
+
+        images.forEach(image => {
+            image.addEventListener('error', function (){
+                if (this.src.includes(placeholder)) return; 
+                image.src = placeholder;
+            })
+
         });
     }
     </script>

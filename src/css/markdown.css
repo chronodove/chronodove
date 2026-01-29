@@ -57,3 +57,13 @@ pre {
     border: 1px solid #ddd;
 }
 
+a {
+    color: #43505d;
+    transition: all 0.25s;
+    transform: translateY(0px);
+    font-weight: 700;
+}
+
+a:active {
+    transform: translateY(3px);
+}

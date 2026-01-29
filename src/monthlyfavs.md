@@ -9,7 +9,6 @@ cssFile: "markdown.css"
 ---
 # 2026
 ## **january**
-
 ### clothes: 
 -
 ### fragrances:
@@ -22,7 +21,7 @@ cssFile: "markdown.css"
 - 
   
 ### makeup/skincare: 
-- 
+- [cerave hydrating facial cleanser](https://www.amazon.com/CeraVe-Hydrating-Facial-Cleanser-Fragrance/dp/B01MSSDEPK)
   
 ### media:
 - [black beauty - anna sewell](https://app.thestorygraph.com/books/0c2b9c5f-3d0c-4fd5-bf9b-78cf71f5baf7)
@@ -32,22 +31,23 @@ cssFile: "markdown.css"
 ###### lyrics are obtained from [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki), letras, the pv's themselves, or other sources so these are probably inaccurate </3
 - [a single red leaf - kurosaP](https://youtu.be/u1XhZiPX3eI)  
   *(koyoi yamiyo o akaku somete / tada yorisotte dakarete itai / kanashimi ga sora ni kieru made -> tonight the dark of night is colored red / i just want to be close and be held in your arms / until our sadness disappears into the sky)* 
-- [envy catwalk - tohma](https://youtu.be/mQryrtN1RWg)  
-  *(sousei souai dokusenyoku senzaiteki junnou smoke&love&love / boushinheki itsuraku kansenshou / douka, shiawase de. -> twins, soul mates, selfish love, adaption, smoke & love & love / blind faith, hedonism, contagion / i hope you find happiness.)*   
-  ((i actually listened to the luka cover of this first because [I LOVE LUKA](/shrines/lukashrine/lukashrine.html)))
+- [envy catwalk - tohma (luka cover by 16*(欠損P)](https://www.nicovideo.jp/watch/sm21192738)  
+  *(sousei souai dokusenyoku senzaiteki junnou smoke&love&love / boushinheki itsuraku kansenshou / douka, shiawase de. -> twins, soul mates, selfish love, adaption, smoke & love & love / blind faith, hedonism, contagion / i hope you find happiness.)*  
+  ((i actually listened to the luka cover of this first because [I LOVE LUKA](/shrines/lukashrine/lukashrine.html)))  
+- [meltdown - iroha (gumi sv2 cover by fishstickual)](https://youtu.be/_1Cc-Rh61B4)  
+  *(kakusan suru yuugure / nakiharashita you na hi no aka / tokeru you ni sukoshizutsu / sukoshizutsu shinde yuku sekai -> the twilight scatters / the sun is red as if from crying / as if melting bit by bit / bit by bit the world is dying)*
+  ((this comment from insta sums up my entire opinion on gumi, "dude i don't really like her v6 cause she sounds like just some woman but this is heavenly"))
+- [double lariat - agoaniki](https://youtu.be/hC8KrIY8qT4)  
+  *(dou deshou? mukashi no jibun ga mitara homete kureru kana? -> what should i do? if my past self saw me, would they praise me?)*  
+  ((i know i said i wouldn't list songs twice but i can't get this one out of my head))
 
 ### videos: 
 - [what I learned after 2 years of following my dreams - flowlotl](https://youtu.be/DWV_ryX-6DY)
 
 
-
-
-
-
 ---
 # 2025
 ## december 
-
 ### clothes: 
 
 ### fragrances:
