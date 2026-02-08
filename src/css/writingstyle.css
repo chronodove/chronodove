@@ -74,10 +74,11 @@ body {
 }
 
 .left {
-    width: 200px;
+    width: 180px;
     height: 100%;
     padding: 1%;
     display: flex;
+    flex-shrink: 0;
     flex-direction: column;
     justify-content: space-around;
     text-align: left;
@@ -91,8 +92,8 @@ nav {
 }
 
 #settings {
-    overflow-y: scroll;
-    height: 170px;
+    overflow-y: none;
+    height: 180px;
     flex-grow: 0;
 }
 
@@ -198,4 +199,10 @@ h1{
 
 #panel {
     text-align: left;
+}
+
+@media (max-width: 490px) {
+    .left {
+        flex-shrink: 1;
+    }
 }

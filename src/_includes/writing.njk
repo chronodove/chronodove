@@ -22,6 +22,13 @@
                             {% endfor %}
                         </ul>
                         <hr>
+                        <h2>reviews</h2>
+                        <ul>
+                            {% for review in collections.review %}
+                                <li><a href="{{review.url}}" rel="internal">{{review.data.title}}</a></li>
+                            {% endfor %}
+                        </ul>
+                        <hr>
                         <h2>stories</h2>
                         <ul>
                             {% for story in collections.story %}
@@ -49,10 +56,12 @@
                         </ul>
                         <h3>size:</h3>
                         <ul>
-                            <li><span onclick="changeFontSize(12)">12px</span></li>
-                            <li><span onclick="changeFontSize(15)">15px</span></li>
-                            <li><span onclick="changeFontSize(25)">25px</span></li>
+                            <button onclick="decreaseFontSize(-1)">-</button>
+                            <button onclick="increaseFontSize()">+</button>
+                            
                         </ul>
+                        <br>
+                        <center><button onclick="reset()">reset all settings</button></center>
                     </div>
                 </div>
                 <div class="right" id="panel">
@@ -63,23 +72,31 @@
     </div>
     <script>
         let panel = document.getElementById('panel');
-        const INITIAL_FONT = "Helvetica, sans-serif, serif";
+        const INITIAL_FONT = '"Unifont Ex Mono", Helvetica, sans-serif';
         const INITIAL_SIZE = "12";
+        //console.log("size: " + panel.style.fontSize);
 
         function changeFont(font) {
-            panel.style.fontFamily = font ;
-            console.log("CHANGED FONT");
+            panel.style.fontFamily = font;
+            //console.log("CHANGED FONT");
         }
 
-        function changeFontSize(size){
-            panel.style.fontSize = size + 'px';
-            console.log("CHANGED SIZE");
+        function increaseFontSize(){
+            let currentSize = parseFloat(getComputedStyle(panel).fontSize);
+            panel.style.fontSize = (currentSize + 1) + 'px';
+            //console.log("CHANGED SIZE");
+        }
+
+        function decreaseFontSize(){
+            let currentSize = parseFloat(getComputedStyle(panel).fontSize);
+            panel.style.fontSize = (currentSize - 1) + 'px';
+            //console.log("CHANGED SIZE");
         }
 
         function reset() {
             panel.style.fontFamily = INITIAL_FONT;
             panel.style.fontSize = INITIAL_SIZE + 'px';
-            console.log("RESET");
+            //console.log("RESET");
         }
     </script>
 </body>

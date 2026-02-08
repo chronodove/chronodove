@@ -20,6 +20,8 @@ i am a big fan of minimalism and simplicity, but i appreciate maximalism.
 
 ---
 # links
+[anilist](https://anilist.co/user/chronodove/)
+
 [fragrantica](https://www.fragrantica.com/member/1954842)
 
 [github](https://github.com/chronodove)

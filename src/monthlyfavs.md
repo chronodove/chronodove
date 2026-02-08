@@ -5,9 +5,40 @@ cssFile: "markdown.css"
 ---
 # {{title}}
 ###### favorites/things i've been using the most each month, inspired by butterflygirl's [november/december favorites vlog](https://youtu.be/RwKtcRtiK-A) but in website form heheheheh
-###### also, a lot of my favorites carry over from the previous months (esp. songs), so i won't be listing them twice 
+###### also, a lot of my favorites carry over from the previous months (esp. songs), so i won't be listing them twice (unless i genuinely can't get them out of my head)
 ---
 # 2026
+
+## february
+### clothes: 
+-
+
+### fragrances:
+- 
+
+### items:
+- 
+
+### jewelry:
+- 
+  
+### makeup/skincare: 
+- 
+  
+### media:
+- [akiba maid war](https://anilist.co/anime/151379/Akiba-Maid-War/)
+
+### songs/lyrics:
+###### lyrics are obtained from primarily [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki) and [anime lyrics](https://www.animelyrics.com/), and [genius](https://genius.com/), but i also get it from other sources as well so these might be inaccurate </3
+- [don't say "lazy" - sakurakou K-ON bu](https://youtu.be/5CSNv9MNEC4)  
+  *(daiji na no wa jibun  kawaigaru koto / jibun wo aisanakya  hito mo aisenai // daiji na no wa jibun  mitometeku koto / jibun wo yurusanakya  hito mo yurusenai -> the most important thing is to care for yourself / you gotta love yourself before you can love someone else // the most important thing is to recognize yourself / you gotta accept yourself before others accept you too)*
+- [lifetime girl declaration (ranko and nagomi) - kaede nobara](https://youtu.be/2raWXuw4lYw) 
+
+### videos: 
+- 
+
+
+---
 ## **january**
 ### clothes: 
 -
@@ -31,7 +62,7 @@ cssFile: "markdown.css"
 ###### lyrics are obtained from [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki), letras, the pv's themselves, or other sources so these are probably inaccurate </3
 - [a single red leaf - kurosaP](https://youtu.be/u1XhZiPX3eI)  
   *(koyoi yamiyo o akaku somete / tada yorisotte dakarete itai / kanashimi ga sora ni kieru made -> tonight the dark of night is colored red / i just want to be close and be held in your arms / until our sadness disappears into the sky)* 
-- [envy catwalk - tohma (luka cover by 16*(欠損P)](https://www.nicovideo.jp/watch/sm21192738)  
+- [envy catwalk - tohma (luka cover by 16*(欠損P))](https://www.nicovideo.jp/watch/sm21192738)  
   *(sousei souai dokusenyoku senzaiteki junnou smoke&love&love / boushinheki itsuraku kansenshou / douka, shiawase de. -> twins, soul mates, selfish love, adaption, smoke & love & love / blind faith, hedonism, contagion / i hope you find happiness.)*  
   ((i actually listened to the luka cover of this first because [I LOVE LUKA](/shrines/lukashrine/lukashrine.html)))  
 - [meltdown - iroha (gumi sv2 cover by fishstickual)](https://youtu.be/_1Cc-Rh61B4)  

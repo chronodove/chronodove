@@ -6,28 +6,46 @@ cssFile: "markdown.css"
 {% import 'macros/candsentry.njk' as entry %}
 # {{title}}
 ---
+## pouch w/button 
+{{ entry.field(
+    "crochet/pouch.JPG",
+    "none",
+    "#",
+    "02/01/2026",
+    "02/01/2026",
+    "2",
+    "first project of february! tried to make a cute small pouch and i think it turned out okay. i think i will have to remake this, as it looks really slanted to me. i think it's because the flap was crocheted at the same time as the body. but i'm not a hundred percent sure that this is the reason. it could also be because its unblocked. but whatever, it still does its job of holding things!" 
+)
+}}
 
-## victorian lattice square (25 27) https://www.ravelry.com/patterns/library/victorian-lattice-square 
-{# {{ entry.field (
-    "crochet/victorianlatticesquare.jpg", 
+---
+## victorian lattice square
+ {{ entry.field (
+    "crochet/victorianlatticesquare.JPG", 
+    "victorian lattice granny square",
+    "https://www.ravelry.com/patterns/library/victorian-lattice-square", 
+    "01/25/26",
+    "01/27/26",
+    "2",
+    "this square is MASSIVE. i didn't expect it to be so big, even though i should have. other than that, this was actually quite easy. i first found this pattern when i was just starting to crochet, but i didn't have the confidence back then. i got bored and i decided to scroll through my saved ravelry patterns and found this and tried it. it worked up quickly, and i had fun making it!" 
+)}}
 
-)}} #}
+---
 ## heart square 
 {{ entry.field (
-    "crochet/heartsquare.jpg",
+    "crochet/heartsquare.JPG",
     "solid heart granny square - lanukas",
     "https://lanukas.blogspot.com/2015/02/un-corazon-en-granny-square-solido.html", 
     "01/24/26",
     "01/24/26",
     "1",
     "after i was done with my previous project, i wanted something more simple to work on. so i searched up some simple granny square patterns and found this one which looked fun. i really liked working on this square in particular, it was quite meditative, despite the color changing. this pattern worked up quite quickly as well, i think i'm going to give it to H for valentines day :)"
-
 )}}
 
 ---
 ## tiny star granny square 
 {{ entry.field (
-    "crochet/tinystargrannysquare.jpg",
+    "crochet/tinystarsquare.JPG",
     "tiny star granny square - vivid kreations",
     "https://www.ravelry.com/patterns/library/tiny-star-square",
     "01/22/26",
@@ -39,7 +57,7 @@ cssFile: "markdown.css"
 ---
 ## headphone pouch
 {{ entry.field (
-    "crochet/headphonepouch.jpg", 
+    "crochet/headphonepouch.JPG", 
     "simple mini crochet drawstring pouch - sweetbeecrochet", 
     "https://sweetbeecrochet.com/simple-mini-drawstring-pouch/",
     "01/19/2026",

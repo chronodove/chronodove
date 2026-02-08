@@ -5,11 +5,25 @@ cssFile: "markdown.css"
 ---
 {% import "macros/bcentry.njk" as entry %}
 # {{title}}
-###### all these recipes are eggless, nut-free, coconut-free, and pea-free because i'm allergic to all of those!!! a full link list for where i get recipes from is in my <a href="/links/" rel="internal">links</a> page. 
+###### all these recipes are eggless, nut-free, coconut-free, and pea-free because i'm allergic to all of those!!! a full link list for where i get recipes from is in my [links](/links/) page. 
+---
+
+## chocolate chip banana bread
+{{ entry.field(
+    "baking/bananabread.JPG",
+    "easy chocolate chip banana bread with 2 bananas", 
+    "https://theveganlarder.com/the-best-vegan-chocolate-date-and-banana-bread/#recipe", 
+    "02/04/26", 
+    "2", 
+    "okay. i'm going to start off by saying that i am incompetent at baking, so much so that i've accidentally grabbed hot trays straight out of oven knowing full well its hot and still be surprised when i get burned, so all the faults of this bread are my own. 
+    
+    now with that out of the way, this bread sucks. the outside looks promising, but then you cut into it and it just looks like gray mashed banana. i don't even think i can call it bread, it is so dense and gummy and not at all the texture its supposed to be (i think at least, this was supposed to be my first time trying banana bread!). its definitely baked....i think. the toothpick came out clean, but it didn't rise at all in the oven. actually now that i think about it totally under-baked. sigh. i think next time i'll try to bake it for longer or maybe at a higher temp. either way, it tastes quite nice. it isn't too sweet and the banana is soft, but present. this was actually what my mom doesn't like about it lol, she likes sweeter bread apparently! "
+)}}
+
 ---
 ## chocolate chip cookies 2 
 {{ entry.field(
-    "baking/cookies2.jpg",
+    "baking/cookies2.JPG",
     "mommy's home cooking - thick and chewy eggless chocolate chip cookies made in one bowl",
     "https://mommyshomecooking.com/thick-and-chewy-eggless-chocolate-chip-cookies-made-in-one-bowl/",
     "01/18/26",
