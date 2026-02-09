@@ -7,6 +7,7 @@ cssFile: "markdown.css"
 # {{title}}
 ###### [archive](/diaryarc/)
 ---
+
 ## 02/06/26 
 ### 11:11 
 i finished akiba maid war and oh my god my life is changed forever. i wish they had more episodes, because as much as i love it, i felt that the pacing was a little rushed. either way, i love love love love it sooooo much. it was so much fun to watch, i was literally never bored. ever. just. pure cinema. i honestly love the whole cast, but i really love the manager the most. she was the funniest imo. but i adore ranko and zoya!!!! i love badass women!!!!!! 
