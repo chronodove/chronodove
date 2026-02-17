@@ -4,6 +4,9 @@ layout: base.njk
 cssFile: "markdown.css"
 ---
 # {{title}}
+---
+this site was built with 11ty and hosted on neocities. all content is mine unless stated otherwise. 
+
 ## code
 ---
 - [11ty to neocities guide 1](https://petrapixel.neocities.org/coding/eleventy-tutorial)

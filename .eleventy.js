@@ -20,6 +20,7 @@ module.exports = function (eleventyConfig) {
       // render it to HTML
       const fullHtml = markdownIt.render(latestRaw);
 
+
       // extract just the date, rime, and first paragraph
       // we look for the first closing </p> tag and cut everything after it
       const endOfFirstPara = fullHtml.indexOf("</p>");
@@ -33,6 +34,7 @@ module.exports = function (eleventyConfig) {
       return "could not load entry";
     }
   });
+
 
   return {
     htmlTemplateEngine: "njk",

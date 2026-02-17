@@ -23,7 +23,7 @@ cssFile: "markdown.css"
 - 
   
 ### makeup/skincare: 
-- 
+- rosewater facial toner spray (i don't think this does anything for me, but i love the smell hehehehe)
   
 ### media:
 - [akiba maid war](https://anilist.co/anime/151379/Akiba-Maid-War/)
@@ -32,7 +32,8 @@ cssFile: "markdown.css"
 ###### lyrics are obtained from primarily [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki) and [anime lyrics](https://www.animelyrics.com/), and [genius](https://genius.com/), but i also get it from other sources as well so these might be inaccurate </3
 - [don't say "lazy" - sakurakou K-ON bu](https://youtu.be/5CSNv9MNEC4)  
   *(daiji na no wa jibun  kawaigaru koto / jibun wo aisanakya  hito mo aisenai // daiji na no wa jibun  mitometeku koto / jibun wo yurusanakya  hito mo yurusenai -> the most important thing is to care for yourself / you gotta love yourself before you can love someone else // the most important thing is to recognize yourself / you gotta accept yourself before others accept you too)*
-- [lifetime girl declaration (ranko and nagomi) - kaede nobara](https://youtu.be/2raWXuw4lYw) 
+- [lifetime girl declaration (ranko and nagomi) - kaede nobara](https://youtu.be/2raWXuw4lYw)  
+  *(hai! shinumade isshou onnanoko sengen -> yes! i declare i'm a girl for life 'til i die!!!)*
 
 ### videos: 
 - 

@@ -6,6 +6,19 @@ cssFile: "markdown.css"
 {% import 'macros/candsentry.njk' as entry %}
 # {{title}}
 ---
+## rose tapestry crochet
+{{ entry.field (
+    "crochet/rosetapestry.jpg",
+    "this pinterest pin (idk the og sorry!!)",
+    "https://www.pinterest.com/pin/582371795612601384/",
+    "02/14/26",
+    "02/14/26",
+    "1",
+    "my first tapestry crochet!! i think it turned out really good. funny enough, this is supposed to be a filet crochet piece, but i didn't feel confident enough so i turned it into a tapestry crochet one. i originally wanted to make a large tapestry piece a few months ago, but i got intimidated. i think i should've started with this one instead. tapestry is definitely a \"trust the process\" kind of thing. the only thing that i had problems with was yarn tangling, but everyone struggles with that LOL. i think the next time i try, i'll try doing it [intarsia]() style."
+)
+}}
+
+---
 ## pouch w/button 
 {{ entry.field(
     "crochet/pouch.JPG",

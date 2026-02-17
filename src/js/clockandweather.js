@@ -62,7 +62,7 @@ async function returnWeather() {
     }
     catch(error) {
         const tempContainer = document.getElementById('weather-and-temp');
-        tempContainer.innerHTML = '<span>Error getting weather data!</span>';
+        tempContainer.innerHTML = '<span>error getting weather data!</span>';
         console.error('Error fetching data:', error);
     }
 }
