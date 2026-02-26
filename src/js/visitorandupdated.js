@@ -4,8 +4,6 @@ var xhttp = new XMLHttpRequest();
                 var site_data = JSON.parse(this.responseText);
                 var num_arr = site_data.info.views.toString().split("");
                 var num_str = "";
-                let month;
-                let day;
                 //add commas to number count 
                 for (i = 0; i < num_arr.length; i++) {
                     num_str += num_arr[i];
@@ -13,13 +11,7 @@ var xhttp = new XMLHttpRequest();
                         num_str += ","; 
                     }
                     var date_obj = new Date(site_data.info.last_updated);
-                    if (date_obj.getMonth() + 1 < 10) {
-                        month = "0" + (date_obj.getMonth() + 1);
-                    }
-                    if (date_obj.getDate() < 10) {
-                        day = "0" + date_obj.getDate();
-                    }
-                    document.getElementById("lastupdate").innerHTML = month + "/" + day + "/" + date_obj.getFullYear();
+                    document.getElementById("lastupdate").innerHTML = (date_obj.getMonth() + 1) + "/" + date_obj.getDate() + "/" + date_obj.getFullYear();
                 }
                 document.getElementById("hitcount").innerHTML = num_str;
             }

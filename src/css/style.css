@@ -37,6 +37,7 @@ body {
     height: 100vh;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -220,6 +221,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 
 button {
     margin: 0;

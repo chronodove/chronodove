@@ -3,9 +3,24 @@ title: diary
 layout: base.njk
 cssFile: "markdown.css"
 ---
-
 # {{title}}
 ###### [archive](/diaryarc/)
+---
+## 02/23/26
+### 12:07
+yesterday i went to that Y's bharatnatyam arangetram. turns out A was out of town so she wasn't there, BLESS. it was just me and H as well as another mutual aquaintence of mine who i haven't spoken to in a while. We Are All Connected. she preformed very well. me and H brought her flowers. H has to leave halfway so i had to stay FOUR hours to give them to the performer. it was also a one hour drive to and back so. yeah. it was worth it though, she had looked and danced beautifully. 
+
+i've been in a creative slump lately. i've just been consuming everything lately but not making anything myself. i came to the realization last night that one of the few sources of happiness for me was creating. i've sort of lost every connection to the arts. i gave up drawing and singing and music, and i've just been so sad ever since. i really regret it. i'm unfortunately a person who needs art to live in and i've denied myself it for the longest time. i've lost all the skills i once had. i want to try to remedy this though, so i'm going to start writing creative fiction again. writing is still something i have, since i do it pretty much everyday! i used to create short interactive fiction stories last year, so i'm going to try to write something up again. i was really obsessed with escape rooms back then, i think i still have the file. i can try to work on it. yay.
+
+spring break is coming up soon for me, and i'll be spending it visiting college campuses. i'm going to the one that i really want to go to, which is by the coast, and the one that my mom wants me to go to that i REALLY don't want to go. the only way i'll go there is if H goes there.
+
+i need to get back into cooking again. i said before that i was going to start packing lunches, but my brother took my lunchbox AND my thermos. 
+
+---
+## 02/18/26
+### 13:49
+sigh, yesterday i got too nervous and didn't skip. i should've. we didn't do anything last class. its okay, tommorow i'm having dinner with H!!!!!
+
 ---
 ## 02/16/26
 ### 19:48
@@ -14,7 +29,6 @@ today, me, my dad, and my brother and his friend went to the park. i took a walk
 i don't have much to say today. i'm sorta back to being stressed.
 
 tommorow i will be entering my Bad Girl era and skip english to go have lunch with my friends. i don't think we'll be doing anything either sooooo. yeah. 
-
 
 ---
 ## 02/11/26

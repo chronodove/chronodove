@@ -17,7 +17,7 @@ cssFile: "markdown.css"
 - 
 
 ### items:
-- 
+- apple watch
 
 ### jewelry:
 - 
@@ -31,12 +31,44 @@ cssFile: "markdown.css"
 ### songs/lyrics:
 ###### lyrics are obtained from primarily [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki) and [anime lyrics](https://www.animelyrics.com/), and [genius](https://genius.com/), but i also get it from other sources as well so these might be inaccurate </3
 - [don't say "lazy" - sakurakou K-ON bu](https://youtu.be/5CSNv9MNEC4)  
-  *(daiji na no wa jibun  kawaigaru koto / jibun wo aisanakya  hito mo aisenai // daiji na no wa jibun  mitometeku koto / jibun wo yurusanakya  hito mo yurusenai -> the most important thing is to care for yourself / you gotta love yourself before you can love someone else // the most important thing is to recognize yourself / you gotta accept yourself before others accept you too)*
+  *daiji na no wa jibun kawaigaru koto
+    the most important thing is to care for yourself    
+    jibun wo aisanakya hito mo aisenai
+    you gotta love yourself before you can love someone else    
+    //  
+    daiji na no wa jibun mitometeku koto  
+    the most important thing is to recognize yourself      
+    jibun wo yurusanakya hito mo yurusenai  
+    you gotta accept yourself before others accept you too*
 - [lifetime girl declaration (ranko and nagomi) - kaede nobara](https://youtu.be/2raWXuw4lYw)  
-  *(hai! shinumade isshou onnanoko sengen -> yes! i declare i'm a girl for life 'til i die!!!)*
+  *hai! shinumade isshou onnanoko sengen  
+   yes! i declare i'm a girl for life 'til i die!!!*
+- [rain of tears - mizusawa kei](https://youtu.be/PObmdyLGQq4)
+- [go away - weezer](https://youtu.be/6pMf91N1tNU)  
+  *cold hearted girl   
+    don't hurt me like this anymore!   
+    //   
+    but my life is incomplete without you!   
+    and you miss the little things that i do   
+    you do, won't you take me back?   
+    that was your last chance!*
+- [cry for me - michita](https://youtu.be/HVBnpC1b_5Y)  
+  *kodoku wo seoi kokoro ni mizukara kaketa kagi    
+    carrying loneliness, i put a lock on my heart  
+    nanika ushinai eru kotoni obie ru watashi   
+    i'm scared of losing or gaining something  
+    tadoru shizuku no oto  
+    the sound of falling drops  
+    hontou no watashi no egao gaarukoto   
+    my true smile  
+    soredakega watashi no hou  
+    that's just me  
+    //  
+    arashi gasawatteyukumade  
+    until the storm blows by*
 
 ### videos: 
-- 
+- [drawn thread work for beginners: elevate your sewing projects - handiworks](https://youtu.be/lsbgztSVhs4)
 
 
 ---

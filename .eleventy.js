@@ -12,7 +12,7 @@ module.exports = function (eleventyConfig) {
       const content = fs.readFileSync("./src/diary.md", "utf8");
       const entries = content.split(/\n## /); 
       
-      if (entries.length < 2) return "no entries found";
+      if (entries.length < 1) return "no entries found";
 
       // get the latest entry block
       const latestRaw = "## " + entries[1]; 
@@ -20,8 +20,7 @@ module.exports = function (eleventyConfig) {
       // render it to HTML
       const fullHtml = markdownIt.render(latestRaw);
 
-
-      // extract just the date, rime, and first paragraph
+      // extract just the date, time, and first paragraph
       // we look for the first closing </p> tag and cut everything after it
       const endOfFirstPara = fullHtml.indexOf("</p>");
       if (endOfFirstPara !== -1) {
@@ -34,7 +33,6 @@ module.exports = function (eleventyConfig) {
       return "could not load entry";
     }
   });
-
 
   return {
     htmlTemplateEngine: "njk",

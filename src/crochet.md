@@ -6,6 +6,18 @@ cssFile: "markdown.css"
 {% import 'macros/candsentry.njk' as entry %}
 # {{title}}
 ---
+## miffy tapestry crochet
+{{ entry.field (
+    "crochet/miffytapestry.jpg",
+    "the trinket series by doodie crochet",
+    "https://www.stitchfiddle.com/en/c/shew73-dh178l",
+    "02/18/26",
+    "02/23/26", 
+    "1", 
+    "i actually hate this piece LOL. i was so mad and grumpy when i was working on it and i have no idea why. i think thats the reason it looks the way it does and why it took so long. idk why this turned out so horrible. yeah, not much to say. i simply don't like it. i'm going to try to remake this one day, hopefully i'll be in a less pissy mood."
+)}}
+
+---
 ## rose tapestry crochet
 {{ entry.field (
     "crochet/rosetapestry.jpg",
@@ -14,7 +26,7 @@ cssFile: "markdown.css"
     "02/14/26",
     "02/14/26",
     "1",
-    "my first tapestry crochet!! i think it turned out really good. funny enough, this is supposed to be a filet crochet piece, but i didn't feel confident enough so i turned it into a tapestry crochet one. i originally wanted to make a large tapestry piece a few months ago, but i got intimidated. i think i should've started with this one instead. tapestry is definitely a \"trust the process\" kind of thing. the only thing that i had problems with was yarn tangling, but everyone struggles with that LOL. i think the next time i try, i'll try doing it [intarsia]() style."
+    "my first tapestry crochet!! i think it turned out really good. funny enough, this is supposed to be a filet crochet piece, but i didn't feel confident enough so i turned it into a tapestry crochet one. i originally wanted to make a large tapestry piece a few months ago, but i got intimidated. i think i should've started with this one instead. tapestry is definitely a \"trust the process\" kind of thing. the only thing that i had problems with was yarn tangling, but everyone struggles with that LOL."
 )
 }}
 
