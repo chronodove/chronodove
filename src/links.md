@@ -16,7 +16,6 @@ cssFile: "markdown.css"
 - [chest of books](https://chestofbooks.com/) - free books!!! 
 - [raptitude](https://www.raptitude.com/) - a blog about self-improvement. has a really good article about being [productivity-challenged](https://www.raptitude.com/2025/08/my-best-advice-for-the-productivity-challenged/)
 - [the open university](https://www.open.edu/openlearn/free-courses/full-catalogue) - lots of free courses on a lot of subjects, based in the UK
-
   
 --- 
 ## web
@@ -54,7 +53,7 @@ cssFile: "markdown.css"
 ###### most of theses sites are for dealing with my allergies, so don't expect things with eggs and nuts. as a result, many of these will be plant based. includes both cooking and baking.
 - [baked abundance](https://bakedabundance.com/) - eggless & traditional sweets recipes
 - [delish](https://www.delish.com/) 
-- [live eat learn](www.liveeatlearn.com) - vegan/vegetarian focused recipes
+- [live eat learn](https://www.liveeatlearn.com) - vegan/vegetarian focused recipes
 - [maja's recipes](https://majasrecipes.com/)
 - [mommy's home cooking](https://mommyshomecooking.com/) - eggless desserts and meals
 - [taste of home](https://www.tasteofhome.com/)

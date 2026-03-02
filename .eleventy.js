@@ -17,6 +17,7 @@ module.exports = function (eleventyConfig) {
       // get the latest entry block
       const latestRaw = "## " + entries[1]; 
       
+      
       // render it to HTML
       const fullHtml = markdownIt.render(latestRaw);
 
@@ -30,7 +31,7 @@ module.exports = function (eleventyConfig) {
       return fullHtml; // fallback if no paragraph found
     } catch (e) {
       console.error("shortcode error:", e);
-      return "could not load entry";
+      return "<p>could not load entry</p>";
     }
   });
 
