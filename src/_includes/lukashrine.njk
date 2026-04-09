@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chronodove ∴ luka shrine</title>
+    <style>
+        :root {
+            --bg: #ffdfe6;
+            --accent: #f3849b;
+            --text: #902f42;
+            --gradient: 
+        }
+
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            -ms-overflow-style: none; 
+            scrollbar-width: none; /* hide scrollbar */
+        }
+
+        .wrapper {
+            width: 100vw;
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(90deg,rgb(255, 195, 231) 0%, rgba(255, 236, 247, 1) 100%) padding-box, linear-gradient(to bottom, rgb(158, 88, 129), rgb(255, 236, 247, 1) 40%) border-box;;
+            color: var(--text);
+            font-family: Helvetica, sans-serif;
+        }
+
+        .container {
+            width: 400px;
+            height: 500px;
+
+            display: flex;
+            flex-direction: column;
+            padding: 0 10px 10px;
+
+            overflow-y: scroll;
+
+            background-color: white;
+
+            border-radius: 3%;
+            box-shadow: 0px 0px 114px -13px #902f42;
+
+            text-align: justify;
+        }
+
+        .pagedoll {
+            z-index: -999;
+            background-image: url();
+        }
+
+        .flash {
+            opacity: 0;
+            animation: flash 1s infinite;
+        }
+
+        @keyframes flash {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .title {
+            width: 100%;
+            height: auto;
+            position: sticky;
+            padding-top: 10px;
+            top: 0;
+            background-color: white;
+            border-bottom: solid 3px var(--text);
+        }
+
+        nav {
+            width: 100%;
+            gap: 2ch;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            {{content | safe}}
+        </div>
+    </div>
+    <div class="pagedoll">
+
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', markLuka)
+
+        function markLuka() {
+             const text = document.querySelectorAll('p');
+             text.forEach(l => {
+                
+             });
+        }
+    </script>
+</body>
+</html>

@@ -6,10 +6,223 @@ cssFile: "markdown.css"
 # {{title}}
 ###### favorites/things i've been using the most each month, inspired by butterflygirl's [november/december favorites vlog](https://youtu.be/RwKtcRtiK-A) but in website form heheheheh
 ###### also, a lot of my favorites carry over from the previous months (esp. songs), so i won't be listing them twice (unless i genuinely can't get them out of my head)
+{# 
+# TEMPLATE
+## **month**
+### clothes: 
+-
+
+### fragrances:
+- 
+
+### items:
+- 
+
+### jewelry:
+- 
+  
+### makeup/skincare: 
+- 
+  
+### media:
+- 
+
+### songs/lyrics:
+###### lyrics are obtained from primarily [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki) and [anime lyrics](https://www.animelyrics.com/), and [genius](https://genius.com/), but i also get it from other sources as well so these might be inaccurate </3
+- 
+
+### videos: 
+-  
+#}
+
+
+
 ---
 # 2026
+## **april**
+### clothes: 
+-
 
-## february
+### fragrances:
+- 
+
+### items:
+- 
+
+### jewelry:
+- 
+  
+### makeup/skincare: 
+- 
+  
+### media:
+- 
+
+### songs/lyrics:
+###### lyrics are obtained from primarily [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki) and [anime lyrics](https://www.animelyrics.com/), and [genius](https://genius.com/), but i also get it from other sources as well so these might be inaccurate </3
+- [street girl - nashimoto-ui](https://youtu.be/OEz9FTXsNY8)  
+  *ai ai ai raa byuu  
+  __i, i, i love you__  
+  nante hazukashii kotoba daro  
+  __what embarrassing words__  
+  ai ai ai nii juu  
+  __i, i, i need you__  
+  nante kudaranai omoi daro  
+  __What useless feelings__  
+  ai ai ai uon chuu  
+  __i, i, i want you__  
+  nante kuso mitai na negai soredemo  
+  __What a crappy-sounding wish, but still,__  
+  ai ai ai ai ai ai  
+  __i, i, love, love, love, love__  
+  ataman naka sonnan bakka  
+  __in my head, only that__  
+  \\\   
+  enkoo enkoo enkoo shoujo  
+  __enko enko enko girl__  
+  kietai nakitai yoru ni wa kimi o omou  
+  __i want to cry, to disappear, at night i long for you__  
+  sore o ai to iiwake shita zannen na nousaibou  
+  __called love, as an excuse, were rotten brain cells__  
+  enkoo enkoo enkoo shoujo  
+  __enko enko enko girl__  
+  furetai dakitai negai wa kanawanu mama  
+  __i wanna touch, hug, and without being able to realize the wish at all__  
+  hitori no heya toki wa nagare karete iku amai kanjou  
+  __alone in my room, time passes, this sweet feeling withering away__*  
+
+### videos: 
+- 
+## **march**
+### clothes: 
+-
+
+### fragrances:
+- 
+
+### items:
+- figs
+- pears 
+- fig jam
+- blackberry jam 
+- toast with blackberry jam
+
+### jewelry:
+- 
+  
+### makeup/skincare: 
+- carmex lip balm
+  
+### media:
+- [black lagoon (anime)](https://anilist.co/anime/889/Black-Lagoon/)
+- [death in her hands - odessa moshfegh (book)](https://app.thestorygraph.com/books/a8c48e1a-005f-41fe-9377-982e8650e9d5)
+- [itai onee-san wa suki desu ka? - wakana (manga)](https://anilist.co/manga/122970/Itai-Oneesan-wa-Suki-desu-ka/)
+- [memories of murder - bong joon ho (movie)](https://letterboxd.com/film/memories-of-murder/)
+- [strange pictures - uketsu (book)](https://app.thestorygraph.com/books/d299f4ac-a4c4-40ad-ab6e-192a155068e7)
+- [umamusume pretty derby - cygames (mobile & pc game)](https://umamusume.com/)
+
+### songs/lyrics:
+###### lyrics are obtained from primarily [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki) and [anime lyrics](https://www.animelyrics.com/), and [genius](https://genius.com/), but i also get it from other sources as well so these might be inaccurate </3
+- [happy synthesizer - easypop](https://youtu.be/xOKplMgHxxA)  
+  *nan no torie mo nai boku ni tada hitotsu  
+   __although I have no strengths inside,__  
+   sukoshi da kedo dekiru koto  
+   __i know one thing I can do__  
+   kokoro odoraseru kazaranai kotoba  
+   __i'll convey plain but rousing words__  
+   denshion de tsutaeru yo  
+   __through electronic sounds__   
+  //  
+  tsuyogaranakutatte ii n ja nai? betsu ni  
+  __do you have to pretend you're stronger than you truly are? not really__  
+  jibun ni sunao ni nareba ii  
+  __embrace the real you inside__  
+  //  
+  nan no torie mo nai boku ni tada hitotsu  
+  __i'm not much good for anything, but there's just one thing__  
+  sukoshi da kedo dekiru koto  
+  __i can do even though it's not much__  
+  chotto tereru you na tanjun na kimochi  
+  __i'll convey simple feelings that are a bit shy__*  
+- [tracen ondo - akihiro honda (game ver.)]()  
+  *mo-i-kaii! (ma-da-dayo!) "arayotto-"  
+  __one more time! (we're not done yet!) "yo-heave-ho!"__  
+  mo-i-kaii! "mou!" (mo-i-yo-!) "yoisho-"  
+  __one more time! "jeez!" (enough already!) "let's go!"__   
+  //  
+  a- utai sugite iki ga kurusii! (fu--!)  
+  __ah, i sang too much, it's hard to breathe! (woo~!)__  
+  sanso da! sanso da! sanso o motte ko-i!! (bacchi ko-i!)  
+  __oxygen! oxygen! bring on all the oxygen! (bring it here!)__       
+  //  
+  aaaa...  
+  __aaaah__  
+  ko yo i ho shi ga matatai...  
+  __"the stars are twinkling tonight..."__  
+  ...tte itteruba aika--i!! (fu---!!)     
+  __hang on...is this the time to be saying this?!! woo!!__  
+  dododododo-sun no do--sun no?? (rettsu go-!!)  
+  __whawhawhawhat do we do? what do we do?? (let's go!!)__*
+- [lovers' suicide oblivion - 0-9]()  
+  *tatoe inochi ga chitte mo omoide wa kienai  
+   __though my life will burn out, my memories won’t disappear__  
+   tatoe sekai ga chitte mo tamashii wa kienai  
+   __though this world will burn out, my soul won’t disappear__  
+   //  
+   boku ga shindara nannichi de mina wasureru darou  
+   __after i die, i wonder how many days it will take people to forget about me?__  
+ 	 tadoritsuku kotae nante kitto nai no darou  
+   __i’m sure i'll never hit on an answer to that__
+   //  
+   oboetemasu. oboetemasu.  
+   __i remember. i remember.__  
+   anata no te no nukumori o...
+   __the warmth of your hand...__   
+   //  
+   tatoe kimi ga naite mo sekai wa kawaranai 
+   __though you'll cry, the world won’t change__  
+   tatoe jiga o koroshi te mo boku wa kawarenai
+   __though i'll kill my ego, i can’t change__*
+- [signal of something new - mejiro mcqueen (saori onishi)](https://youtu.be/2v7WLAa8Aak)  
+  *shiranai (shiranai)  
+  __i don't know (don't care)__  
+  shiritai (shiritai)  
+  __i want to know (want to understand)__  
+  mou akiramenai  
+  __i won't give up anymore__  
+  kitai ya yume o senaka ni nose (try again)  
+  __expectations and dreams, riding on my back (try again)__      
+  //  
+  aseru kono kimochi ga karamawari no toki demo  
+  __even when this panic feeling gets me in circles__   
+  jibun dake wa jibun no koto  
+  __only once i try believing in myself__  
+  shinjite agetara mata hashiridaso  
+  __i can run again__  
+  //  
+  shippai? (shiranai) machigai? (heiki)  
+  __fail? (no idea) mistake? (it's fine)__  
+  docchi demo ii  
+  __either are actually right__  
+  sono subete ga ano gooru e to tsunagatte ku  
+  __all of those connect us to that goal__*  
+- [eirin's clinic that people queue up for - iosys](https://youtu.be/GTR0dtnbK-s)  
+  *koi no yamai wa ne, tsurai kara ne, donna ko demo  
+  __love of disease, it comes from heartbreak, what kind of girl is this?__  
+  harisake sou na mune kakae  
+  __made from hardship, indeed, she has problems in her heart__  
+  (oh, please please __cure me, eirin)__  
+  okusuri dashimasu ne, totte oki no koi no shohousen  
+  __she takes out some medication, her favourite prescription__  
+  sugu yokunaru kara your love odaiji ni  
+  __her condition immediately improves, take care of your love__*
+
+### videos: 
+- [the vet said you're fat](https://youtu.be/GzTAi3JQ3RM)
+- [(Miku) Miku Hatsune's Brain Exercise (Eng subs)](https://youtu.be/37QD1i-9ImM)
+
+---
+## **february**
 ### clothes: 
 -
 
@@ -155,3 +368,5 @@ cssFile: "markdown.css"
 - [knit vlog: my most challenging (and rewarding) knit yet - stitched by emma](https://youtu.be/TMhmPFYzprM) (this piece turned out so cute and i love emma's humor)
 - [what women really keep inside their purse (2025) - flowlotl](https://youtu.be/vEkr1CZYyGg) (vibes vibes vibes)
 - [Yes you are pretty, plz stop being ur own biggest hater](https://www.youtube.com/watch?v=dBXR1s3hrVA) (a good reminder)
+
+

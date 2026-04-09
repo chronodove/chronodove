@@ -14,8 +14,7 @@ cssFile: "markdown.css"
     "02/28/26",
     "03/01/26",
     "1",
-    "noticed that the cable cover on my charging cable was coming off and it looked gross. i trimmed off the parts that fell and crocheted over the whole thing. you can see a little bit peek through at certain angles but I DON'T CARE. nothing else to say honestly."
-
+    "noticed that the cable cover on my charging cable was coming off and fraying and it looked gross. i trimmed off the parts that were fraying and crocheted over the whole thing. you can see a little bit of the threads where i trimmed peek through at certain angles but I DON'T CARE. nothing else to say honestly."
 )}}
 
 ---

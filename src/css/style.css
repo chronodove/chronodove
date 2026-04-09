@@ -281,6 +281,17 @@ li::marker {
   font-size: 12px;  
 }
 
+#spoiler {
+    width: fit-content;
+    background-color: var(--txt);
+    transition: all 0.25s;
+}
+
+#spoiler:hover {
+    background-color: transparent;
+    transition: all 0.25s;
+}
+
 @media (max-width: 412px) {
     * {
         -ms-overflow-style: unset; 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chronodove ∴ mejiro mcqueen shrine</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            -ms-overflow-style: none; 
+            scrollbar-width: none; /* hide scrollbar */
+        }
+
+        :root {
+            --bg: rgb(225, 199, 236); 
+            --txt: rgb(146, 104, 186); 
+        }
+
+        body {
+            background-color: var(--bg);
+        }
+
+        .wrapper {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 40rem;
+            height: 35rem;
+
+            background-color: white;
+            color: var(--txt);
+
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <img src="" alt="" class="photo" id="one">
+    <img src="" alt="" class="photo" id="two">
+    <img src="" alt="" class="photo" id="three">
+    <div class="wrapper">
+        <div class="container">
+            {{content | safe}}
+        </div>
+    </div>
+</body>
+</html>

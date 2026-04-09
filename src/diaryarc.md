@@ -5,6 +5,60 @@ cssFile: "markdown.css"
 ---
 # {{title}}
 ---
+
+# march
+## 03/13/26
+### 12:01 
+very excited for this weekend. H is coming to sleep over at my house. we have a lot planned for this weekend. we're going to go to the mall, make bracelets, watch movies, it's going to be really fun. i'm going to try buldak and i'm going to make maggi for her. 
+
+i ended up finishing my research paper yesterday night. only the first draft, so it's probably a mess and my teacher will see that, i'm still only 300 words short from the minimum word count, but i think i have an idea on how to bump that up. at least it's done on time. can't say that for my math homework though...i had to stay up all night that night. yesterday i slept all evening and night. i think i must have slept over 10 hours. 
+
+i actually skipped school again the day before yesterday. H came to visit me at lunch and asked if i wanted to come thrifting with her. i said yes. we both bought necklaces. she has a knack for thrifting that i wish i had, i can never seem find good stuff no matter how hard i try...
+
+on the tenth i finished death in her hands. it was okay, i didn't really understand the ending, nor the whole point of the mystery, but it was still really fun to read. i really like moshfegh's writing style, i might read some other books of hers. when i finished it, i started [strange pictures](https://app.thestorygraph.com/books/d299f4ac-a4c4-40ad-ab6e-192a155068e7) by uketsu and absolutely adored it. i ended up finishing it in three days, but i would have finished in two if not for the fact that i slept all evening last night. it was so entertaining and i'm really glad i stuck through all the way to the end. it's really confusing at first, but then everything starts to tie together and it's really satisfying. i immediately added it to my favorites. i'm going to read some of their other works as well. but until then, i finally started [before the coffee gets cold](https://app.thestorygraph.com/books/294134fb-8c78-40ec-be76-e674d13ad7f8) by kawaguchi. it's been in my tbr pile for many, many years, and its been downloaded on my computer for about a year and half, maybe two. i've only just finished the first chapter, but i'm enjoying it. i really didn't enjoy following fumiko, but hopefully the next chapters protagonists will be better. it reminds me a lot of the anime [death parade](https://anilist.co/anime/20931/Death-Parade/), in a strange way. maybe it's because of the emotionless barista, kuzo, mirroring decim, lol. although i didn't really enjoy death parade. i was really bored while watching it, honestly. the message at the end was also really obvious, it kind of irritated me. like yeah, <span id="spoiler">of course you should value life. duh.</span> i don't know, maybe i'm not intelligent enough, but i just didn't understand it. i hope i like before the coffee gets cold more though.
+
+---
+## 03/10/26
+### 09:28
+forgot to set my alarm last night so i was tardy to school today. i'm just. genuinely fuming. i'm so pissed off and i know why and i can only stop it temporarily. i can't stop it forever and i want to. i would have skipped today if it weren't for the fact that i have a math test. my research project is a fucking mess and it's too late to start over. i'm 1000 words less than the minimum word count. i hate hate hate this class. i keep telling myself that it doesn't matter if i pass the ap exam or not because i got accepted into colleges but i really wanted to do well. i really wanted to get the diploma. and i can't. i should have never signed up and taken it. i want to cry. i wasted so many months for nothing. i'm such a failure. i want to go home and lie down in my bed and become one with it. i want to bury myself within the mattress stuffing and suffocate. 
+
+i want to get a haircut. i want really short hair. but i also want long hair. but long hair is harder to take care of. and i can't do anything right. i need to find a cheap stylist and go chop it all off ahahahaha. 
+
+my skin has also been really bad. i never struggled with acne when i was younger, so now its hitting me like a truck. i bought a max strength acne wash without consulting my doctor first ahahahahaha. my eczema continues to torture me every day. i need to go to the dermatologist again. but before that, i'll try fixing my diet. i should probably cut out sugar. but i have no self control. but i need to. i tried to, once, but i failed on the first day. maybe i should ween off of it instead of going cold turkey.  
+
+the only thing i have been enjoying as of late is reading. i'm almost done with [death in her hands](https://app.thestorygraph.com/books/a8c48e1a-005f-41fe-9377-982e8650e9d5) by moshfegh and it has been an okay experience. i've noticed a trend lately of me really enjoying books at the start and then slowly starting to get tired of it once i reach the end. i've only ever been hooked on to books the entire time back in middle school and freshman year. ah, maybe i should re-read them once i'm done with this one. especially [acceleration](https://app.thestorygraph.com/books/d0a327d6-a9ff-4de1-80cb-541d57e9e627). my god, i was so obsessed with this book when i was younger. i told everyone to read. it was so good. i'd like to see if it was as good as i remember. i miss middle school, especially my friends. i want to go back to minnesota. 
+
+i've been sick of crocheting. i need to do something new. i want to make clothes. but cotton yarn is so expensive. and i don't want to use acrylic as i have enough polyester in my wardrobe already. maybe i'll have to suck it up. i'll go to the thrift after school today, look for some sweaters that i can unravel yarn from. yeah. that will be fun. hopefully i'll have enough energy to last me the entire day today. 
+
+on sunday, i tried avocado toast and i didn't like it, but i lied to my mom and said i did. i don't know why i did that. she didn't even make the toast for me, i made it myself. 
+
+---
+## 03/09/26
+### 13:57
+i have so much FUCKING SHIT to do. i've already spent and hour and a half on this dumb quiz and i'm still not done. please kill me. i still have my fuckass paper to do. i'm not even going to get a diploma for this i'll get a CERTIFICATE FOR FINISHING IT!!! I FON"T MET THE REQ FOR THE DIPLOMA HAHAHHAHAHAHHA. wtv. 
+
+---
+## 03/06/26
+### 19:21
+skipped the entire school day today. i haven't finished my assignments that were today, and i felt to much guilt to look at the teacher's in the eyes. so i didn't go. this might be tmi, but one of my pms symptoms is extreme sadness. usually i'm able to push it aside and move on with my day, but today was just horrible. it reminds me of how i felt when i was 13. how i felt everyday; miserable and sad and pathetic. i hate feeling like this. i used to take comfort in my own sadness, as it felt like that was the only thing that i was capable of feeling. now it isn't like that, thankfully. in a way, i'm sort of glad i'm really upset about being upset, it shows that i've somewhat healed, even without medication. i used to take it, but then i stopped because i didn't like how it made me feel. it felt like i was numb to everything in the world. sometimes, it was nice being that apathetic, but other times, it was pure hell. but also not taking them was hell, so i had to chose one or the other.
+
+i tried to be a little productive today. i finally put away my clothes that have been sitting on my bed for the past week or so. and that's about it. 
+
+i downloaded umamusume yesterday. it is a lot more fun than i thought it would be. i really like the designs. i've yet to learn all the characters names yet, but i really like symboli rudolf and admire vega. 
+
+---
+## 03/02/26 
+### 10:08 
+been really into toast lately. would you believe me if i said i had toast for the first time 2 days ago? yes, it's true. i've been trying to expand my options for food and remembered that toast exists and that i hadn't tried it. so i pulled out the toast and put two slices of bread in it. i then put butter and fig jam on one, and butter and strawberry jam on the other. they were both good. they were also very similar, both were sweet, but the strawberry one was sweeter. i think out of the two, the fig was my favorite that day. i also ate it again yesterday was well. when i went to the costco yesterday, i picked a jar of blackberry jam. blackberries are one of my favorite fruits, so i was excited to see it. i ate it today with the toast, and i think out of the three, this ones my favorite. 
+
+---
+## 03/01/26
+### 17:03 
+thought my research assignment was due tommorow, turns out i have another day BLESS UP. 
+
+i went grocery shopping with my dad today. we went to costco. i also washed my car. 
+
+---
 # february
 ## 02/23/26
 ### 12:07
