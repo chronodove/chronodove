@@ -21,6 +21,17 @@ function updateTime() {
 }
 setInterval(updateTime, 1000); 
 
+let countdown = document.getElementById('countdown');
+function updateCountdown() {
+    const today = new Date();
+    const graduationDate = new Date('2026-05-30'); 
+    const timeDifference = graduationDate - today;
+    const daysRemaining = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+    countdown.innerHTML = "<b>" + daysRemaining + "</b>" + " day" + (daysRemaining !== 1 ? "s" : "") + " till i get my high school diploma!";
+}
+updateCountdown();
+
+
 //weather
 async function returnWeather() {
     try {

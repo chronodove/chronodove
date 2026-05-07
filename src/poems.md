@@ -7,10 +7,10 @@ cssFile: markdown.css
 ###### collection of poems i like and notable lines from them 
 ---
 ### [Eulogy To A Hell Of A Dame](https://allpoetry.com/Eulogy-To-A-Hell-Of-A-Dame)
-#### charles bukowski w. ~1983 
+#### charles bukowski wr. ~1983 
 *...you
 wanted to explode out of  
-what was holding you:*  
+what was holding you...*  
 ...  
 *here's a drink  
 to your bones  

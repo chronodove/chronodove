@@ -39,9 +39,9 @@ cssFile: "markdown.css"
 
 ---
 # 2026
-## **april**
+## **may**
 ### clothes: 
--
+- jeans with wings on the back pockets that i bought from ross
 
 ### fragrances:
 - 
@@ -60,24 +60,72 @@ cssFile: "markdown.css"
 
 ### songs/lyrics:
 ###### lyrics are obtained from primarily [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki) and [anime lyrics](https://www.animelyrics.com/), and [genius](https://genius.com/), but i also get it from other sources as well so these might be inaccurate </3
+- [world is mine - len cover](https://youtu.be/oO3LimIdF2Y)  
+  *ma, demo, hora muku na egao toka ore yobugoe toka   
+    __that innocent smile and the sweet voice that calls my name__  
+    kirai janai  
+    __i don't hate that__  
+    urusai na  
+    __oh shut up... i'd never say that__    
+    //  
+    sekai de ichiban ohimesama    
+    __the number one princess in the whole entire world__   
+    chanto miteru kara sono mama de ireba ii    
+    __i'll keep watching you, so stay as you are__  
+    fui ni nobashita migite kyuu ni gyutto sa!  
+    __suddenly, i reached out with my right hand and squeezed__  
+     	"nigitte mitakatta dake" sou iu to nigiri kaesareta  
+    __"i just wanted to hold it, that's all." and when she presses back...__  
+    …yappa ohimesama ga ichiban   
+    __my princess is certainly the best!__*
+- [jobless monday - mitski](https://youtu.be/-KttTf9jyT8)  
+  *__he only loves me when  
+  there's a means he means to end   
+  oh i miss when we first met   
+  he didn't know me yet__*
+
+### videos: 
+- 
+
+---
+## **april**
+### clothes: 
+- black flared leggings i lost a few months ago but i finally found and bought another pair!!!
+
+### fragrances:
+- 
+
+### items:
+- 
+
+### jewelry:
+- 
+  
+### makeup/skincare: 
+- [neutrogena ultra light face cleansing oil and makeup remover (discontinued, but available at walmart & target)](https://www.target.com/p/neutrogena-ultra-light-face-cleansing-oil-38-makeup-remover-4-fl-oz/-/A-17367864)
+  
+### media:
+- [bojack horseman (tv show)](https://www.imdb.com/title/tt3398228/)
+- [xxxHOLiC (anime)](https://anilist.co/anime/861/xxxHOLiC/)
+
+### songs/lyrics:
+###### lyrics are obtained from primarily [vocaloidlyrics](https://vocaloidlyrics.miraheze.org/wiki/Vocaloid_Lyrics_Wiki) and [anime lyrics](https://www.animelyrics.com/), and [genius](https://genius.com/), but i also get it from other sources as well so these might be inaccurate </3
 - [street girl - nashimoto-ui](https://youtu.be/OEz9FTXsNY8)  
   *ai ai ai raa byuu  
   __i, i, i love you__  
   nante hazukashii kotoba daro  
-  __what embarrassing words__  
-  ai ai ai nii juu  
+  __what embarrassing words__    
   __i, i, i need you__  
   nante kudaranai omoi daro  
-  __What useless feelings__  
-  ai ai ai uon chuu  
+  __what useless feelings__  
   __i, i, i want you__  
   nante kuso mitai na negai soredemo  
-  __What a crappy-sounding wish, but still,__  
+  __what a crappy-sounding wish, but still,__  
   ai ai ai ai ai ai  
   __i, i, love, love, love, love__  
   ataman naka sonnan bakka  
   __in my head, only that__  
-  \\\   
+  //   
   enkoo enkoo enkoo shoujo  
   __enko enko enko girl__  
   kietai nakitai yoru ni wa kimi o omou  
@@ -89,10 +137,24 @@ cssFile: "markdown.css"
   furetai dakitai negai wa kanawanu mama  
   __i wanna touch, hug, and without being able to realize the wish at all__  
   hitori no heya toki wa nagare karete iku amai kanjou  
-  __alone in my room, time passes, this sweet feeling withering away__*  
+  __alone in my room, time passes, this sweet feeling withering away__*
+- [across the sea - weezer](https://youtu.be/Rl089HxOPkw)  
+  *__i've got your letter  
+  you've got my song__  
+  //  
+  __so i sniff (so i sniff)  
+  and i lick (and i lick)  
+  your envelope and fall to little pieces every time__   
+  //  
+  __i wonder what clothes you wear to school  
+  i wonder how you decorate your room  
+  i wonder how you touch yourself  
+  and curse myself for being across the sea__*
 
 ### videos: 
-- 
+- [pet crab eating an onion ring](https://youtu.be/9mDngl11P3k)
+
+---
 ## **march**
 ### clothes: 
 -
